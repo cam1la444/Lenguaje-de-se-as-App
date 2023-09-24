@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraA));
-            this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnRegresarA = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnRegresar
+            // btnRegresarA
             // 
-            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.Location = new System.Drawing.Point(118, 401);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(98, 33);
-            this.btnRegresar.TabIndex = 0;
-            this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = false;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            this.btnRegresarA.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresarA.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresarA.Location = new System.Drawing.Point(118, 401);
+            this.btnRegresarA.Name = "btnRegresarA";
+            this.btnRegresarA.Size = new System.Drawing.Size(98, 33);
+            this.btnRegresarA.TabIndex = 0;
+            this.btnRegresarA.Text = "Regresar";
+            this.btnRegresarA.UseVisualStyleBackColor = false;
+            this.btnRegresarA.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // pictureBox1
             // 
@@ -76,7 +76,7 @@
             this.ClientSize = new System.Drawing.Size(341, 443);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnRegresarA);
             this.MaximizeBox = false;
             this.Name = "LetraA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -89,7 +89,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnRegresarA;
         private System.Windows.Forms.PictureBox pictureBox1;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }

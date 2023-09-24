@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraD));
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnRegresarD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,16 +56,17 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // btnRegresar
+            // btnRegresarD
             // 
-            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.Location = new System.Drawing.Point(116, 399);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(98, 33);
-            this.btnRegresar.TabIndex = 3;
-            this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresarD.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresarD.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresarD.Location = new System.Drawing.Point(116, 399);
+            this.btnRegresarD.Name = "btnRegresarD";
+            this.btnRegresarD.Size = new System.Drawing.Size(98, 33);
+            this.btnRegresarD.TabIndex = 3;
+            this.btnRegresarD.Text = "Regresar";
+            this.btnRegresarD.UseVisualStyleBackColor = false;
+            this.btnRegresarD.Click += new System.EventHandler(this.btnRegresarD_Click);
             // 
             // LetraD
             // 
@@ -75,7 +76,7 @@
             this.ClientSize = new System.Drawing.Size(341, 443);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnRegresarD);
             this.MaximizeBox = false;
             this.Name = "LetraD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -90,6 +91,6 @@
 
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnRegresarD;
     }
 }

@@ -16,5 +16,10 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnRegresarD_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

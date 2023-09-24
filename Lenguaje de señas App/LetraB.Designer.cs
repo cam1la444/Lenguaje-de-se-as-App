@@ -66,6 +66,7 @@
             this.btnRegresar.TabIndex = 3;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // LetraB
             // 
