@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Lenguaje_de_señas_App
 {
-    public partial class Abecedario : Form
+    public partial class LetraA : Form
     {
-        public Abecedario()
+        public LetraA()
         {
             InitializeComponent();
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

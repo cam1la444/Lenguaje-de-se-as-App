@@ -52,6 +52,36 @@
     <Compile Include="Abecedario.Designer.cs">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </Compile>
+    <Compile Include="LetraA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraA.Designer.cs">
+      <DependentUpon>LetraA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraB.Designer.cs">
+      <DependentUpon>LetraB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraC.Designer.cs">
+      <DependentUpon>LetraC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraD.Designer.cs">
+      <DependentUpon>LetraD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraG.Designer.cs">
+      <DependentUpon>LetraG.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
