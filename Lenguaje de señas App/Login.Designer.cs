@@ -101,9 +101,9 @@
             this.checkBox1.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(249, 287);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(128, 20);
+            this.checkBox1.Size = new System.Drawing.Size(134, 20);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Mostrar Contraeña";
+            this.checkBox1.Text = "Mostrar Contraseña";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // btnAcceder
