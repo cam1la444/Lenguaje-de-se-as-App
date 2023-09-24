@@ -99,6 +99,21 @@
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LetraA.resx">
+      <DependentUpon>LetraA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraB.resx">
+      <DependentUpon>LetraB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraC.resx">
+      <DependentUpon>LetraC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraD.resx">
+      <DependentUpon>LetraD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraG.resx">
+      <DependentUpon>LetraG.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
