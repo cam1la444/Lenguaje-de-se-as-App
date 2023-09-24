@@ -76,6 +76,18 @@
     <Compile Include="LetraD.Designer.cs">
       <DependentUpon>LetraD.cs</DependentUpon>
     </Compile>
+    <Compile Include="LetraE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraE.Designer.cs">
+      <DependentUpon>LetraE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraF.Designer.cs">
+      <DependentUpon>LetraF.cs</DependentUpon>
+    </Compile>
     <Compile Include="LetraG.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LetraD.resx">
       <DependentUpon>LetraD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraE.resx">
+      <DependentUpon>LetraE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraF.resx">
+      <DependentUpon>LetraF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LetraG.resx">
       <DependentUpon>LetraG.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace Lenguaje_de_señas_App
 {
-    partial class LetraB
+    partial class LetraE
     {
         /// <summary>
         /// Required designer variable.
@@ -30,16 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // LetraB
+            // LetraE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(341, 443);
-            this.MaximizeBox = false;
-            this.Name = "LetraB";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LetraB";
+            this.Name = "LetraE";
+            this.Text = "LetraE";
             this.ResumeLayout(false);
 
         }

@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnRegresar.Location = new System.Drawing.Point(111, 365);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(95, 24);
+            this.btnRegresar.TabIndex = 0;
+            this.btnRegresar.Text = "button1";
+            this.btnRegresar.UseVisualStyleBackColor = false;
             // 
             // LetraA
             // 
@@ -36,12 +47,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(341, 443);
+            this.Controls.Add(this.btnRegresar);
+            this.MaximizeBox = false;
             this.Name = "LetraA";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraA";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
