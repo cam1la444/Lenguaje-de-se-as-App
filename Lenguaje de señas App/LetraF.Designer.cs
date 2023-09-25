@@ -32,6 +32,7 @@
             this.axWMPF = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnReproducir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.axWMPF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -68,12 +69,26 @@
             this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReproducir.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReproducir.Location = new System.Drawing.Point(287, 264);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(88, 46);
+            this.btnReproducir.TabIndex = 7;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
+            // 
             // LetraF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(397, 494);
+            this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.axWMPF);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
@@ -92,5 +107,6 @@
         private AxWMPLib.AxWindowsMediaPlayer axWMPF;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnReproducir;
     }
 }

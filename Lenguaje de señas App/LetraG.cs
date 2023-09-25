@@ -21,5 +21,11 @@ namespace Lenguaje_de_señas_App
         {
             this.Close();
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string f = "C:\\Users\\jwest\\Videos\\VideoG.mp4";
+            axWMPG.URL = f;
+        }
     }
 }

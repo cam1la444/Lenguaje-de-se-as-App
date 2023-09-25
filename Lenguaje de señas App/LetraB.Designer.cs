@@ -80,6 +80,7 @@
             this.btnReproducir.TabIndex = 6;
             this.btnReproducir.Text = "Reproducir video";
             this.btnReproducir.UseVisualStyleBackColor = false;
+            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
             // 
             // LetraB
             // 
