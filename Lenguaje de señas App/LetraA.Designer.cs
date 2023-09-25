@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraA));
             this.btnRegresarA = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.asWMPA = new AxWMPLib.AxWindowsMediaPlayer();
             this.btnReproducir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRegresarA
@@ -47,7 +47,7 @@
             this.btnRegresarA.TabIndex = 0;
             this.btnRegresarA.Text = "Regresar";
             this.btnRegresarA.UseVisualStyleBackColor = false;
-            this.btnRegresarA.Click += new System.EventHandler(this.btnRegresar_Click);
+            this.btnRegresarA.Click += new System.EventHandler(this.btnRegresarA_Click);
             // 
             // pictureBox1
             // 
@@ -60,18 +60,18 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // axWindowsMediaPlayer1
+            // asWMPA
             // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(61, 186);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(222, 192);
-            this.axWindowsMediaPlayer1.TabIndex = 2;
+            this.asWMPA.Enabled = true;
+            this.asWMPA.Location = new System.Drawing.Point(61, 186);
+            this.asWMPA.Name = "asWMPA";
+            this.asWMPA.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("asWMPA.OcxState")));
+            this.asWMPA.Size = new System.Drawing.Size(222, 192);
+            this.asWMPA.TabIndex = 2;
             // 
             // btnReproducir
             // 
-            this.btnReproducir.Location = new System.Drawing.Point(329, 325);
+            this.btnReproducir.Location = new System.Drawing.Point(300, 295);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 23);
             this.btnReproducir.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(400, 457);
             this.Controls.Add(this.btnReproducir);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
+            this.Controls.Add(this.asWMPA);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresarA);
             this.MaximizeBox = false;
@@ -94,7 +94,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraA";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -103,7 +103,7 @@
 
         private System.Windows.Forms.Button btnRegresarA;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private AxWMPLib.AxWindowsMediaPlayer asWMPA;
         private System.Windows.Forms.Button btnReproducir;
     }
 }

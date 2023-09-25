@@ -24,9 +24,13 @@ namespace Lenguaje_de_señas_App
 
         private void btnReproducir_Click(object sender, EventArgs e)
         {
-            string f = "C: \\Users\\jwest\\Videos\\VideoA.mp4";
-            axWindowsMediaPlayer1.URL = f;
-        
+            string f = "C:\\Users\\jwest\\Videos\\VideoA.mp4";
+            asWMPA.URL = f;
+        }
+
+        private void btnRegresarA_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
