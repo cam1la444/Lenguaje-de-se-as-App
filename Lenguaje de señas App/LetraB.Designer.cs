@@ -29,21 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraB));
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.axWMPB = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            this.btnReproducir = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // axWindowsMediaPlayer1
+            // axWMPB
             // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(59, 184);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(222, 192);
-            this.axWindowsMediaPlayer1.TabIndex = 5;
+            this.axWMPB.Enabled = true;
+            this.axWMPB.Location = new System.Drawing.Point(59, 184);
+            this.axWMPB.Name = "axWMPB";
+            this.axWMPB.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWMPB.OcxState")));
+            this.axWMPB.Size = new System.Drawing.Size(222, 192);
+            this.axWMPB.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -68,20 +69,33 @@
             this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReproducir.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReproducir.Location = new System.Drawing.Point(287, 265);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(88, 46);
+            this.btnReproducir.TabIndex = 6;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            // 
             // LetraB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(341, 443);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
+            this.ClientSize = new System.Drawing.Size(397, 494);
+            this.Controls.Add(this.btnReproducir);
+            this.Controls.Add(this.axWMPB);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
             this.MaximizeBox = false;
             this.Name = "LetraB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraB";
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -89,8 +103,9 @@
 
         #endregion
 
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private AxWMPLib.AxWindowsMediaPlayer axWMPB;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnReproducir;
     }
 }

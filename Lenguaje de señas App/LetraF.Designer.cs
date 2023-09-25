@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraF));
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.axWMPF = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // axWindowsMediaPlayer1
+            // axWMPF
             // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(59, 184);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(222, 192);
-            this.axWindowsMediaPlayer1.TabIndex = 5;
+            this.axWMPF.Enabled = true;
+            this.axWMPF.Location = new System.Drawing.Point(59, 184);
+            this.axWMPF.Name = "axWMPF";
+            this.axWMPF.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWMPF.OcxState")));
+            this.axWMPF.Size = new System.Drawing.Size(222, 192);
+            this.axWMPF.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -73,15 +73,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(341, 443);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
+            this.ClientSize = new System.Drawing.Size(397, 494);
+            this.Controls.Add(this.axWMPF);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
             this.MaximizeBox = false;
             this.Name = "LetraF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraF";
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPF)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -89,7 +89,7 @@
 
         #endregion
 
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private AxWMPLib.AxWindowsMediaPlayer axWMPF;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
     }

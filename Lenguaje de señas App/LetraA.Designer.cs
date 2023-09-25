@@ -41,7 +41,7 @@
             // 
             this.btnRegresarA.BackColor = System.Drawing.Color.PaleGreen;
             this.btnRegresarA.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresarA.Location = new System.Drawing.Point(118, 401);
+            this.btnRegresarA.Location = new System.Drawing.Point(155, 412);
             this.btnRegresarA.Name = "btnRegresarA";
             this.btnRegresarA.Size = new System.Drawing.Size(98, 33);
             this.btnRegresarA.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(93, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(113, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(155, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -71,12 +71,15 @@
             // 
             // btnReproducir
             // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReproducir.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReproducir.Location = new System.Drawing.Point(300, 295);
             this.btnReproducir.Name = "btnReproducir";
-            this.btnReproducir.Size = new System.Drawing.Size(75, 23);
+            this.btnReproducir.Size = new System.Drawing.Size(88, 46);
             this.btnReproducir.TabIndex = 3;
-            this.btnReproducir.Text = "button1";
-            this.btnReproducir.UseVisualStyleBackColor = true;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
             this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
             // 
             // LetraA
@@ -84,7 +87,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(400, 457);
+            this.ClientSize = new System.Drawing.Size(397, 494);
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.asWMPA);
             this.Controls.Add(this.pictureBox1);
