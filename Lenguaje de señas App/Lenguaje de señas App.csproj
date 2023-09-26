@@ -174,6 +174,27 @@
     <EmbeddedResource Include="LetraG.resx">
       <DependentUpon>LetraG.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LetraH.resx">
+      <DependentUpon>LetraH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraI.resx">
+      <DependentUpon>LetraI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraJ.resx">
+      <DependentUpon>LetraJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraK.resx">
+      <DependentUpon>LetraK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraL.resx">
+      <DependentUpon>LetraL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraM.resx">
+      <DependentUpon>LetraM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraN.resx">
+      <DependentUpon>LetraN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
