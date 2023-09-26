@@ -94,6 +94,48 @@
     <Compile Include="LetraG.Designer.cs">
       <DependentUpon>LetraG.cs</DependentUpon>
     </Compile>
+    <Compile Include="LetraH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraH.Designer.cs">
+      <DependentUpon>LetraH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraI.Designer.cs">
+      <DependentUpon>LetraI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraJ.Designer.cs">
+      <DependentUpon>LetraJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraK.Designer.cs">
+      <DependentUpon>LetraK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraL.Designer.cs">
+      <DependentUpon>LetraL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraM.Designer.cs">
+      <DependentUpon>LetraM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraN.Designer.cs">
+      <DependentUpon>LetraN.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
