@@ -17,20 +17,10 @@ namespace Lenguaje_de_señas_App
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn0_Click(object sender, EventArgs e)
         {
-            Numero1 numero1 = new Numero1();
-            numero1.ShowDialog();
+            Numero0 numero0 = new Numero0();
+            numero0.ShowDialog();
         }
     }
 }
