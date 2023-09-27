@@ -226,6 +226,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Numero0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero0.Designer.cs">
+      <DependentUpon>Numero0.cs</DependentUpon>
+    </Compile>
     <Compile Include="Numero1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -440,6 +446,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero0.resx">
+      <DependentUpon>Numero0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero1.resx">
+      <DependentUpon>Numero1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero2.resx">
+      <DependentUpon>Numero2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Numeros.resx">
       <DependentUpon>Numeros.cs</DependentUpon>
