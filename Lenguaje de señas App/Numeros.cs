@@ -22,5 +22,17 @@ namespace Lenguaje_de_señas_App
             Numero0 numero0 = new Numero0();
             numero0.ShowDialog();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            Numero1 numero1 = new Numero1();
+            numero1.ShowDialog();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            Numero2 numero2 = new Numero2();
+            numero2.ShowDialog();
+        }
     }
 }
