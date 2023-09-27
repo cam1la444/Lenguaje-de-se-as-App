@@ -61,6 +61,7 @@
             this.btnRegresar1.TabIndex = 4;
             this.btnRegresar1.Text = "Regresar";
             this.btnRegresar1.UseVisualStyleBackColor = true;
+            this.btnRegresar1.Click += new System.EventHandler(this.btnRegresar1_Click);
             // 
             // Numero1
             // 

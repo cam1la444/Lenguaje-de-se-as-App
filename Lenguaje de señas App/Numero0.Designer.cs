@@ -40,6 +40,7 @@
             this.btnRegresar0.TabIndex = 7;
             this.btnRegresar0.Text = "Regresar";
             this.btnRegresar0.UseVisualStyleBackColor = true;
+            this.btnRegresar0.Click += new System.EventHandler(this.btnRegresar0_Click);
             // 
             // btnSiguiente0
             // 
@@ -49,6 +50,7 @@
             this.btnSiguiente0.TabIndex = 5;
             this.btnSiguiente0.Text = "Siguiente";
             this.btnSiguiente0.UseVisualStyleBackColor = true;
+            this.btnSiguiente0.Click += new System.EventHandler(this.btnSiguiente0_Click);
             // 
             // Numero0
             // 
