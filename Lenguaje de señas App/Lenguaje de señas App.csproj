@@ -52,6 +52,12 @@
     <Compile Include="Abecedario.Designer.cs">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="LetraA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,6 +226,126 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Numero1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero1.Designer.cs">
+      <DependentUpon>Numero1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero10.Designer.cs">
+      <DependentUpon>Numero10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero100.Designer.cs">
+      <DependentUpon>Numero100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero2.Designer.cs">
+      <DependentUpon>Numero2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero20.Designer.cs">
+      <DependentUpon>Numero20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero3.Designer.cs">
+      <DependentUpon>Numero3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero4.Designer.cs">
+      <DependentUpon>Numero4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero40.Designer.cs">
+      <DependentUpon>Numero40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero5.Designer.cs">
+      <DependentUpon>Numero5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero50.Designer.cs">
+      <DependentUpon>Numero50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero6.Designer.cs">
+      <DependentUpon>Numero6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero60.Designer.cs">
+      <DependentUpon>Numero60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero7.Designer.cs">
+      <DependentUpon>Numero7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero70.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero70.Designer.cs">
+      <DependentUpon>Numero70.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero8.Designer.cs">
+      <DependentUpon>Numero8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero80.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero80.Designer.cs">
+      <DependentUpon>Numero80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero9.Designer.cs">
+      <DependentUpon>Numero9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numero90.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numero90.Designer.cs">
+      <DependentUpon>Numero90.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numeros.Designer.cs">
+      <DependentUpon>Numeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numeros30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numeros30.Designer.cs">
+      <DependentUpon>Numeros30.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp.cs">
@@ -314,6 +440,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numeros.resx">
+      <DependentUpon>Numeros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
