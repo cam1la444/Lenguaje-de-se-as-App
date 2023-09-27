@@ -172,6 +172,42 @@
     <Compile Include="LetraT.Designer.cs">
       <DependentUpon>LetraT.cs</DependentUpon>
     </Compile>
+    <Compile Include="LetraU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraU.Designer.cs">
+      <DependentUpon>LetraU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraV.Designer.cs">
+      <DependentUpon>LetraV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraW.Designer.cs">
+      <DependentUpon>LetraW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraX.Designer.cs">
+      <DependentUpon>LetraX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraY.Designer.cs">
+      <DependentUpon>LetraY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LetraZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LetraZ.Designer.cs">
+      <DependentUpon>LetraZ.cs</DependentUpon>
+    </Compile>
     <Compile Include="LetraÑ.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -254,6 +290,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LetraT.resx">
       <DependentUpon>LetraT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraU.resx">
+      <DependentUpon>LetraU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraV.resx">
+      <DependentUpon>LetraV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraW.resx">
+      <DependentUpon>LetraW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraX.resx">
+      <DependentUpon>LetraX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraY.resx">
+      <DependentUpon>LetraY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LetraZ.resx">
+      <DependentUpon>LetraZ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LetraÑ.resx">
       <DependentUpon>LetraÑ.cs</DependentUpon>
