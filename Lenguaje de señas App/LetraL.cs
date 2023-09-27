@@ -16,5 +16,16 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string f = "C:\\Users\\jwest\\Videos\\VideoF.mp4";
+            axWMPL.URL = f;
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LetraU));
             this.btnReproducir = new System.Windows.Forms.Button();
-            this.axWMPE = new AxWMPLib.AxWindowsMediaPlayer();
+            this.axWMPU = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegresar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.axWMPE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,15 +48,16 @@
             this.btnReproducir.TabIndex = 11;
             this.btnReproducir.Text = "Reproducir video";
             this.btnReproducir.UseVisualStyleBackColor = false;
+            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
             // 
-            // axWMPE
+            // axWMPU
             // 
-            this.axWMPE.Enabled = true;
-            this.axWMPE.Location = new System.Drawing.Point(35, 168);
-            this.axWMPE.Name = "axWMPE";
-            this.axWMPE.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWMPE.OcxState")));
-            this.axWMPE.Size = new System.Drawing.Size(237, 209);
-            this.axWMPE.TabIndex = 10;
+            this.axWMPU.Enabled = true;
+            this.axWMPU.Location = new System.Drawing.Point(35, 168);
+            this.axWMPU.Name = "axWMPU";
+            this.axWMPU.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWMPU.OcxState")));
+            this.axWMPU.Size = new System.Drawing.Size(237, 209);
+            this.axWMPU.TabIndex = 10;
             // 
             // pictureBox1
             // 
@@ -79,6 +80,7 @@
             this.btnRegresar.TabIndex = 8;
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // LetraU
             // 
@@ -86,12 +88,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnReproducir);
-            this.Controls.Add(this.axWMPE);
+            this.Controls.Add(this.axWMPU);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
             this.Name = "LetraU";
             this.Text = "LetraU";
-            ((System.ComponentModel.ISupportInitialize)(this.axWMPE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWMPU)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -100,7 +102,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnReproducir;
-        private AxWMPLib.AxWindowsMediaPlayer axWMPE;
+        private AxWMPLib.AxWindowsMediaPlayer axWMPU;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnRegresar;
     }
