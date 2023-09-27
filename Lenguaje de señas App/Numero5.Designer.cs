@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnRegresar5 = new System.Windows.Forms.Button();
+            this.btnAtras5 = new System.Windows.Forms.Button();
+            this.btnSiguiente5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnRegresar5
+            // 
+            this.btnRegresar5.Location = new System.Drawing.Point(118, 227);
+            this.btnRegresar5.Name = "btnRegresar5";
+            this.btnRegresar5.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar5.TabIndex = 7;
+            this.btnRegresar5.Text = "Regresar";
+            this.btnRegresar5.UseVisualStyleBackColor = true;
+            // 
+            // btnAtras5
+            // 
+            this.btnAtras5.Location = new System.Drawing.Point(27, 174);
+            this.btnAtras5.Name = "btnAtras5";
+            this.btnAtras5.Size = new System.Drawing.Size(75, 23);
+            this.btnAtras5.TabIndex = 6;
+            this.btnAtras5.Text = "Atras";
+            this.btnAtras5.UseVisualStyleBackColor = true;
+            // 
+            // btnSiguiente5
+            // 
+            this.btnSiguiente5.Location = new System.Drawing.Point(226, 174);
+            this.btnSiguiente5.Name = "btnSiguiente5";
+            this.btnSiguiente5.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente5.TabIndex = 5;
+            this.btnSiguiente5.Text = "Siguiente";
+            this.btnSiguiente5.UseVisualStyleBackColor = true;
             // 
             // Numero5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(329, 424);
+            this.Controls.Add(this.btnRegresar5);
+            this.Controls.Add(this.btnAtras5);
+            this.Controls.Add(this.btnSiguiente5);
             this.Name = "Numero5";
             this.Text = "Numero5";
             this.ResumeLayout(false);
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnRegresar5;
+        private System.Windows.Forms.Button btnAtras5;
+        private System.Windows.Forms.Button btnSiguiente5;
     }
 }

@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnRegresar10 = new System.Windows.Forms.Button();
+            this.btnAtras10 = new System.Windows.Forms.Button();
+            this.btnSiguiente10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnRegresar10
+            // 
+            this.btnRegresar10.Location = new System.Drawing.Point(118, 227);
+            this.btnRegresar10.Name = "btnRegresar10";
+            this.btnRegresar10.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar10.TabIndex = 7;
+            this.btnRegresar10.Text = "Regresar";
+            this.btnRegresar10.UseVisualStyleBackColor = true;
+            // 
+            // btnAtras10
+            // 
+            this.btnAtras10.Location = new System.Drawing.Point(27, 174);
+            this.btnAtras10.Name = "btnAtras10";
+            this.btnAtras10.Size = new System.Drawing.Size(75, 23);
+            this.btnAtras10.TabIndex = 6;
+            this.btnAtras10.Text = "Atras";
+            this.btnAtras10.UseVisualStyleBackColor = true;
+            // 
+            // btnSiguiente10
+            // 
+            this.btnSiguiente10.Location = new System.Drawing.Point(226, 174);
+            this.btnSiguiente10.Name = "btnSiguiente10";
+            this.btnSiguiente10.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente10.TabIndex = 5;
+            this.btnSiguiente10.Text = "Siguiente";
+            this.btnSiguiente10.UseVisualStyleBackColor = true;
             // 
             // Numero10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(329, 424);
+            this.Controls.Add(this.btnRegresar10);
+            this.Controls.Add(this.btnAtras10);
+            this.Controls.Add(this.btnSiguiente10);
             this.Name = "Numero10";
             this.Text = "Numero10";
             this.ResumeLayout(false);
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnRegresar10;
+        private System.Windows.Forms.Button btnAtras10;
+        private System.Windows.Forms.Button btnSiguiente10;
     }
 }

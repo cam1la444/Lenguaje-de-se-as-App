@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnRegresar50 = new System.Windows.Forms.Button();
+            this.btnAtras50 = new System.Windows.Forms.Button();
+            this.btnSiguiente50 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnRegresar50
+            // 
+            this.btnRegresar50.Location = new System.Drawing.Point(118, 227);
+            this.btnRegresar50.Name = "btnRegresar50";
+            this.btnRegresar50.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar50.TabIndex = 7;
+            this.btnRegresar50.Text = "Regresar";
+            this.btnRegresar50.UseVisualStyleBackColor = true;
+            // 
+            // btnAtras50
+            // 
+            this.btnAtras50.Location = new System.Drawing.Point(27, 174);
+            this.btnAtras50.Name = "btnAtras50";
+            this.btnAtras50.Size = new System.Drawing.Size(75, 23);
+            this.btnAtras50.TabIndex = 6;
+            this.btnAtras50.Text = "Atras";
+            this.btnAtras50.UseVisualStyleBackColor = true;
+            // 
+            // btnSiguiente50
+            // 
+            this.btnSiguiente50.Location = new System.Drawing.Point(226, 174);
+            this.btnSiguiente50.Name = "btnSiguiente50";
+            this.btnSiguiente50.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente50.TabIndex = 5;
+            this.btnSiguiente50.Text = "Siguiente";
+            this.btnSiguiente50.UseVisualStyleBackColor = true;
             // 
             // Numero50
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(329, 424);
+            this.Controls.Add(this.btnRegresar50);
+            this.Controls.Add(this.btnAtras50);
+            this.Controls.Add(this.btnSiguiente50);
             this.Name = "Numero50";
             this.Text = "Numero50";
             this.ResumeLayout(false);
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnRegresar50;
+        private System.Windows.Forms.Button btnAtras50;
+        private System.Windows.Forms.Button btnSiguiente50;
     }
 }
