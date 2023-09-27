@@ -21,18 +21,14 @@ namespace Lenguaje_de_señas_App
         {
             Numero0 numero0 = new Numero0();
             numero0.ShowDialog();
-
-            Numero1 numero1 = new Numero1();
-            numero1.Close();
+            this.Close();
         }
 
         private void btnSiguiente2_Click(object sender, EventArgs e)
         {
             Numero2 numero2 = new Numero2();
-            numero2.ShowDialog();
-
-            Numero1 numero1 = new Numero1();
-            numero1.Close();
+            numero2.Show();
+            this.Hide();
         }
 
         private void btnRegresar1_Click(object sender, EventArgs e)
