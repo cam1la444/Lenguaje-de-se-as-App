@@ -453,11 +453,62 @@
     <EmbeddedResource Include="Numero1.resx">
       <DependentUpon>Numero1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Numero10.resx">
+      <DependentUpon>Numero10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero100.resx">
+      <DependentUpon>Numero100.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Numero2.resx">
       <DependentUpon>Numero2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Numero20.resx">
+      <DependentUpon>Numero20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero3.resx">
+      <DependentUpon>Numero3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero4.resx">
+      <DependentUpon>Numero4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero40.resx">
+      <DependentUpon>Numero40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero5.resx">
+      <DependentUpon>Numero5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero50.resx">
+      <DependentUpon>Numero50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero6.resx">
+      <DependentUpon>Numero6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero60.resx">
+      <DependentUpon>Numero60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero7.resx">
+      <DependentUpon>Numero7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero70.resx">
+      <DependentUpon>Numero70.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero8.resx">
+      <DependentUpon>Numero8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero80.resx">
+      <DependentUpon>Numero80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero9.resx">
+      <DependentUpon>Numero9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numero90.resx">
+      <DependentUpon>Numero90.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Numeros.resx">
       <DependentUpon>Numeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numeros30.resx">
+      <DependentUpon>Numeros30.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

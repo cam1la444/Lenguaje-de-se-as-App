@@ -28,37 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSiguiente2 = new System.Windows.Forms.Button();
-            this.btnAtras0 = new System.Windows.Forms.Button();
+            this.btnSiguiente1 = new System.Windows.Forms.Button();
+            this.btnAtras1 = new System.Windows.Forms.Button();
+            this.btnRegresar1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnSiguiente2
+            // btnSiguiente1
             // 
-            this.btnSiguiente2.Location = new System.Drawing.Point(242, 376);
-            this.btnSiguiente2.Name = "btnSiguiente2";
-            this.btnSiguiente2.Size = new System.Drawing.Size(75, 23);
-            this.btnSiguiente2.TabIndex = 2;
-            this.btnSiguiente2.Text = "Siguiente";
-            this.btnSiguiente2.UseVisualStyleBackColor = true;
-            this.btnSiguiente2.Click += new System.EventHandler(this.btnSiguiente2_Click);
+            this.btnSiguiente1.Location = new System.Drawing.Point(230, 340);
+            this.btnSiguiente1.Name = "btnSiguiente1";
+            this.btnSiguiente1.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente1.TabIndex = 2;
+            this.btnSiguiente1.Text = "Siguiente";
+            this.btnSiguiente1.UseVisualStyleBackColor = true;
+            this.btnSiguiente1.Click += new System.EventHandler(this.btnSiguiente2_Click);
             // 
-            // btnAtras0
+            // btnAtras1
             // 
-            this.btnAtras0.Location = new System.Drawing.Point(43, 376);
-            this.btnAtras0.Name = "btnAtras0";
-            this.btnAtras0.Size = new System.Drawing.Size(75, 23);
-            this.btnAtras0.TabIndex = 3;
-            this.btnAtras0.Text = "Atras";
-            this.btnAtras0.UseVisualStyleBackColor = true;
-            this.btnAtras0.Click += new System.EventHandler(this.btnAtras0_Click);
+            this.btnAtras1.Location = new System.Drawing.Point(31, 340);
+            this.btnAtras1.Name = "btnAtras1";
+            this.btnAtras1.Size = new System.Drawing.Size(75, 23);
+            this.btnAtras1.TabIndex = 3;
+            this.btnAtras1.Text = "Atras";
+            this.btnAtras1.UseVisualStyleBackColor = true;
+            this.btnAtras1.Click += new System.EventHandler(this.btnAtras0_Click);
+            // 
+            // btnRegresar1
+            // 
+            this.btnRegresar1.Location = new System.Drawing.Point(122, 393);
+            this.btnRegresar1.Name = "btnRegresar1";
+            this.btnRegresar1.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar1.TabIndex = 4;
+            this.btnRegresar1.Text = "Regresar";
+            this.btnRegresar1.UseVisualStyleBackColor = true;
             // 
             // Numero1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(329, 424);
-            this.Controls.Add(this.btnAtras0);
-            this.Controls.Add(this.btnSiguiente2);
+            this.Controls.Add(this.btnRegresar1);
+            this.Controls.Add(this.btnAtras1);
+            this.Controls.Add(this.btnSiguiente1);
             this.Name = "Numero1";
             this.Text = "Numero1";
             this.ResumeLayout(false);
@@ -67,7 +78,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnSiguiente2;
-        private System.Windows.Forms.Button btnAtras0;
+        private System.Windows.Forms.Button btnSiguiente1;
+        private System.Windows.Forms.Button btnAtras1;
+        private System.Windows.Forms.Button btnRegresar1;
     }
 }
