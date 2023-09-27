@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.btnRegresar2 = new System.Windows.Forms.Button();
-            this.btnAtras2 = new System.Windows.Forms.Button();
             this.btnSiguiente2 = new System.Windows.Forms.Button();
+            this.btnAtras2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegresar2
@@ -42,15 +42,6 @@
             this.btnRegresar2.Text = "Regresar";
             this.btnRegresar2.UseVisualStyleBackColor = true;
             // 
-            // btnAtras2
-            // 
-            this.btnAtras2.Location = new System.Drawing.Point(34, 338);
-            this.btnAtras2.Name = "btnAtras2";
-            this.btnAtras2.Size = new System.Drawing.Size(75, 23);
-            this.btnAtras2.TabIndex = 6;
-            this.btnAtras2.Text = "Atras";
-            this.btnAtras2.UseVisualStyleBackColor = true;
-            // 
             // btnSiguiente2
             // 
             this.btnSiguiente2.Location = new System.Drawing.Point(233, 338);
@@ -59,6 +50,16 @@
             this.btnSiguiente2.TabIndex = 5;
             this.btnSiguiente2.Text = "Siguiente";
             this.btnSiguiente2.UseVisualStyleBackColor = true;
+            // 
+            // btnAtras2
+            // 
+            this.btnAtras2.Location = new System.Drawing.Point(34, 338);
+            this.btnAtras2.Name = "btnAtras2";
+            this.btnAtras2.Size = new System.Drawing.Size(75, 23);
+            this.btnAtras2.TabIndex = 6;
+            this.btnAtras2.Text = "Atras";
+            this.btnAtras2.UseVisualStyleBackColor = true;
+            this.btnAtras2.Click += new System.EventHandler(this.btnAtras2_Click);
             // 
             // Numero2
             // 
@@ -77,7 +78,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnRegresar2;
-        private System.Windows.Forms.Button btnAtras2;
         private System.Windows.Forms.Button btnSiguiente2;
+        private System.Windows.Forms.Button btnAtras2;
     }
 }

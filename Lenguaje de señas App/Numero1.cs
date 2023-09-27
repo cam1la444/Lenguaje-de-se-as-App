@@ -20,7 +20,7 @@ namespace Lenguaje_de_señas_App
         private void btnAtras0_Click(object sender, EventArgs e)
         {
             Numero0 numero0 = new Numero0();
-            numero0.ShowDialog();
+            numero0.Show();
             this.Close();
         }
 

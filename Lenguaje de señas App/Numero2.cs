@@ -19,9 +19,19 @@ namespace Lenguaje_de_señas_App
 
         private void btnAtras1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-    
+        private void btnAtras2_Click(object sender, EventArgs e)
+        {
+            Numero1 numero1 = new Numero1();
+            numero1.Show();
+            this.Close();
+        }
+
+        private void btnRegresar2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
