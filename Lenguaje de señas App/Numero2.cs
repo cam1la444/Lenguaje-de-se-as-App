@@ -21,6 +21,7 @@ namespace Lenguaje_de_señas_App
         {
             Numero1 numero1 = new Numero1();
             numero1.ShowDialog();
+            this.Close();
         }
 
         private void btnSiguiente3_Click(object sender, EventArgs e)
