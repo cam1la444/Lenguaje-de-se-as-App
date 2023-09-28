@@ -42,6 +42,7 @@
             this.btnRegresar90.TabIndex = 7;
             this.btnRegresar90.Text = "Regresar";
             this.btnRegresar90.UseVisualStyleBackColor = true;
+            this.btnRegresar90.Click += new System.EventHandler(this.btnRegresar90_Click);
             // 
             // btnAtras90
             // 
@@ -52,6 +53,7 @@
             this.btnAtras90.TabIndex = 6;
             this.btnAtras90.Text = "Atras";
             this.btnAtras90.UseVisualStyleBackColor = true;
+            this.btnAtras90.Click += new System.EventHandler(this.btnAtras90_Click);
             // 
             // btnSiguiente90
             // 
@@ -62,6 +64,7 @@
             this.btnSiguiente90.TabIndex = 5;
             this.btnSiguiente90.Text = "Siguiente";
             this.btnSiguiente90.UseVisualStyleBackColor = true;
+            this.btnSiguiente90.Click += new System.EventHandler(this.btnSiguiente90_Click);
             // 
             // Numero90
             // 

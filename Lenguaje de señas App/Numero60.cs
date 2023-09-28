@@ -16,5 +16,24 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnRegresar60_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAtras60_Click(object sender, EventArgs e)
+        {
+            Numero50 numero50 = new Numero50();
+            numero50.Show();
+            this.Close();
+        }
+
+        private void btnSiguiente60_Click(object sender, EventArgs e)
+        {
+            Numero70 numero70 = new Numero70();
+            numero70.Show();
+            this.Hide();
+        }
     }
 }
