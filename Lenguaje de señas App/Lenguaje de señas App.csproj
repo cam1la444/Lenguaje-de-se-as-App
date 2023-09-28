@@ -250,12 +250,6 @@
     <Compile Include="Numero100.Designer.cs">
       <DependentUpon>Numero100.cs</DependentUpon>
     </Compile>
-    <Compile Include="Numero2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Numero2.Designer.cs">
-      <DependentUpon>Numero2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Numero20.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -458,9 +452,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Numero100.resx">
       <DependentUpon>Numero100.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Numero2.resx">
-      <DependentUpon>Numero2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Numero20.resx">
       <DependentUpon>Numero20.cs</DependentUpon>
