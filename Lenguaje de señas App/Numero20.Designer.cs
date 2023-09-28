@@ -59,6 +59,7 @@
             this.btnSiguiente20.TabIndex = 5;
             this.btnSiguiente20.Text = "Siguiente";
             this.btnSiguiente20.UseVisualStyleBackColor = true;
+            this.btnSiguiente20.Click += new System.EventHandler(this.btnSiguiente20_Click);
             // 
             // Numero20
             // 

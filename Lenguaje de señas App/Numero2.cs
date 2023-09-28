@@ -38,7 +38,7 @@ namespace Lenguaje_de_señas_App
         {
             Numero3 numero3 = new Numero3();
             numero3.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

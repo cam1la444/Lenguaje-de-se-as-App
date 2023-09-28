@@ -33,7 +33,7 @@ namespace Lenguaje_de_señas_App
         {
             Numero5 numero5 = new Numero5();
             numero5.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

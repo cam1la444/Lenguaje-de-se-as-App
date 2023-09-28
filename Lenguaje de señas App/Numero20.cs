@@ -16,5 +16,10 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnSiguiente20_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

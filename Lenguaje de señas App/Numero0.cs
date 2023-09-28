@@ -26,7 +26,7 @@ namespace Lenguaje_de_señas_App
         {
             Numero1 numero1 = new Numero1();
             numero1.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }
