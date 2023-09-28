@@ -41,6 +41,7 @@
             this.btnRegresar4.TabIndex = 7;
             this.btnRegresar4.Text = "Regresar";
             this.btnRegresar4.UseVisualStyleBackColor = true;
+            this.btnRegresar4.Click += new System.EventHandler(this.btnRegresar4_Click);
             // 
             // btnAtras4
             // 
@@ -50,6 +51,7 @@
             this.btnAtras4.TabIndex = 6;
             this.btnAtras4.Text = "Atras";
             this.btnAtras4.UseVisualStyleBackColor = true;
+            this.btnAtras4.Click += new System.EventHandler(this.btnAtras4_Click);
             // 
             // btnSiguiente4
             // 
@@ -59,6 +61,7 @@
             this.btnSiguiente4.TabIndex = 5;
             this.btnSiguiente4.Text = "Siguiente";
             this.btnSiguiente4.UseVisualStyleBackColor = true;
+            this.btnSiguiente4.Click += new System.EventHandler(this.btnSiguiente4_Click);
             // 
             // Numero4
             // 
@@ -69,6 +72,7 @@
             this.Controls.Add(this.btnAtras4);
             this.Controls.Add(this.btnSiguiente4);
             this.Name = "Numero4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero4";
             this.ResumeLayout(false);
 

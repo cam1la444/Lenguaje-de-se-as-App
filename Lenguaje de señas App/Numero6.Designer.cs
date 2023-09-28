@@ -35,30 +35,36 @@
             // 
             // btnRegresar6
             // 
+            this.btnRegresar6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar6.Location = new System.Drawing.Point(118, 227);
             this.btnRegresar6.Name = "btnRegresar6";
             this.btnRegresar6.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar6.TabIndex = 7;
             this.btnRegresar6.Text = "Regresar";
             this.btnRegresar6.UseVisualStyleBackColor = true;
+            this.btnRegresar6.Click += new System.EventHandler(this.btnRegresar6_Click);
             // 
             // btnAtras6
             // 
+            this.btnAtras6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras6.Location = new System.Drawing.Point(27, 174);
             this.btnAtras6.Name = "btnAtras6";
             this.btnAtras6.Size = new System.Drawing.Size(75, 23);
             this.btnAtras6.TabIndex = 6;
             this.btnAtras6.Text = "Atras";
             this.btnAtras6.UseVisualStyleBackColor = true;
+            this.btnAtras6.Click += new System.EventHandler(this.btnAtras6_Click);
             // 
             // btnSiguiente6
             // 
+            this.btnSiguiente6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSiguiente6.Location = new System.Drawing.Point(226, 174);
             this.btnSiguiente6.Name = "btnSiguiente6";
             this.btnSiguiente6.Size = new System.Drawing.Size(75, 23);
             this.btnSiguiente6.TabIndex = 5;
             this.btnSiguiente6.Text = "Siguiente";
             this.btnSiguiente6.UseVisualStyleBackColor = true;
+            this.btnSiguiente6.Click += new System.EventHandler(this.btnSiguiente6_Click);
             // 
             // Numero6
             // 

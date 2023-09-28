@@ -35,30 +35,36 @@
             // 
             // btnRegresar7
             // 
+            this.btnRegresar7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar7.Location = new System.Drawing.Point(118, 227);
             this.btnRegresar7.Name = "btnRegresar7";
             this.btnRegresar7.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar7.TabIndex = 7;
             this.btnRegresar7.Text = "Regresar";
             this.btnRegresar7.UseVisualStyleBackColor = true;
+            this.btnRegresar7.Click += new System.EventHandler(this.btnRegresar7_Click);
             // 
             // btnAtras7
             // 
+            this.btnAtras7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras7.Location = new System.Drawing.Point(27, 174);
             this.btnAtras7.Name = "btnAtras7";
             this.btnAtras7.Size = new System.Drawing.Size(75, 23);
             this.btnAtras7.TabIndex = 6;
             this.btnAtras7.Text = "Atras";
             this.btnAtras7.UseVisualStyleBackColor = true;
+            this.btnAtras7.Click += new System.EventHandler(this.btnAtras7_Click);
             // 
             // btnSiguiente7
             // 
+            this.btnSiguiente7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSiguiente7.Location = new System.Drawing.Point(226, 174);
             this.btnSiguiente7.Name = "btnSiguiente7";
             this.btnSiguiente7.Size = new System.Drawing.Size(75, 23);
             this.btnSiguiente7.TabIndex = 5;
             this.btnSiguiente7.Text = "Siguiente";
             this.btnSiguiente7.UseVisualStyleBackColor = true;
+            this.btnSiguiente7.Click += new System.EventHandler(this.btnSiguiente7_Click);
             // 
             // Numero7
             // 
@@ -69,6 +75,7 @@
             this.Controls.Add(this.btnAtras7);
             this.Controls.Add(this.btnSiguiente7);
             this.Name = "Numero7";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero7";
             this.ResumeLayout(false);
 

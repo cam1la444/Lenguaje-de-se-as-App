@@ -33,5 +33,12 @@ namespace Lenguaje_de_señas_App
         {
             this.Close();
         }
+
+        private void btnSiguiente2_Click(object sender, EventArgs e)
+        {
+            Numero3 numero3 = new Numero3();
+            numero3.Show();
+            this.Close();
+        }
     }
 }

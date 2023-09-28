@@ -35,6 +35,7 @@
             // 
             // btnRegresar2
             // 
+            this.btnRegresar2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar2.Location = new System.Drawing.Point(125, 391);
             this.btnRegresar2.Name = "btnRegresar2";
             this.btnRegresar2.Size = new System.Drawing.Size(75, 23);
@@ -44,6 +45,7 @@
             // 
             // btnSiguiente2
             // 
+            this.btnSiguiente2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSiguiente2.Location = new System.Drawing.Point(233, 338);
             this.btnSiguiente2.Name = "btnSiguiente2";
             this.btnSiguiente2.Size = new System.Drawing.Size(75, 23);
@@ -53,6 +55,7 @@
             // 
             // btnAtras2
             // 
+            this.btnAtras2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras2.Location = new System.Drawing.Point(34, 338);
             this.btnAtras2.Name = "btnAtras2";
             this.btnAtras2.Size = new System.Drawing.Size(75, 23);
@@ -70,6 +73,7 @@
             this.Controls.Add(this.btnAtras2);
             this.Controls.Add(this.btnSiguiente2);
             this.Name = "Numero2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero2";
             this.ResumeLayout(false);
 
