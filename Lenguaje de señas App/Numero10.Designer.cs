@@ -42,6 +42,7 @@
             this.btnRegresar10.TabIndex = 7;
             this.btnRegresar10.Text = "Regresar";
             this.btnRegresar10.UseVisualStyleBackColor = true;
+            this.btnRegresar10.Click += new System.EventHandler(this.btnRegresar10_Click);
             // 
             // btnAtras10
             // 
@@ -52,6 +53,7 @@
             this.btnAtras10.TabIndex = 6;
             this.btnAtras10.Text = "Atras";
             this.btnAtras10.UseVisualStyleBackColor = true;
+            this.btnAtras10.Click += new System.EventHandler(this.btnAtras10_Click);
             // 
             // btnSiguiente10
             // 
@@ -62,6 +64,7 @@
             this.btnSiguiente10.TabIndex = 5;
             this.btnSiguiente10.Text = "Siguiente";
             this.btnSiguiente10.UseVisualStyleBackColor = true;
+            this.btnSiguiente10.Click += new System.EventHandler(this.btnSiguiente10_Click);
             // 
             // Numero10
             // 

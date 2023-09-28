@@ -19,7 +19,21 @@ namespace Lenguaje_de_señas_App
 
         private void btnSiguiente20_Click(object sender, EventArgs e)
         {
+            Numeros30 numero30 = new Numeros30();
+            numero30.Show();
+            this.Hide();
+        }
 
+        private void btnRegresar20_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAtras20_Click(object sender, EventArgs e)
+        {
+            Numero10 numero10 = new Numero10();
+            numero10.Show();
+            this.Close();
         }
     }
 }

@@ -53,6 +53,7 @@
             this.btnAtras40.TabIndex = 6;
             this.btnAtras40.Text = "Atras";
             this.btnAtras40.UseVisualStyleBackColor = true;
+            this.btnAtras40.Click += new System.EventHandler(this.btnAtras40_Click);
             // 
             // btnSiguiente40
             // 
@@ -63,6 +64,7 @@
             this.btnSiguiente40.TabIndex = 5;
             this.btnSiguiente40.Text = "Siguiente";
             this.btnSiguiente40.UseVisualStyleBackColor = true;
+            this.btnSiguiente40.Click += new System.EventHandler(this.btnSiguiente40_Click);
             // 
             // Numero40
             // 
