@@ -35,15 +35,18 @@
             // 
             // btnRegresar40
             // 
+            this.btnRegresar40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar40.Location = new System.Drawing.Point(118, 227);
             this.btnRegresar40.Name = "btnRegresar40";
             this.btnRegresar40.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar40.TabIndex = 7;
             this.btnRegresar40.Text = "Regresar";
             this.btnRegresar40.UseVisualStyleBackColor = true;
+            this.btnRegresar40.Click += new System.EventHandler(this.btnRegresar40_Click);
             // 
             // btnAtras40
             // 
+            this.btnAtras40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAtras40.Location = new System.Drawing.Point(27, 174);
             this.btnAtras40.Name = "btnAtras40";
             this.btnAtras40.Size = new System.Drawing.Size(75, 23);
@@ -53,6 +56,7 @@
             // 
             // btnSiguiente40
             // 
+            this.btnSiguiente40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSiguiente40.Location = new System.Drawing.Point(226, 174);
             this.btnSiguiente40.Name = "btnSiguiente40";
             this.btnSiguiente40.Size = new System.Drawing.Size(75, 23);
@@ -69,6 +73,7 @@
             this.Controls.Add(this.btnAtras40);
             this.Controls.Add(this.btnSiguiente40);
             this.Name = "Numero40";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero40";
             this.ResumeLayout(false);
 

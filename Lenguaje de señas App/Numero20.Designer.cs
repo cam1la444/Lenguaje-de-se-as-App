@@ -70,6 +70,7 @@
             this.Controls.Add(this.btnAtras20);
             this.Controls.Add(this.btnSiguiente20);
             this.Name = "Numero20";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero20";
             this.ResumeLayout(false);
 

@@ -75,6 +75,7 @@
             this.Controls.Add(this.btnAtras6);
             this.Controls.Add(this.btnSiguiente6);
             this.Name = "Numero6";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero6";
             this.ResumeLayout(false);
 
