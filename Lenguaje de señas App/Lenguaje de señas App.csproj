@@ -381,6 +381,9 @@
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LetraA.resx">
       <DependentUpon>LetraA.cs</DependentUpon>
     </EmbeddedResource>

@@ -54,7 +54,7 @@
             // 
             // btn2
             // 
-            this.btn2.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(335, 71);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(85, 63);
@@ -66,17 +66,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(318, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 39);
+            this.label1.Size = new System.Drawing.Size(288, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "Lección Números";
             // 
             // btn3
             // 
-            this.btn3.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(468, 71);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(85, 63);
@@ -87,7 +87,7 @@
             // 
             // btn4
             // 
-            this.btn4.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(607, 71);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(85, 63);
@@ -98,7 +98,7 @@
             // 
             // btn5
             // 
-            this.btn5.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(744, 71);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(85, 63);
@@ -109,7 +109,7 @@
             // 
             // btn6
             // 
-            this.btn6.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(49, 165);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(85, 63);
@@ -120,7 +120,7 @@
             // 
             // btn7
             // 
-            this.btn7.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(192, 165);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(85, 63);
@@ -131,7 +131,7 @@
             // 
             // btn8
             // 
-            this.btn8.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(335, 165);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(85, 63);
@@ -142,7 +142,7 @@
             // 
             // btn0
             // 
-            this.btn0.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(49, 71);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(85, 63);
@@ -153,7 +153,7 @@
             // 
             // btn90
             // 
-            this.btn90.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn90.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn90.Location = new System.Drawing.Point(335, 358);
             this.btn90.Name = "btn90";
             this.btn90.Size = new System.Drawing.Size(85, 63);
@@ -164,7 +164,7 @@
             // 
             // btn40
             // 
-            this.btn40.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn40.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn40.Location = new System.Drawing.Point(196, 266);
             this.btn40.Name = "btn40";
             this.btn40.Size = new System.Drawing.Size(85, 63);
@@ -175,7 +175,7 @@
             // 
             // btn60
             // 
-            this.btn60.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn60.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn60.Location = new System.Drawing.Point(468, 266);
             this.btn60.Name = "btn60";
             this.btn60.Size = new System.Drawing.Size(85, 63);
@@ -186,7 +186,7 @@
             // 
             // btn50
             // 
-            this.btn50.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn50.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn50.Location = new System.Drawing.Point(335, 266);
             this.btn50.Name = "btn50";
             this.btn50.Size = new System.Drawing.Size(85, 63);
@@ -197,7 +197,7 @@
             // 
             // btn80
             // 
-            this.btn80.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn80.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn80.Location = new System.Drawing.Point(744, 266);
             this.btn80.Name = "btn80";
             this.btn80.Size = new System.Drawing.Size(85, 63);
@@ -208,7 +208,7 @@
             // 
             // btn9
             // 
-            this.btn9.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(468, 165);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(85, 63);
@@ -219,7 +219,7 @@
             // 
             // btn70
             // 
-            this.btn70.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn70.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn70.Location = new System.Drawing.Point(605, 266);
             this.btn70.Name = "btn70";
             this.btn70.Size = new System.Drawing.Size(85, 63);
@@ -230,7 +230,7 @@
             // 
             // btn100
             // 
-            this.btn100.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn100.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn100.Location = new System.Drawing.Point(468, 358);
             this.btn100.Name = "btn100";
             this.btn100.Size = new System.Drawing.Size(85, 63);
@@ -241,7 +241,7 @@
             // 
             // btn30
             // 
-            this.btn30.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn30.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn30.Location = new System.Drawing.Point(49, 266);
             this.btn30.Name = "btn30";
             this.btn30.Size = new System.Drawing.Size(85, 63);
@@ -252,7 +252,7 @@
             // 
             // btn20
             // 
-            this.btn20.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn20.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn20.Location = new System.Drawing.Point(744, 165);
             this.btn20.Name = "btn20";
             this.btn20.Size = new System.Drawing.Size(85, 63);
@@ -263,7 +263,7 @@
             // 
             // btn10
             // 
-            this.btn10.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn10.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn10.Location = new System.Drawing.Point(605, 165);
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(85, 63);
@@ -274,7 +274,7 @@
             // 
             // btn1
             // 
-            this.btn1.Font = new System.Drawing.Font("HP Simplified", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(192, 71);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(85, 63);
@@ -285,7 +285,7 @@
             // 
             // button21
             // 
-            this.button21.Font = new System.Drawing.Font("HP Simplified", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.IndianRed;
             this.button21.Location = new System.Drawing.Point(754, 382);
             this.button21.Name = "button21";
@@ -299,7 +299,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(878, 441);
+            this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.btn10);
@@ -322,6 +322,7 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Numeros";
             this.Text = "Numeros";
             this.ResumeLayout(false);

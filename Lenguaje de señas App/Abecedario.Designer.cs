@@ -62,12 +62,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(298, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 41);
+            this.label1.Size = new System.Drawing.Size(348, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lección Abecedario";
             // 
@@ -76,7 +76,7 @@
             this.btnA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnA.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnA.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnA.ForeColor = System.Drawing.Color.Navy;
             this.btnA.Location = new System.Drawing.Point(43, 69);
             this.btnA.Name = "btnA";
@@ -91,7 +91,7 @@
             this.btnU.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnU.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnU.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnU.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnU.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnU.ForeColor = System.Drawing.Color.Olive;
             this.btnU.Location = new System.Drawing.Point(43, 337);
             this.btnU.Name = "btnU";
@@ -106,7 +106,7 @@
             this.btnÑ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnÑ.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnÑ.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnÑ.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnÑ.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnÑ.ForeColor = System.Drawing.Color.Green;
             this.btnÑ.Location = new System.Drawing.Point(43, 249);
             this.btnÑ.Name = "btnÑ";
@@ -121,7 +121,7 @@
             this.btnG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnG.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnG.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnG.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnG.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnG.ForeColor = System.Drawing.Color.Navy;
             this.btnG.Location = new System.Drawing.Point(754, 69);
             this.btnG.Name = "btnG";
@@ -136,7 +136,7 @@
             this.btnF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnF.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnF.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnF.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnF.ForeColor = System.Drawing.Color.Navy;
             this.btnF.Location = new System.Drawing.Point(635, 69);
             this.btnF.Name = "btnF";
@@ -151,7 +151,7 @@
             this.btnE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnE.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnE.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnE.ForeColor = System.Drawing.Color.Navy;
             this.btnE.Location = new System.Drawing.Point(517, 69);
             this.btnE.Name = "btnE";
@@ -166,7 +166,7 @@
             this.btnD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnD.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnD.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnD.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnD.ForeColor = System.Drawing.Color.Navy;
             this.btnD.Location = new System.Drawing.Point(397, 69);
             this.btnD.Name = "btnD";
@@ -181,7 +181,7 @@
             this.btnC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnC.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.ForeColor = System.Drawing.Color.Navy;
             this.btnC.Location = new System.Drawing.Point(281, 69);
             this.btnC.Name = "btnC";
@@ -196,7 +196,7 @@
             this.btnB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnB.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnB.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnB.ForeColor = System.Drawing.Color.Navy;
             this.btnB.Location = new System.Drawing.Point(158, 69);
             this.btnB.Name = "btnB";
@@ -211,7 +211,7 @@
             this.btnH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnH.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnH.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnH.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnH.ForeColor = System.Drawing.Color.Teal;
             this.btnH.Location = new System.Drawing.Point(43, 159);
             this.btnH.Name = "btnH";
@@ -226,7 +226,7 @@
             this.btnK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnK.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnK.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnK.ForeColor = System.Drawing.Color.Teal;
             this.btnK.Location = new System.Drawing.Point(397, 159);
             this.btnK.Name = "btnK";
@@ -241,7 +241,7 @@
             this.btnN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnN.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnN.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnN.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnN.ForeColor = System.Drawing.Color.Teal;
             this.btnN.Location = new System.Drawing.Point(754, 159);
             this.btnN.Name = "btnN";
@@ -256,7 +256,7 @@
             this.btnM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnM.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnM.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnM.ForeColor = System.Drawing.Color.Teal;
             this.btnM.Location = new System.Drawing.Point(635, 159);
             this.btnM.Name = "btnM";
@@ -271,7 +271,7 @@
             this.btnL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnL.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnL.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnL.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnL.ForeColor = System.Drawing.Color.Teal;
             this.btnL.Location = new System.Drawing.Point(517, 159);
             this.btnL.Name = "btnL";
@@ -286,7 +286,7 @@
             this.btnJ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnJ.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnJ.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnJ.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJ.ForeColor = System.Drawing.Color.Teal;
             this.btnJ.Location = new System.Drawing.Point(281, 159);
             this.btnJ.Name = "btnJ";
@@ -301,7 +301,7 @@
             this.btnI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnI.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnI.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnI.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnI.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnI.ForeColor = System.Drawing.Color.Teal;
             this.btnI.Location = new System.Drawing.Point(158, 159);
             this.btnI.Name = "btnI";
@@ -316,7 +316,7 @@
             this.btnP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnP.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnP.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnP.ForeColor = System.Drawing.Color.Green;
             this.btnP.Location = new System.Drawing.Point(281, 249);
             this.btnP.Name = "btnP";
@@ -331,7 +331,7 @@
             this.btnO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnO.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnO.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnO.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnO.ForeColor = System.Drawing.Color.Green;
             this.btnO.Location = new System.Drawing.Point(158, 249);
             this.btnO.Name = "btnO";
@@ -346,7 +346,7 @@
             this.Q.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Q.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Q.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Q.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Q.ForeColor = System.Drawing.Color.Green;
             this.Q.Location = new System.Drawing.Point(397, 249);
             this.Q.Name = "Q";
@@ -361,7 +361,7 @@
             this.btnR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnR.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnR.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnR.ForeColor = System.Drawing.Color.Green;
             this.btnR.Location = new System.Drawing.Point(517, 249);
             this.btnR.Name = "btnR";
@@ -376,7 +376,7 @@
             this.btnS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnS.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnS.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnS.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnS.ForeColor = System.Drawing.Color.Green;
             this.btnS.Location = new System.Drawing.Point(635, 249);
             this.btnS.Name = "btnS";
@@ -391,7 +391,7 @@
             this.btnT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnT.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnT.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnT.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnT.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnT.ForeColor = System.Drawing.Color.Green;
             this.btnT.Location = new System.Drawing.Point(754, 249);
             this.btnT.Name = "btnT";
@@ -406,7 +406,7 @@
             this.btnZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnZ.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZ.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnZ.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ.ForeColor = System.Drawing.Color.Olive;
             this.btnZ.Location = new System.Drawing.Point(635, 337);
             this.btnZ.Name = "btnZ";
@@ -421,7 +421,7 @@
             this.btnY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnY.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnY.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnY.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnY.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY.ForeColor = System.Drawing.Color.Olive;
             this.btnY.Location = new System.Drawing.Point(517, 337);
             this.btnY.Name = "btnY";
@@ -436,7 +436,7 @@
             this.btnV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnV.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnV.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnV.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnV.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnV.ForeColor = System.Drawing.Color.Olive;
             this.btnV.Location = new System.Drawing.Point(158, 337);
             this.btnV.Name = "btnV";
@@ -451,7 +451,7 @@
             this.btnW.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnW.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnW.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnW.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnW.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnW.ForeColor = System.Drawing.Color.Olive;
             this.btnW.Location = new System.Drawing.Point(281, 337);
             this.btnW.Name = "btnW";
@@ -466,7 +466,7 @@
             this.btnX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnX.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.Color.Olive;
             this.btnX.Location = new System.Drawing.Point(397, 337);
             this.btnX.Name = "btnX";
@@ -480,7 +480,7 @@
             // 
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVolver.Font = new System.Drawing.Font("HP Simplified", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.Location = new System.Drawing.Point(767, 380);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
@@ -493,7 +493,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(878, 441);
+            this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.btnW);
@@ -523,6 +523,7 @@
             this.Controls.Add(this.btnU);
             this.Controls.Add(this.btnA);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Abecedario";

@@ -78,11 +78,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.btnNutria);
             this.Controls.Add(this.btnGato);
             this.Controls.Add(this.btnJirafa);
             this.Controls.Add(this.btnPerro);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Animales";
             this.Text = "Animales";
             this.ResumeLayout(false);
