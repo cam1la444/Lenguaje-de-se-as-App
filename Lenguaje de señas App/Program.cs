@@ -16,7 +16,7 @@ namespace Lenguaje_de_señas_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Numeros());
+            Application.Run(new Inicio());
         }
     }
 }
