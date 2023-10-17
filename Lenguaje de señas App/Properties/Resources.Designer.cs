@@ -69,5 +69,15 @@ namespace Lenguaje_de_señas_App.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled7_20230810144444 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled7_20230810144444", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
