@@ -32,6 +32,7 @@
             this.btnNegro = new System.Windows.Forms.Button();
             this.btnBlanco = new System.Windows.Forms.Button();
             this.btnAzul = new System.Windows.Forms.Button();
+            this.btnAmarillo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRojo
@@ -50,9 +51,9 @@
             this.btnNegro.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.btnNegro.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNegro.ForeColor = System.Drawing.Color.White;
-            this.btnNegro.Location = new System.Drawing.Point(156, 13);
+            this.btnNegro.Location = new System.Drawing.Point(182, 12);
             this.btnNegro.Name = "btnNegro";
-            this.btnNegro.Size = new System.Drawing.Size(132, 51);
+            this.btnNegro.Size = new System.Drawing.Size(136, 51);
             this.btnNegro.TabIndex = 1;
             this.btnNegro.Text = "Negro";
             this.btnNegro.UseVisualStyleBackColor = false;
@@ -61,9 +62,9 @@
             // 
             this.btnBlanco.BackColor = System.Drawing.Color.White;
             this.btnBlanco.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBlanco.Location = new System.Drawing.Point(295, 13);
+            this.btnBlanco.Location = new System.Drawing.Point(366, 12);
             this.btnBlanco.Name = "btnBlanco";
-            this.btnBlanco.Size = new System.Drawing.Size(126, 51);
+            this.btnBlanco.Size = new System.Drawing.Size(136, 51);
             this.btnBlanco.TabIndex = 2;
             this.btnBlanco.Text = "Blanco";
             this.btnBlanco.UseVisualStyleBackColor = false;
@@ -72,18 +73,30 @@
             // 
             this.btnAzul.BackColor = System.Drawing.Color.Blue;
             this.btnAzul.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAzul.Location = new System.Drawing.Point(428, 13);
+            this.btnAzul.Location = new System.Drawing.Point(533, 12);
             this.btnAzul.Name = "btnAzul";
-            this.btnAzul.Size = new System.Drawing.Size(130, 51);
+            this.btnAzul.Size = new System.Drawing.Size(136, 51);
             this.btnAzul.TabIndex = 3;
             this.btnAzul.Text = "Azul";
             this.btnAzul.UseVisualStyleBackColor = false;
+            // 
+            // btnAmarillo
+            // 
+            this.btnAmarillo.BackColor = System.Drawing.Color.Yellow;
+            this.btnAmarillo.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAmarillo.Location = new System.Drawing.Point(13, 96);
+            this.btnAmarillo.Name = "btnAmarillo";
+            this.btnAmarillo.Size = new System.Drawing.Size(136, 51);
+            this.btnAmarillo.TabIndex = 4;
+            this.btnAmarillo.Text = "Amarillo";
+            this.btnAmarillo.UseVisualStyleBackColor = false;
             // 
             // Colores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(678, 450);
+            this.Controls.Add(this.btnAmarillo);
             this.Controls.Add(this.btnAzul);
             this.Controls.Add(this.btnBlanco);
             this.Controls.Add(this.btnNegro);
@@ -100,5 +113,6 @@
         private System.Windows.Forms.Button btnNegro;
         private System.Windows.Forms.Button btnBlanco;
         private System.Windows.Forms.Button btnAzul;
+        private System.Windows.Forms.Button btnAmarillo;
     }
 }
