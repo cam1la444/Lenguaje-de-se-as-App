@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnPerro = new System.Windows.Forms.Button();
+            this.btnJirafa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPerro
@@ -41,11 +42,22 @@
             this.btnPerro.Text = "Perro";
             this.btnPerro.UseVisualStyleBackColor = true;
             // 
+            // btnJirafa
+            // 
+            this.btnJirafa.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJirafa.Location = new System.Drawing.Point(155, 13);
+            this.btnJirafa.Name = "btnJirafa";
+            this.btnJirafa.Size = new System.Drawing.Size(143, 51);
+            this.btnJirafa.TabIndex = 1;
+            this.btnJirafa.Text = "Jirafa";
+            this.btnJirafa.UseVisualStyleBackColor = true;
+            // 
             // Animales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnJirafa);
             this.Controls.Add(this.btnPerro);
             this.Name = "Animales";
             this.Text = "Animales";
@@ -56,5 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnPerro;
+        private System.Windows.Forms.Button btnJirafa;
     }
 }
