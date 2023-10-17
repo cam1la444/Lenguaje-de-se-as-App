@@ -378,6 +378,9 @@
     <EmbeddedResource Include="Animales.resx">
       <DependentUpon>Animales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Colores.resx">
+      <DependentUpon>Colores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LetraA.resx">
       <DependentUpon>LetraA.cs</DependentUpon>
     </EmbeddedResource>
