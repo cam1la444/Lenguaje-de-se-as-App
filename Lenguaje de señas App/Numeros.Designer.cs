@@ -142,13 +142,15 @@
             // 
             // btn0
             // 
-            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(49, 71);
+            this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.btn0.Location = new System.Drawing.Point(49, 112);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(85, 63);
+            this.btn0.Size = new System.Drawing.Size(85, 22);
             this.btn0.TabIndex = 8;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Text = "Cero";
+            this.btn0.UseVisualStyleBackColor = false;
             this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
             // btn90
@@ -287,7 +289,7 @@
             // 
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.IndianRed;
-            this.button21.Location = new System.Drawing.Point(754, 382);
+            this.button21.Location = new System.Drawing.Point(694, 382);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 29);
             this.button21.TabIndex = 21;

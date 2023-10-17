@@ -78,6 +78,9 @@
             // 
             this.btnAcceder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
             this.btnAcceder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAcceder.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.btnAcceder.FlatAppearance.BorderSize = 2;
+            this.btnAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
             this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcceder.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.btnAcceder.Location = new System.Drawing.Point(360, 267);
@@ -101,11 +104,14 @@
             // 
             this.btnRegistrame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
             this.btnRegistrame.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrame.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.btnRegistrame.FlatAppearance.BorderSize = 2;
+            this.btnRegistrame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
             this.btnRegistrame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrame.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.btnRegistrame.Location = new System.Drawing.Point(430, 349);
+            this.btnRegistrame.Location = new System.Drawing.Point(430, 347);
             this.btnRegistrame.Name = "btnRegistrame";
-            this.btnRegistrame.Size = new System.Drawing.Size(98, 29);
+            this.btnRegistrame.Size = new System.Drawing.Size(98, 31);
             this.btnRegistrame.TabIndex = 10;
             this.btnRegistrame.Text = "Registrarme";
             this.btnRegistrame.UseVisualStyleBackColor = false;
