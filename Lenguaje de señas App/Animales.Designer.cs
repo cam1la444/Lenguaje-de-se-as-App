@@ -67,7 +67,7 @@
             // btnNutria
             // 
             this.btnNutria.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNutria.Location = new System.Drawing.Point(456, 13);
+            this.btnNutria.Location = new System.Drawing.Point(483, 12);
             this.btnNutria.Name = "btnNutria";
             this.btnNutria.Size = new System.Drawing.Size(130, 51);
             this.btnNutria.TabIndex = 3;
