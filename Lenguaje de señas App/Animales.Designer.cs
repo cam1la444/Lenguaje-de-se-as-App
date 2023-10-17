@@ -30,6 +30,7 @@
         {
             this.btnPerro = new System.Windows.Forms.Button();
             this.btnJirafa = new System.Windows.Forms.Button();
+            this.btnGato = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPerro
@@ -52,11 +53,22 @@
             this.btnJirafa.Text = "Jirafa";
             this.btnJirafa.UseVisualStyleBackColor = true;
             // 
+            // btnGato
+            // 
+            this.btnGato.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGato.Location = new System.Drawing.Point(305, 13);
+            this.btnGato.Name = "btnGato";
+            this.btnGato.Size = new System.Drawing.Size(144, 51);
+            this.btnGato.TabIndex = 2;
+            this.btnGato.Text = "Gato";
+            this.btnGato.UseVisualStyleBackColor = true;
+            // 
             // Animales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGato);
             this.Controls.Add(this.btnJirafa);
             this.Controls.Add(this.btnPerro);
             this.Name = "Animales";
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button btnPerro;
         private System.Windows.Forms.Button btnJirafa;
+        private System.Windows.Forms.Button btnGato;
     }
 }
