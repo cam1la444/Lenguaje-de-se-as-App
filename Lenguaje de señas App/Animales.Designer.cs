@@ -31,6 +31,7 @@
             this.btnPerro = new System.Windows.Forms.Button();
             this.btnJirafa = new System.Windows.Forms.Button();
             this.btnGato = new System.Windows.Forms.Button();
+            this.btnNutria = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPerro
@@ -63,11 +64,22 @@
             this.btnGato.Text = "Gato";
             this.btnGato.UseVisualStyleBackColor = true;
             // 
+            // btnNutria
+            // 
+            this.btnNutria.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNutria.Location = new System.Drawing.Point(456, 13);
+            this.btnNutria.Name = "btnNutria";
+            this.btnNutria.Size = new System.Drawing.Size(130, 51);
+            this.btnNutria.TabIndex = 3;
+            this.btnNutria.Text = "Nutria";
+            this.btnNutria.UseVisualStyleBackColor = true;
+            // 
             // Animales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNutria);
             this.Controls.Add(this.btnGato);
             this.Controls.Add(this.btnJirafa);
             this.Controls.Add(this.btnPerro);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.Button btnPerro;
         private System.Windows.Forms.Button btnJirafa;
         private System.Windows.Forms.Button btnGato;
+        private System.Windows.Forms.Button btnNutria;
     }
 }
