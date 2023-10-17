@@ -33,6 +33,7 @@
             this.btnBlanco = new System.Windows.Forms.Button();
             this.btnAzul = new System.Windows.Forms.Button();
             this.btnAmarillo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRojo
@@ -91,11 +92,23 @@
             this.btnAmarillo.Text = "Amarillo";
             this.btnAmarillo.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Pink;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(182, 96);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 51);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Rosado";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Colores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAmarillo);
             this.Controls.Add(this.btnAzul);
             this.Controls.Add(this.btnBlanco);
@@ -114,5 +127,6 @@
         private System.Windows.Forms.Button btnBlanco;
         private System.Windows.Forms.Button btnAzul;
         private System.Windows.Forms.Button btnAmarillo;
+        private System.Windows.Forms.Button button1;
     }
 }
