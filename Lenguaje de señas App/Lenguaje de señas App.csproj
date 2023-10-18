@@ -582,5 +582,35 @@
   <ItemGroup>
     <None Include="Resources\Untitled7_20230810144444.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alfabeto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numeros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rueda-de-color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\familia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dieta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ropa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apreton-de-manos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
