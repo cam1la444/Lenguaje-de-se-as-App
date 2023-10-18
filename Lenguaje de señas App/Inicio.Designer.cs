@@ -317,6 +317,7 @@
             this.btnComida.TabIndex = 26;
             this.btnComida.Text = "Lección 3: Comida";
             this.btnComida.UseVisualStyleBackColor = false;
+            this.btnComida.Click += new System.EventHandler(this.btnComida_Click);
             // 
             // btnColores
             // 
@@ -344,6 +345,7 @@
             this.btnFamilia.TabIndex = 28;
             this.btnFamilia.Text = "Lección 6: Familia";
             this.btnFamilia.UseVisualStyleBackColor = false;
+            this.btnFamilia.Click += new System.EventHandler(this.btnFamilia_Click);
             // 
             // btnTiempo
             // 
@@ -357,6 +359,7 @@
             this.btnTiempo.TabIndex = 29;
             this.btnTiempo.Text = "Lección 5: Tiempo";
             this.btnTiempo.UseVisualStyleBackColor = false;
+            this.btnTiempo.Click += new System.EventHandler(this.btnTiempo_Click);
             // 
             // btnNumeros
             // 

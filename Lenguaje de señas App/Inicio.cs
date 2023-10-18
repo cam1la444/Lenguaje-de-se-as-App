@@ -34,5 +34,23 @@ namespace Lenguaje_de_señas_App
             Colores colores = new Colores();
             colores.ShowDialog();
         }
+
+        private void btnComida_Click(object sender, EventArgs e)
+        {
+            Comida comida = new Comida();
+            comida.ShowDialog();
+        }
+
+        private void btnTiempo_Click(object sender, EventArgs e)
+        {
+            Tiempo tiempo = new Tiempo();
+            tiempo.ShowDialog();
+        }
+
+        private void btnFamilia_Click(object sender, EventArgs e)
+        {
+            Familia familia = new Familia();
+            familia.ShowDialog();
+        }
     }
 }
