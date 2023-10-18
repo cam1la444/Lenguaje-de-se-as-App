@@ -208,7 +208,6 @@
             // btnAbecedario
             // 
             this.btnAbecedario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnAbecedario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAbecedario.FlatAppearance.BorderSize = 0;
             this.btnAbecedario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbecedario.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -383,7 +382,6 @@
             // btnVestuario
             // 
             this.btnVestuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnVestuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVestuario.FlatAppearance.BorderSize = 0;
             this.btnVestuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVestuario.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -397,7 +395,6 @@
             // btnAnimales
             // 
             this.btnAnimales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnAnimales.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAnimales.FlatAppearance.BorderSize = 0;
             this.btnAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnimales.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -411,7 +408,6 @@
             // btnComida
             // 
             this.btnComida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnComida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnComida.FlatAppearance.BorderSize = 0;
             this.btnComida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComida.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -426,7 +422,6 @@
             // btnColores
             // 
             this.btnColores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnColores.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnColores.FlatAppearance.BorderSize = 0;
             this.btnColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnColores.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -441,7 +436,6 @@
             // btnFamilia
             // 
             this.btnFamilia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnFamilia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFamilia.FlatAppearance.BorderSize = 0;
             this.btnFamilia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFamilia.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -456,7 +450,6 @@
             // btnTiempo
             // 
             this.btnTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnTiempo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTiempo.FlatAppearance.BorderSize = 0;
             this.btnTiempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTiempo.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -471,7 +464,6 @@
             // btnNumeros
             // 
             this.btnNumeros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnNumeros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNumeros.FlatAppearance.BorderSize = 0;
             this.btnNumeros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNumeros.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -486,7 +478,6 @@
             // btnPronombres
             // 
             this.btnPronombres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnPronombres.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPronombres.FlatAppearance.BorderSize = 0;
             this.btnPronombres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPronombres.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -500,7 +491,6 @@
             // btnAdjetivos
             // 
             this.btnAdjetivos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnAdjetivos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdjetivos.FlatAppearance.BorderSize = 0;
             this.btnAdjetivos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdjetivos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -514,7 +504,6 @@
             // btnSaludos
             // 
             this.btnSaludos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnSaludos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSaludos.FlatAppearance.BorderSize = 0;
             this.btnSaludos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaludos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -528,7 +517,6 @@
             // btnVerbos
             // 
             this.btnVerbos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.btnVerbos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVerbos.FlatAppearance.BorderSize = 0;
             this.btnVerbos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerbos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
