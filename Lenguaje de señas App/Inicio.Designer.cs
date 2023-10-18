@@ -28,23 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAbecedario = new System.Windows.Forms.Button();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -57,9 +48,20 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnVestuario = new System.Windows.Forms.Button();
+            this.btnAnimales = new System.Windows.Forms.Button();
+            this.btnComida = new System.Windows.Forms.Button();
+            this.btnColores = new System.Windows.Forms.Button();
+            this.btnFamilia = new System.Windows.Forms.Button();
+            this.btnTiempo = new System.Windows.Forms.Button();
+            this.btnNumeros = new System.Windows.Forms.Button();
+            this.btnPronombres = new System.Windows.Forms.Button();
+            this.btnAdjetivos = new System.Windows.Forms.Button();
+            this.btnSaludos = new System.Windows.Forms.Button();
+            this.btnVerbos = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -72,7 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -87,6 +88,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 0;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(214, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 34);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Más información";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(142, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(72, 34);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Tips";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -109,178 +134,34 @@
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
-            // button2
+            // pictureBox1
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(142, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(72, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Tips";
-            this.button2.UseVisualStyleBackColor = true;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // button3
+            // btnAbecedario
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(214, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 34);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Más información";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(40, 179);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 23);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Abecedario";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(159, 179);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 23);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Números";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(287, 179);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(90, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Comida";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(411, 179);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(90, 23);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "Colores";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(535, 179);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(90, 23);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "Tiempo";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(653, 179);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(90, 23);
-            this.button9.TabIndex = 17;
-            this.button9.Text = "Familia";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(40, 354);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(90, 23);
-            this.button10.TabIndex = 18;
-            this.button10.Text = "Animales";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(159, 354);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 23);
-            this.button11.TabIndex = 19;
-            this.button11.Text = "Vestuario";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(287, 354);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(90, 23);
-            this.button12.TabIndex = 20;
-            this.button12.Text = "Pronombres";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(411, 354);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(90, 23);
-            this.button13.TabIndex = 21;
-            this.button13.Text = "Adjetivos";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(535, 354);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(90, 23);
-            this.button14.TabIndex = 22;
-            this.button14.Text = "Verbos";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(653, 354);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(90, 37);
-            this.button15.TabIndex = 23;
-            this.button15.Text = "Frases de cortesía";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btnAbecedario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnAbecedario.FlatAppearance.BorderSize = 0;
+            this.btnAbecedario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbecedario.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbecedario.Location = new System.Drawing.Point(40, 179);
+            this.btnAbecedario.Name = "btnAbecedario";
+            this.btnAbecedario.Size = new System.Drawing.Size(90, 46);
+            this.btnAbecedario.TabIndex = 0;
+            this.btnAbecedario.Text = "Lección 1: Abecedario";
+            this.btnAbecedario.UseVisualStyleBackColor = false;
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = global::Lenguaje_de_señas_App.Properties.Resources.apreton_de_manos;
-            this.pictureBox13.Location = new System.Drawing.Point(653, 258);
+            this.pictureBox13.Location = new System.Drawing.Point(535, 258);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(90, 90);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -289,7 +170,8 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(535, 258);
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(653, 258);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(90, 90);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,6 +180,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(411, 258);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(90, 90);
@@ -387,7 +270,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.alfabeto;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(40, 83);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(90, 90);
@@ -395,16 +278,148 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // btnVestuario
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnVestuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnVestuario.FlatAppearance.BorderSize = 0;
+            this.btnVestuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVestuario.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVestuario.Location = new System.Drawing.Point(159, 354);
+            this.btnVestuario.Name = "btnVestuario";
+            this.btnVestuario.Size = new System.Drawing.Size(90, 46);
+            this.btnVestuario.TabIndex = 24;
+            this.btnVestuario.Text = "Lección 8: Vestimenta";
+            this.btnVestuario.UseVisualStyleBackColor = false;
+            // 
+            // btnAnimales
+            // 
+            this.btnAnimales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnAnimales.FlatAppearance.BorderSize = 0;
+            this.btnAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnimales.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnimales.Location = new System.Drawing.Point(40, 354);
+            this.btnAnimales.Name = "btnAnimales";
+            this.btnAnimales.Size = new System.Drawing.Size(90, 46);
+            this.btnAnimales.TabIndex = 25;
+            this.btnAnimales.Text = "Lección 7: Animales";
+            this.btnAnimales.UseVisualStyleBackColor = false;
+            // 
+            // btnComida
+            // 
+            this.btnComida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnComida.FlatAppearance.BorderSize = 0;
+            this.btnComida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComida.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComida.Location = new System.Drawing.Point(287, 179);
+            this.btnComida.Name = "btnComida";
+            this.btnComida.Size = new System.Drawing.Size(90, 46);
+            this.btnComida.TabIndex = 26;
+            this.btnComida.Text = "Lección 3: Comida";
+            this.btnComida.UseVisualStyleBackColor = false;
+            // 
+            // btnColores
+            // 
+            this.btnColores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnColores.FlatAppearance.BorderSize = 0;
+            this.btnColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColores.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColores.Location = new System.Drawing.Point(411, 179);
+            this.btnColores.Name = "btnColores";
+            this.btnColores.Size = new System.Drawing.Size(90, 46);
+            this.btnColores.TabIndex = 27;
+            this.btnColores.Text = "Lección 4: Colores";
+            this.btnColores.UseVisualStyleBackColor = false;
+            // 
+            // btnFamilia
+            // 
+            this.btnFamilia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnFamilia.FlatAppearance.BorderSize = 0;
+            this.btnFamilia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFamilia.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFamilia.Location = new System.Drawing.Point(653, 179);
+            this.btnFamilia.Name = "btnFamilia";
+            this.btnFamilia.Size = new System.Drawing.Size(90, 46);
+            this.btnFamilia.TabIndex = 28;
+            this.btnFamilia.Text = "Lección 6: Familia";
+            this.btnFamilia.UseVisualStyleBackColor = false;
+            // 
+            // btnTiempo
+            // 
+            this.btnTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnTiempo.FlatAppearance.BorderSize = 0;
+            this.btnTiempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTiempo.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTiempo.Location = new System.Drawing.Point(535, 179);
+            this.btnTiempo.Name = "btnTiempo";
+            this.btnTiempo.Size = new System.Drawing.Size(90, 46);
+            this.btnTiempo.TabIndex = 29;
+            this.btnTiempo.Text = "Lección 5: Tiempo";
+            this.btnTiempo.UseVisualStyleBackColor = false;
+            // 
+            // btnNumeros
+            // 
+            this.btnNumeros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnNumeros.FlatAppearance.BorderSize = 0;
+            this.btnNumeros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNumeros.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNumeros.Location = new System.Drawing.Point(159, 179);
+            this.btnNumeros.Name = "btnNumeros";
+            this.btnNumeros.Size = new System.Drawing.Size(90, 46);
+            this.btnNumeros.TabIndex = 30;
+            this.btnNumeros.Text = "Lección 2: Números";
+            this.btnNumeros.UseVisualStyleBackColor = false;
+            // 
+            // btnPronombres
+            // 
+            this.btnPronombres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnPronombres.FlatAppearance.BorderSize = 0;
+            this.btnPronombres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPronombres.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPronombres.Location = new System.Drawing.Point(287, 354);
+            this.btnPronombres.Name = "btnPronombres";
+            this.btnPronombres.Size = new System.Drawing.Size(90, 46);
+            this.btnPronombres.TabIndex = 32;
+            this.btnPronombres.Text = "Lección 9: Pronombres";
+            this.btnPronombres.UseVisualStyleBackColor = false;
+            // 
+            // btnAdjetivos
+            // 
+            this.btnAdjetivos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnAdjetivos.FlatAppearance.BorderSize = 0;
+            this.btnAdjetivos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdjetivos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdjetivos.Location = new System.Drawing.Point(411, 354);
+            this.btnAdjetivos.Name = "btnAdjetivos";
+            this.btnAdjetivos.Size = new System.Drawing.Size(90, 46);
+            this.btnAdjetivos.TabIndex = 31;
+            this.btnAdjetivos.Text = "Lección 10: Adjetivos";
+            this.btnAdjetivos.UseVisualStyleBackColor = false;
+            // 
+            // btnSaludos
+            // 
+            this.btnSaludos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnSaludos.FlatAppearance.BorderSize = 0;
+            this.btnSaludos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaludos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaludos.Location = new System.Drawing.Point(535, 354);
+            this.btnSaludos.Name = "btnSaludos";
+            this.btnSaludos.Size = new System.Drawing.Size(90, 62);
+            this.btnSaludos.TabIndex = 34;
+            this.btnSaludos.Text = "Lección 11: Frases de Cortesía";
+            this.btnSaludos.UseVisualStyleBackColor = false;
+            // 
+            // btnVerbos
+            // 
+            this.btnVerbos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(204)))), ((int)(((byte)(227)))));
+            this.btnVerbos.FlatAppearance.BorderSize = 0;
+            this.btnVerbos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerbos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerbos.Location = new System.Drawing.Point(653, 354);
+            this.btnVerbos.Name = "btnVerbos";
+            this.btnVerbos.Size = new System.Drawing.Size(90, 46);
+            this.btnVerbos.TabIndex = 33;
+            this.btnVerbos.Text = "Lección 12: Verbos";
+            this.btnVerbos.UseVisualStyleBackColor = false;
             // 
             // Inicio
             // 
@@ -412,15 +427,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnSaludos);
+            this.Controls.Add(this.btnVerbos);
+            this.Controls.Add(this.btnPronombres);
+            this.Controls.Add(this.btnAdjetivos);
+            this.Controls.Add(this.btnNumeros);
+            this.Controls.Add(this.btnTiempo);
+            this.Controls.Add(this.btnFamilia);
+            this.Controls.Add(this.btnColores);
+            this.Controls.Add(this.btnComida);
+            this.Controls.Add(this.btnAnimales);
+            this.Controls.Add(this.btnVestuario);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
@@ -430,11 +447,9 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnAbecedario);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -442,6 +457,7 @@
             this.Text = "Inicio";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -454,7 +470,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -468,11 +483,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAbecedario;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -482,14 +495,16 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button btnVestuario;
+        private System.Windows.Forms.Button btnAnimales;
+        private System.Windows.Forms.Button btnComida;
+        private System.Windows.Forms.Button btnColores;
+        private System.Windows.Forms.Button btnFamilia;
+        private System.Windows.Forms.Button btnTiempo;
+        private System.Windows.Forms.Button btnNumeros;
+        private System.Windows.Forms.Button btnPronombres;
+        private System.Windows.Forms.Button btnAdjetivos;
+        private System.Windows.Forms.Button btnSaludos;
+        private System.Windows.Forms.Button btnVerbos;
     }
 }
