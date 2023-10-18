@@ -57,7 +57,7 @@
             // btnGato
             // 
             this.btnGato.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGato.Location = new System.Drawing.Point(305, 13);
+            this.btnGato.Location = new System.Drawing.Point(321, 12);
             this.btnGato.Name = "btnGato";
             this.btnGato.Size = new System.Drawing.Size(144, 51);
             this.btnGato.TabIndex = 2;

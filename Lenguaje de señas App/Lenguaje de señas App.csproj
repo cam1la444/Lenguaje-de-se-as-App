@@ -64,6 +64,18 @@
     <Compile Include="Colores.Designer.cs">
       <DependentUpon>Colores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comida.Designer.cs">
+      <DependentUpon>Comida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Familia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Familia.Designer.cs">
+      <DependentUpon>Familia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -372,6 +384,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tiempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tiempo.Designer.cs">
+      <DependentUpon>Tiempo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
@@ -380,6 +398,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comida.resx">
+      <DependentUpon>Comida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Familia.resx">
+      <DependentUpon>Familia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -543,6 +567,9 @@
     </Compile>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tiempo.resx">
+      <DependentUpon>Tiempo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
