@@ -16,5 +16,23 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnAbecedario_Click(object sender, EventArgs e)
+        {
+            Abecedario abecedario = new Abecedario();
+            abecedario.ShowDialog();
+        }
+
+        private void btnNumeros_Click(object sender, EventArgs e)
+        {
+            Numeros numeros = new Numeros();
+            numeros.ShowDialog();
+        }
+
+        private void btnColores_Click(object sender, EventArgs e)
+        {
+            Colores colores = new Colores();
+            colores.ShowDialog();
+        }
     }
 }

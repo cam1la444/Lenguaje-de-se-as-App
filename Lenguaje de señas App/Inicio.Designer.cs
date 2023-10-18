@@ -157,6 +157,7 @@
             this.btnAbecedario.TabIndex = 0;
             this.btnAbecedario.Text = "Lección 1: Abecedario";
             this.btnAbecedario.UseVisualStyleBackColor = false;
+            this.btnAbecedario.Click += new System.EventHandler(this.btnAbecedario_Click);
             // 
             // pictureBox13
             // 
@@ -329,6 +330,7 @@
             this.btnColores.TabIndex = 27;
             this.btnColores.Text = "Lección 4: Colores";
             this.btnColores.UseVisualStyleBackColor = false;
+            this.btnColores.Click += new System.EventHandler(this.btnColores_Click);
             // 
             // btnFamilia
             // 
@@ -368,6 +370,7 @@
             this.btnNumeros.TabIndex = 30;
             this.btnNumeros.Text = "Lección 2: Números";
             this.btnNumeros.UseVisualStyleBackColor = false;
+            this.btnNumeros.Click += new System.EventHandler(this.btnNumeros_Click);
             // 
             // btnPronombres
             // 
