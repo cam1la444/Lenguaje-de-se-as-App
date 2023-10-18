@@ -99,7 +99,7 @@
             // btn5
             // 
             this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(744, 71);
+            this.btn5.Location = new System.Drawing.Point(657, 71);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(85, 63);
             this.btn5.TabIndex = 4;
@@ -200,7 +200,7 @@
             // btn80
             // 
             this.btn80.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn80.Location = new System.Drawing.Point(744, 266);
+            this.btn80.Location = new System.Drawing.Point(468, 234);
             this.btn80.Name = "btn80";
             this.btn80.Size = new System.Drawing.Size(85, 63);
             this.btn80.TabIndex = 13;
@@ -255,7 +255,7 @@
             // btn20
             // 
             this.btn20.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn20.Location = new System.Drawing.Point(744, 165);
+            this.btn20.Location = new System.Drawing.Point(607, 176);
             this.btn20.Name = "btn20";
             this.btn20.Size = new System.Drawing.Size(85, 63);
             this.btn20.TabIndex = 18;
