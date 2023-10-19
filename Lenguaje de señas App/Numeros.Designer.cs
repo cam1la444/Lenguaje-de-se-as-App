@@ -327,6 +327,7 @@
             this.Controls.Add(this.btn2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Numeros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numeros";
             this.ResumeLayout(false);
             this.PerformLayout();

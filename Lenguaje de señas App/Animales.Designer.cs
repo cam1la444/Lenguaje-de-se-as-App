@@ -86,6 +86,7 @@
             this.Controls.Add(this.btnPerro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Animales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Animales";
             this.ResumeLayout(false);
 

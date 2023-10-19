@@ -52,5 +52,11 @@ namespace Lenguaje_de_señas_App
             Familia familia = new Familia();
             familia.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Animales animales = new Animales();
+            animales.ShowDialog();
+        }
     }
 }

@@ -234,6 +234,7 @@
             this.Controls.Add(this.botonCircularRojo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Colores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Colores";
             this.ResumeLayout(false);
 
