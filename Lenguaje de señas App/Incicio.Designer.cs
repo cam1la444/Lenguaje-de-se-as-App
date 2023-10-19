@@ -201,6 +201,7 @@
             this.btnNumeros.TabIndex = 13;
             this.btnNumeros.Text = "Lección 2: Números";
             this.btnNumeros.UseVisualStyleBackColor = true;
+            this.btnNumeros.Click += new System.EventHandler(this.btnNumeros_Click);
             // 
             // btnAbecedario
             // 
@@ -216,6 +217,7 @@
             this.btnAbecedario.TabIndex = 14;
             this.btnAbecedario.Text = "Lección 1: Abecedario";
             this.btnAbecedario.UseVisualStyleBackColor = true;
+            this.btnAbecedario.Click += new System.EventHandler(this.btnAbecedario_Click);
             // 
             // btnAdjetivos
             // 
@@ -306,6 +308,7 @@
             this.btnColores.TabIndex = 20;
             this.btnColores.Text = "Lección 3: Colores";
             this.btnColores.UseVisualStyleBackColor = true;
+            this.btnColores.Click += new System.EventHandler(this.btnColores_Click);
             // 
             // btnTiempo
             // 
@@ -321,6 +324,7 @@
             this.btnTiempo.TabIndex = 21;
             this.btnTiempo.Text = "Lección 4: Tiempo";
             this.btnTiempo.UseVisualStyleBackColor = true;
+            this.btnTiempo.Click += new System.EventHandler(this.btnTiempo_Click);
             // 
             // btnFamilia
             // 
@@ -338,6 +342,7 @@
             this.btnFamilia.TabIndex = 22;
             this.btnFamilia.Text = "Lección 6: Familia";
             this.btnFamilia.UseVisualStyleBackColor = false;
+            this.btnFamilia.Click += new System.EventHandler(this.btnFamilia_Click);
             // 
             // btnComida
             // 
@@ -353,6 +358,7 @@
             this.btnComida.TabIndex = 23;
             this.btnComida.Text = "Lección 5: Comida";
             this.btnComida.UseVisualStyleBackColor = true;
+            this.btnComida.Click += new System.EventHandler(this.btnComida_Click);
             // 
             // button1
             // 
