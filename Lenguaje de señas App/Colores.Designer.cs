@@ -42,6 +42,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.botonCircular1 = new Lenguaje_de_señas_App.BotonCircular();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -211,12 +212,23 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // botonCircular1
+            // 
+            this.botonCircular1.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular1.Location = new System.Drawing.Point(93, 45);
+            this.botonCircular1.Name = "botonCircular1";
+            this.botonCircular1.Size = new System.Drawing.Size(85, 88);
+            this.botonCircular1.TabIndex = 14;
+            this.botonCircular1.Text = "botonCircular1";
+            this.botonCircular1.UseVisualStyleBackColor = false;
+            // 
             // Colores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.botonCircular1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -253,5 +265,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private BotonCircular botonCircular1;
     }
 }
