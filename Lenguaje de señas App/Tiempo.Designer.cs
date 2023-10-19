@@ -36,16 +36,21 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnPrima = new System.Windows.Forms.Button();
-            this.btnPrimo = new System.Windows.Forms.Button();
-            this.btnTio = new System.Windows.Forms.Button();
-            this.btnTia = new System.Windows.Forms.Button();
-            this.btnHermana = new System.Windows.Forms.Button();
-            this.btnPapa = new System.Windows.Forms.Button();
-            this.btnAbuela = new System.Windows.Forms.Button();
-            this.btnAbuelo = new System.Windows.Forms.Button();
-            this.btnHermano = new System.Windows.Forms.Button();
-            this.btnMama = new System.Windows.Forms.Button();
+            this.btnMiercoles = new System.Windows.Forms.Button();
+            this.btnJueves = new System.Windows.Forms.Button();
+            this.btnViernes = new System.Windows.Forms.Button();
+            this.btnMartes = new System.Windows.Forms.Button();
+            this.btnLunes = new System.Windows.Forms.Button();
+            this.btnSabado = new System.Windows.Forms.Button();
+            this.btnDomingo = new System.Windows.Forms.Button();
+            this.btnHoy = new System.Windows.Forms.Button();
+            this.btnNextWeek = new System.Windows.Forms.Button();
+            this.btnThisnoche = new System.Windows.Forms.Button();
+            this.btnWeekAgo = new System.Windows.Forms.Button();
+            this.btnThisWeek = new System.Windows.Forms.Button();
+            this.btnAyer = new System.Windows.Forms.Button();
+            this.btnThisTarde = new System.Windows.Forms.Button();
+            this.btnMañana = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -127,7 +132,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(680, 382);
+            this.btnVolver.Location = new System.Drawing.Point(706, 394);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
             this.btnVolver.TabIndex = 39;
@@ -143,159 +148,234 @@
             this.label1.Location = new System.Drawing.Point(275, 48);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 49);
+            this.label1.Size = new System.Drawing.Size(266, 49);
             this.label1.TabIndex = 60;
-            this.label1.Text = "Lección Familia";
+            this.label1.Text = "Lección Tiempo";
             // 
-            // btnPrima
+            // btnMiercoles
             // 
-            this.btnPrima.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrima.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPrima.FlatAppearance.BorderSize = 2;
-            this.btnPrima.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrima.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrima.Location = new System.Drawing.Point(252, 312);
-            this.btnPrima.Name = "btnPrima";
-            this.btnPrima.Size = new System.Drawing.Size(135, 51);
-            this.btnPrima.TabIndex = 59;
-            this.btnPrima.Text = "Prima";
-            this.btnPrima.UseVisualStyleBackColor = true;
+            this.btnMiercoles.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMiercoles.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMiercoles.FlatAppearance.BorderSize = 2;
+            this.btnMiercoles.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMiercoles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMiercoles.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMiercoles.Location = new System.Drawing.Point(240, 222);
+            this.btnMiercoles.Name = "btnMiercoles";
+            this.btnMiercoles.Size = new System.Drawing.Size(135, 51);
+            this.btnMiercoles.TabIndex = 59;
+            this.btnMiercoles.Text = "Miércoles";
+            this.btnMiercoles.UseVisualStyleBackColor = true;
             // 
-            // btnPrimo
+            // btnJueves
             // 
-            this.btnPrimo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrimo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPrimo.FlatAppearance.BorderSize = 2;
-            this.btnPrimo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPrimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrimo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrimo.Location = new System.Drawing.Point(403, 312);
-            this.btnPrimo.Name = "btnPrimo";
-            this.btnPrimo.Size = new System.Drawing.Size(135, 51);
-            this.btnPrimo.TabIndex = 58;
-            this.btnPrimo.Text = "Primo";
-            this.btnPrimo.UseVisualStyleBackColor = true;
+            this.btnJueves.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnJueves.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnJueves.FlatAppearance.BorderSize = 2;
+            this.btnJueves.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnJueves.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJueves.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnJueves.Location = new System.Drawing.Point(86, 301);
+            this.btnJueves.Name = "btnJueves";
+            this.btnJueves.Size = new System.Drawing.Size(135, 51);
+            this.btnJueves.TabIndex = 58;
+            this.btnJueves.Text = "Jueves";
+            this.btnJueves.UseVisualStyleBackColor = true;
             // 
-            // btnTio
+            // btnViernes
             // 
-            this.btnTio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTio.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnTio.FlatAppearance.BorderSize = 2;
-            this.btnTio.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnTio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTio.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnTio.Location = new System.Drawing.Point(557, 312);
-            this.btnTio.Name = "btnTio";
-            this.btnTio.Size = new System.Drawing.Size(135, 51);
-            this.btnTio.TabIndex = 57;
-            this.btnTio.Text = "Tío";
-            this.btnTio.UseVisualStyleBackColor = true;
+            this.btnViernes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnViernes.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnViernes.FlatAppearance.BorderSize = 2;
+            this.btnViernes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnViernes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViernes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnViernes.Location = new System.Drawing.Point(240, 301);
+            this.btnViernes.Name = "btnViernes";
+            this.btnViernes.Size = new System.Drawing.Size(135, 51);
+            this.btnViernes.TabIndex = 57;
+            this.btnViernes.Text = "Viernes";
+            this.btnViernes.UseVisualStyleBackColor = true;
             // 
-            // btnTia
+            // btnMartes
             // 
-            this.btnTia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTia.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnTia.FlatAppearance.BorderSize = 2;
-            this.btnTia.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnTia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTia.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnTia.Location = new System.Drawing.Point(337, 375);
-            this.btnTia.Name = "btnTia";
-            this.btnTia.Size = new System.Drawing.Size(135, 51);
-            this.btnTia.TabIndex = 56;
-            this.btnTia.Text = "Tía";
-            this.btnTia.UseVisualStyleBackColor = true;
+            this.btnMartes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMartes.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMartes.FlatAppearance.BorderSize = 2;
+            this.btnMartes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMartes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMartes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMartes.Location = new System.Drawing.Point(86, 222);
+            this.btnMartes.Name = "btnMartes";
+            this.btnMartes.Size = new System.Drawing.Size(135, 51);
+            this.btnMartes.TabIndex = 55;
+            this.btnMartes.Text = "Martes";
+            this.btnMartes.UseVisualStyleBackColor = true;
             // 
-            // btnHermana
+            // btnLunes
             // 
-            this.btnHermana.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHermana.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnHermana.FlatAppearance.BorderSize = 2;
-            this.btnHermana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnHermana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHermana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnHermana.Location = new System.Drawing.Point(98, 312);
-            this.btnHermana.Name = "btnHermana";
-            this.btnHermana.Size = new System.Drawing.Size(135, 51);
-            this.btnHermana.TabIndex = 55;
-            this.btnHermana.Text = "Hermana";
-            this.btnHermana.UseVisualStyleBackColor = true;
+            this.btnLunes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLunes.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnLunes.FlatAppearance.BorderSize = 2;
+            this.btnLunes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnLunes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLunes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnLunes.Location = new System.Drawing.Point(240, 140);
+            this.btnLunes.Name = "btnLunes";
+            this.btnLunes.Size = new System.Drawing.Size(135, 51);
+            this.btnLunes.TabIndex = 54;
+            this.btnLunes.Text = "Lunes";
+            this.btnLunes.UseVisualStyleBackColor = true;
             // 
-            // btnPapa
+            // btnSabado
             // 
-            this.btnPapa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPapa.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPapa.FlatAppearance.BorderSize = 2;
-            this.btnPapa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPapa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPapa.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPapa.Location = new System.Drawing.Point(252, 171);
-            this.btnPapa.Name = "btnPapa";
-            this.btnPapa.Size = new System.Drawing.Size(135, 51);
-            this.btnPapa.TabIndex = 54;
-            this.btnPapa.Text = "Papá";
-            this.btnPapa.UseVisualStyleBackColor = true;
+            this.btnSabado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSabado.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnSabado.FlatAppearance.BorderSize = 2;
+            this.btnSabado.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnSabado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSabado.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSabado.Location = new System.Drawing.Point(86, 375);
+            this.btnSabado.Name = "btnSabado";
+            this.btnSabado.Size = new System.Drawing.Size(135, 51);
+            this.btnSabado.TabIndex = 53;
+            this.btnSabado.Text = "Sábado";
+            this.btnSabado.UseVisualStyleBackColor = true;
             // 
-            // btnAbuela
+            // btnDomingo
             // 
-            this.btnAbuela.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbuela.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnAbuela.FlatAppearance.BorderSize = 2;
-            this.btnAbuela.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnAbuela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuela.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnAbuela.Location = new System.Drawing.Point(403, 171);
-            this.btnAbuela.Name = "btnAbuela";
-            this.btnAbuela.Size = new System.Drawing.Size(135, 51);
-            this.btnAbuela.TabIndex = 53;
-            this.btnAbuela.Text = "Abuela";
-            this.btnAbuela.UseVisualStyleBackColor = true;
+            this.btnDomingo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDomingo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnDomingo.FlatAppearance.BorderSize = 2;
+            this.btnDomingo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnDomingo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDomingo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDomingo.Location = new System.Drawing.Point(240, 375);
+            this.btnDomingo.Name = "btnDomingo";
+            this.btnDomingo.Size = new System.Drawing.Size(135, 51);
+            this.btnDomingo.TabIndex = 52;
+            this.btnDomingo.Text = "Domingo";
+            this.btnDomingo.UseVisualStyleBackColor = true;
             // 
-            // btnAbuelo
+            // btnHoy
             // 
-            this.btnAbuelo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbuelo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnAbuelo.FlatAppearance.BorderSize = 2;
-            this.btnAbuelo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnAbuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuelo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnAbuelo.Location = new System.Drawing.Point(557, 171);
-            this.btnAbuelo.Name = "btnAbuelo";
-            this.btnAbuelo.Size = new System.Drawing.Size(135, 51);
-            this.btnAbuelo.TabIndex = 52;
-            this.btnAbuelo.Text = "Abuelo";
-            this.btnAbuelo.UseVisualStyleBackColor = true;
+            this.btnHoy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoy.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnHoy.FlatAppearance.BorderSize = 2;
+            this.btnHoy.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnHoy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHoy.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHoy.Location = new System.Drawing.Point(86, 140);
+            this.btnHoy.Name = "btnHoy";
+            this.btnHoy.Size = new System.Drawing.Size(135, 51);
+            this.btnHoy.TabIndex = 50;
+            this.btnHoy.Text = "Hoy";
+            this.btnHoy.UseVisualStyleBackColor = true;
             // 
-            // btnHermano
+            // btnNextWeek
             // 
-            this.btnHermano.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHermano.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnHermano.FlatAppearance.BorderSize = 2;
-            this.btnHermano.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnHermano.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHermano.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnHermano.Location = new System.Drawing.Point(337, 242);
-            this.btnHermano.Name = "btnHermano";
-            this.btnHermano.Size = new System.Drawing.Size(135, 51);
-            this.btnHermano.TabIndex = 51;
-            this.btnHermano.Text = "Hermano";
-            this.btnHermano.UseVisualStyleBackColor = true;
+            this.btnNextWeek.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNextWeek.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnNextWeek.FlatAppearance.BorderSize = 2;
+            this.btnNextWeek.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnNextWeek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNextWeek.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnNextWeek.Location = new System.Drawing.Point(411, 301);
+            this.btnNextWeek.Name = "btnNextWeek";
+            this.btnNextWeek.Size = new System.Drawing.Size(135, 64);
+            this.btnNextWeek.TabIndex = 68;
+            this.btnNextWeek.Text = "Próxima Semana";
+            this.btnNextWeek.UseVisualStyleBackColor = true;
             // 
-            // btnMama
+            // btnThisnoche
             // 
-            this.btnMama.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMama.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnMama.FlatAppearance.BorderSize = 2;
-            this.btnMama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnMama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMama.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMama.Location = new System.Drawing.Point(98, 171);
-            this.btnMama.Name = "btnMama";
-            this.btnMama.Size = new System.Drawing.Size(135, 51);
-            this.btnMama.TabIndex = 50;
-            this.btnMama.Text = "Mamá";
-            this.btnMama.UseVisualStyleBackColor = true;
+            this.btnThisnoche.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThisnoche.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnThisnoche.FlatAppearance.BorderSize = 2;
+            this.btnThisnoche.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnThisnoche.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThisnoche.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisnoche.Location = new System.Drawing.Point(499, 375);
+            this.btnThisnoche.Name = "btnThisnoche";
+            this.btnThisnoche.Size = new System.Drawing.Size(135, 51);
+            this.btnThisnoche.TabIndex = 67;
+            this.btnThisnoche.Text = "Esta Noche";
+            this.btnThisnoche.UseVisualStyleBackColor = true;
+            // 
+            // btnWeekAgo
+            // 
+            this.btnWeekAgo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWeekAgo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnWeekAgo.FlatAppearance.BorderSize = 2;
+            this.btnWeekAgo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnWeekAgo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWeekAgo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnWeekAgo.Location = new System.Drawing.Point(565, 297);
+            this.btnWeekAgo.Name = "btnWeekAgo";
+            this.btnWeekAgo.Size = new System.Drawing.Size(135, 68);
+            this.btnWeekAgo.TabIndex = 66;
+            this.btnWeekAgo.Text = "Semana Pasada";
+            this.btnWeekAgo.UseVisualStyleBackColor = true;
+            // 
+            // btnThisWeek
+            // 
+            this.btnThisWeek.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThisWeek.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnThisWeek.FlatAppearance.BorderSize = 2;
+            this.btnThisWeek.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnThisWeek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThisWeek.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisWeek.Location = new System.Drawing.Point(411, 222);
+            this.btnThisWeek.Name = "btnThisWeek";
+            this.btnThisWeek.Size = new System.Drawing.Size(135, 51);
+            this.btnThisWeek.TabIndex = 65;
+            this.btnThisWeek.Text = "Esta Semana";
+            this.btnThisWeek.UseVisualStyleBackColor = true;
+            // 
+            // btnAyer
+            // 
+            this.btnAyer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAyer.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnAyer.FlatAppearance.BorderSize = 2;
+            this.btnAyer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnAyer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAyer.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAyer.Location = new System.Drawing.Point(565, 140);
+            this.btnAyer.Name = "btnAyer";
+            this.btnAyer.Size = new System.Drawing.Size(135, 51);
+            this.btnAyer.TabIndex = 64;
+            this.btnAyer.Text = "Ayer";
+            this.btnAyer.UseVisualStyleBackColor = true;
+            // 
+            // btnThisTarde
+            // 
+            this.btnThisTarde.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThisTarde.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnThisTarde.FlatAppearance.BorderSize = 2;
+            this.btnThisTarde.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnThisTarde.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThisTarde.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisTarde.Location = new System.Drawing.Point(565, 222);
+            this.btnThisTarde.Name = "btnThisTarde";
+            this.btnThisTarde.Size = new System.Drawing.Size(135, 51);
+            this.btnThisTarde.TabIndex = 63;
+            this.btnThisTarde.Text = "Esta Tarde";
+            this.btnThisTarde.UseVisualStyleBackColor = true;
+            // 
+            // btnMañana
+            // 
+            this.btnMañana.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMañana.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMañana.FlatAppearance.BorderSize = 2;
+            this.btnMañana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMañana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMañana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMañana.Location = new System.Drawing.Point(411, 140);
+            this.btnMañana.Name = "btnMañana";
+            this.btnMañana.Size = new System.Drawing.Size(135, 51);
+            this.btnMañana.TabIndex = 61;
+            this.btnMañana.Text = "Mañana";
+            this.btnMañana.UseVisualStyleBackColor = true;
             // 
             // Tiempo
             // 
@@ -303,17 +383,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.btnNextWeek);
+            this.Controls.Add(this.btnThisnoche);
+            this.Controls.Add(this.btnWeekAgo);
+            this.Controls.Add(this.btnThisWeek);
+            this.Controls.Add(this.btnAyer);
+            this.Controls.Add(this.btnThisTarde);
+            this.Controls.Add(this.btnMañana);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnPrima);
-            this.Controls.Add(this.btnPrimo);
-            this.Controls.Add(this.btnTio);
-            this.Controls.Add(this.btnTia);
-            this.Controls.Add(this.btnHermana);
-            this.Controls.Add(this.btnPapa);
-            this.Controls.Add(this.btnAbuela);
-            this.Controls.Add(this.btnAbuelo);
-            this.Controls.Add(this.btnHermano);
-            this.Controls.Add(this.btnMama);
+            this.Controls.Add(this.btnMiercoles);
+            this.Controls.Add(this.btnJueves);
+            this.Controls.Add(this.btnViernes);
+            this.Controls.Add(this.btnMartes);
+            this.Controls.Add(this.btnLunes);
+            this.Controls.Add(this.btnSabado);
+            this.Controls.Add(this.btnDomingo);
+            this.Controls.Add(this.btnHoy);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -338,15 +423,20 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnPrima;
-        private System.Windows.Forms.Button btnPrimo;
-        private System.Windows.Forms.Button btnTio;
-        private System.Windows.Forms.Button btnTia;
-        private System.Windows.Forms.Button btnHermana;
-        private System.Windows.Forms.Button btnPapa;
-        private System.Windows.Forms.Button btnAbuela;
-        private System.Windows.Forms.Button btnAbuelo;
-        private System.Windows.Forms.Button btnHermano;
-        private System.Windows.Forms.Button btnMama;
+        private System.Windows.Forms.Button btnMiercoles;
+        private System.Windows.Forms.Button btnJueves;
+        private System.Windows.Forms.Button btnViernes;
+        private System.Windows.Forms.Button btnMartes;
+        private System.Windows.Forms.Button btnLunes;
+        private System.Windows.Forms.Button btnSabado;
+        private System.Windows.Forms.Button btnDomingo;
+        private System.Windows.Forms.Button btnHoy;
+        private System.Windows.Forms.Button btnNextWeek;
+        private System.Windows.Forms.Button btnThisnoche;
+        private System.Windows.Forms.Button btnWeekAgo;
+        private System.Windows.Forms.Button btnThisWeek;
+        private System.Windows.Forms.Button btnAyer;
+        private System.Windows.Forms.Button btnThisTarde;
+        private System.Windows.Forms.Button btnMañana;
     }
 }
