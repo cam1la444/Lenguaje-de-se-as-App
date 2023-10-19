@@ -58,6 +58,9 @@
     <Compile Include="Animales.Designer.cs">
       <DependentUpon>Animales.cs</DependentUpon>
     </Compile>
+    <Compile Include="BotonCircular.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
     </Compile>
