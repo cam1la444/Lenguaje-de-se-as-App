@@ -34,11 +34,18 @@
             this.btnMasInfo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnNutria = new System.Windows.Forms.Button();
-            this.btnGato = new System.Windows.Forms.Button();
-            this.btnJirafa = new System.Windows.Forms.Button();
-            this.btnPerro = new System.Windows.Forms.Button();
+            this.btnMama = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.btnHermano = new System.Windows.Forms.Button();
+            this.btnAbuelo = new System.Windows.Forms.Button();
+            this.btnAbuela = new System.Windows.Forms.Button();
+            this.btnPapa = new System.Windows.Forms.Button();
+            this.btnPrima = new System.Windows.Forms.Button();
+            this.btnPrimo = new System.Windows.Forms.Button();
+            this.btnTio = new System.Windows.Forms.Button();
+            this.btnTia = new System.Windows.Forms.Button();
+            this.btnHermana = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -115,45 +122,20 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // btnNutria
+            // btnMama
             // 
-            this.btnNutria.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNutria.Location = new System.Drawing.Point(561, 142);
-            this.btnNutria.Name = "btnNutria";
-            this.btnNutria.Size = new System.Drawing.Size(130, 51);
-            this.btnNutria.TabIndex = 25;
-            this.btnNutria.Text = "Nutria";
-            this.btnNutria.UseVisualStyleBackColor = true;
-            // 
-            // btnGato
-            // 
-            this.btnGato.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGato.Location = new System.Drawing.Point(399, 142);
-            this.btnGato.Name = "btnGato";
-            this.btnGato.Size = new System.Drawing.Size(144, 51);
-            this.btnGato.TabIndex = 24;
-            this.btnGato.Text = "Gato";
-            this.btnGato.UseVisualStyleBackColor = true;
-            // 
-            // btnJirafa
-            // 
-            this.btnJirafa.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJirafa.Location = new System.Drawing.Point(233, 143);
-            this.btnJirafa.Name = "btnJirafa";
-            this.btnJirafa.Size = new System.Drawing.Size(143, 51);
-            this.btnJirafa.TabIndex = 23;
-            this.btnJirafa.Text = "Jirafa";
-            this.btnJirafa.UseVisualStyleBackColor = true;
-            // 
-            // btnPerro
-            // 
-            this.btnPerro.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerro.Location = new System.Drawing.Point(91, 143);
-            this.btnPerro.Name = "btnPerro";
-            this.btnPerro.Size = new System.Drawing.Size(135, 51);
-            this.btnPerro.TabIndex = 22;
-            this.btnPerro.Text = "Perro";
-            this.btnPerro.UseVisualStyleBackColor = true;
+            this.btnMama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMama.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMama.FlatAppearance.BorderSize = 2;
+            this.btnMama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMama.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMama.Location = new System.Drawing.Point(91, 160);
+            this.btnMama.Name = "btnMama";
+            this.btnMama.Size = new System.Drawing.Size(135, 51);
+            this.btnMama.TabIndex = 22;
+            this.btnMama.Text = "Mamá";
+            this.btnMama.UseVisualStyleBackColor = true;
             // 
             // btnVolver
             // 
@@ -168,17 +150,171 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // btnHermano
+            // 
+            this.btnHermano.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHermano.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnHermano.FlatAppearance.BorderSize = 2;
+            this.btnHermano.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnHermano.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHermano.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHermano.Location = new System.Drawing.Point(330, 231);
+            this.btnHermano.Name = "btnHermano";
+            this.btnHermano.Size = new System.Drawing.Size(135, 51);
+            this.btnHermano.TabIndex = 40;
+            this.btnHermano.Text = "Hermano";
+            this.btnHermano.UseVisualStyleBackColor = true;
+            // 
+            // btnAbuelo
+            // 
+            this.btnAbuelo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbuelo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnAbuelo.FlatAppearance.BorderSize = 2;
+            this.btnAbuelo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnAbuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbuelo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAbuelo.Location = new System.Drawing.Point(550, 160);
+            this.btnAbuelo.Name = "btnAbuelo";
+            this.btnAbuelo.Size = new System.Drawing.Size(135, 51);
+            this.btnAbuelo.TabIndex = 41;
+            this.btnAbuelo.Text = "Abuelo";
+            this.btnAbuelo.UseVisualStyleBackColor = true;
+            // 
+            // btnAbuela
+            // 
+            this.btnAbuela.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbuela.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnAbuela.FlatAppearance.BorderSize = 2;
+            this.btnAbuela.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnAbuela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbuela.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAbuela.Location = new System.Drawing.Point(396, 160);
+            this.btnAbuela.Name = "btnAbuela";
+            this.btnAbuela.Size = new System.Drawing.Size(135, 51);
+            this.btnAbuela.TabIndex = 42;
+            this.btnAbuela.Text = "Abuela";
+            this.btnAbuela.UseVisualStyleBackColor = true;
+            // 
+            // btnPapa
+            // 
+            this.btnPapa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPapa.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPapa.FlatAppearance.BorderSize = 2;
+            this.btnPapa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPapa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPapa.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPapa.Location = new System.Drawing.Point(245, 160);
+            this.btnPapa.Name = "btnPapa";
+            this.btnPapa.Size = new System.Drawing.Size(135, 51);
+            this.btnPapa.TabIndex = 43;
+            this.btnPapa.Text = "Papá";
+            this.btnPapa.UseVisualStyleBackColor = true;
+            // 
+            // btnPrima
+            // 
+            this.btnPrima.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrima.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPrima.FlatAppearance.BorderSize = 2;
+            this.btnPrima.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrima.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrima.Location = new System.Drawing.Point(245, 301);
+            this.btnPrima.Name = "btnPrima";
+            this.btnPrima.Size = new System.Drawing.Size(135, 51);
+            this.btnPrima.TabIndex = 48;
+            this.btnPrima.Text = "Prima";
+            this.btnPrima.UseVisualStyleBackColor = true;
+            // 
+            // btnPrimo
+            // 
+            this.btnPrimo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrimo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPrimo.FlatAppearance.BorderSize = 2;
+            this.btnPrimo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPrimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrimo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrimo.Location = new System.Drawing.Point(396, 301);
+            this.btnPrimo.Name = "btnPrimo";
+            this.btnPrimo.Size = new System.Drawing.Size(135, 51);
+            this.btnPrimo.TabIndex = 47;
+            this.btnPrimo.Text = "Primo";
+            this.btnPrimo.UseVisualStyleBackColor = true;
+            // 
+            // btnTio
+            // 
+            this.btnTio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTio.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnTio.FlatAppearance.BorderSize = 2;
+            this.btnTio.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnTio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTio.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTio.Location = new System.Drawing.Point(550, 301);
+            this.btnTio.Name = "btnTio";
+            this.btnTio.Size = new System.Drawing.Size(135, 51);
+            this.btnTio.TabIndex = 46;
+            this.btnTio.Text = "Tío";
+            this.btnTio.UseVisualStyleBackColor = true;
+            // 
+            // btnTia
+            // 
+            this.btnTia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTia.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnTia.FlatAppearance.BorderSize = 2;
+            this.btnTia.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnTia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTia.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTia.Location = new System.Drawing.Point(330, 364);
+            this.btnTia.Name = "btnTia";
+            this.btnTia.Size = new System.Drawing.Size(135, 51);
+            this.btnTia.TabIndex = 45;
+            this.btnTia.Text = "Tía";
+            this.btnTia.UseVisualStyleBackColor = true;
+            // 
+            // btnHermana
+            // 
+            this.btnHermana.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHermana.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnHermana.FlatAppearance.BorderSize = 2;
+            this.btnHermana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnHermana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHermana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHermana.Location = new System.Drawing.Point(91, 301);
+            this.btnHermana.Name = "btnHermana";
+            this.btnHermana.Size = new System.Drawing.Size(135, 51);
+            this.btnHermana.TabIndex = 44;
+            this.btnHermana.Text = "Hermana";
+            this.btnHermana.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(268, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(263, 49);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "Lección Familia";
+            // 
             // Familia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnPrima);
+            this.Controls.Add(this.btnPrimo);
+            this.Controls.Add(this.btnTio);
+            this.Controls.Add(this.btnTia);
+            this.Controls.Add(this.btnHermana);
+            this.Controls.Add(this.btnPapa);
+            this.Controls.Add(this.btnAbuela);
+            this.Controls.Add(this.btnAbuelo);
+            this.Controls.Add(this.btnHermano);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.btnNutria);
-            this.Controls.Add(this.btnGato);
-            this.Controls.Add(this.btnJirafa);
-            this.Controls.Add(this.btnPerro);
+            this.Controls.Add(this.btnMama);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Familia";
@@ -188,6 +324,7 @@
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -199,10 +336,17 @@
         private System.Windows.Forms.Button btnMasInfo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btnNutria;
-        private System.Windows.Forms.Button btnGato;
-        private System.Windows.Forms.Button btnJirafa;
-        private System.Windows.Forms.Button btnPerro;
+        private System.Windows.Forms.Button btnMama;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnHermano;
+        private System.Windows.Forms.Button btnAbuelo;
+        private System.Windows.Forms.Button btnAbuela;
+        private System.Windows.Forms.Button btnPapa;
+        private System.Windows.Forms.Button btnPrima;
+        private System.Windows.Forms.Button btnPrimo;
+        private System.Windows.Forms.Button btnTio;
+        private System.Windows.Forms.Button btnTia;
+        private System.Windows.Forms.Button btnHermana;
+        private System.Windows.Forms.Label label1;
     }
 }
