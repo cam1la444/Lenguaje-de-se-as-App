@@ -53,6 +53,12 @@
             this.btnFamilia = new System.Windows.Forms.Button();
             this.btnComida = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnMasInfo = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -65,12 +71,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Lenguaje_de_señas_App.Properties.Resources.dieta;
-            this.pictureBox1.Location = new System.Drawing.Point(529, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(530, 96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(87, 82);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +89,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.apreton_de_manos;
-            this.pictureBox2.Location = new System.Drawing.Point(529, 242);
+            this.pictureBox2.Location = new System.Drawing.Point(530, 267);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(87, 82);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,7 +99,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Lenguaje_de_señas_App.Properties.Resources.familia;
-            this.pictureBox3.Location = new System.Drawing.Point(652, 71);
+            this.pictureBox3.Location = new System.Drawing.Point(653, 96);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(87, 82);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -100,7 +109,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(51, 71);
+            this.pictureBox4.Location = new System.Drawing.Point(52, 96);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(87, 82);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +119,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Lenguaje_de_señas_App.Properties.Resources.ropa;
-            this.pictureBox5.Location = new System.Drawing.Point(170, 242);
+            this.pictureBox5.Location = new System.Drawing.Point(171, 267);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(87, 82);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +129,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Lenguaje_de_señas_App.Properties.Resources.numeros;
-            this.pictureBox6.Location = new System.Drawing.Point(170, 71);
+            this.pictureBox6.Location = new System.Drawing.Point(171, 96);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(87, 82);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +139,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Lenguaje_de_señas_App.Properties.Resources.rueda_de_color;
-            this.pictureBox7.Location = new System.Drawing.Point(289, 71);
+            this.pictureBox7.Location = new System.Drawing.Point(290, 96);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(87, 82);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,7 +149,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Lenguaje_de_señas_App.Properties.Resources.ganado;
-            this.pictureBox8.Location = new System.Drawing.Point(51, 242);
+            this.pictureBox8.Location = new System.Drawing.Point(52, 267);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(87, 82);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,7 +159,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(407, 242);
+            this.pictureBox9.Location = new System.Drawing.Point(408, 267);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(87, 82);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -160,7 +169,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Lenguaje_de_señas_App.Properties.Resources.calendario;
-            this.pictureBox10.Location = new System.Drawing.Point(407, 71);
+            this.pictureBox10.Location = new System.Drawing.Point(408, 96);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(87, 82);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -170,7 +179,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Lenguaje_de_señas_App.Properties.Resources.pregunta;
-            this.pictureBox11.Location = new System.Drawing.Point(289, 242);
+            this.pictureBox11.Location = new System.Drawing.Point(290, 267);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(87, 82);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -180,7 +189,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(652, 242);
+            this.pictureBox12.Location = new System.Drawing.Point(653, 267);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(87, 82);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -195,7 +204,7 @@
             this.btnNumeros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnNumeros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNumeros.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNumeros.Location = new System.Drawing.Point(170, 159);
+            this.btnNumeros.Location = new System.Drawing.Point(171, 184);
             this.btnNumeros.Name = "btnNumeros";
             this.btnNumeros.Size = new System.Drawing.Size(87, 47);
             this.btnNumeros.TabIndex = 13;
@@ -211,7 +220,7 @@
             this.btnAbecedario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnAbecedario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbecedario.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbecedario.Location = new System.Drawing.Point(51, 159);
+            this.btnAbecedario.Location = new System.Drawing.Point(52, 184);
             this.btnAbecedario.Name = "btnAbecedario";
             this.btnAbecedario.Size = new System.Drawing.Size(87, 47);
             this.btnAbecedario.TabIndex = 14;
@@ -227,7 +236,7 @@
             this.btnAdjetivos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnAdjetivos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdjetivos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdjetivos.Location = new System.Drawing.Point(652, 330);
+            this.btnAdjetivos.Location = new System.Drawing.Point(653, 355);
             this.btnAdjetivos.Name = "btnAdjetivos";
             this.btnAdjetivos.Size = new System.Drawing.Size(87, 47);
             this.btnAdjetivos.TabIndex = 15;
@@ -242,7 +251,7 @@
             this.btnSaludos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnSaludos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaludos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaludos.Location = new System.Drawing.Point(529, 330);
+            this.btnSaludos.Location = new System.Drawing.Point(530, 355);
             this.btnSaludos.Name = "btnSaludos";
             this.btnSaludos.Size = new System.Drawing.Size(87, 47);
             this.btnSaludos.TabIndex = 16;
@@ -257,7 +266,7 @@
             this.btnVerbos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnVerbos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerbos.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerbos.Location = new System.Drawing.Point(407, 330);
+            this.btnVerbos.Location = new System.Drawing.Point(408, 355);
             this.btnVerbos.Name = "btnVerbos";
             this.btnVerbos.Size = new System.Drawing.Size(87, 47);
             this.btnVerbos.TabIndex = 17;
@@ -272,7 +281,7 @@
             this.btnPronombres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnPronombres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPronombres.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPronombres.Location = new System.Drawing.Point(289, 330);
+            this.btnPronombres.Location = new System.Drawing.Point(290, 355);
             this.btnPronombres.Name = "btnPronombres";
             this.btnPronombres.Size = new System.Drawing.Size(87, 47);
             this.btnPronombres.TabIndex = 18;
@@ -287,7 +296,7 @@
             this.btnVestimenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnVestimenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVestimenta.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVestimenta.Location = new System.Drawing.Point(170, 330);
+            this.btnVestimenta.Location = new System.Drawing.Point(171, 355);
             this.btnVestimenta.Name = "btnVestimenta";
             this.btnVestimenta.Size = new System.Drawing.Size(87, 47);
             this.btnVestimenta.TabIndex = 19;
@@ -302,7 +311,7 @@
             this.btnColores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnColores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnColores.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColores.Location = new System.Drawing.Point(289, 159);
+            this.btnColores.Location = new System.Drawing.Point(290, 184);
             this.btnColores.Name = "btnColores";
             this.btnColores.Size = new System.Drawing.Size(87, 47);
             this.btnColores.TabIndex = 20;
@@ -318,7 +327,7 @@
             this.btnTiempo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnTiempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTiempo.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiempo.Location = new System.Drawing.Point(407, 159);
+            this.btnTiempo.Location = new System.Drawing.Point(408, 184);
             this.btnTiempo.Name = "btnTiempo";
             this.btnTiempo.Size = new System.Drawing.Size(87, 47);
             this.btnTiempo.TabIndex = 21;
@@ -336,7 +345,7 @@
             this.btnFamilia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFamilia.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFamilia.ForeColor = System.Drawing.Color.Black;
-            this.btnFamilia.Location = new System.Drawing.Point(652, 159);
+            this.btnFamilia.Location = new System.Drawing.Point(653, 184);
             this.btnFamilia.Name = "btnFamilia";
             this.btnFamilia.Size = new System.Drawing.Size(87, 47);
             this.btnFamilia.TabIndex = 22;
@@ -352,7 +361,7 @@
             this.btnComida.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.btnComida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComida.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComida.Location = new System.Drawing.Point(529, 159);
+            this.btnComida.Location = new System.Drawing.Point(530, 184);
             this.btnComida.Name = "btnComida";
             this.btnComida.Size = new System.Drawing.Size(87, 47);
             this.btnComida.TabIndex = 23;
@@ -368,7 +377,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(51, 330);
+            this.button1.Location = new System.Drawing.Point(52, 355);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 47);
             this.button1.TabIndex = 24;
@@ -376,12 +385,84 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(752, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(38, 34);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Controls.Add(this.btnMasInfo);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(790, 34);
+            this.panel1.TabIndex = 25;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Location = new System.Drawing.Point(668, 0);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(84, 34);
+            this.btnLogin.TabIndex = 5;
+            this.btnLogin.Text = "Iniciar sesión";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
+            // btnMasInfo
+            // 
+            this.btnMasInfo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnMasInfo.FlatAppearance.BorderSize = 0;
+            this.btnMasInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInfo.Location = new System.Drawing.Point(40, 0);
+            this.btnMasInfo.Name = "btnMasInfo";
+            this.btnMasInfo.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInfo.TabIndex = 2;
+            this.btnMasInfo.Text = "Más información";
+            this.btnMasInfo.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox13);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(40, 34);
+            this.panel2.TabIndex = 1;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox13.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
             // Incicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(774, 403);
+            this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnComida);
             this.Controls.Add(this.btnFamilia);
@@ -406,6 +487,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Incicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
@@ -421,6 +503,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -451,5 +536,11 @@
         private System.Windows.Forms.Button btnFamilia;
         private System.Windows.Forms.Button btnComida;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnMasInfo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox13;
     }
 }

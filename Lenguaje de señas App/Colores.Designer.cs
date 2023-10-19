@@ -28,77 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.botonCircularRojo = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircularAzul = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircularBlanco = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircularNegro = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircular6 = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircular5 = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircular7 = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircular8 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular1 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular2 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular3 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular4 = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircular5 = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircular7 = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircular8 = new Lenguaje_de_señas_App.BotonCircular();
-            this.botonCircular6 = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircularNegro = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircularBlanco = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircularAzul = new Lenguaje_de_señas_App.BotonCircular();
+            this.botonCircularRojo = new Lenguaje_de_señas_App.BotonCircular();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnMasInfo = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // botonCircularRojo
+            // botonCircular6
             // 
-            this.botonCircularRojo.BackColor = System.Drawing.Color.Red;
-            this.botonCircularRojo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircularRojo.FlatAppearance.BorderSize = 0;
-            this.botonCircularRojo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircularRojo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCircularRojo.Location = new System.Drawing.Point(94, 111);
-            this.botonCircularRojo.Name = "botonCircularRojo";
-            this.botonCircularRojo.Size = new System.Drawing.Size(85, 88);
-            this.botonCircularRojo.TabIndex = 14;
-            this.botonCircularRojo.Text = "Rojo";
-            this.botonCircularRojo.UseVisualStyleBackColor = false;
+            this.botonCircular6.BackColor = System.Drawing.Color.DarkOrange;
+            this.botonCircular6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircular6.FlatAppearance.BorderSize = 0;
+            this.botonCircular6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircular6.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircular6.Location = new System.Drawing.Point(470, 334);
+            this.botonCircular6.Name = "botonCircular6";
+            this.botonCircular6.Size = new System.Drawing.Size(85, 88);
+            this.botonCircular6.TabIndex = 26;
+            this.botonCircular6.Text = "Naranja";
+            this.botonCircular6.UseVisualStyleBackColor = false;
             // 
-            // botonCircularAzul
+            // botonCircular5
             // 
-            this.botonCircularAzul.BackColor = System.Drawing.Color.Navy;
-            this.botonCircularAzul.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircularAzul.FlatAppearance.BorderSize = 0;
-            this.botonCircularAzul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircularAzul.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularAzul.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.botonCircularAzul.Location = new System.Drawing.Point(605, 110);
-            this.botonCircularAzul.Name = "botonCircularAzul";
-            this.botonCircularAzul.Size = new System.Drawing.Size(85, 88);
-            this.botonCircularAzul.TabIndex = 15;
-            this.botonCircularAzul.Text = "Azul";
-            this.botonCircularAzul.UseVisualStyleBackColor = false;
+            this.botonCircular5.BackColor = System.Drawing.Color.MediumOrchid;
+            this.botonCircular5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircular5.FlatAppearance.BorderSize = 0;
+            this.botonCircular5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircular5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircular5.Location = new System.Drawing.Point(246, 334);
+            this.botonCircular5.Name = "botonCircular5";
+            this.botonCircular5.Size = new System.Drawing.Size(85, 88);
+            this.botonCircular5.TabIndex = 25;
+            this.botonCircular5.Text = "Morado";
+            this.botonCircular5.UseVisualStyleBackColor = false;
             // 
-            // botonCircularBlanco
+            // botonCircular7
             // 
-            this.botonCircularBlanco.BackColor = System.Drawing.Color.White;
-            this.botonCircularBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircularBlanco.FlatAppearance.BorderSize = 0;
-            this.botonCircularBlanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircularBlanco.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularBlanco.Location = new System.Drawing.Point(470, 110);
-            this.botonCircularBlanco.Name = "botonCircularBlanco";
-            this.botonCircularBlanco.Size = new System.Drawing.Size(85, 88);
-            this.botonCircularBlanco.TabIndex = 16;
-            this.botonCircularBlanco.Text = "Blanco";
-            this.botonCircularBlanco.UseVisualStyleBackColor = false;
+            this.botonCircular7.BackColor = System.Drawing.Color.Silver;
+            this.botonCircular7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircular7.FlatAppearance.BorderSize = 0;
+            this.botonCircular7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircular7.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircular7.Location = new System.Drawing.Point(605, 334);
+            this.botonCircular7.Name = "botonCircular7";
+            this.botonCircular7.Size = new System.Drawing.Size(85, 88);
+            this.botonCircular7.TabIndex = 23;
+            this.botonCircular7.Text = "Gris";
+            this.botonCircular7.UseVisualStyleBackColor = false;
             // 
-            // botonCircularNegro
+            // botonCircular8
             // 
-            this.botonCircularNegro.BackColor = System.Drawing.Color.Black;
-            this.botonCircularNegro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircularNegro.FlatAppearance.BorderSize = 0;
-            this.botonCircularNegro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircularNegro.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularNegro.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.botonCircularNegro.Location = new System.Drawing.Point(246, 111);
-            this.botonCircularNegro.Name = "botonCircularNegro";
-            this.botonCircularNegro.Size = new System.Drawing.Size(85, 88);
-            this.botonCircularNegro.TabIndex = 17;
-            this.botonCircularNegro.Text = "Negro";
-            this.botonCircularNegro.UseVisualStyleBackColor = false;
+            this.botonCircular8.BackColor = System.Drawing.Color.SkyBlue;
+            this.botonCircular8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircular8.FlatAppearance.BorderSize = 0;
+            this.botonCircular8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircular8.Font = new System.Drawing.Font("HP Simplified", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonCircular8.Location = new System.Drawing.Point(94, 335);
+            this.botonCircular8.Name = "botonCircular8";
+            this.botonCircular8.Size = new System.Drawing.Size(85, 88);
+            this.botonCircular8.TabIndex = 22;
+            this.botonCircular8.Text = "Celeste";
+            this.botonCircular8.UseVisualStyleBackColor = false;
             // 
             // botonCircular1
             // 
@@ -158,61 +165,134 @@
             this.botonCircular4.Text = "Amarillo";
             this.botonCircular4.UseVisualStyleBackColor = false;
             // 
-            // botonCircular5
+            // botonCircularNegro
             // 
-            this.botonCircular5.BackColor = System.Drawing.Color.MediumOrchid;
-            this.botonCircular5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircular5.FlatAppearance.BorderSize = 0;
-            this.botonCircular5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircular5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular5.Location = new System.Drawing.Point(246, 334);
-            this.botonCircular5.Name = "botonCircular5";
-            this.botonCircular5.Size = new System.Drawing.Size(85, 88);
-            this.botonCircular5.TabIndex = 25;
-            this.botonCircular5.Text = "Morado";
-            this.botonCircular5.UseVisualStyleBackColor = false;
+            this.botonCircularNegro.BackColor = System.Drawing.Color.Black;
+            this.botonCircularNegro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircularNegro.FlatAppearance.BorderSize = 0;
+            this.botonCircularNegro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircularNegro.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircularNegro.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.botonCircularNegro.Location = new System.Drawing.Point(246, 111);
+            this.botonCircularNegro.Name = "botonCircularNegro";
+            this.botonCircularNegro.Size = new System.Drawing.Size(85, 88);
+            this.botonCircularNegro.TabIndex = 17;
+            this.botonCircularNegro.Text = "Negro";
+            this.botonCircularNegro.UseVisualStyleBackColor = false;
             // 
-            // botonCircular7
+            // botonCircularBlanco
             // 
-            this.botonCircular7.BackColor = System.Drawing.Color.Silver;
-            this.botonCircular7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircular7.FlatAppearance.BorderSize = 0;
-            this.botonCircular7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircular7.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular7.Location = new System.Drawing.Point(605, 334);
-            this.botonCircular7.Name = "botonCircular7";
-            this.botonCircular7.Size = new System.Drawing.Size(85, 88);
-            this.botonCircular7.TabIndex = 23;
-            this.botonCircular7.Text = "Gris";
-            this.botonCircular7.UseVisualStyleBackColor = false;
+            this.botonCircularBlanco.BackColor = System.Drawing.Color.White;
+            this.botonCircularBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircularBlanco.FlatAppearance.BorderSize = 0;
+            this.botonCircularBlanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircularBlanco.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircularBlanco.Location = new System.Drawing.Point(470, 110);
+            this.botonCircularBlanco.Name = "botonCircularBlanco";
+            this.botonCircularBlanco.Size = new System.Drawing.Size(85, 88);
+            this.botonCircularBlanco.TabIndex = 16;
+            this.botonCircularBlanco.Text = "Blanco";
+            this.botonCircularBlanco.UseVisualStyleBackColor = false;
             // 
-            // botonCircular8
+            // botonCircularAzul
             // 
-            this.botonCircular8.BackColor = System.Drawing.Color.SkyBlue;
-            this.botonCircular8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircular8.FlatAppearance.BorderSize = 0;
-            this.botonCircular8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircular8.Font = new System.Drawing.Font("HP Simplified", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCircular8.Location = new System.Drawing.Point(94, 335);
-            this.botonCircular8.Name = "botonCircular8";
-            this.botonCircular8.Size = new System.Drawing.Size(85, 88);
-            this.botonCircular8.TabIndex = 22;
-            this.botonCircular8.Text = "Celeste";
-            this.botonCircular8.UseVisualStyleBackColor = false;
+            this.botonCircularAzul.BackColor = System.Drawing.Color.Navy;
+            this.botonCircularAzul.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircularAzul.FlatAppearance.BorderSize = 0;
+            this.botonCircularAzul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircularAzul.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.botonCircularAzul.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.botonCircularAzul.Location = new System.Drawing.Point(605, 110);
+            this.botonCircularAzul.Name = "botonCircularAzul";
+            this.botonCircularAzul.Size = new System.Drawing.Size(85, 88);
+            this.botonCircularAzul.TabIndex = 15;
+            this.botonCircularAzul.Text = "Azul";
+            this.botonCircularAzul.UseVisualStyleBackColor = false;
             // 
-            // botonCircular6
+            // botonCircularRojo
             // 
-            this.botonCircular6.BackColor = System.Drawing.Color.DarkOrange;
-            this.botonCircular6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonCircular6.FlatAppearance.BorderSize = 0;
-            this.botonCircular6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonCircular6.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular6.Location = new System.Drawing.Point(470, 334);
-            this.botonCircular6.Name = "botonCircular6";
-            this.botonCircular6.Size = new System.Drawing.Size(85, 88);
-            this.botonCircular6.TabIndex = 26;
-            this.botonCircular6.Text = "Naranja";
-            this.botonCircular6.UseVisualStyleBackColor = false;
+            this.botonCircularRojo.BackColor = System.Drawing.Color.Red;
+            this.botonCircularRojo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botonCircularRojo.FlatAppearance.BorderSize = 0;
+            this.botonCircularRojo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonCircularRojo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonCircularRojo.Location = new System.Drawing.Point(94, 111);
+            this.botonCircularRojo.Name = "botonCircularRojo";
+            this.botonCircularRojo.Size = new System.Drawing.Size(85, 88);
+            this.botonCircularRojo.TabIndex = 14;
+            this.botonCircularRojo.Text = "Rojo";
+            this.botonCircularRojo.UseVisualStyleBackColor = false;
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(752, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(38, 34);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Controls.Add(this.btnMasInfo);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(790, 34);
+            this.panel1.TabIndex = 27;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Location = new System.Drawing.Point(668, 0);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(84, 34);
+            this.btnLogin.TabIndex = 5;
+            this.btnLogin.Text = "Iniciar sesión";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
+            // btnMasInfo
+            // 
+            this.btnMasInfo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnMasInfo.FlatAppearance.BorderSize = 0;
+            this.btnMasInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInfo.Location = new System.Drawing.Point(40, 0);
+            this.btnMasInfo.Name = "btnMasInfo";
+            this.btnMasInfo.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInfo.TabIndex = 2;
+            this.btnMasInfo.Text = "Más información";
+            this.btnMasInfo.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(40, 34);
+            this.panel2.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Colores
             // 
@@ -220,6 +300,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.botonCircular6);
             this.Controls.Add(this.botonCircular5);
             this.Controls.Add(this.botonCircular7);
@@ -236,6 +317,9 @@
             this.Name = "Colores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Colores";
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -253,5 +337,11 @@
         private BotonCircular botonCircular7;
         private BotonCircular botonCircular8;
         private BotonCircular botonCircular6;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnMasInfo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
