@@ -44,11 +44,12 @@
             // 
             // botonCircularRojo
             // 
-            this.botonCircularRojo.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircularRojo.BackColor = System.Drawing.Color.Red;
+            this.botonCircularRojo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircularRojo.FlatAppearance.BorderSize = 0;
             this.botonCircularRojo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircularRojo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCircularRojo.Location = new System.Drawing.Point(79, 110);
+            this.botonCircularRojo.Location = new System.Drawing.Point(94, 111);
             this.botonCircularRojo.Name = "botonCircularRojo";
             this.botonCircularRojo.Size = new System.Drawing.Size(85, 88);
             this.botonCircularRojo.TabIndex = 14;
@@ -57,11 +58,13 @@
             // 
             // botonCircularAzul
             // 
-            this.botonCircularAzul.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircularAzul.BackColor = System.Drawing.Color.Navy;
+            this.botonCircularAzul.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircularAzul.FlatAppearance.BorderSize = 0;
             this.botonCircularAzul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircularAzul.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularAzul.Location = new System.Drawing.Point(644, 110);
+            this.botonCircularAzul.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.botonCircularAzul.Location = new System.Drawing.Point(605, 110);
             this.botonCircularAzul.Name = "botonCircularAzul";
             this.botonCircularAzul.Size = new System.Drawing.Size(85, 88);
             this.botonCircularAzul.TabIndex = 15;
@@ -70,11 +73,12 @@
             // 
             // botonCircularBlanco
             // 
-            this.botonCircularBlanco.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircularBlanco.BackColor = System.Drawing.Color.White;
+            this.botonCircularBlanco.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircularBlanco.FlatAppearance.BorderSize = 0;
             this.botonCircularBlanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircularBlanco.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularBlanco.Location = new System.Drawing.Point(447, 110);
+            this.botonCircularBlanco.Location = new System.Drawing.Point(470, 110);
             this.botonCircularBlanco.Name = "botonCircularBlanco";
             this.botonCircularBlanco.Size = new System.Drawing.Size(85, 88);
             this.botonCircularBlanco.TabIndex = 16;
@@ -83,11 +87,13 @@
             // 
             // botonCircularNegro
             // 
-            this.botonCircularNegro.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircularNegro.BackColor = System.Drawing.Color.Black;
+            this.botonCircularNegro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircularNegro.FlatAppearance.BorderSize = 0;
             this.botonCircularNegro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircularNegro.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircularNegro.Location = new System.Drawing.Point(252, 110);
+            this.botonCircularNegro.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.botonCircularNegro.Location = new System.Drawing.Point(246, 111);
             this.botonCircularNegro.Name = "botonCircularNegro";
             this.botonCircularNegro.Size = new System.Drawing.Size(85, 88);
             this.botonCircularNegro.TabIndex = 17;
@@ -96,11 +102,12 @@
             // 
             // botonCircular1
             // 
-            this.botonCircular1.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular1.BackColor = System.Drawing.Color.HotPink;
+            this.botonCircular1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular1.FlatAppearance.BorderSize = 0;
             this.botonCircular1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular1.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular1.Location = new System.Drawing.Point(252, 216);
+            this.botonCircular1.Location = new System.Drawing.Point(294, 215);
             this.botonCircular1.Name = "botonCircular1";
             this.botonCircular1.Size = new System.Drawing.Size(85, 88);
             this.botonCircular1.TabIndex = 21;
@@ -109,11 +116,12 @@
             // 
             // botonCircular2
             // 
-            this.botonCircular2.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular2.BackColor = System.Drawing.Color.Green;
+            this.botonCircular2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular2.FlatAppearance.BorderSize = 0;
             this.botonCircular2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular2.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular2.Location = new System.Drawing.Point(447, 216);
+            this.botonCircular2.Location = new System.Drawing.Point(417, 215);
             this.botonCircular2.Name = "botonCircular2";
             this.botonCircular2.Size = new System.Drawing.Size(85, 88);
             this.botonCircular2.TabIndex = 20;
@@ -122,11 +130,13 @@
             // 
             // botonCircular3
             // 
-            this.botonCircular3.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.botonCircular3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular3.FlatAppearance.BorderSize = 0;
             this.botonCircular3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular3.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular3.Location = new System.Drawing.Point(644, 216);
+            this.botonCircular3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.botonCircular3.Location = new System.Drawing.Point(671, 215);
             this.botonCircular3.Name = "botonCircular3";
             this.botonCircular3.Size = new System.Drawing.Size(85, 88);
             this.botonCircular3.TabIndex = 19;
@@ -135,11 +145,13 @@
             // 
             // botonCircular4
             // 
-            this.botonCircular4.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular4.BackColor = System.Drawing.Color.Yellow;
+            this.botonCircular4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular4.FlatAppearance.BorderSize = 0;
             this.botonCircular4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular4.Font = new System.Drawing.Font("HP Simplified", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCircular4.Location = new System.Drawing.Point(79, 216);
+            this.botonCircular4.ForeColor = System.Drawing.Color.Black;
+            this.botonCircular4.Location = new System.Drawing.Point(37, 216);
             this.botonCircular4.Name = "botonCircular4";
             this.botonCircular4.Size = new System.Drawing.Size(85, 88);
             this.botonCircular4.TabIndex = 18;
@@ -148,11 +160,12 @@
             // 
             // botonCircular5
             // 
-            this.botonCircular5.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular5.BackColor = System.Drawing.Color.MediumOrchid;
+            this.botonCircular5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular5.FlatAppearance.BorderSize = 0;
             this.botonCircular5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular5.Location = new System.Drawing.Point(252, 310);
+            this.botonCircular5.Location = new System.Drawing.Point(246, 334);
             this.botonCircular5.Name = "botonCircular5";
             this.botonCircular5.Size = new System.Drawing.Size(85, 88);
             this.botonCircular5.TabIndex = 25;
@@ -161,11 +174,12 @@
             // 
             // botonCircular7
             // 
-            this.botonCircular7.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular7.BackColor = System.Drawing.Color.Silver;
+            this.botonCircular7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular7.FlatAppearance.BorderSize = 0;
             this.botonCircular7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular7.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular7.Location = new System.Drawing.Point(644, 310);
+            this.botonCircular7.Location = new System.Drawing.Point(605, 334);
             this.botonCircular7.Name = "botonCircular7";
             this.botonCircular7.Size = new System.Drawing.Size(85, 88);
             this.botonCircular7.TabIndex = 23;
@@ -174,11 +188,12 @@
             // 
             // botonCircular8
             // 
-            this.botonCircular8.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular8.BackColor = System.Drawing.Color.SkyBlue;
+            this.botonCircular8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular8.FlatAppearance.BorderSize = 0;
             this.botonCircular8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular8.Font = new System.Drawing.Font("HP Simplified", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCircular8.Location = new System.Drawing.Point(79, 310);
+            this.botonCircular8.Location = new System.Drawing.Point(94, 335);
             this.botonCircular8.Name = "botonCircular8";
             this.botonCircular8.Size = new System.Drawing.Size(85, 88);
             this.botonCircular8.TabIndex = 22;
@@ -187,11 +202,12 @@
             // 
             // botonCircular6
             // 
-            this.botonCircular6.BackColor = System.Drawing.Color.Fuchsia;
+            this.botonCircular6.BackColor = System.Drawing.Color.DarkOrange;
+            this.botonCircular6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botonCircular6.FlatAppearance.BorderSize = 0;
             this.botonCircular6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonCircular6.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.botonCircular6.Location = new System.Drawing.Point(447, 310);
+            this.botonCircular6.Location = new System.Drawing.Point(470, 334);
             this.botonCircular6.Name = "botonCircular6";
             this.botonCircular6.Size = new System.Drawing.Size(85, 88);
             this.botonCircular6.TabIndex = 26;
