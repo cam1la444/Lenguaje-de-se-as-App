@@ -34,6 +34,11 @@
             this.btnMasInfo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnNutria = new System.Windows.Forms.Button();
+            this.btnGato = new System.Windows.Forms.Button();
+            this.btnJirafa = new System.Windows.Forms.Button();
+            this.btnPerro = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -110,12 +115,70 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // btnNutria
+            // 
+            this.btnNutria.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNutria.Location = new System.Drawing.Point(565, 195);
+            this.btnNutria.Name = "btnNutria";
+            this.btnNutria.Size = new System.Drawing.Size(130, 51);
+            this.btnNutria.TabIndex = 25;
+            this.btnNutria.Text = "Nutria";
+            this.btnNutria.UseVisualStyleBackColor = true;
+            // 
+            // btnGato
+            // 
+            this.btnGato.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGato.Location = new System.Drawing.Point(403, 195);
+            this.btnGato.Name = "btnGato";
+            this.btnGato.Size = new System.Drawing.Size(144, 51);
+            this.btnGato.TabIndex = 24;
+            this.btnGato.Text = "Gato";
+            this.btnGato.UseVisualStyleBackColor = true;
+            // 
+            // btnJirafa
+            // 
+            this.btnJirafa.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJirafa.Location = new System.Drawing.Point(237, 196);
+            this.btnJirafa.Name = "btnJirafa";
+            this.btnJirafa.Size = new System.Drawing.Size(143, 51);
+            this.btnJirafa.TabIndex = 23;
+            this.btnJirafa.Text = "Jirafa";
+            this.btnJirafa.UseVisualStyleBackColor = true;
+            // 
+            // btnPerro
+            // 
+            this.btnPerro.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerro.Location = new System.Drawing.Point(95, 196);
+            this.btnPerro.Name = "btnPerro";
+            this.btnPerro.Size = new System.Drawing.Size(135, 51);
+            this.btnPerro.TabIndex = 22;
+            this.btnPerro.Text = "Perro";
+            this.btnPerro.UseVisualStyleBackColor = true;
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(680, 382);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(72, 32);
+            this.btnVolver.TabIndex = 39;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Tiempo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnNutria);
+            this.Controls.Add(this.btnGato);
+            this.Controls.Add(this.btnJirafa);
+            this.Controls.Add(this.btnPerro);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Tiempo";
@@ -136,5 +199,10 @@
         private System.Windows.Forms.Button btnMasInfo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnNutria;
+        private System.Windows.Forms.Button btnGato;
+        private System.Windows.Forms.Button btnJirafa;
+        private System.Windows.Forms.Button btnPerro;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

@@ -38,6 +38,7 @@
             this.btnMasInfo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -154,12 +155,26 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(680, 389);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(72, 32);
+            this.btnVolver.TabIndex = 39;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Animales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnNutria);
             this.Controls.Add(this.btnGato);
@@ -188,5 +203,6 @@
         private System.Windows.Forms.Button btnMasInfo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
