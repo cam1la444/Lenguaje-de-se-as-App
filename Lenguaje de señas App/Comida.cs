@@ -25,8 +25,7 @@ namespace Lenguaje_de_señas_App
         private void btnMasInfo_Click(object sender, EventArgs e)
         {
             Incicio inicio = new Incicio();
-            inicio.Show();
-            this.Close();
+            inicio.ShowDialog();
         }
     }
 }
