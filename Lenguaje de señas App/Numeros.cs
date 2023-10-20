@@ -146,7 +146,8 @@ namespace Lenguaje_de_señas_App
         private void btnLecciones_Click(object sender, EventArgs e)
         {
             Incicio inicio = new Incicio();
-            inicio.ShowDialog();
+            this.Close();
+            inicio.Show();
         }
     }
 }
