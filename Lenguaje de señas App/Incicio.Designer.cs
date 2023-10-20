@@ -60,6 +60,7 @@
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -389,6 +390,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnAcercade);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
@@ -469,6 +471,18 @@
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 0;
             this.pictureBox13.TabStop = false;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Location = new System.Drawing.Point(358, 0);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(106, 34);
+            this.btnSalir.TabIndex = 7;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
             // 
             // Incicio
             // 
@@ -557,5 +571,6 @@
         private System.Windows.Forms.Button btnLecciones;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
