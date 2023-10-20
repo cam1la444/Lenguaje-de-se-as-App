@@ -52,6 +52,12 @@
     <Compile Include="Abecedario.Designer.cs">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Acercade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acercade.Designer.cs">
+      <DependentUpon>Acercade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Adjetivos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +265,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MasInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasInformacion.Designer.cs">
+      <DependentUpon>MasInformacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Numero0.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -426,6 +438,9 @@
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Acercade.resx">
+      <DependentUpon>Acercade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Adjetivos.resx">
       <DependentUpon>Adjetivos.cs</DependentUpon>
     </EmbeddedResource>
@@ -527,6 +542,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasInformacion.resx">
+      <DependentUpon>MasInformacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Numero0.resx">
       <DependentUpon>Numero0.cs</DependentUpon>

@@ -58,7 +58,7 @@
             this.btnX = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnAcercade = new System.Windows.Forms.Button();
             this.btnMasInforms = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
@@ -502,7 +502,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
-            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.btnAcercade);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnLecciones);
@@ -513,17 +513,18 @@
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 39;
             // 
-            // button7
+            // btnAcercade
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(252, 0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 34);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Acerca de ";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnAcercade.FlatAppearance.BorderSize = 0;
+            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
+            this.btnAcercade.Name = "btnAcercade";
+            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
+            this.btnAcercade.TabIndex = 6;
+            this.btnAcercade.Text = "Acerca de ";
+            this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
             // 
             // btnMasInforms
             // 
@@ -550,6 +551,7 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnLecciones
             // 
@@ -666,7 +668,7 @@
         private System.Windows.Forms.Button btnX;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnLecciones;

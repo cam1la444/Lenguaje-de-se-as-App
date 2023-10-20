@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lenguaje_de_señas_App
 {
-    public partial class Verbos : Form
+    public partial class Acercade : Form
     {
-        public Verbos()
+        public Acercade()
         {
             InitializeComponent();
         }
@@ -24,23 +24,11 @@ namespace Lenguaje_de_señas_App
             inicio.Show();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private void btnMasInforms_Click(object sender, EventArgs e)
         {
-            Incicio inicio = new Incicio();
-            this.Hide();
-            inicio.Show();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
+            MasInformacion masinfo = new MasInformacion();
             this.Close();
-        }
-
-        private void btnAcercade_Click(object sender, EventArgs e)
-        {
-            Acercade acercade = new Acercade();
-            this.Close();
-            acercade.Show();
+            masinfo.Show();
         }
     }
 }

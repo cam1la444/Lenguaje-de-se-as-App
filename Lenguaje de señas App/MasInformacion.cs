@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lenguaje_de_señas_App
 {
-    public partial class Verbos : Form
+    public partial class MasInformacion : Form
     {
-        public Verbos()
+        public MasInformacion()
         {
             InitializeComponent();
         }
@@ -22,18 +22,6 @@ namespace Lenguaje_de_señas_App
             Incicio inicio = new Incicio();
             this.Close();
             inicio.Show();
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            Incicio inicio = new Incicio();
-            this.Hide();
-            inicio.Show();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void btnAcercade_Click(object sender, EventArgs e)

@@ -296,6 +296,7 @@
             this.btnAcercade.TabIndex = 6;
             this.btnAcercade.Text = "Acerca de ";
             this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
             // 
             // btnMasInforms
             // 
@@ -308,6 +309,7 @@
             this.btnMasInforms.TabIndex = 5;
             this.btnMasInforms.Text = "Más información";
             this.btnMasInforms.UseVisualStyleBackColor = true;
+            this.btnMasInforms.Click += new System.EventHandler(this.btnMasInforms_Click);
             // 
             // btnClose
             // 
@@ -322,6 +324,7 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnLecciones
             // 

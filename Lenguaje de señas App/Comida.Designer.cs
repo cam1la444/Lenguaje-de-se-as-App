@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,7 +49,8 @@
             this.btnAbuelo = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
             this.btnMasInforms = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnAcercade = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -69,11 +69,12 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
-            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.btnAcercade);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnLecciones);
@@ -105,17 +106,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // btnVolver
             // 
@@ -364,17 +354,29 @@
             this.btnMasInforms.Text = "Más información";
             this.btnMasInforms.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnAcercade
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(252, 0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 34);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Acerca de ";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnAcercade.FlatAppearance.BorderSize = 0;
+            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
+            this.btnAcercade.Name = "btnAcercade";
+            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
+            this.btnAcercade.TabIndex = 6;
+            this.btnAcercade.Text = "Acerca de ";
+            this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Comida
             // 
@@ -434,7 +436,7 @@
         private System.Windows.Forms.Button btnNaranja;
         private System.Windows.Forms.Button btnAbuelo;
         private System.Windows.Forms.Button btnManzana;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
     }
 }

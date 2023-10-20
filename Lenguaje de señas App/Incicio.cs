@@ -100,5 +100,24 @@ namespace Lenguaje_de_señas_App
             this.Hide();
             adjetivos.Show();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMasInforms_Click(object sender, EventArgs e)
+        {
+            MasInformacion masinfo = new MasInformacion();
+            this.Close();
+            masinfo.Show();
+        }
+
+        private void btnAcercade_Click(object sender, EventArgs e)
+        {
+            Acercade acercade = new Acercade();
+            this.Close();
+            acercade.Show();
+        }
     }
 }

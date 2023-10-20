@@ -36,7 +36,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.botonCircular6 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular5 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular7 = new Lenguaje_de_señas_App.BotonCircular();
@@ -49,6 +48,7 @@
             this.botonCircularBlanco = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircularAzul = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircularRojo = new Lenguaje_de_señas_App.BotonCircular();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -104,6 +104,7 @@
             this.btnAcercade.TabIndex = 6;
             this.btnAcercade.Text = "Acerca de ";
             this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
             // 
             // btnMasInforms
             // 
@@ -130,6 +131,7 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnLecciones
             // 
@@ -152,17 +154,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // botonCircular6
             // 
@@ -335,6 +326,17 @@
             this.botonCircularRojo.TabIndex = 14;
             this.botonCircularRojo.Text = "Rojo";
             this.botonCircularRojo.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Colores
             // 
