@@ -20,49 +20,49 @@ namespace Lenguaje_de_señas_App
         private void btnAbecedario_Click(object sender, EventArgs e)
         {
             Abecedario abecedario = new Abecedario();
-            this.Close();
+            this.Hide();
             abecedario.Show();
         }
 
         private void btnNumeros_Click(object sender, EventArgs e)
         {
             Numeros numeros = new Numeros();
-            this.Close();
+            this.Hide();
             numeros.Show();
         }
 
         private void btnColores_Click(object sender, EventArgs e)
         {
             Colores colores = new Colores();
-            this.Close();
+            this.Hide();
             colores.Show();
         }
 
         private void btnTiempo_Click(object sender, EventArgs e)
         {
             Tiempo tiempo = new Tiempo();
-            this.Close();
+            this.Hide();
             tiempo.Show();
         }
 
         private void btnComida_Click(object sender, EventArgs e)
         {
             Comida comida = new Comida();
-            this.Close();
+            this.Hide();
             comida.Show();
         }
 
         private void btnFamilia_Click(object sender, EventArgs e)
         {
             Familia familia = new Familia();
-            this.Close();
+            this.Hide();
             familia.Show();
         }
 
         private void btnAnimales_Click(object sender, EventArgs e)
         {
             Animales animales = new Animales();
-            this.Close();
+            this.Hide();
             animales.Show();
         }
     }
