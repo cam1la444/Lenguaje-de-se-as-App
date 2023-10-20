@@ -22,9 +22,10 @@ namespace Lenguaje_de_señas_App
             this.Close();
         }
 
-        private void btnMasInfo_Click(object sender, EventArgs e)
+        private void btnLecciones_Click(object sender, EventArgs e)
         {
-
+            Incicio inicio = new Incicio();
+            inicio.ShowDialog();
         }
     }
 }

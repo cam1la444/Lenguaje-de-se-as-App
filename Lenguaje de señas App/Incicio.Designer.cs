@@ -57,7 +57,7 @@
             this.btnAcercade = new System.Windows.Forms.Button();
             this.btnMasInforms = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.btnMasInfo = new System.Windows.Forms.Button();
+            this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -392,7 +392,7 @@
             this.panel1.Controls.Add(this.btnAcercade);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Controls.Add(this.btnMasInfo);
+            this.panel1.Controls.Add(this.btnLecciones);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -438,17 +438,17 @@
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
             // 
-            // btnMasInfo
+            // btnLecciones
             // 
-            this.btnMasInfo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnMasInfo.FlatAppearance.BorderSize = 0;
-            this.btnMasInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasInfo.Location = new System.Drawing.Point(40, 0);
-            this.btnMasInfo.Name = "btnMasInfo";
-            this.btnMasInfo.Size = new System.Drawing.Size(106, 34);
-            this.btnMasInfo.TabIndex = 2;
-            this.btnMasInfo.Text = "Lecciones";
-            this.btnMasInfo.UseVisualStyleBackColor = true;
+            this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnLecciones.FlatAppearance.BorderSize = 0;
+            this.btnLecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLecciones.Location = new System.Drawing.Point(40, 0);
+            this.btnLecciones.Name = "btnLecciones";
+            this.btnLecciones.Size = new System.Drawing.Size(106, 34);
+            this.btnLecciones.TabIndex = 2;
+            this.btnLecciones.Text = "Lecciones";
+            this.btnLecciones.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -554,7 +554,7 @@
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnMasInfo;
+        private System.Windows.Forms.Button btnLecciones;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox13;
     }

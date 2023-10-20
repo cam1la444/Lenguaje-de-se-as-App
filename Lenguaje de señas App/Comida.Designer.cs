@@ -30,7 +30,7 @@
         {
             this.btnClose = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnMasInfo = new System.Windows.Forms.Button();
+            this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
@@ -76,7 +76,7 @@
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Controls.Add(this.btnMasInfo);
+            this.panel1.Controls.Add(this.btnLecciones);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -84,18 +84,18 @@
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 21;
             // 
-            // btnMasInfo
+            // btnLecciones
             // 
-            this.btnMasInfo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnMasInfo.FlatAppearance.BorderSize = 0;
-            this.btnMasInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasInfo.Location = new System.Drawing.Point(40, 0);
-            this.btnMasInfo.Name = "btnMasInfo";
-            this.btnMasInfo.Size = new System.Drawing.Size(106, 34);
-            this.btnMasInfo.TabIndex = 2;
-            this.btnMasInfo.Text = "Lecciones";
-            this.btnMasInfo.UseVisualStyleBackColor = true;
-            this.btnMasInfo.Click += new System.EventHandler(this.btnMasInfo_Click);
+            this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnLecciones.FlatAppearance.BorderSize = 0;
+            this.btnLecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLecciones.Location = new System.Drawing.Point(40, 0);
+            this.btnLecciones.Name = "btnLecciones";
+            this.btnLecciones.Size = new System.Drawing.Size(106, 34);
+            this.btnLecciones.TabIndex = 2;
+            this.btnLecciones.Text = "Lecciones";
+            this.btnLecciones.UseVisualStyleBackColor = true;
+            this.btnLecciones.Click += new System.EventHandler(this.btnMasInfo_Click);
             // 
             // panel2
             // 
@@ -415,7 +415,7 @@
 
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnMasInfo;
+        private System.Windows.Forms.Button btnLecciones;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;

@@ -183,5 +183,11 @@ namespace Lenguaje_de_señas_App
             LetraZ letraz = new LetraZ();
             letraz.ShowDialog();
         }
+
+        private void btnLecciones_Click(object sender, EventArgs e)
+        {
+            Incicio inicio = new Incicio();
+            inicio.ShowDialog();
+        }
     }
 }
