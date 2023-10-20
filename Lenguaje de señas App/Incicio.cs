@@ -65,5 +65,40 @@ namespace Lenguaje_de_señas_App
             this.Hide();
             animales.Show();
         }
+
+        private void btnVestimenta_Click(object sender, EventArgs e)
+        {
+            Vestimenta vestimenta = new Vestimenta();
+            this.Hide();
+            vestimenta.Show();
+        }
+
+        private void btnPronombres_Click(object sender, EventArgs e)
+        {
+            Pronombres pronombres = new Pronombres();
+            this.Hide();
+            pronombres.Show();
+        }
+
+        private void btnVerbos_Click(object sender, EventArgs e)
+        {
+            Verbos verbos = new Verbos();  
+            this.Hide();
+            verbos.Show();
+        }
+
+        private void btnSaludos_Click(object sender, EventArgs e)
+        {
+            Saludos saludos = new Saludos();
+            this.Hide();
+            saludos.Show();
+        }
+
+        private void btnAdjetivos_Click(object sender, EventArgs e)
+        {
+            Adjetivos adjetivos = new Adjetivos();
+            this.Hide();
+            adjetivos.Show();
+        }
     }
 }

@@ -116,6 +116,7 @@
             this.btnLecciones.TabIndex = 2;
             this.btnLecciones.Text = "Lecciones";
             this.btnLecciones.UseVisualStyleBackColor = true;
+            this.btnLecciones.Click += new System.EventHandler(this.btnLecciones_Click);
             // 
             // panel2
             // 

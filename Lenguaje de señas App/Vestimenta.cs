@@ -16,5 +16,12 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnLecciones_Click(object sender, EventArgs e)
+        {
+            Incicio inicio = new Incicio();
+            this.Close();
+            inicio.Show();
+        }
     }
 }
