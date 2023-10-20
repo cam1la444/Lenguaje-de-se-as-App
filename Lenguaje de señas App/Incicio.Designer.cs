@@ -52,7 +52,7 @@
             this.btnTiempo = new System.Windows.Forms.Button();
             this.btnFamilia = new System.Windows.Forms.Button();
             this.btnComida = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAnimales = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAcercade = new System.Windows.Forms.Button();
             this.btnMasInforms = new System.Windows.Forms.Button();
@@ -371,21 +371,21 @@
             this.btnComida.UseVisualStyleBackColor = true;
             this.btnComida.Click += new System.EventHandler(this.btnComida_Click);
             // 
-            // button1
+            // btnAnimales
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(52, 355);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 47);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Lección 7: Animales";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnAnimales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAnimales.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnAnimales.FlatAppearance.BorderSize = 2;
+            this.btnAnimales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btnAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnimales.Font = new System.Drawing.Font("HP Simplified", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnimales.Location = new System.Drawing.Point(52, 355);
+            this.btnAnimales.Name = "btnAnimales";
+            this.btnAnimales.Size = new System.Drawing.Size(87, 47);
+            this.btnAnimales.TabIndex = 24;
+            this.btnAnimales.Text = "Lección 7: Animales";
+            this.btnAnimales.UseVisualStyleBackColor = true;
+            this.btnAnimales.Click += new System.EventHandler(this.btnAnimales_Click);
             // 
             // panel1
             // 
@@ -491,7 +491,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAnimales);
             this.Controls.Add(this.btnComida);
             this.Controls.Add(this.btnFamilia);
             this.Controls.Add(this.btnTiempo);
@@ -563,7 +563,7 @@
         private System.Windows.Forms.Button btnTiempo;
         private System.Windows.Forms.Button btnFamilia;
         private System.Windows.Forms.Button btnComida;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAnimales;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
