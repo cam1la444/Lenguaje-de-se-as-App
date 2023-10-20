@@ -21,5 +21,10 @@ namespace Lenguaje_de_señas_App
         {
             this.Close();
         }
+
+        private void btnMasInfo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

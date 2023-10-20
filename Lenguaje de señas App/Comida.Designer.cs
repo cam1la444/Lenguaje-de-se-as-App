@@ -30,7 +30,6 @@
         {
             this.btnClose = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.btnMasInfo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -50,6 +49,8 @@
             this.btnNaranja = new System.Windows.Forms.Button();
             this.btnAbuelo = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
+            this.btnMasInforms = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -72,7 +73,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
-            this.panel1.Controls.Add(this.btnLogin);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnMasInfo);
             this.panel1.Controls.Add(this.panel2);
@@ -81,18 +83,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 21;
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Location = new System.Drawing.Point(668, 0);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(84, 34);
-            this.btnLogin.TabIndex = 5;
-            this.btnLogin.Text = "Iniciar sesión";
-            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // btnMasInfo
             // 
@@ -103,8 +93,9 @@
             this.btnMasInfo.Name = "btnMasInfo";
             this.btnMasInfo.Size = new System.Drawing.Size(106, 34);
             this.btnMasInfo.TabIndex = 2;
-            this.btnMasInfo.Text = "Más información";
+            this.btnMasInfo.Text = "Lecciones";
             this.btnMasInfo.UseVisualStyleBackColor = true;
+            this.btnMasInfo.Click += new System.EventHandler(this.btnMasInfo_Click);
             // 
             // panel2
             // 
@@ -144,7 +135,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(271, 49);
+            this.label1.Location = new System.Drawing.Point(270, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 49);
@@ -361,6 +352,30 @@
             this.btnManzana.Text = "Manzana";
             this.btnManzana.UseVisualStyleBackColor = true;
             // 
+            // btnMasInforms
+            // 
+            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnMasInforms.FlatAppearance.BorderSize = 0;
+            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
+            this.btnMasInforms.Name = "btnMasInforms";
+            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInforms.TabIndex = 5;
+            this.btnMasInforms.Text = "Más información";
+            this.btnMasInforms.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(252, 0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(106, 34);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "Acerca de ";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // Comida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -400,7 +415,6 @@
 
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnMasInfo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -420,5 +434,7 @@
         private System.Windows.Forms.Button btnNaranja;
         private System.Windows.Forms.Button btnAbuelo;
         private System.Windows.Forms.Button btnManzana;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnMasInforms;
     }
 }
