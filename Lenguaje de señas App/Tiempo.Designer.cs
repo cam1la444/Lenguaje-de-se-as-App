@@ -345,7 +345,6 @@
             this.btnMasInforms.TabIndex = 5;
             this.btnMasInforms.Text = "Más información";
             this.btnMasInforms.UseVisualStyleBackColor = true;
-            this.btnMasInforms.Click += new System.EventHandler(this.btnMasInforms_Click);
             // 
             // btnClose
             // 
