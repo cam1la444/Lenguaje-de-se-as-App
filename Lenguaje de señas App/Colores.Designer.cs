@@ -43,7 +43,7 @@
             this.btnAzul = new System.Windows.Forms.Button();
             this.btnBlanco = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnNegro = new System.Windows.Forms.Button();
             this.btnCeleste = new System.Windows.Forms.Button();
             this.btnNaranja = new System.Windows.Forms.Button();
             this.btnRosado = new System.Windows.Forms.Button();
@@ -223,15 +223,15 @@
             this.button8.Text = "Café";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnNegro
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(497, 264);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(81, 44);
-            this.button9.TabIndex = 106;
-            this.button9.Text = "Negro";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnNegro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNegro.Location = new System.Drawing.Point(497, 264);
+            this.btnNegro.Name = "btnNegro";
+            this.btnNegro.Size = new System.Drawing.Size(81, 44);
+            this.btnNegro.TabIndex = 106;
+            this.btnNegro.Text = "Negro";
+            this.btnNegro.UseVisualStyleBackColor = true;
             // 
             // btnCeleste
             // 
@@ -283,7 +283,7 @@
             this.Controls.Add(this.btnRosado);
             this.Controls.Add(this.btnNaranja);
             this.Controls.Add(this.btnCeleste);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.btnNegro);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.btnBlanco);
             this.Controls.Add(this.btnAzul);
@@ -324,7 +324,7 @@
         private System.Windows.Forms.Button btnAzul;
         private System.Windows.Forms.Button btnBlanco;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnNegro;
         private System.Windows.Forms.Button btnCeleste;
         private System.Windows.Forms.Button btnNaranja;
         private System.Windows.Forms.Button btnRosado;
