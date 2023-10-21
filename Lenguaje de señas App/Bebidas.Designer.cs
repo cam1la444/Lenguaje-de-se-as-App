@@ -42,7 +42,7 @@
             // 
             // btnCocacola
             // 
-            this.btnCocacola.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCocacola.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCocacola.Location = new System.Drawing.Point(35, 251);
             this.btnCocacola.Name = "btnCocacola";
             this.btnCocacola.Size = new System.Drawing.Size(150, 45);
@@ -52,7 +52,7 @@
             // 
             // btnAgua
             // 
-            this.btnAgua.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgua.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgua.Location = new System.Drawing.Point(215, 251);
             this.btnAgua.Name = "btnAgua";
             this.btnAgua.Size = new System.Drawing.Size(150, 45);
@@ -62,7 +62,7 @@
             // 
             // btnLeche
             // 
-            this.btnLeche.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeche.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLeche.Location = new System.Drawing.Point(393, 252);
             this.btnLeche.Name = "btnLeche";
             this.btnLeche.Size = new System.Drawing.Size(150, 42);
@@ -72,7 +72,7 @@
             // 
             // btnCafe
             // 
-            this.btnCafe.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCafe.Location = new System.Drawing.Point(577, 250);
             this.btnCafe.Name = "btnCafe";
             this.btnCafe.Size = new System.Drawing.Size(150, 42);
@@ -82,7 +82,7 @@
             // 
             // btnTe
             // 
-            this.btnTe.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTe.Location = new System.Drawing.Point(130, 159);
             this.btnTe.Name = "btnTe";
             this.btnTe.Size = new System.Drawing.Size(150, 42);
@@ -92,7 +92,7 @@
             // 
             // btnVino
             // 
-            this.btnVino.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVino.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVino.Location = new System.Drawing.Point(472, 159);
             this.btnVino.Name = "btnVino";
             this.btnVino.Size = new System.Drawing.Size(150, 42);
@@ -148,6 +148,7 @@
             this.Controls.Add(this.btnLeche);
             this.Controls.Add(this.btnAgua);
             this.Controls.Add(this.btnCocacola);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Bebidas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
