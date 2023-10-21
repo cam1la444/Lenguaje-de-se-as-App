@@ -109,14 +109,14 @@ namespace Lenguaje_de_señas_App
         private void btnMasInforms_Click(object sender, EventArgs e)
         {
             MasInformacion masinfo = new MasInformacion();
-            this.Hide();
+            this.Close();
             masinfo.Show();
         }
 
         private void btnAcercade_Click(object sender, EventArgs e)
         {
             Acercade acercade = new Acercade();
-            this.Hide();
+            this.Close();
             acercade.Show();
         }
     }
