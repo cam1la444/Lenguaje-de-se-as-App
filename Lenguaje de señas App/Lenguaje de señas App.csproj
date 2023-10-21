@@ -301,6 +301,12 @@
     <Compile Include="Morado.Designer.cs">
       <DependentUpon>Morado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Naranja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naranja.Designer.cs">
+      <DependentUpon>Naranja.cs</DependentUpon>
+    </Compile>
     <Compile Include="Negro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -614,6 +620,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Morado.resx">
       <DependentUpon>Morado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Naranja.resx">
+      <DependentUpon>Naranja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Negro.resx">
       <DependentUpon>Negro.cs</DependentUpon>
