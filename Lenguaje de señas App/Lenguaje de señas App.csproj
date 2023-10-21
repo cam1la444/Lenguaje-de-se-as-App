@@ -637,6 +637,9 @@
     <EmbeddedResource Include="Rojo.resx">
       <DependentUpon>Rojo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rosado.resx">
+      <DependentUpon>Rosado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Saludos.resx">
       <DependentUpon>Saludos.cs</DependentUpon>
     </EmbeddedResource>
