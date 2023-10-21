@@ -79,6 +79,12 @@
     <Compile Include="Azul.Designer.cs">
       <DependentUpon>Azul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Blanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blanco.Designer.cs">
+      <DependentUpon>Blanco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Celeste.cs">
       <SubType>Form</SubType>
     </Compile>
