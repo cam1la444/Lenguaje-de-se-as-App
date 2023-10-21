@@ -59,7 +59,7 @@
             this.btnMama.FlatAppearance.BorderSize = 2;
             this.btnMama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMama.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMama.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnMama.Location = new System.Drawing.Point(91, 160);
             this.btnMama.Name = "btnMama";
             this.btnMama.Size = new System.Drawing.Size(135, 51);
@@ -87,7 +87,7 @@
             this.btnHermano.FlatAppearance.BorderSize = 2;
             this.btnHermano.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnHermano.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHermano.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHermano.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnHermano.Location = new System.Drawing.Point(330, 231);
             this.btnHermano.Name = "btnHermano";
             this.btnHermano.Size = new System.Drawing.Size(135, 51);
@@ -102,7 +102,7 @@
             this.btnAbuelo.FlatAppearance.BorderSize = 2;
             this.btnAbuelo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnAbuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuelo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAbuelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAbuelo.Location = new System.Drawing.Point(550, 160);
             this.btnAbuelo.Name = "btnAbuelo";
             this.btnAbuelo.Size = new System.Drawing.Size(135, 51);
@@ -117,7 +117,7 @@
             this.btnAbuela.FlatAppearance.BorderSize = 2;
             this.btnAbuela.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnAbuela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuela.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAbuela.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAbuela.Location = new System.Drawing.Point(396, 160);
             this.btnAbuela.Name = "btnAbuela";
             this.btnAbuela.Size = new System.Drawing.Size(135, 51);
@@ -132,7 +132,7 @@
             this.btnPapa.FlatAppearance.BorderSize = 2;
             this.btnPapa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPapa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPapa.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPapa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPapa.Location = new System.Drawing.Point(245, 160);
             this.btnPapa.Name = "btnPapa";
             this.btnPapa.Size = new System.Drawing.Size(135, 51);
@@ -147,7 +147,7 @@
             this.btnPrima.FlatAppearance.BorderSize = 2;
             this.btnPrima.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrima.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrima.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPrima.Location = new System.Drawing.Point(245, 301);
             this.btnPrima.Name = "btnPrima";
             this.btnPrima.Size = new System.Drawing.Size(135, 51);
@@ -162,7 +162,7 @@
             this.btnPrimo.FlatAppearance.BorderSize = 2;
             this.btnPrimo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPrimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrimo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPrimo.Location = new System.Drawing.Point(396, 301);
             this.btnPrimo.Name = "btnPrimo";
             this.btnPrimo.Size = new System.Drawing.Size(135, 51);
@@ -177,7 +177,7 @@
             this.btnTio.FlatAppearance.BorderSize = 2;
             this.btnTio.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnTio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTio.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnTio.Location = new System.Drawing.Point(550, 301);
             this.btnTio.Name = "btnTio";
             this.btnTio.Size = new System.Drawing.Size(135, 51);
@@ -192,7 +192,7 @@
             this.btnTia.FlatAppearance.BorderSize = 2;
             this.btnTia.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnTia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTia.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnTia.Location = new System.Drawing.Point(330, 364);
             this.btnTia.Name = "btnTia";
             this.btnTia.Size = new System.Drawing.Size(135, 51);
@@ -207,7 +207,7 @@
             this.btnHermana.FlatAppearance.BorderSize = 2;
             this.btnHermana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnHermana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHermana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHermana.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnHermana.Location = new System.Drawing.Point(91, 301);
             this.btnHermana.Name = "btnHermana";
             this.btnHermana.Size = new System.Drawing.Size(135, 51);
@@ -218,12 +218,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(268, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 49);
+            this.label1.Size = new System.Drawing.Size(292, 42);
             this.label1.TabIndex = 49;
             this.label1.Text = "Lección Familia";
             // 
