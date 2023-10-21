@@ -47,26 +47,29 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(282, 223);
+            this.button1.BackColor = System.Drawing.Color.Khaki;
+            this.button1.Location = new System.Drawing.Point(297, 216);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 68);
+            this.button1.Size = new System.Drawing.Size(75, 53);
             this.button1.TabIndex = 1;
             this.button1.Text = "Reproducir video";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(128, 362);
+            this.button2.BackColor = System.Drawing.Color.PaleGreen;
+            this.button2.Location = new System.Drawing.Point(137, 377);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 46);
+            this.button2.Size = new System.Drawing.Size(91, 31);
             this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Regresar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Rosado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(384, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
