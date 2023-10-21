@@ -38,7 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnRojo = new System.Windows.Forms.Button();
             this.btnMorado = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnVerde = new System.Windows.Forms.Button();
             this.btnAmarillo = new System.Windows.Forms.Button();
             this.btnAzul = new System.Windows.Forms.Button();
             this.btnBlanco = new System.Windows.Forms.Button();
@@ -173,15 +173,15 @@
             this.btnMorado.Text = "Morado";
             this.btnMorado.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnVerde
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(196, 324);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(81, 44);
-            this.button4.TabIndex = 101;
-            this.button4.Text = "Verde";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnVerde.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerde.Location = new System.Drawing.Point(196, 324);
+            this.btnVerde.Name = "btnVerde";
+            this.btnVerde.Size = new System.Drawing.Size(81, 44);
+            this.btnVerde.TabIndex = 101;
+            this.btnVerde.Text = "Verde";
+            this.btnVerde.UseVisualStyleBackColor = true;
             // 
             // btnAmarillo
             // 
@@ -288,7 +288,7 @@
             this.Controls.Add(this.btnBlanco);
             this.Controls.Add(this.btnAzul);
             this.Controls.Add(this.btnAmarillo);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnVerde);
             this.Controls.Add(this.btnMorado);
             this.Controls.Add(this.btnRojo);
             this.Controls.Add(this.btnVolver);
@@ -319,7 +319,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRojo;
         private System.Windows.Forms.Button btnMorado;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnVerde;
         private System.Windows.Forms.Button btnAmarillo;
         private System.Windows.Forms.Button btnAzul;
         private System.Windows.Forms.Button btnBlanco;
