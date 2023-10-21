@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rojo));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.btnRojo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRegresar
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
-            this.button1.Location = new System.Drawing.Point(126, 391);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Regresar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(126, 391);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(93, 30);
+            this.btnRegresar.TabIndex = 0;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
             // 
             // btnRojo
             // 
@@ -73,7 +73,7 @@
             this.ClientSize = new System.Drawing.Size(364, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRojo);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegresar);
             this.Name = "Rojo";
             this.Text = "Rojo";
             this.Load += new System.EventHandler(this.Rojo_Load);
@@ -84,7 +84,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Button btnRojo;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
