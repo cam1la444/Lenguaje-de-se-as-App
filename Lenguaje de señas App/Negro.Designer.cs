@@ -46,12 +46,13 @@
             // 
             // btnReproducir
             // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
             this.btnReproducir.Location = new System.Drawing.Point(299, 195);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 84);
             this.btnReproducir.TabIndex = 1;
             this.btnReproducir.Text = "Reproducir video";
-            this.btnReproducir.UseVisualStyleBackColor = true;
+            this.btnReproducir.UseVisualStyleBackColor = false;
             // 
             // Negro
             // 
