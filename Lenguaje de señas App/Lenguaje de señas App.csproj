@@ -475,6 +475,12 @@
     <Compile Include="Papa.Designer.cs">
       <DependentUpon>Papa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Primo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Primo.Designer.cs">
+      <DependentUpon>Primo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Pronombres.cs">
       <SubType>Form</SubType>
@@ -743,6 +749,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Papa.resx">
       <DependentUpon>Papa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Primo.resx">
+      <DependentUpon>Primo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pronombres.resx">
       <DependentUpon>Pronombres.cs</DependentUpon>
