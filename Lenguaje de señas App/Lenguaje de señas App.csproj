@@ -133,6 +133,12 @@
     <Compile Include="Familia.Designer.cs">
       <DependentUpon>Familia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hermano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hermano.Designer.cs">
+      <DependentUpon>Hermano.cs</DependentUpon>
+    </Compile>
     <Compile Include="Incicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -566,6 +572,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hermano.resx">
+      <DependentUpon>Hermano.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Incicio.resx">
       <DependentUpon>Incicio.cs</DependentUpon>
