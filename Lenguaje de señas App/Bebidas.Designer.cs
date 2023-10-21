@@ -133,7 +133,7 @@
             // btnLeche
             // 
             this.btnLeche.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeche.Location = new System.Drawing.Point(393, 251);
+            this.btnLeche.Location = new System.Drawing.Point(393, 252);
             this.btnLeche.Name = "btnLeche";
             this.btnLeche.Size = new System.Drawing.Size(150, 42);
             this.btnLeche.TabIndex = 8;
