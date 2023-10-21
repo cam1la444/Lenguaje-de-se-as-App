@@ -44,5 +44,10 @@ namespace Lenguaje_de_señas_App
             this.Hide();
             inicio.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
