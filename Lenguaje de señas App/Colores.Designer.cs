@@ -45,7 +45,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnCeleste = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -244,15 +244,15 @@
             this.button9.Text = "Negro";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnCeleste
             // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(497, 136);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(81, 44);
-            this.button10.TabIndex = 107;
-            this.button10.Text = "Celeste";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnCeleste.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCeleste.Location = new System.Drawing.Point(497, 136);
+            this.btnCeleste.Name = "btnCeleste";
+            this.btnCeleste.Size = new System.Drawing.Size(81, 44);
+            this.btnCeleste.TabIndex = 107;
+            this.btnCeleste.Text = "Celeste";
+            this.btnCeleste.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
@@ -293,7 +293,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnCeleste);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -338,7 +338,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnCeleste;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
     }
