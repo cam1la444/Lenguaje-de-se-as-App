@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rojo));
             this.btnRegresar = new System.Windows.Forms.Button();
-            this.btnRojo = new System.Windows.Forms.Button();
+            this.btnReproducir = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,15 +45,15 @@
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
-            // btnRojo
+            // btnReproducir
             // 
-            this.btnRojo.BackColor = System.Drawing.Color.Khaki;
-            this.btnRojo.Location = new System.Drawing.Point(272, 225);
-            this.btnRojo.Name = "btnRojo";
-            this.btnRojo.Size = new System.Drawing.Size(80, 51);
-            this.btnRojo.TabIndex = 1;
-            this.btnRojo.Text = "Reproducir video";
-            this.btnRojo.UseVisualStyleBackColor = false;
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(272, 225);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(80, 51);
+            this.btnReproducir.TabIndex = 1;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -72,7 +72,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(364, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnRojo);
+            this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Rojo";
             this.Text = "Rojo";
@@ -85,7 +85,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnRegresar;
-        private System.Windows.Forms.Button btnRojo;
+        private System.Windows.Forms.Button btnReproducir;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
