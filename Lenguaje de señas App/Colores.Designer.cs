@@ -46,7 +46,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.btnCeleste = new System.Windows.Forms.Button();
             this.btnNaranja = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnRosado = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -254,15 +254,15 @@
             this.btnNaranja.UseVisualStyleBackColor = true;
             this.btnNaranja.Click += new System.EventHandler(this.button11_Click);
             // 
-            // button12
+            // btnRosado
             // 
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(341, 264);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(81, 44);
-            this.button12.TabIndex = 109;
-            this.button12.Text = "Rosado";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnRosado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRosado.Location = new System.Drawing.Point(341, 264);
+            this.btnRosado.Name = "btnRosado";
+            this.btnRosado.Size = new System.Drawing.Size(96, 44);
+            this.btnRosado.TabIndex = 109;
+            this.btnRosado.Text = "Rosado";
+            this.btnRosado.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -280,7 +280,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.btnRosado);
             this.Controls.Add(this.btnNaranja);
             this.Controls.Add(this.btnCeleste);
             this.Controls.Add(this.button9);
@@ -327,6 +327,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button btnCeleste;
         private System.Windows.Forms.Button btnNaranja;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnRosado;
     }
 }
