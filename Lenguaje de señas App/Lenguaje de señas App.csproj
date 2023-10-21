@@ -564,6 +564,9 @@
     <EmbeddedResource Include="MasInformacion.resx">
       <DependentUpon>MasInformacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Morado.resx">
+      <DependentUpon>Morado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Numero0.resx">
       <DependentUpon>Numero0.cs</DependentUpon>
     </EmbeddedResource>
