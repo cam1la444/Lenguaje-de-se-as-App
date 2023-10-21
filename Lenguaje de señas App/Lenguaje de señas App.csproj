@@ -79,6 +79,12 @@
     <Compile Include="Azul.Designer.cs">
       <DependentUpon>Azul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Celeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Celeste.Designer.cs">
+      <DependentUpon>Celeste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -473,6 +479,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Azul.resx">
       <DependentUpon>Azul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Celeste.resx">
+      <DependentUpon>Celeste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
