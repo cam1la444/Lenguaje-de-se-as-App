@@ -49,5 +49,10 @@ namespace Lenguaje_de_señas_App
         {
 
         }
+
+        private void Colores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
