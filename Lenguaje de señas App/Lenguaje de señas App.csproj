@@ -417,12 +417,6 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Te.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Te.Designer.cs">
-      <DependentUpon>Te.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tiempo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -633,9 +627,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Te.resx">
-      <DependentUpon>Te.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tiempo.resx">
       <DependentUpon>Tiempo.cs</DependentUpon>

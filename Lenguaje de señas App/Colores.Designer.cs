@@ -54,31 +54,7 @@
             this.panel1.Size = new System.Drawing.Size(800, 37);
             this.panel1.TabIndex = 0;
             // 
-            // btnAcercade
-            // 
-            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnAcercade.FlatAppearance.BorderSize = 0;
-            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
-            this.btnAcercade.Name = "btnAcercade";
-            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
-            this.btnAcercade.TabIndex = 6;
-            this.btnAcercade.Text = "Acerca de ";
-            this.btnAcercade.UseVisualStyleBackColor = true;
-            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
-            // 
-            // btnMasInforms
-            // 
-            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnMasInforms.FlatAppearance.BorderSize = 0;
-            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
-            this.btnMasInforms.Name = "btnMasInforms";
-            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
-            this.btnMasInforms.TabIndex = 5;
-            this.btnMasInforms.Text = "Más información";
-            this.btnMasInforms.UseVisualStyleBackColor = true;
-            // 
+            
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
