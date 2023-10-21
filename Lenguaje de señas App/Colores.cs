@@ -16,38 +16,5 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            Incicio inicio = new Incicio();
-            this.Hide();
-            inicio.Show();
-        }
-
-        private void btnLecciones_Click(object sender, EventArgs e)
-        {
-            Incicio inicio = new Incicio();
-            this.Close();
-            inicio.Show();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnAcercade_Click(object sender, EventArgs e)
-        {
-            Acercade acercade = new Acercade();
-            this.Close();
-            acercade.Show();
-        }
-
-        private void btnMasInforms_Click(object sender, EventArgs e)
-        {
-            MasInformacion masinfo = new MasInformacion();
-            this.Close();
-            masinfo.Show();
-        }
     }
 }
