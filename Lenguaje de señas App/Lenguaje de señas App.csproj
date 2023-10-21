@@ -55,6 +55,12 @@
     <Compile Include="Abecedario.Designer.cs">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Abuelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abuelo.Designer.cs">
+      <DependentUpon>Abuelo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Acercade.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -515,6 +521,9 @@
     </Compile>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abuelo.resx">
+      <DependentUpon>Abuelo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Acercade.resx">
       <DependentUpon>Acercade.cs</DependentUpon>
