@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.botonCircular12 = new Lenguaje_de_señas_App.BotonCircular();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAcercade = new System.Windows.Forms.Button();
+            this.btnMasInforms = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnLecciones = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.botonCircular12 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular11 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular10 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular9 = new Lenguaje_de_señas_App.BotonCircular();
@@ -40,19 +48,122 @@
             this.botonCircular4 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular3 = new Lenguaje_de_señas_App.BotonCircular();
             this.botonCircular2 = new Lenguaje_de_señas_App.BotonCircular();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnAcercade = new System.Windows.Forms.Button();
-            this.btnMasInforms = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnLecciones = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.botonCircular1 = new Lenguaje_de_señas_App.BotonCircular();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(693, 412);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(72, 32);
+            this.btnVolver.TabIndex = 97;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.panel1.Controls.Add(this.btnAcercade);
+            this.panel1.Controls.Add(this.btnMasInforms);
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Controls.Add(this.btnLecciones);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(800, 34);
+            this.panel1.TabIndex = 86;
+            // 
+            // btnAcercade
+            // 
+            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnAcercade.FlatAppearance.BorderSize = 0;
+            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
+            this.btnAcercade.Name = "btnAcercade";
+            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
+            this.btnAcercade.TabIndex = 6;
+            this.btnAcercade.Text = "Acerca de ";
+            this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
+            // 
+            // btnMasInforms
+            // 
+            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnMasInforms.FlatAppearance.BorderSize = 0;
+            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
+            this.btnMasInforms.Name = "btnMasInforms";
+            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInforms.TabIndex = 5;
+            this.btnMasInforms.Text = "Más información";
+            this.btnMasInforms.UseVisualStyleBackColor = true;
+            this.btnMasInforms.Click += new System.EventHandler(this.btnMasInforms_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(762, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(38, 34);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            // 
+            // btnLecciones
+            // 
+            this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnLecciones.FlatAppearance.BorderSize = 0;
+            this.btnLecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLecciones.Location = new System.Drawing.Point(40, 0);
+            this.btnLecciones.Name = "btnLecciones";
+            this.btnLecciones.Size = new System.Drawing.Size(106, 34);
+            this.btnLecciones.TabIndex = 2;
+            this.btnLecciones.Text = "Lecciones";
+            this.btnLecciones.UseVisualStyleBackColor = true;
+            this.btnLecciones.Click += new System.EventHandler(this.btnLecciones_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(40, 34);
+            this.panel2.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(251, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(290, 40);
+            this.label1.TabIndex = 84;
+            this.label1.Text = "Leccion Colores";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // botonCircular12
             // 
@@ -67,18 +178,6 @@
             this.botonCircular12.TabIndex = 98;
             this.botonCircular12.Text = "Gris";
             this.botonCircular12.UseVisualStyleBackColor = false;
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(693, 412);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(72, 32);
-            this.btnVolver.TabIndex = 97;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = false;
             // 
             // botonCircular11
             // 
@@ -222,82 +321,6 @@
             this.botonCircular2.Text = "Café";
             this.botonCircular2.UseVisualStyleBackColor = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
-            this.panel1.Controls.Add(this.btnAcercade);
-            this.panel1.Controls.Add(this.btnMasInforms);
-            this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Controls.Add(this.btnLecciones);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 34);
-            this.panel1.TabIndex = 86;
-            // 
-            // btnAcercade
-            // 
-            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnAcercade.FlatAppearance.BorderSize = 0;
-            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
-            this.btnAcercade.Name = "btnAcercade";
-            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
-            this.btnAcercade.TabIndex = 6;
-            this.btnAcercade.Text = "Acerca de ";
-            this.btnAcercade.UseVisualStyleBackColor = true;
-            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
-            // 
-            // btnMasInforms
-            // 
-            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnMasInforms.FlatAppearance.BorderSize = 0;
-            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
-            this.btnMasInforms.Name = "btnMasInforms";
-            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
-            this.btnMasInforms.TabIndex = 5;
-            this.btnMasInforms.Text = "Más información";
-            this.btnMasInforms.UseVisualStyleBackColor = true;
-            this.btnMasInforms.Click += new System.EventHandler(this.btnMasInforms_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(762, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(38, 34);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.Text = "X";
-            this.btnClose.UseVisualStyleBackColor = false;
-            // 
-            // btnLecciones
-            // 
-            this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnLecciones.FlatAppearance.BorderSize = 0;
-            this.btnLecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLecciones.Location = new System.Drawing.Point(40, 0);
-            this.btnLecciones.Name = "btnLecciones";
-            this.btnLecciones.Size = new System.Drawing.Size(106, 34);
-            this.btnLecciones.TabIndex = 2;
-            this.btnLecciones.Text = "Lecciones";
-            this.btnLecciones.UseVisualStyleBackColor = true;
-            this.btnLecciones.Click += new System.EventHandler(this.btnLecciones_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(40, 34);
-            this.panel2.TabIndex = 1;
-            // 
             // botonCircular1
             // 
             this.botonCircular1.BackColor = System.Drawing.Color.Red;
@@ -311,28 +334,6 @@
             this.botonCircular1.TabIndex = 85;
             this.botonCircular1.Text = "Rojo";
             this.botonCircular1.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(251, 56);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 40);
-            this.label1.TabIndex = 84;
-            this.label1.Text = "Leccion Colores";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // Colores
             // 
@@ -356,6 +357,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Colores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Colores";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

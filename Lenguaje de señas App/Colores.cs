@@ -37,5 +37,12 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Incicio inicio = new Incicio();
+            this.Hide();
+            inicio.Show();
+        }
     }
 }
