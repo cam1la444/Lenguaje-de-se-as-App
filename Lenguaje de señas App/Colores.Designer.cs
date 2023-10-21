@@ -45,7 +45,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.btnCeleste = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnNaranja = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -243,16 +243,16 @@
             this.btnCeleste.Text = "Celeste";
             this.btnCeleste.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btnNaranja
             // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(341, 324);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(81, 44);
-            this.button11.TabIndex = 108;
-            this.button11.Text = "Naranja";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.btnNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNaranja.Location = new System.Drawing.Point(341, 324);
+            this.btnNaranja.Name = "btnNaranja";
+            this.btnNaranja.Size = new System.Drawing.Size(96, 44);
+            this.btnNaranja.TabIndex = 108;
+            this.btnNaranja.Text = "Naranja";
+            this.btnNaranja.UseVisualStyleBackColor = true;
+            this.btnNaranja.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -281,7 +281,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.btnNaranja);
             this.Controls.Add(this.btnCeleste);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -326,7 +326,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button btnCeleste;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnNaranja;
         private System.Windows.Forms.Button button12;
     }
 }
