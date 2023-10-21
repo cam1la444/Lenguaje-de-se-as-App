@@ -42,5 +42,10 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnLecciones_Click_1(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
