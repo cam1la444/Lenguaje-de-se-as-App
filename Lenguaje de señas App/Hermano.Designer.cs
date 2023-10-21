@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hermano));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnReproducir = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,11 +45,33 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(290, 200);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(86, 56);
+            this.btnReproducir.TabIndex = 1;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(140, 396);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(113, 42);
+            this.btnRegresar.TabIndex = 2;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            // 
             // Hermano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 450);
+            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Hermano";
             this.Text = "Hermano";
@@ -59,5 +83,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnReproducir;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
