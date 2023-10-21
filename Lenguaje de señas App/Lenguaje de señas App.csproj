@@ -67,6 +67,12 @@
     <Compile Include="Adjetivos.Designer.cs">
       <DependentUpon>Adjetivos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Amarillo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Amarillo.Designer.cs">
+      <DependentUpon>Amarillo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Animales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -479,6 +485,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Adjetivos.resx">
       <DependentUpon>Adjetivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amarillo.resx">
+      <DependentUpon>Amarillo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Animales.resx">
       <DependentUpon>Animales.cs</DependentUpon>
