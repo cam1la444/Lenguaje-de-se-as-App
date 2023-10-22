@@ -85,5 +85,11 @@ namespace Lenguaje_de_señas_App
             Amarillo amarillo = new Amarillo();
             amarillo.ShowDialog();
         }
+
+        private void btnRosado_Click(object sender, EventArgs e)
+        {
+            Rosado rosado = new Rosado();
+            rosado.ShowDialog();
+        }
     }
 }

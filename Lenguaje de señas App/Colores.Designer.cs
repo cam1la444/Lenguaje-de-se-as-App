@@ -280,6 +280,7 @@
             this.btnRosado.TabIndex = 109;
             this.btnRosado.Text = "Rosado";
             this.btnRosado.UseVisualStyleBackColor = true;
+            this.btnRosado.Click += new System.EventHandler(this.btnRosado_Click);
             // 
             // Colores
             // 
