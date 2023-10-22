@@ -349,6 +349,12 @@
     <Compile Include="MasInformacion.Designer.cs">
       <DependentUpon>MasInformacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Melon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Melon.Designer.cs">
+      <DependentUpon>Melon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Morado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -746,6 +752,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasInformacion.resx">
       <DependentUpon>MasInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Melon.resx">
+      <DependentUpon>Melon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Morado.resx">
       <DependentUpon>Morado.cs</DependentUpon>
