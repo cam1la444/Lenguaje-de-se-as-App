@@ -48,5 +48,11 @@ namespace Lenguaje_de_señas_App
             Mama mama = new Mama();
             mama.ShowDialog();
         }
+
+        private void btnPapa_Click(object sender, EventArgs e)
+        {
+            Papa papa = new Papa();
+            papa.ShowDialog();
+        }
     }
 }

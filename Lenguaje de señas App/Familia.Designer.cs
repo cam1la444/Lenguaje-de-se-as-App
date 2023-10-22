@@ -140,6 +140,7 @@
             this.btnPapa.TabIndex = 43;
             this.btnPapa.Text = "Papá";
             this.btnPapa.UseVisualStyleBackColor = true;
+            this.btnPapa.Click += new System.EventHandler(this.btnPapa_Click);
             // 
             // btnPrima
             // 
