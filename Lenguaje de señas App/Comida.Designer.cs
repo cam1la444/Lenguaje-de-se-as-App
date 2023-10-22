@@ -49,7 +49,7 @@
             this.btnDurazno = new System.Windows.Forms.Button();
             this.btnFresa = new System.Windows.Forms.Button();
             this.btnNaranja = new System.Windows.Forms.Button();
-            this.btnAbuelo = new System.Windows.Forms.Button();
+            this.btnCiruela = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -348,20 +348,20 @@
             this.btnNaranja.Text = "Naranja";
             this.btnNaranja.UseVisualStyleBackColor = true;
             // 
-            // btnAbuelo
+            // btnCiruela
             // 
-            this.btnAbuelo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbuelo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnAbuelo.FlatAppearance.BorderSize = 2;
-            this.btnAbuelo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnAbuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnAbuelo.Location = new System.Drawing.Point(496, 368);
-            this.btnAbuelo.Name = "btnAbuelo";
-            this.btnAbuelo.Size = new System.Drawing.Size(135, 51);
-            this.btnAbuelo.TabIndex = 70;
-            this.btnAbuelo.Text = "Domingo";
-            this.btnAbuelo.UseVisualStyleBackColor = true;
+            this.btnCiruela.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCiruela.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCiruela.FlatAppearance.BorderSize = 2;
+            this.btnCiruela.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCiruela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCiruela.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCiruela.Location = new System.Drawing.Point(496, 368);
+            this.btnCiruela.Name = "btnCiruela";
+            this.btnCiruela.Size = new System.Drawing.Size(135, 51);
+            this.btnCiruela.TabIndex = 70;
+            this.btnCiruela.Text = "Ciruela";
+            this.btnCiruela.UseVisualStyleBackColor = true;
             // 
             // btnManzana
             // 
@@ -396,7 +396,7 @@
             this.Controls.Add(this.btnDurazno);
             this.Controls.Add(this.btnFresa);
             this.Controls.Add(this.btnNaranja);
-            this.Controls.Add(this.btnAbuelo);
+            this.Controls.Add(this.btnCiruela);
             this.Controls.Add(this.btnManzana);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnVolver);
@@ -434,7 +434,7 @@
         private System.Windows.Forms.Button btnDurazno;
         private System.Windows.Forms.Button btnFresa;
         private System.Windows.Forms.Button btnNaranja;
-        private System.Windows.Forms.Button btnAbuelo;
+        private System.Windows.Forms.Button btnCiruela;
         private System.Windows.Forms.Button btnManzana;
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
