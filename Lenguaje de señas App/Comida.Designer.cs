@@ -30,8 +30,11 @@
         {
             this.btnClose = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAcercade = new System.Windows.Forms.Button();
+            this.btnMasInforms = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -42,15 +45,12 @@
             this.button8 = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
             this.btnPiña = new System.Windows.Forms.Button();
-            this.btnTio = new System.Windows.Forms.Button();
+            this.btnGuineo = new System.Windows.Forms.Button();
             this.btnDurazno = new System.Windows.Forms.Button();
             this.btnFresa = new System.Windows.Forms.Button();
             this.btnNaranja = new System.Windows.Forms.Button();
             this.btnAbuelo = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
-            this.btnMasInforms = new System.Windows.Forms.Button();
-            this.btnAcercade = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,6 +85,31 @@
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 21;
             // 
+            // btnAcercade
+            // 
+            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnAcercade.FlatAppearance.BorderSize = 0;
+            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
+            this.btnAcercade.Name = "btnAcercade";
+            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
+            this.btnAcercade.TabIndex = 6;
+            this.btnAcercade.Text = "Acerca de ";
+            this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
+            // 
+            // btnMasInforms
+            // 
+            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnMasInforms.FlatAppearance.BorderSize = 0;
+            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
+            this.btnMasInforms.Name = "btnMasInforms";
+            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInforms.TabIndex = 5;
+            this.btnMasInforms.Text = "Más información";
+            this.btnMasInforms.UseVisualStyleBackColor = true;
+            // 
             // btnLecciones
             // 
             this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
@@ -107,6 +132,17 @@
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -123,12 +159,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(270, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 49);
+            this.label1.Size = new System.Drawing.Size(300, 42);
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Comida";
             // 
@@ -139,7 +175,7 @@
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(416, 286);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 64);
@@ -154,7 +190,7 @@
             this.button3.FlatAppearance.BorderSize = 2;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button3.Location = new System.Drawing.Point(570, 282);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 68);
@@ -169,7 +205,7 @@
             this.button4.FlatAppearance.BorderSize = 2;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(416, 207);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(135, 51);
@@ -184,7 +220,7 @@
             this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button5.Location = new System.Drawing.Point(570, 125);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(135, 51);
@@ -199,7 +235,7 @@
             this.button6.FlatAppearance.BorderSize = 2;
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button6.Location = new System.Drawing.Point(570, 207);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(135, 51);
@@ -214,7 +250,7 @@
             this.button8.FlatAppearance.BorderSize = 2;
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button8.Location = new System.Drawing.Point(416, 125);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(135, 51);
@@ -229,7 +265,7 @@
             this.btnSandia.FlatAppearance.BorderSize = 2;
             this.btnSandia.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnSandia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSandia.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSandia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnSandia.Location = new System.Drawing.Point(245, 207);
             this.btnSandia.Name = "btnSandia";
             this.btnSandia.Size = new System.Drawing.Size(135, 51);
@@ -244,7 +280,7 @@
             this.btnPiña.FlatAppearance.BorderSize = 2;
             this.btnPiña.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPiña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPiña.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPiña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPiña.Location = new System.Drawing.Point(91, 286);
             this.btnPiña.Name = "btnPiña";
             this.btnPiña.Size = new System.Drawing.Size(135, 51);
@@ -252,20 +288,20 @@
             this.btnPiña.Text = "Piña";
             this.btnPiña.UseVisualStyleBackColor = true;
             // 
-            // btnTio
+            // btnGuineo
             // 
-            this.btnTio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTio.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnTio.FlatAppearance.BorderSize = 2;
-            this.btnTio.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnTio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTio.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnTio.Location = new System.Drawing.Point(245, 286);
-            this.btnTio.Name = "btnTio";
-            this.btnTio.Size = new System.Drawing.Size(135, 51);
-            this.btnTio.TabIndex = 74;
-            this.btnTio.Text = "Viernes";
-            this.btnTio.UseVisualStyleBackColor = true;
+            this.btnGuineo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuineo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnGuineo.FlatAppearance.BorderSize = 2;
+            this.btnGuineo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnGuineo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuineo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnGuineo.Location = new System.Drawing.Point(245, 286);
+            this.btnGuineo.Name = "btnGuineo";
+            this.btnGuineo.Size = new System.Drawing.Size(135, 51);
+            this.btnGuineo.TabIndex = 74;
+            this.btnGuineo.Text = "Guineo";
+            this.btnGuineo.UseVisualStyleBackColor = true;
             // 
             // btnDurazno
             // 
@@ -274,7 +310,7 @@
             this.btnDurazno.FlatAppearance.BorderSize = 2;
             this.btnDurazno.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnDurazno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDurazno.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDurazno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnDurazno.Location = new System.Drawing.Point(91, 207);
             this.btnDurazno.Name = "btnDurazno";
             this.btnDurazno.Size = new System.Drawing.Size(135, 51);
@@ -289,7 +325,7 @@
             this.btnFresa.FlatAppearance.BorderSize = 2;
             this.btnFresa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnFresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFresa.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnFresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnFresa.Location = new System.Drawing.Point(245, 125);
             this.btnFresa.Name = "btnFresa";
             this.btnFresa.Size = new System.Drawing.Size(135, 51);
@@ -304,7 +340,7 @@
             this.btnNaranja.FlatAppearance.BorderSize = 2;
             this.btnNaranja.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnNaranja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNaranja.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnNaranja.Location = new System.Drawing.Point(168, 368);
             this.btnNaranja.Name = "btnNaranja";
             this.btnNaranja.Size = new System.Drawing.Size(135, 51);
@@ -319,7 +355,7 @@
             this.btnAbuelo.FlatAppearance.BorderSize = 2;
             this.btnAbuelo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnAbuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbuelo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAbuelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAbuelo.Location = new System.Drawing.Point(496, 368);
             this.btnAbuelo.Name = "btnAbuelo";
             this.btnAbuelo.Size = new System.Drawing.Size(135, 51);
@@ -334,49 +370,13 @@
             this.btnManzana.FlatAppearance.BorderSize = 2;
             this.btnManzana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnManzana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManzana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnManzana.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnManzana.Location = new System.Drawing.Point(91, 125);
             this.btnManzana.Name = "btnManzana";
             this.btnManzana.Size = new System.Drawing.Size(135, 51);
             this.btnManzana.TabIndex = 69;
             this.btnManzana.Text = "Manzana";
             this.btnManzana.UseVisualStyleBackColor = true;
-            // 
-            // btnMasInforms
-            // 
-            this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnMasInforms.FlatAppearance.BorderSize = 0;
-            this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
-            this.btnMasInforms.Name = "btnMasInforms";
-            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
-            this.btnMasInforms.TabIndex = 5;
-            this.btnMasInforms.Text = "Más información";
-            this.btnMasInforms.UseVisualStyleBackColor = true;
-            // 
-            // btnAcercade
-            // 
-            this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnAcercade.FlatAppearance.BorderSize = 0;
-            this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
-            this.btnAcercade.Name = "btnAcercade";
-            this.btnAcercade.Size = new System.Drawing.Size(106, 34);
-            this.btnAcercade.TabIndex = 6;
-            this.btnAcercade.Text = "Acerca de ";
-            this.btnAcercade.UseVisualStyleBackColor = true;
-            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // Comida
             // 
@@ -392,7 +392,7 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.btnSandia);
             this.Controls.Add(this.btnPiña);
-            this.Controls.Add(this.btnTio);
+            this.Controls.Add(this.btnGuineo);
             this.Controls.Add(this.btnDurazno);
             this.Controls.Add(this.btnFresa);
             this.Controls.Add(this.btnNaranja);
@@ -430,7 +430,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button btnSandia;
         private System.Windows.Forms.Button btnPiña;
-        private System.Windows.Forms.Button btnTio;
+        private System.Windows.Forms.Button btnGuineo;
         private System.Windows.Forms.Button btnDurazno;
         private System.Windows.Forms.Button btnFresa;
         private System.Windows.Forms.Button btnNaranja;
