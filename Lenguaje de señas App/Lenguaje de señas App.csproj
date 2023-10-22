@@ -531,6 +531,12 @@
     <Compile Include="Tiempo.Designer.cs">
       <DependentUpon>Tiempo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tio.Designer.cs">
+      <DependentUpon>Tio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -798,6 +804,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tiempo.resx">
       <DependentUpon>Tiempo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tio.resx">
+      <DependentUpon>Tio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Verbos.resx">
       <DependentUpon>Verbos.cs</DependentUpon>
