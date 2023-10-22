@@ -42,7 +42,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnMelon = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
             this.btnPiña = new System.Windows.Forms.Button();
             this.btnGuineo = new System.Windows.Forms.Button();
@@ -243,20 +243,20 @@
             this.button6.Text = "Esta Tarde";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnMelon
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button8.FlatAppearance.BorderSize = 2;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(416, 125);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(135, 51);
-            this.button8.TabIndex = 77;
-            this.button8.Text = "Mañana";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnMelon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMelon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMelon.FlatAppearance.BorderSize = 2;
+            this.btnMelon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMelon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMelon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMelon.Location = new System.Drawing.Point(416, 125);
+            this.btnMelon.Name = "btnMelon";
+            this.btnMelon.Size = new System.Drawing.Size(135, 51);
+            this.btnMelon.TabIndex = 77;
+            this.btnMelon.Text = "Melón";
+            this.btnMelon.UseVisualStyleBackColor = true;
             // 
             // btnSandia
             // 
@@ -389,7 +389,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnMelon);
             this.Controls.Add(this.btnSandia);
             this.Controls.Add(this.btnPiña);
             this.Controls.Add(this.btnGuineo);
@@ -427,7 +427,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnMelon;
         private System.Windows.Forms.Button btnSandia;
         private System.Windows.Forms.Button btnPiña;
         private System.Windows.Forms.Button btnGuineo;
