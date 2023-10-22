@@ -97,5 +97,11 @@ namespace Lenguaje_de_señas_App
             Negro negro = new Negro();
             negro.ShowDialog();
         }
+
+        private void btnVerde_Click(object sender, EventArgs e)
+        {
+            Verde verde = new Verde();
+            verde.ShowDialog();
+        }
     }
 }

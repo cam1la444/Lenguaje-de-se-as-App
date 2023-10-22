@@ -195,6 +195,7 @@
             this.btnVerde.TabIndex = 101;
             this.btnVerde.Text = "Verde";
             this.btnVerde.UseVisualStyleBackColor = true;
+            this.btnVerde.Click += new System.EventHandler(this.btnVerde_Click);
             // 
             // btnAmarillo
             // 
