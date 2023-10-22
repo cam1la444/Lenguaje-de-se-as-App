@@ -541,6 +541,12 @@
     <Compile Include="Papa.Designer.cs">
       <DependentUpon>Papa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Papaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papaya.Designer.cs">
+      <DependentUpon>Papaya.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pera.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -884,6 +890,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Papa.resx">
       <DependentUpon>Papa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papaya.resx">
+      <DependentUpon>Papaya.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pera.resx">
       <DependentUpon>Pera.cs</DependentUpon>
