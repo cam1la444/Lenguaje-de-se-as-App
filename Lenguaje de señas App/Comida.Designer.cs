@@ -41,7 +41,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnLimon = new System.Windows.Forms.Button();
             this.btnPera = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnMandarina = new System.Windows.Forms.Button();
             this.btnMelon = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
             this.btnPiña = new System.Windows.Forms.Button();
@@ -228,20 +228,20 @@
             this.btnPera.Text = "Pera";
             this.btnPera.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnMandarina
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(570, 207);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(135, 51);
-            this.button6.TabIndex = 78;
-            this.button6.Text = "Esta Tarde";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnMandarina.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMandarina.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMandarina.FlatAppearance.BorderSize = 2;
+            this.btnMandarina.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMandarina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMandarina.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMandarina.Location = new System.Drawing.Point(570, 207);
+            this.btnMandarina.Name = "btnMandarina";
+            this.btnMandarina.Size = new System.Drawing.Size(135, 51);
+            this.btnMandarina.TabIndex = 78;
+            this.btnMandarina.Text = "Mandarina";
+            this.btnMandarina.UseVisualStyleBackColor = true;
             // 
             // btnMelon
             // 
@@ -388,7 +388,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnLimon);
             this.Controls.Add(this.btnPera);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnMandarina);
             this.Controls.Add(this.btnMelon);
             this.Controls.Add(this.btnSandia);
             this.Controls.Add(this.btnPiña);
@@ -426,7 +426,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnLimon;
         private System.Windows.Forms.Button btnPera;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnMandarina;
         private System.Windows.Forms.Button btnMelon;
         private System.Windows.Forms.Button btnSandia;
         private System.Windows.Forms.Button btnPiña;
