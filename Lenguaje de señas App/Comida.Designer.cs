@@ -65,7 +65,7 @@
             this.btnCaña = new System.Windows.Forms.Button();
             this.btnJicama = new System.Windows.Forms.Button();
             this.btnArayan = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnGranadilla = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -603,20 +603,20 @@
             this.btnArayan.Text = "Arayán";
             this.btnArayan.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnGranadilla
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(450, 410);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 51);
-            this.button4.TabIndex = 98;
-            this.button4.Text = "Naranja";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnGranadilla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGranadilla.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnGranadilla.FlatAppearance.BorderSize = 2;
+            this.btnGranadilla.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnGranadilla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGranadilla.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnGranadilla.Location = new System.Drawing.Point(450, 410);
+            this.btnGranadilla.Name = "btnGranadilla";
+            this.btnGranadilla.Size = new System.Drawing.Size(135, 51);
+            this.btnGranadilla.TabIndex = 98;
+            this.btnGranadilla.Text = "Granadilla";
+            this.btnGranadilla.UseVisualStyleBackColor = true;
             // 
             // Comida
             // 
@@ -624,7 +624,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 496);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnGranadilla);
             this.Controls.Add(this.btnArayan);
             this.Controls.Add(this.btnJicama);
             this.Controls.Add(this.btnCaña);
@@ -707,6 +707,6 @@
         private System.Windows.Forms.Button btnCaña;
         private System.Windows.Forms.Button btnJicama;
         private System.Windows.Forms.Button btnArayan;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnGranadilla;
     }
 }
