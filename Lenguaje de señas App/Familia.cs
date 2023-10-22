@@ -54,5 +54,11 @@ namespace Lenguaje_de_señas_App
             Papa papa = new Papa();
             papa.ShowDialog();
         }
+
+        private void btnAbuela_Click(object sender, EventArgs e)
+        {
+            Abuela abuela = new Abuela();
+            abuela.ShowDialog();
+        }
     }
 }
