@@ -525,6 +525,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tia.Designer.cs">
+      <DependentUpon>Tia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tiempo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -801,6 +807,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tia.resx">
+      <DependentUpon>Tia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tiempo.resx">
       <DependentUpon>Tiempo.cs</DependentUpon>
