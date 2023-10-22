@@ -355,6 +355,12 @@
     <Compile Include="Mama.Designer.cs">
       <DependentUpon>Mama.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mandarina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mandarina.Designer.cs">
+      <DependentUpon>Mandarina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manzana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -779,6 +785,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mama.resx">
       <DependentUpon>Mama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mandarina.resx">
+      <DependentUpon>Mandarina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manzana.resx">
       <DependentUpon>Manzana.cs</DependentUpon>
