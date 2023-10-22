@@ -66,6 +66,7 @@
             this.btnMama.TabIndex = 22;
             this.btnMama.Text = "Mamá";
             this.btnMama.UseVisualStyleBackColor = true;
+            this.btnMama.Click += new System.EventHandler(this.btnMama_Click);
             // 
             // btnVolver
             // 

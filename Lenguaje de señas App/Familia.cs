@@ -42,5 +42,11 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnMama_Click(object sender, EventArgs e)
+        {
+            Mama mama = new Mama();
+            mama.ShowDialog();
+        }
     }
 }
