@@ -115,6 +115,12 @@
     <Compile Include="Celeste.Designer.cs">
       <DependentUpon>Celeste.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cereza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cereza.Designer.cs">
+      <DependentUpon>Cereza.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ciruela.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -665,6 +671,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cereza.resx">
+      <DependentUpon>Cereza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ciruela.resx">
       <DependentUpon>Ciruela.cs</DependentUpon>
