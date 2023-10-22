@@ -207,6 +207,7 @@
             this.btnTia.TabIndex = 45;
             this.btnTia.Text = "Tía";
             this.btnTia.UseVisualStyleBackColor = true;
+            this.btnTia.Click += new System.EventHandler(this.btnTia_Click);
             // 
             // btnHermana
             // 

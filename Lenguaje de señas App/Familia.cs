@@ -96,5 +96,11 @@ namespace Lenguaje_de_señas_App
             Tio tio = new Tio();
             tio.ShowDialog();
         }
+
+        private void btnTia_Click(object sender, EventArgs e)
+        {
+            Tia tia = new Tia();
+            tia.ShowDialog();
+        }
     }
 }
