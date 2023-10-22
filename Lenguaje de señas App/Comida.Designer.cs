@@ -53,7 +53,7 @@
             this.btnManzana = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnCoco = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNance = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -414,20 +414,20 @@
             this.btnCoco.Text = "Coco";
             this.btnCoco.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnNance
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(591, 239);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 51);
-            this.button3.TabIndex = 86;
-            this.button3.Text = "Ciruela";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNance.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNance.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnNance.FlatAppearance.BorderSize = 2;
+            this.btnNance.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnNance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnNance.Location = new System.Drawing.Point(591, 239);
+            this.btnNance.Name = "btnNance";
+            this.btnNance.Size = new System.Drawing.Size(135, 51);
+            this.btnNance.TabIndex = 86;
+            this.btnNance.Text = "Nance";
+            this.btnNance.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -483,7 +483,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnNance);
             this.Controls.Add(this.btnCoco);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCereza);
@@ -542,7 +542,7 @@
         private System.Windows.Forms.Button btnMasInforms;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnCoco;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnNance;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
