@@ -215,6 +215,7 @@
             this.btnAzul.TabIndex = 103;
             this.btnAzul.Text = "Azul";
             this.btnAzul.UseVisualStyleBackColor = true;
+            this.btnAzul.Click += new System.EventHandler(this.btnAzul_Click);
             // 
             // btnBlanco
             // 

@@ -67,5 +67,11 @@ namespace Lenguaje_de_señas_App
             Celeste celeste = new Celeste();
             celeste.ShowDialog();
         }
+
+        private void btnAzul_Click(object sender, EventArgs e)
+        {
+            Azul azul = new Azul();
+            azul.ShowDialog();
+        }
     }
 }
