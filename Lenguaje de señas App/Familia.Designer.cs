@@ -159,6 +159,7 @@
             this.btnPrima.TabIndex = 48;
             this.btnPrima.Text = "Prima";
             this.btnPrima.UseVisualStyleBackColor = true;
+            this.btnPrima.Click += new System.EventHandler(this.btnPrima_Click);
             // 
             // btnPrimo
             // 

@@ -78,5 +78,11 @@ namespace Lenguaje_de_señas_App
             Hermana hermana = new Hermana();
             hermana.ShowDialog();
         }
+
+        private void btnPrima_Click(object sender, EventArgs e)
+        {
+            Primo primo = new Primo();
+            primo.ShowDialog();
+        }
     }
 }
