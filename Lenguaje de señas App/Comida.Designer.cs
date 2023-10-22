@@ -63,7 +63,7 @@
             this.btnPepeto = new System.Windows.Forms.Button();
             this.btnPaterna = new System.Windows.Forms.Button();
             this.btnCaña = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnJicama = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -573,20 +573,20 @@
             this.btnCaña.Text = "Caña de Azucar";
             this.btnCaña.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnJicama
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(168, 413);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 51);
-            this.button2.TabIndex = 96;
-            this.button2.Text = "Naranja";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnJicama.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnJicama.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnJicama.FlatAppearance.BorderSize = 2;
+            this.btnJicama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnJicama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJicama.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnJicama.Location = new System.Drawing.Point(168, 413);
+            this.btnJicama.Name = "btnJicama";
+            this.btnJicama.Size = new System.Drawing.Size(135, 51);
+            this.btnJicama.TabIndex = 96;
+            this.btnJicama.Text = "Jicama";
+            this.btnJicama.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -626,7 +626,7 @@
             this.ClientSize = new System.Drawing.Size(790, 496);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnJicama);
             this.Controls.Add(this.btnCaña);
             this.Controls.Add(this.btnPaterna);
             this.Controls.Add(this.btnPepeto);
@@ -705,7 +705,7 @@
         private System.Windows.Forms.Button btnPepeto;
         private System.Windows.Forms.Button btnPaterna;
         private System.Windows.Forms.Button btnCaña;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnJicama;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
