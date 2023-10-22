@@ -61,7 +61,7 @@
             this.btnMamones = new System.Windows.Forms.Button();
             this.btnMamey = new System.Windows.Forms.Button();
             this.btnPepeto = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnPaterna = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -539,20 +539,20 @@
             this.btnPepeto.Text = "Pepeto";
             this.btnPepeto.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnPaterna
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(591, 353);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 51);
-            this.button5.TabIndex = 94;
-            this.button5.Text = "Naranja";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnPaterna.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPaterna.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPaterna.FlatAppearance.BorderSize = 2;
+            this.btnPaterna.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPaterna.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPaterna.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPaterna.Location = new System.Drawing.Point(591, 353);
+            this.btnPaterna.Name = "btnPaterna";
+            this.btnPaterna.Size = new System.Drawing.Size(135, 51);
+            this.btnPaterna.TabIndex = 94;
+            this.btnPaterna.Text = "Paterna";
+            this.btnPaterna.UseVisualStyleBackColor = true;
             // 
             // Comida
             // 
@@ -560,7 +560,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 496);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnPaterna);
             this.Controls.Add(this.btnPepeto);
             this.Controls.Add(this.btnMamey);
             this.Controls.Add(this.btnMamones);
@@ -635,6 +635,6 @@
         private System.Windows.Forms.Button btnMamones;
         private System.Windows.Forms.Button btnMamey;
         private System.Windows.Forms.Button btnPepeto;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnPaterna;
     }
 }
