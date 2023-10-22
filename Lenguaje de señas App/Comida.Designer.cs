@@ -37,8 +37,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCereza = new System.Windows.Forms.Button();
+            this.btnPapaya = new System.Windows.Forms.Button();
             this.btnLimon = new System.Windows.Forms.Button();
             this.btnPera = new System.Windows.Forms.Button();
             this.btnMandarina = new System.Windows.Forms.Button();
@@ -168,35 +168,35 @@
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Comida";
             // 
-            // button1
+            // btnCereza
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(416, 286);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 64);
-            this.button1.TabIndex = 83;
-            this.button1.Text = "Próxima Semana";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCereza.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCereza.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCereza.FlatAppearance.BorderSize = 2;
+            this.btnCereza.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCereza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCereza.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCereza.Location = new System.Drawing.Point(416, 286);
+            this.btnCereza.Name = "btnCereza";
+            this.btnCereza.Size = new System.Drawing.Size(135, 64);
+            this.btnCereza.TabIndex = 83;
+            this.btnCereza.Text = "Cereza";
+            this.btnCereza.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPapaya
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(570, 282);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 68);
-            this.button3.TabIndex = 81;
-            this.button3.Text = "Semana Pasada";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPapaya.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPapaya.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPapaya.FlatAppearance.BorderSize = 2;
+            this.btnPapaya.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPapaya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPapaya.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPapaya.Location = new System.Drawing.Point(570, 282);
+            this.btnPapaya.Name = "btnPapaya";
+            this.btnPapaya.Size = new System.Drawing.Size(135, 68);
+            this.btnPapaya.TabIndex = 81;
+            this.btnPapaya.Text = "Papaya";
+            this.btnPapaya.UseVisualStyleBackColor = true;
             // 
             // btnLimon
             // 
@@ -384,8 +384,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnCereza);
+            this.Controls.Add(this.btnPapaya);
             this.Controls.Add(this.btnLimon);
             this.Controls.Add(this.btnPera);
             this.Controls.Add(this.btnMandarina);
@@ -422,8 +422,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCereza;
+        private System.Windows.Forms.Button btnPapaya;
         private System.Windows.Forms.Button btnLimon;
         private System.Windows.Forms.Button btnPera;
         private System.Windows.Forms.Button btnMandarina;
