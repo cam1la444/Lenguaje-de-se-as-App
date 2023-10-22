@@ -51,7 +51,7 @@
             this.btnNaranja = new System.Windows.Forms.Button();
             this.btnCiruela = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMarañon = new System.Windows.Forms.Button();
             this.btnCoco = new System.Windows.Forms.Button();
             this.btnNance = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -384,20 +384,20 @@
             this.btnManzana.Text = "Manzana";
             this.btnManzana.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnMarañon
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(168, 299);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 51);
-            this.button1.TabIndex = 84;
-            this.button1.Text = "Ciruela";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMarañon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMarañon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMarañon.FlatAppearance.BorderSize = 2;
+            this.btnMarañon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMarañon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMarañon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMarañon.Location = new System.Drawing.Point(168, 299);
+            this.btnMarañon.Name = "btnMarañon";
+            this.btnMarañon.Size = new System.Drawing.Size(135, 51);
+            this.btnMarañon.TabIndex = 84;
+            this.btnMarañon.Text = "Marañon";
+            this.btnMarañon.UseVisualStyleBackColor = true;
             // 
             // btnCoco
             // 
@@ -485,7 +485,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnNance);
             this.Controls.Add(this.btnCoco);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMarañon);
             this.Controls.Add(this.btnCereza);
             this.Controls.Add(this.btnPapaya);
             this.Controls.Add(this.btnLimon);
@@ -540,7 +540,7 @@
         private System.Windows.Forms.Button btnManzana;
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMarañon;
         private System.Windows.Forms.Button btnCoco;
         private System.Windows.Forms.Button btnNance;
         private System.Windows.Forms.Button button4;
