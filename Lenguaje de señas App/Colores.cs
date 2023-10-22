@@ -91,5 +91,11 @@ namespace Lenguaje_de_señas_App
             Rosado rosado = new Rosado();
             rosado.ShowDialog();
         }
+
+        private void btnNegro_Click(object sender, EventArgs e)
+        {
+            Negro negro = new Negro();
+            negro.ShowDialog();
+        }
     }
 }

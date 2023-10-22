@@ -248,6 +248,7 @@
             this.btnNegro.TabIndex = 106;
             this.btnNegro.Text = "Negro";
             this.btnNegro.UseVisualStyleBackColor = true;
+            this.btnNegro.Click += new System.EventHandler(this.btnNegro_Click);
             // 
             // btnCeleste
             // 
