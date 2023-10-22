@@ -175,6 +175,7 @@
             this.btnPrimo.TabIndex = 47;
             this.btnPrimo.Text = "Primo";
             this.btnPrimo.UseVisualStyleBackColor = true;
+            this.btnPrimo.Click += new System.EventHandler(this.btnPrimo_Click);
             // 
             // btnTio
             // 
