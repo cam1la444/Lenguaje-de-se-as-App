@@ -59,7 +59,7 @@
             this.btnZapote = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnMamey = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -509,20 +509,20 @@
             this.button2.Text = "Naranja";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnMamey
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(22, 356);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 51);
-            this.button3.TabIndex = 92;
-            this.button3.Text = "Naranja";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMamey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMamey.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMamey.FlatAppearance.BorderSize = 2;
+            this.btnMamey.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMamey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMamey.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMamey.Location = new System.Drawing.Point(22, 356);
+            this.btnMamey.Name = "btnMamey";
+            this.btnMamey.Size = new System.Drawing.Size(135, 51);
+            this.btnMamey.TabIndex = 92;
+            this.btnMamey.Text = "Mamey";
+            this.btnMamey.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -562,7 +562,7 @@
             this.ClientSize = new System.Drawing.Size(790, 475);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnMamey);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnZapote);
@@ -633,7 +633,7 @@
         private System.Windows.Forms.Button btnZapote;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnMamey;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
     }
