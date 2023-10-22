@@ -379,6 +379,12 @@
     <Compile Include="Manzana.Designer.cs">
       <DependentUpon>Manzana.cs</DependentUpon>
     </Compile>
+    <Compile Include="Marañon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marañon.Designer.cs">
+      <DependentUpon>Marañon.cs</DependentUpon>
+    </Compile>
     <Compile Include="MasInformacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -821,6 +827,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Manzana.resx">
       <DependentUpon>Manzana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marañon.resx">
+      <DependentUpon>Marañon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasInformacion.resx">
       <DependentUpon>MasInformacion.cs</DependentUpon>
