@@ -39,7 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnLimon = new System.Windows.Forms.Button();
             this.btnPera = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnMelon = new System.Windows.Forms.Button();
@@ -198,20 +198,20 @@
             this.button3.Text = "Semana Pasada";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnLimon
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(416, 207);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 51);
-            this.button4.TabIndex = 80;
-            this.button4.Text = "Esta Semana";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnLimon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnLimon.FlatAppearance.BorderSize = 2;
+            this.btnLimon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnLimon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnLimon.Location = new System.Drawing.Point(416, 207);
+            this.btnLimon.Name = "btnLimon";
+            this.btnLimon.Size = new System.Drawing.Size(135, 51);
+            this.btnLimon.TabIndex = 80;
+            this.btnLimon.Text = "Limón";
+            this.btnLimon.UseVisualStyleBackColor = true;
             // 
             // btnPera
             // 
@@ -386,7 +386,7 @@
             this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnLimon);
             this.Controls.Add(this.btnPera);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnMelon);
@@ -424,7 +424,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnLimon;
         private System.Windows.Forms.Button btnPera;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnMelon;
