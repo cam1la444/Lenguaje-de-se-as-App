@@ -62,7 +62,7 @@
             this.btnMamey = new System.Windows.Forms.Button();
             this.btnPepeto = new System.Windows.Forms.Button();
             this.btnPaterna = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCaña = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -558,20 +558,20 @@
             this.btnPaterna.Text = "Paterna";
             this.btnPaterna.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCaña
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(22, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 51);
-            this.button1.TabIndex = 95;
-            this.button1.Text = "Naranja";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCaña.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCaña.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCaña.FlatAppearance.BorderSize = 2;
+            this.btnCaña.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCaña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCaña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCaña.Location = new System.Drawing.Point(22, 413);
+            this.btnCaña.Name = "btnCaña";
+            this.btnCaña.Size = new System.Drawing.Size(135, 71);
+            this.btnCaña.TabIndex = 95;
+            this.btnCaña.Text = "Caña de Azucar";
+            this.btnCaña.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -627,7 +627,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCaña);
             this.Controls.Add(this.btnPaterna);
             this.Controls.Add(this.btnPepeto);
             this.Controls.Add(this.btnMamey);
@@ -704,7 +704,7 @@
         private System.Windows.Forms.Button btnMamey;
         private System.Windows.Forms.Button btnPepeto;
         private System.Windows.Forms.Button btnPaterna;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCaña;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
