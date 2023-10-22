@@ -537,6 +537,12 @@
     <Compile Include="Saludos.Designer.cs">
       <DependentUpon>Saludos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sandia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sandia.Designer.cs">
+      <DependentUpon>Sandia.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -831,6 +837,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Saludos.resx">
       <DependentUpon>Saludos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sandia.resx">
+      <DependentUpon>Sandia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
