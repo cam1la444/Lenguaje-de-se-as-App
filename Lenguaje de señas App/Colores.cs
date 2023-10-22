@@ -50,7 +50,7 @@ namespace Lenguaje_de_señas_App
 
         }
 
-        private void Colores_Load(object sender, EventArgs e)
+        private void btnRojo_Click(object sender, EventArgs e)
         {
 
         }
