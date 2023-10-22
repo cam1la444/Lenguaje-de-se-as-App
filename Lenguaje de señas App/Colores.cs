@@ -52,7 +52,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnRojo_Click(object sender, EventArgs e)
         {
-
+            Rojo rojo = new Rojo();
+            rojo.ShowDialog();
         }
     }
 }
