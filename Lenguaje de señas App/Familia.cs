@@ -81,7 +81,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnPrima_Click(object sender, EventArgs e)
         {
-           
+            Prima prima = new Prima();
+            prima.ShowDialog();
         }
     }
 }
