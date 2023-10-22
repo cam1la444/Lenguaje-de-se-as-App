@@ -64,7 +64,7 @@
             this.btnPaterna = new System.Windows.Forms.Button();
             this.btnCaña = new System.Windows.Forms.Button();
             this.btnJicama = new System.Windows.Forms.Button();
-            this.btnArayan = new System.Windows.Forms.Button();
+            this.btnArrayan = new System.Windows.Forms.Button();
             this.btnGranadilla = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -588,20 +588,20 @@
             this.btnJicama.Text = "Jicama";
             this.btnJicama.UseVisualStyleBackColor = true;
             // 
-            // btnArayan
+            // btnArrayan
             // 
-            this.btnArayan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnArayan.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnArayan.FlatAppearance.BorderSize = 2;
-            this.btnArayan.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnArayan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArayan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnArayan.Location = new System.Drawing.Point(309, 413);
-            this.btnArayan.Name = "btnArayan";
-            this.btnArayan.Size = new System.Drawing.Size(135, 51);
-            this.btnArayan.TabIndex = 97;
-            this.btnArayan.Text = "Arayán";
-            this.btnArayan.UseVisualStyleBackColor = true;
+            this.btnArrayan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArrayan.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnArrayan.FlatAppearance.BorderSize = 2;
+            this.btnArrayan.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnArrayan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArrayan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnArrayan.Location = new System.Drawing.Point(309, 413);
+            this.btnArrayan.Name = "btnArrayan";
+            this.btnArrayan.Size = new System.Drawing.Size(135, 51);
+            this.btnArrayan.TabIndex = 97;
+            this.btnArrayan.Text = "Arrayán";
+            this.btnArrayan.UseVisualStyleBackColor = true;
             // 
             // btnGranadilla
             // 
@@ -625,7 +625,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 496);
             this.Controls.Add(this.btnGranadilla);
-            this.Controls.Add(this.btnArayan);
+            this.Controls.Add(this.btnArrayan);
             this.Controls.Add(this.btnJicama);
             this.Controls.Add(this.btnCaña);
             this.Controls.Add(this.btnPaterna);
@@ -706,7 +706,7 @@
         private System.Windows.Forms.Button btnPaterna;
         private System.Windows.Forms.Button btnCaña;
         private System.Windows.Forms.Button btnJicama;
-        private System.Windows.Forms.Button btnArayan;
+        private System.Windows.Forms.Button btnArrayan;
         private System.Windows.Forms.Button btnGranadilla;
     }
 }
