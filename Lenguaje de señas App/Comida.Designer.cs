@@ -40,7 +40,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnPera = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnMelon = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
@@ -213,20 +213,20 @@
             this.button4.Text = "Esta Semana";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnPera
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(570, 125);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 51);
-            this.button5.TabIndex = 79;
-            this.button5.Text = "Ayer";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnPera.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPera.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPera.FlatAppearance.BorderSize = 2;
+            this.btnPera.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPera.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPera.Location = new System.Drawing.Point(570, 125);
+            this.btnPera.Name = "btnPera";
+            this.btnPera.Size = new System.Drawing.Size(135, 51);
+            this.btnPera.TabIndex = 79;
+            this.btnPera.Text = "Pera";
+            this.btnPera.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -387,7 +387,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnPera);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnMelon);
             this.Controls.Add(this.btnSandia);
@@ -425,7 +425,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnPera;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnMelon;
         private System.Windows.Forms.Button btnSandia;
