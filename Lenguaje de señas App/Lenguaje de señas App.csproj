@@ -133,6 +133,12 @@
     <Compile Include="Familia.Designer.cs">
       <DependentUpon>Familia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fresa.Designer.cs">
+      <DependentUpon>Fresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hermana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -608,6 +614,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fresa.resx">
+      <DependentUpon>Fresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hermana.resx">
       <DependentUpon>Hermana.cs</DependentUpon>
