@@ -55,7 +55,7 @@
             this.btnCoco = new System.Windows.Forms.Button();
             this.btnNance = new System.Windows.Forms.Button();
             this.btnJocote = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnAnona = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -444,20 +444,20 @@
             this.btnJocote.Text = "Jocote";
             this.btnJocote.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnAnona
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(450, 296);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 51);
-            this.button5.TabIndex = 88;
-            this.button5.Text = "Ciruela";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnAnona.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAnona.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnAnona.FlatAppearance.BorderSize = 2;
+            this.btnAnona.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnAnona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnona.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAnona.Location = new System.Drawing.Point(450, 296);
+            this.btnAnona.Name = "btnAnona";
+            this.btnAnona.Size = new System.Drawing.Size(135, 51);
+            this.btnAnona.TabIndex = 88;
+            this.btnAnona.Text = "Anona";
+            this.btnAnona.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -481,7 +481,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnAnona);
             this.Controls.Add(this.btnJocote);
             this.Controls.Add(this.btnNance);
             this.Controls.Add(this.btnCoco);
@@ -544,7 +544,7 @@
         private System.Windows.Forms.Button btnCoco;
         private System.Windows.Forms.Button btnNance;
         private System.Windows.Forms.Button btnJocote;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAnona;
         private System.Windows.Forms.Button button6;
     }
 }
