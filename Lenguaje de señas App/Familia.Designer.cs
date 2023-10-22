@@ -219,6 +219,7 @@
             this.btnHermana.TabIndex = 44;
             this.btnHermana.Text = "Hermana";
             this.btnHermana.UseVisualStyleBackColor = true;
+            this.btnHermana.Click += new System.EventHandler(this.btnHermana_Click);
             // 
             // label1
             // 

@@ -72,5 +72,11 @@ namespace Lenguaje_de_señas_App
             Hermano hermano = new Hermano();
             hermano.ShowDialog();
         }
+
+        private void btnHermana_Click(object sender, EventArgs e)
+        {
+            Hermana hermana = new Hermana();
+            hermana.ShowDialog();
+        }
     }
 }
