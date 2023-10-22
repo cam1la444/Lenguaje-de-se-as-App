@@ -239,6 +239,7 @@
             this.btnCafe.TabIndex = 105;
             this.btnCafe.Text = "Café";
             this.btnCafe.UseVisualStyleBackColor = true;
+            this.btnCafe.Click += new System.EventHandler(this.btnCafe_Click);
             // 
             // btnNegro
             // 

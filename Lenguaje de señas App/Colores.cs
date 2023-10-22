@@ -104,5 +104,11 @@ namespace Lenguaje_de_señas_App
             Verde verde = new Verde();
             verde.ShowDialog();
         }
+
+        private void btnCafe_Click(object sender, EventArgs e)
+        {
+            Cafe cafe = new Cafe();
+            cafe.ShowDialog();
+        }
     }
 }
