@@ -184,6 +184,7 @@
             this.btnMorado.TabIndex = 100;
             this.btnMorado.Text = "Morado";
             this.btnMorado.UseVisualStyleBackColor = true;
+            this.btnMorado.Click += new System.EventHandler(this.btnMorado_Click);
             // 
             // btnVerde
             // 

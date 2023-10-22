@@ -55,5 +55,11 @@ namespace Lenguaje_de_señas_App
             Rojo rojo = new Rojo();
             rojo.ShowDialog();
         }
+
+        private void btnMorado_Click(object sender, EventArgs e)
+        {
+            Morado morado = new Morado();
+            morado.ShowDialog();
+        }
     }
 }
