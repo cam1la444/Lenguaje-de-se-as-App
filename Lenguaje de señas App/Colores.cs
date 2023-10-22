@@ -73,5 +73,17 @@ namespace Lenguaje_de_señas_App
             Azul azul = new Azul();
             azul.ShowDialog();
         }
+
+        private void btnBlanco_Click(object sender, EventArgs e)
+        {
+            Blanco blanco = new Blanco();
+            blanco.ShowDialog();
+        }
+
+        private void btnAmarillo_Click(object sender, EventArgs e)
+        {
+            Amarillo amarillo = new Amarillo();
+            amarillo.ShowDialog();
+        }
     }
 }

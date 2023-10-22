@@ -205,6 +205,7 @@
             this.btnAmarillo.TabIndex = 102;
             this.btnAmarillo.Text = "Amarillo";
             this.btnAmarillo.UseVisualStyleBackColor = true;
+            this.btnAmarillo.Click += new System.EventHandler(this.btnAmarillo_Click);
             // 
             // btnAzul
             // 
@@ -226,6 +227,7 @@
             this.btnBlanco.TabIndex = 104;
             this.btnBlanco.Text = "Blanco";
             this.btnBlanco.UseVisualStyleBackColor = true;
+            this.btnBlanco.Click += new System.EventHandler(this.btnBlanco_Click);
             // 
             // btnCafe
             // 
