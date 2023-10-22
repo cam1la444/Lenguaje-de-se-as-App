@@ -361,6 +361,12 @@
     <Compile Include="Naranja.Designer.cs">
       <DependentUpon>Naranja.cs</DependentUpon>
     </Compile>
+    <Compile Include="Naranjas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naranjas.Designer.cs">
+      <DependentUpon>Naranjas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Negro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -746,6 +752,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Naranja.resx">
       <DependentUpon>Naranja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Naranjas.resx">
+      <DependentUpon>Naranjas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Negro.resx">
       <DependentUpon>Negro.cs</DependentUpon>
