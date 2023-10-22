@@ -66,5 +66,11 @@ namespace Lenguaje_de_señas_App
             Abuelo abuelo = new Abuelo();
             abuelo.ShowDialog();
         }
+
+        private void btnHermano_Click(object sender, EventArgs e)
+        {
+            Hermano hermano = new Hermano();
+            hermano.ShowDialog();
+        }
     }
 }

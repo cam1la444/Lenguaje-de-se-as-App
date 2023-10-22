@@ -95,6 +95,7 @@
             this.btnHermano.TabIndex = 40;
             this.btnHermano.Text = "Hermano";
             this.btnHermano.UseVisualStyleBackColor = true;
+            this.btnHermano.Click += new System.EventHandler(this.btnHermano_Click);
             // 
             // btnAbuelo
             // 
