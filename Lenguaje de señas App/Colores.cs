@@ -47,7 +47,8 @@ namespace Lenguaje_de_señas_App
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            Naranja naranja = new Naranja();
+            naranja.ShowDialog();
         }
 
         private void btnRojo_Click(object sender, EventArgs e)
