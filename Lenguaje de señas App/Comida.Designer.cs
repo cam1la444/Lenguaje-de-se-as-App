@@ -56,7 +56,7 @@
             this.btnNance = new System.Windows.Forms.Button();
             this.btnJocote = new System.Windows.Forms.Button();
             this.btnAnona = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnZapote = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -459,20 +459,20 @@
             this.btnAnona.Text = "Anona";
             this.btnAnona.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnZapote
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(591, 296);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(135, 51);
-            this.button6.TabIndex = 89;
-            this.button6.Text = "Ciruela";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnZapote.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnZapote.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnZapote.FlatAppearance.BorderSize = 2;
+            this.btnZapote.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnZapote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnZapote.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnZapote.Location = new System.Drawing.Point(591, 296);
+            this.btnZapote.Name = "btnZapote";
+            this.btnZapote.Size = new System.Drawing.Size(135, 51);
+            this.btnZapote.TabIndex = 89;
+            this.btnZapote.Text = "Zapote";
+            this.btnZapote.UseVisualStyleBackColor = true;
             // 
             // Comida
             // 
@@ -480,7 +480,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 442);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnZapote);
             this.Controls.Add(this.btnAnona);
             this.Controls.Add(this.btnJocote);
             this.Controls.Add(this.btnNance);
@@ -545,6 +545,6 @@
         private System.Windows.Forms.Button btnNance;
         private System.Windows.Forms.Button btnJocote;
         private System.Windows.Forms.Button btnAnona;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnZapote;
     }
 }
