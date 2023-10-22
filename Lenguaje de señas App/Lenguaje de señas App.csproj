@@ -127,6 +127,12 @@
     <Compile Include="Ciruela.Designer.cs">
       <DependentUpon>Ciruela.cs</DependentUpon>
     </Compile>
+    <Compile Include="Coco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coco.Designer.cs">
+      <DependentUpon>Coco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -683,6 +689,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ciruela.resx">
       <DependentUpon>Ciruela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coco.resx">
+      <DependentUpon>Coco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
