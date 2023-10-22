@@ -145,6 +145,12 @@
     <Compile Include="Fresa.Designer.cs">
       <DependentUpon>Fresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Guineo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guineo.Designer.cs">
+      <DependentUpon>Guineo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hermana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -656,6 +662,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fresa.resx">
       <DependentUpon>Fresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guineo.resx">
+      <DependentUpon>Guineo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hermana.resx">
       <DependentUpon>Hermana.cs</DependentUpon>
