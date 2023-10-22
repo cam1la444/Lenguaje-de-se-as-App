@@ -60,7 +60,7 @@
             this.btnMango = new System.Windows.Forms.Button();
             this.btnMamones = new System.Windows.Forms.Button();
             this.btnMamey = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnPepeto = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -524,20 +524,20 @@
             this.btnMamey.Text = "Mamey";
             this.btnMamey.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnPepeto
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(450, 353);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 51);
-            this.button4.TabIndex = 93;
-            this.button4.Text = "Naranja";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnPepeto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPepeto.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPepeto.FlatAppearance.BorderSize = 2;
+            this.btnPepeto.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPepeto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPepeto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPepeto.Location = new System.Drawing.Point(450, 353);
+            this.btnPepeto.Name = "btnPepeto";
+            this.btnPepeto.Size = new System.Drawing.Size(135, 51);
+            this.btnPepeto.TabIndex = 93;
+            this.btnPepeto.Text = "Pepeto";
+            this.btnPepeto.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -561,7 +561,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 475);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnPepeto);
             this.Controls.Add(this.btnMamey);
             this.Controls.Add(this.btnMamones);
             this.Controls.Add(this.btnMango);
@@ -634,7 +634,7 @@
         private System.Windows.Forms.Button btnMango;
         private System.Windows.Forms.Button btnMamones;
         private System.Windows.Forms.Button btnMamey;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnPepeto;
         private System.Windows.Forms.Button button5;
     }
 }
