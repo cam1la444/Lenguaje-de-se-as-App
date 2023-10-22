@@ -110,6 +110,7 @@
             this.btnAbuelo.TabIndex = 41;
             this.btnAbuelo.Text = "Abuelo";
             this.btnAbuelo.UseVisualStyleBackColor = true;
+            this.btnAbuelo.Click += new System.EventHandler(this.btnAbuelo_Click);
             // 
             // btnAbuela
             // 

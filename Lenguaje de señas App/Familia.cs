@@ -60,5 +60,11 @@ namespace Lenguaje_de_señas_App
             Abuela abuela = new Abuela();
             abuela.ShowDialog();
         }
+
+        private void btnAbuelo_Click(object sender, EventArgs e)
+        {
+            Abuelo abuelo = new Abuelo();
+            abuelo.ShowDialog();
+        }
     }
 }
