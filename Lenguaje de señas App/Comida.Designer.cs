@@ -54,7 +54,7 @@
             this.btnMarañon = new System.Windows.Forms.Button();
             this.btnCoco = new System.Windows.Forms.Button();
             this.btnNance = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnJocote = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -429,20 +429,20 @@
             this.btnNance.Text = "Nance";
             this.btnNance.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnJocote
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(309, 296);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 51);
-            this.button4.TabIndex = 87;
-            this.button4.Text = "Ciruela";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnJocote.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnJocote.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnJocote.FlatAppearance.BorderSize = 2;
+            this.btnJocote.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnJocote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJocote.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnJocote.Location = new System.Drawing.Point(309, 296);
+            this.btnJocote.Name = "btnJocote";
+            this.btnJocote.Size = new System.Drawing.Size(135, 51);
+            this.btnJocote.TabIndex = 87;
+            this.btnJocote.Text = "Jocote";
+            this.btnJocote.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -482,7 +482,7 @@
             this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnJocote);
             this.Controls.Add(this.btnNance);
             this.Controls.Add(this.btnCoco);
             this.Controls.Add(this.btnMarañon);
@@ -543,7 +543,7 @@
         private System.Windows.Forms.Button btnMarañon;
         private System.Windows.Forms.Button btnCoco;
         private System.Windows.Forms.Button btnNance;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnJocote;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
     }
