@@ -57,7 +57,7 @@
             this.btnJocote = new System.Windows.Forms.Button();
             this.btnAnona = new System.Windows.Forms.Button();
             this.btnZapote = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMango = new System.Windows.Forms.Button();
             this.btnMamones = new System.Windows.Forms.Button();
             this.btnMamey = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -479,20 +479,20 @@
             this.btnZapote.Text = "Zapote";
             this.btnZapote.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnMango
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(309, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 51);
-            this.button1.TabIndex = 90;
-            this.button1.Text = "Naranja";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMango.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMango.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMango.FlatAppearance.BorderSize = 2;
+            this.btnMango.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMango.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMango.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMango.Location = new System.Drawing.Point(309, 353);
+            this.btnMango.Name = "btnMango";
+            this.btnMango.Size = new System.Drawing.Size(135, 51);
+            this.btnMango.TabIndex = 90;
+            this.btnMango.Text = "Mango";
+            this.btnMango.UseVisualStyleBackColor = true;
             // 
             // btnMamones
             // 
@@ -564,7 +564,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnMamey);
             this.Controls.Add(this.btnMamones);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMango);
             this.Controls.Add(this.btnZapote);
             this.Controls.Add(this.btnAnona);
             this.Controls.Add(this.btnJocote);
@@ -631,7 +631,7 @@
         private System.Windows.Forms.Button btnJocote;
         private System.Windows.Forms.Button btnAnona;
         private System.Windows.Forms.Button btnZapote;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMango;
         private System.Windows.Forms.Button btnMamones;
         private System.Windows.Forms.Button btnMamey;
         private System.Windows.Forms.Button button4;
