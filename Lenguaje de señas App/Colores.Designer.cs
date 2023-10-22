@@ -255,6 +255,7 @@
             this.btnCeleste.TabIndex = 107;
             this.btnCeleste.Text = "Celeste";
             this.btnCeleste.UseVisualStyleBackColor = true;
+            this.btnCeleste.Click += new System.EventHandler(this.btnCeleste_Click);
             // 
             // btnNaranja
             // 

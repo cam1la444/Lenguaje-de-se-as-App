@@ -61,5 +61,11 @@ namespace Lenguaje_de_señas_App
             Morado morado = new Morado();
             morado.ShowDialog();
         }
+
+        private void btnCeleste_Click(object sender, EventArgs e)
+        {
+            Celeste celeste = new Celeste();
+            celeste.ShowDialog();
+        }
     }
 }
