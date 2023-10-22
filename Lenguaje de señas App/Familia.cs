@@ -90,5 +90,11 @@ namespace Lenguaje_de_señas_App
             Primo primo = new Primo();
             primo.ShowDialog();
         }
+
+        private void btnTio_Click(object sender, EventArgs e)
+        {
+            Tio tio = new Tio();
+            tio.ShowDialog();
+        }
     }
 }

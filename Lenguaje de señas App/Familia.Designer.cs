@@ -191,6 +191,7 @@
             this.btnTio.TabIndex = 46;
             this.btnTio.Text = "Tío";
             this.btnTio.UseVisualStyleBackColor = true;
+            this.btnTio.Click += new System.EventHandler(this.btnTio_Click);
             // 
             // btnTia
             // 
