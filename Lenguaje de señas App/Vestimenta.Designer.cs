@@ -34,6 +34,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnVestido = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
@@ -47,7 +48,6 @@
             this.btnGorro = new System.Windows.Forms.Button();
             this.btnGuantes = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -129,12 +129,23 @@
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(627, 266);
+            this.btnVolver.Location = new System.Drawing.Point(354, 292);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
             this.btnVolver.TabIndex = 64;
@@ -150,7 +161,7 @@
             this.btnVestido.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnVestido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVestido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnVestido.Location = new System.Drawing.Point(137, 157);
+            this.btnVestido.Location = new System.Drawing.Point(12, 116);
             this.btnVestido.Name = "btnVestido";
             this.btnVestido.Size = new System.Drawing.Size(134, 36);
             this.btnVestido.TabIndex = 66;
@@ -182,7 +193,7 @@
             this.btnPijama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPijama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPijama.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPijama.Location = new System.Drawing.Point(292, 112);
+            this.btnPijama.Location = new System.Drawing.Point(292, 53);
             this.btnPijama.Name = "btnPijama";
             this.btnPijama.Size = new System.Drawing.Size(134, 36);
             this.btnPijama.TabIndex = 76;
@@ -197,7 +208,7 @@
             this.btnCamisa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnCamisa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCamisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCamisa.Location = new System.Drawing.Point(152, 112);
+            this.btnCamisa.Location = new System.Drawing.Point(152, 53);
             this.btnCamisa.Name = "btnCamisa";
             this.btnCamisa.Size = new System.Drawing.Size(134, 36);
             this.btnCamisa.TabIndex = 77;
@@ -213,7 +224,7 @@
             this.btnPantalon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPantalon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPantalon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPantalon.Location = new System.Drawing.Point(280, 157);
+            this.btnPantalon.Location = new System.Drawing.Point(152, 116);
             this.btnPantalon.Name = "btnPantalon";
             this.btnPantalon.Size = new System.Drawing.Size(134, 36);
             this.btnPantalon.TabIndex = 80;
@@ -229,7 +240,7 @@
             this.btnFalda.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnFalda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFalda.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnFalda.Location = new System.Drawing.Point(137, 277);
+            this.btnFalda.Location = new System.Drawing.Point(152, 179);
             this.btnFalda.Name = "btnFalda";
             this.btnFalda.Size = new System.Drawing.Size(134, 36);
             this.btnFalda.TabIndex = 81;
@@ -244,7 +255,7 @@
             this.btnSueter.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnSueter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSueter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnSueter.Location = new System.Drawing.Point(280, 277);
+            this.btnSueter.Location = new System.Drawing.Point(292, 179);
             this.btnSueter.Name = "btnSueter";
             this.btnSueter.Size = new System.Drawing.Size(134, 36);
             this.btnSueter.TabIndex = 82;
@@ -259,7 +270,7 @@
             this.btnZapato.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnZapato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZapato.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnZapato.Location = new System.Drawing.Point(0, 263);
+            this.btnZapato.Location = new System.Drawing.Point(12, 179);
             this.btnZapato.Name = "btnZapato";
             this.btnZapato.Size = new System.Drawing.Size(134, 36);
             this.btnZapato.TabIndex = 83;
@@ -274,7 +285,7 @@
             this.btnCamiseta.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnCamiseta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCamiseta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCamiseta.Location = new System.Drawing.Point(420, 263);
+            this.btnCamiseta.Location = new System.Drawing.Point(292, 237);
             this.btnCamiseta.Name = "btnCamiseta";
             this.btnCamiseta.Size = new System.Drawing.Size(134, 36);
             this.btnCamiseta.TabIndex = 86;
@@ -289,7 +300,7 @@
             this.btnGorro.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnGorro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGorro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnGorro.Location = new System.Drawing.Point(280, 319);
+            this.btnGorro.Location = new System.Drawing.Point(12, 237);
             this.btnGorro.Name = "btnGorro";
             this.btnGorro.Size = new System.Drawing.Size(134, 36);
             this.btnGorro.TabIndex = 91;
@@ -304,7 +315,7 @@
             this.btnGuantes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnGuantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnGuantes.Location = new System.Drawing.Point(420, 319);
+            this.btnGuantes.Location = new System.Drawing.Point(152, 237);
             this.btnGuantes.Name = "btnGuantes";
             this.btnGuantes.Size = new System.Drawing.Size(134, 36);
             this.btnGuantes.TabIndex = 92;
@@ -319,23 +330,12 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(408, 199);
+            this.button1.Location = new System.Drawing.Point(292, 116);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 36);
             this.button1.TabIndex = 93;
             this.button1.Text = "Bata";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // Vestimenta
             // 
