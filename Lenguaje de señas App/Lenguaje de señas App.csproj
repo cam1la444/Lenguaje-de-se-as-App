@@ -669,6 +669,12 @@
     <Compile Include="Rosado.Designer.cs">
       <DependentUpon>Rosado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sabado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sabado.Designer.cs">
+      <DependentUpon>Sabado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Saludos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1053,6 +1059,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rosado.resx">
       <DependentUpon>Rosado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sabado.resx">
+      <DependentUpon>Sabado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Saludos.resx">
       <DependentUpon>Saludos.cs</DependentUpon>
