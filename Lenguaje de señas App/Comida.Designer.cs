@@ -362,6 +362,7 @@
             this.btnNaranja.TabIndex = 71;
             this.btnNaranja.Text = "Naranja";
             this.btnNaranja.UseVisualStyleBackColor = true;
+            this.btnNaranja.Click += new System.EventHandler(this.btnNaranja_Click);
             // 
             // btnCiruela
             // 

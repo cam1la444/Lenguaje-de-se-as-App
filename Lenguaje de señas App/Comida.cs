@@ -132,5 +132,11 @@ namespace Lenguaje_de_señas_App
             Nance nance = new Nance();
             nance.ShowDialog();
         }
+
+        private void btnNaranja_Click(object sender, EventArgs e)
+        {
+            Naranjas naranjas = new Naranjas();
+            naranjas.ShowDialog();
+        }
     }
 }
