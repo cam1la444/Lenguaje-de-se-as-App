@@ -60,6 +60,7 @@
             this.btnCamiseta = new System.Windows.Forms.Button();
             this.btnShorts = new System.Windows.Forms.Button();
             this.btnCamisaPolo = new System.Windows.Forms.Button();
+            this.btnTrajedeBaño = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -525,11 +526,27 @@
             this.btnCamisaPolo.Text = "Camisa Polo";
             this.btnCamisaPolo.UseVisualStyleBackColor = true;
             // 
+            // btnTrajedeBaño
+            // 
+            this.btnTrajedeBaño.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTrajedeBaño.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnTrajedeBaño.FlatAppearance.BorderSize = 2;
+            this.btnTrajedeBaño.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnTrajedeBaño.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTrajedeBaño.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTrajedeBaño.Location = new System.Drawing.Point(12, 290);
+            this.btnTrajedeBaño.Name = "btnTrajedeBaño";
+            this.btnTrajedeBaño.Size = new System.Drawing.Size(134, 72);
+            this.btnTrajedeBaño.TabIndex = 89;
+            this.btnTrajedeBaño.Text = "Traje de Baño";
+            this.btnTrajedeBaño.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.btnTrajedeBaño);
             this.Controls.Add(this.btnCamisaPolo);
             this.Controls.Add(this.btnShorts);
             this.Controls.Add(this.btnCamiseta);
@@ -601,5 +618,6 @@
         private System.Windows.Forms.Button btnCamiseta;
         private System.Windows.Forms.Button btnShorts;
         private System.Windows.Forms.Button btnCamisaPolo;
+        private System.Windows.Forms.Button btnTrajedeBaño;
     }
 }
