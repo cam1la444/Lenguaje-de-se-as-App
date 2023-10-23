@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnReproducir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegresar
@@ -41,12 +42,23 @@
             this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(322, 168);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(75, 56);
+            this.btnReproducir.TabIndex = 5;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            // 
             // Esta_Semana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(409, 450);
+            this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Esta_Semana";
             this.Text = "Esta_Semana";
@@ -57,5 +69,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnReproducir;
     }
 }
