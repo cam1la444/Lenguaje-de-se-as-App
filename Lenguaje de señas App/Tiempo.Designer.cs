@@ -73,12 +73,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(269, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 49);
+            this.label1.Size = new System.Drawing.Size(296, 42);
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Tiempo";
             // 
@@ -89,7 +89,7 @@
             this.btnMiercoles.FlatAppearance.BorderSize = 2;
             this.btnMiercoles.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMiercoles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMiercoles.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMiercoles.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnMiercoles.Location = new System.Drawing.Point(240, 222);
             this.btnMiercoles.Name = "btnMiercoles";
             this.btnMiercoles.Size = new System.Drawing.Size(135, 51);
@@ -104,7 +104,7 @@
             this.btnJueves.FlatAppearance.BorderSize = 2;
             this.btnJueves.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnJueves.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJueves.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnJueves.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnJueves.Location = new System.Drawing.Point(86, 301);
             this.btnJueves.Name = "btnJueves";
             this.btnJueves.Size = new System.Drawing.Size(135, 51);
@@ -119,7 +119,7 @@
             this.btnViernes.FlatAppearance.BorderSize = 2;
             this.btnViernes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnViernes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViernes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnViernes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnViernes.Location = new System.Drawing.Point(240, 301);
             this.btnViernes.Name = "btnViernes";
             this.btnViernes.Size = new System.Drawing.Size(135, 51);
@@ -134,7 +134,7 @@
             this.btnMartes.FlatAppearance.BorderSize = 2;
             this.btnMartes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMartes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMartes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMartes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnMartes.Location = new System.Drawing.Point(86, 222);
             this.btnMartes.Name = "btnMartes";
             this.btnMartes.Size = new System.Drawing.Size(135, 51);
@@ -149,7 +149,7 @@
             this.btnLunes.FlatAppearance.BorderSize = 2;
             this.btnLunes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnLunes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLunes.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnLunes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnLunes.Location = new System.Drawing.Point(240, 140);
             this.btnLunes.Name = "btnLunes";
             this.btnLunes.Size = new System.Drawing.Size(135, 51);
@@ -164,7 +164,7 @@
             this.btnSabado.FlatAppearance.BorderSize = 2;
             this.btnSabado.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnSabado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSabado.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSabado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnSabado.Location = new System.Drawing.Point(86, 375);
             this.btnSabado.Name = "btnSabado";
             this.btnSabado.Size = new System.Drawing.Size(135, 51);
@@ -179,7 +179,7 @@
             this.btnDomingo.FlatAppearance.BorderSize = 2;
             this.btnDomingo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnDomingo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDomingo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDomingo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnDomingo.Location = new System.Drawing.Point(240, 375);
             this.btnDomingo.Name = "btnDomingo";
             this.btnDomingo.Size = new System.Drawing.Size(135, 51);
@@ -194,7 +194,7 @@
             this.btnHoy.FlatAppearance.BorderSize = 2;
             this.btnHoy.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnHoy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHoy.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnHoy.Location = new System.Drawing.Point(86, 140);
             this.btnHoy.Name = "btnHoy";
             this.btnHoy.Size = new System.Drawing.Size(135, 51);
@@ -209,7 +209,7 @@
             this.btnNextWeek.FlatAppearance.BorderSize = 2;
             this.btnNextWeek.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnNextWeek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNextWeek.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnNextWeek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnNextWeek.Location = new System.Drawing.Point(411, 301);
             this.btnNextWeek.Name = "btnNextWeek";
             this.btnNextWeek.Size = new System.Drawing.Size(135, 64);
@@ -224,7 +224,7 @@
             this.btnThisnoche.FlatAppearance.BorderSize = 2;
             this.btnThisnoche.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnThisnoche.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThisnoche.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisnoche.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnThisnoche.Location = new System.Drawing.Point(499, 375);
             this.btnThisnoche.Name = "btnThisnoche";
             this.btnThisnoche.Size = new System.Drawing.Size(135, 51);
@@ -239,7 +239,7 @@
             this.btnWeekAgo.FlatAppearance.BorderSize = 2;
             this.btnWeekAgo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnWeekAgo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWeekAgo.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnWeekAgo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnWeekAgo.Location = new System.Drawing.Point(565, 297);
             this.btnWeekAgo.Name = "btnWeekAgo";
             this.btnWeekAgo.Size = new System.Drawing.Size(135, 68);
@@ -254,10 +254,10 @@
             this.btnThisWeek.FlatAppearance.BorderSize = 2;
             this.btnThisWeek.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnThisWeek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThisWeek.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnThisWeek.Location = new System.Drawing.Point(411, 222);
+            this.btnThisWeek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisWeek.Location = new System.Drawing.Point(411, 211);
             this.btnThisWeek.Name = "btnThisWeek";
-            this.btnThisWeek.Size = new System.Drawing.Size(135, 51);
+            this.btnThisWeek.Size = new System.Drawing.Size(135, 73);
             this.btnThisWeek.TabIndex = 65;
             this.btnThisWeek.Text = "Esta Semana";
             this.btnThisWeek.UseVisualStyleBackColor = true;
@@ -269,7 +269,7 @@
             this.btnAyer.FlatAppearance.BorderSize = 2;
             this.btnAyer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnAyer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAyer.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAyer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAyer.Location = new System.Drawing.Point(565, 140);
             this.btnAyer.Name = "btnAyer";
             this.btnAyer.Size = new System.Drawing.Size(135, 51);
@@ -284,7 +284,7 @@
             this.btnThisTarde.FlatAppearance.BorderSize = 2;
             this.btnThisTarde.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnThisTarde.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThisTarde.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnThisTarde.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnThisTarde.Location = new System.Drawing.Point(565, 222);
             this.btnThisTarde.Name = "btnThisTarde";
             this.btnThisTarde.Size = new System.Drawing.Size(135, 51);
@@ -299,7 +299,7 @@
             this.btnMañana.FlatAppearance.BorderSize = 2;
             this.btnMañana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMañana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMañana.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMañana.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnMañana.Location = new System.Drawing.Point(411, 140);
             this.btnMañana.Name = "btnMañana";
             this.btnMañana.Size = new System.Drawing.Size(135, 51);
