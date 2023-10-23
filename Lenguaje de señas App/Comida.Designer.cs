@@ -186,6 +186,7 @@
             this.btnCereza.TabIndex = 83;
             this.btnCereza.Text = "Cereza";
             this.btnCereza.UseVisualStyleBackColor = true;
+            this.btnCereza.Click += new System.EventHandler(this.btnCereza_Click);
             // 
             // btnPapaya
             // 

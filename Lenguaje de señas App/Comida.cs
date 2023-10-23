@@ -90,5 +90,11 @@ namespace Lenguaje_de_señas_App
             Limon limon = new Limon();
             limon.ShowDialog();
         }
+
+        private void btnCereza_Click(object sender, EventArgs e)
+        {
+            Cereza cereza = new Cereza();
+            cereza.ShowDialog();
+        }
     }
 }
