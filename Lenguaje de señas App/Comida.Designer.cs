@@ -440,6 +440,7 @@
             this.btnNance.TabIndex = 86;
             this.btnNance.Text = "Nance";
             this.btnNance.UseVisualStyleBackColor = true;
+            this.btnNance.Click += new System.EventHandler(this.btnNance_Click);
             // 
             // btnJocote
             // 

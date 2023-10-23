@@ -126,5 +126,11 @@ namespace Lenguaje_de_señas_App
             Coco coco = new Coco();
             coco.ShowDialog();
         }
+
+        private void btnNance_Click(object sender, EventArgs e)
+        {
+            Nance nance = new Nance();
+            nance.ShowDialog();
+        }
     }
 }
