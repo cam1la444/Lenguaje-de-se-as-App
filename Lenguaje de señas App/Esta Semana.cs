@@ -16,11 +16,5 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
-
-        private void btnReproducir_Click(object sender, EventArgs e)
-        {
-            string ThisWeek = "C:\\Users\\jwest\\Videos\\VideoEstaSemana.mp4";
-            asWMPA.URL = ThisWeek;
-        }
     }
 }
