@@ -151,6 +151,12 @@
     <Compile Include="Comida.Designer.cs">
       <DependentUpon>Comida.cs</DependentUpon>
     </Compile>
+    <Compile Include="Domingo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Domingo.Designer.cs">
+      <DependentUpon>Domingo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Durazno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -791,6 +797,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Comida.resx">
       <DependentUpon>Comida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Domingo.resx">
+      <DependentUpon>Domingo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Durazno.resx">
       <DependentUpon>Durazno.cs</DependentUpon>
