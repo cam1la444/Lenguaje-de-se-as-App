@@ -59,7 +59,7 @@
             this.btnTacones = new System.Windows.Forms.Button();
             this.btnCamiseta = new System.Windows.Forms.Button();
             this.btnShorts = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
+            this.btnCamisaPolo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -510,27 +510,27 @@
             this.btnShorts.Text = "Shorts";
             this.btnShorts.UseVisualStyleBackColor = true;
             // 
-            // button23
+            // btnCamisaPolo
             // 
-            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button23.FlatAppearance.BorderSize = 2;
-            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button23.Location = new System.Drawing.Point(715, 234);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(134, 36);
-            this.button23.TabIndex = 88;
-            this.button23.Text = "Calcetines";
-            this.button23.UseVisualStyleBackColor = true;
+            this.btnCamisaPolo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCamisaPolo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCamisaPolo.FlatAppearance.BorderSize = 2;
+            this.btnCamisaPolo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCamisaPolo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCamisaPolo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCamisaPolo.Location = new System.Drawing.Point(715, 234);
+            this.btnCamisaPolo.Name = "btnCamisaPolo";
+            this.btnCamisaPolo.Size = new System.Drawing.Size(134, 69);
+            this.btnCamisaPolo.TabIndex = 88;
+            this.btnCamisaPolo.Text = "Camisa Polo";
+            this.btnCamisaPolo.UseVisualStyleBackColor = true;
             // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
-            this.Controls.Add(this.button23);
+            this.Controls.Add(this.btnCamisaPolo);
             this.Controls.Add(this.btnShorts);
             this.Controls.Add(this.btnCamiseta);
             this.Controls.Add(this.btnTacones);
@@ -600,6 +600,6 @@
         private System.Windows.Forms.Button btnTacones;
         private System.Windows.Forms.Button btnCamiseta;
         private System.Windows.Forms.Button btnShorts;
-        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button btnCamisaPolo;
     }
 }
