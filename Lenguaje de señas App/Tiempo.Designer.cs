@@ -176,6 +176,7 @@
             this.btnSabado.TabIndex = 53;
             this.btnSabado.Text = "Sábado";
             this.btnSabado.UseVisualStyleBackColor = true;
+            this.btnSabado.Click += new System.EventHandler(this.btnSabado_Click);
             // 
             // btnDomingo
             // 
