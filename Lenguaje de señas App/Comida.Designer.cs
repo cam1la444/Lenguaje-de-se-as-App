@@ -216,6 +216,7 @@
             this.btnLimon.TabIndex = 80;
             this.btnLimon.Text = "Limón";
             this.btnLimon.UseVisualStyleBackColor = true;
+            this.btnLimon.Click += new System.EventHandler(this.btnLimon_Click);
             // 
             // btnPera
             // 

@@ -84,5 +84,11 @@ namespace Lenguaje_de_señas_App
             Sandia sandia = new Sandia();
             sandia.ShowDialog();
         }
+
+        private void btnLimon_Click(object sender, EventArgs e)
+        {
+            Limon limon = new Limon();
+            limon.ShowDialog();
+        }
     }
 }
