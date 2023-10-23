@@ -72,5 +72,11 @@ namespace Lenguaje_de_señas_App
             Vestido vestido = new Vestido();
             vestido.ShowDialog();
         }
+
+        private void btnPantalon_Click(object sender, EventArgs e)
+        {
+            Pantalon pantalon = new Pantalon();
+            pantalon.ShowDialog();
+        }
     }
 }

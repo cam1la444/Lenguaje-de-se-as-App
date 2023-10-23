@@ -414,6 +414,7 @@
             this.btnPantalon.TabIndex = 80;
             this.btnPantalon.Text = "Pantalon";
             this.btnPantalon.UseVisualStyleBackColor = true;
+            this.btnPantalon.Click += new System.EventHandler(this.btnPantalon_Click);
             // 
             // btnFalda
             // 
