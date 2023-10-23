@@ -49,7 +49,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnSombrero = new System.Windows.Forms.Button();
             this.btnCorbata = new System.Windows.Forms.Button();
             this.btnPantalon = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
@@ -360,20 +360,20 @@
             this.button12.Text = "Calcetines";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btnSombrero
             // 
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button13.FlatAppearance.BorderSize = 2;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button13.Location = new System.Drawing.Point(152, 111);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(134, 36);
-            this.button13.TabIndex = 78;
-            this.button13.Text = "Calcetines";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btnSombrero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSombrero.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnSombrero.FlatAppearance.BorderSize = 2;
+            this.btnSombrero.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnSombrero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSombrero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSombrero.Location = new System.Drawing.Point(152, 111);
+            this.btnSombrero.Name = "btnSombrero";
+            this.btnSombrero.Size = new System.Drawing.Size(134, 36);
+            this.btnSombrero.TabIndex = 78;
+            this.btnSombrero.Text = "Sombrero";
+            this.btnSombrero.UseVisualStyleBackColor = true;
             // 
             // btnCorbata
             // 
@@ -540,7 +540,7 @@
             this.Controls.Add(this.button16);
             this.Controls.Add(this.btnPantalon);
             this.Controls.Add(this.btnCorbata);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnSombrero);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -590,7 +590,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnSombrero;
         private System.Windows.Forms.Button btnCorbata;
         private System.Windows.Forms.Button btnPantalon;
         private System.Windows.Forms.Button button16;
