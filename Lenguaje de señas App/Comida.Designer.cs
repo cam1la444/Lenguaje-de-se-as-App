@@ -410,6 +410,7 @@
             this.btnMarañon.TabIndex = 84;
             this.btnMarañon.Text = "Marañon";
             this.btnMarañon.UseVisualStyleBackColor = true;
+            this.btnMarañon.Click += new System.EventHandler(this.btnMarañon_Click);
             // 
             // btnCoco
             // 

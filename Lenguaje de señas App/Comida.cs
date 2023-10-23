@@ -138,5 +138,11 @@ namespace Lenguaje_de_señas_App
             Naranjas naranjas = new Naranjas();
             naranjas.ShowDialog();
         }
+
+        private void btnMarañon_Click(object sender, EventArgs e)
+        {
+            Marañon marañon = new Marañon();
+            marañon.ShowDialog();
+        }
     }
 }
