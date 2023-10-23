@@ -126,5 +126,11 @@ namespace Lenguaje_de_señas_App
             Semana_Pasada semanapasada = new Semana_Pasada();
             semanapasada.ShowDialog();
         }
+
+        private void btnThisnoche_Click(object sender, EventArgs e)
+        {
+            Esta_Noche estanoche = new Esta_Noche();
+            estanoche.ShowDialog();
+        }
     }
 }

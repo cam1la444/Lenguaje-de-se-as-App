@@ -240,6 +240,7 @@
             this.btnThisnoche.TabIndex = 67;
             this.btnThisnoche.Text = "Esta Noche";
             this.btnThisnoche.UseVisualStyleBackColor = true;
+            this.btnThisnoche.Click += new System.EventHandler(this.btnThisnoche_Click);
             // 
             // btnWeekAgo
             // 
