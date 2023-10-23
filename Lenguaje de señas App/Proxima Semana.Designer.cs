@@ -28,7 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnReproducir = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(286, 187);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(75, 56);
+            this.btnReproducir.TabIndex = 3;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(139, 402);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(96, 36);
+            this.btnRegresar.TabIndex = 4;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
             // 
             // Proxima_Semana
             // 
@@ -36,6 +58,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(373, 450);
+            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnReproducir);
             this.Name = "Proxima_Semana";
             this.Text = "Proxima_Semana";
             this.ResumeLayout(false);
@@ -43,5 +67,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnReproducir;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
