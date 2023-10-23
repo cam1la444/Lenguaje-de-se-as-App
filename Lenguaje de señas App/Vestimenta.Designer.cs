@@ -57,7 +57,7 @@
             this.btnZapato = new System.Windows.Forms.Button();
             this.btnBotas = new System.Windows.Forms.Button();
             this.btnTacones = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
+            this.btnCamiseta = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -480,20 +480,20 @@
             this.btnTacones.Text = "Tacones";
             this.btnTacones.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // btnCamiseta
             // 
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button21.FlatAppearance.BorderSize = 2;
-            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button21.Location = new System.Drawing.Point(432, 234);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(134, 36);
-            this.button21.TabIndex = 86;
-            this.button21.Text = "Calcetines";
-            this.button21.UseVisualStyleBackColor = true;
+            this.btnCamiseta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCamiseta.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCamiseta.FlatAppearance.BorderSize = 2;
+            this.btnCamiseta.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCamiseta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCamiseta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCamiseta.Location = new System.Drawing.Point(432, 234);
+            this.btnCamiseta.Name = "btnCamiseta";
+            this.btnCamiseta.Size = new System.Drawing.Size(134, 36);
+            this.btnCamiseta.TabIndex = 86;
+            this.btnCamiseta.Text = "Camiseta";
+            this.btnCamiseta.UseVisualStyleBackColor = true;
             // 
             // button22
             // 
@@ -532,7 +532,7 @@
             this.ClientSize = new System.Drawing.Size(861, 526);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
+            this.Controls.Add(this.btnCamiseta);
             this.Controls.Add(this.btnTacones);
             this.Controls.Add(this.btnBotas);
             this.Controls.Add(this.btnZapato);
@@ -598,7 +598,7 @@
         private System.Windows.Forms.Button btnZapato;
         private System.Windows.Forms.Button btnBotas;
         private System.Windows.Forms.Button btnTacones;
-        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button btnCamiseta;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
     }
