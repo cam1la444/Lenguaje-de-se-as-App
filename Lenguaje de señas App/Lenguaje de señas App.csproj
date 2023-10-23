@@ -771,6 +771,12 @@
     <Compile Include="Tio.Designer.cs">
       <DependentUpon>Tio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Uniforme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uniforme.Designer.cs">
+      <DependentUpon>Uniforme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1170,6 +1176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tio.resx">
       <DependentUpon>Tio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uniforme.resx">
+      <DependentUpon>Uniforme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Verbos.resx">
       <DependentUpon>Verbos.cs</DependentUpon>
