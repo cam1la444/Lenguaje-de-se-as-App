@@ -121,6 +121,12 @@
     <Compile Include="Camisa.Designer.cs">
       <DependentUpon>Camisa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Camiseta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Camiseta.Designer.cs">
+      <DependentUpon>Camiseta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Celeste.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +192,12 @@
     </Compile>
     <Compile Include="Gorra.Designer.cs">
       <DependentUpon>Gorra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gorro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gorro.Designer.cs">
+      <DependentUpon>Gorro.cs</DependentUpon>
     </Compile>
     <Compile Include="Hermana.cs">
       <SubType>Form</SubType>
@@ -723,6 +735,12 @@
     <Compile Include="Viernes.Designer.cs">
       <DependentUpon>Viernes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Zapato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zapato.Designer.cs">
+      <DependentUpon>Zapato.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
@@ -759,6 +777,9 @@
     <EmbeddedResource Include="Camisa.resx">
       <DependentUpon>Camisa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Camiseta.resx">
+      <DependentUpon>Camiseta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
     </EmbeddedResource>
@@ -791,6 +812,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gorra.resx">
       <DependentUpon>Gorra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gorro.resx">
+      <DependentUpon>Gorro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hermana.resx">
       <DependentUpon>Hermana.cs</DependentUpon>
@@ -1068,6 +1092,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Viernes.resx">
       <DependentUpon>Viernes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zapato.resx">
+      <DependentUpon>Zapato.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
