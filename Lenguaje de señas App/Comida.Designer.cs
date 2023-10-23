@@ -474,6 +474,7 @@
             this.btnAnona.TabIndex = 88;
             this.btnAnona.Text = "Anona";
             this.btnAnona.UseVisualStyleBackColor = true;
+            this.btnAnona.Click += new System.EventHandler(this.btnAnona_Click);
             // 
             // btnZapote
             // 

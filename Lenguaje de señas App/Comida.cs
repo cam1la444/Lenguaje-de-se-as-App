@@ -150,5 +150,11 @@ namespace Lenguaje_de_señas_App
             Jocote jocote = new Jocote();
             jocote.ShowDialog();
         }
+
+        private void btnAnona_Click(object sender, EventArgs e)
+        {
+            Anona anona = new Anona();
+            anona.ShowDialog();
+        }
     }
 }
