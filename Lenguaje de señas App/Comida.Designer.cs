@@ -34,38 +34,18 @@
             this.btnMasInforms = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCereza = new System.Windows.Forms.Button();
-            this.btnPapaya = new System.Windows.Forms.Button();
             this.btnLimon = new System.Windows.Forms.Button();
-            this.btnPera = new System.Windows.Forms.Button();
             this.btnMandarina = new System.Windows.Forms.Button();
-            this.btnMelon = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
             this.btnPiña = new System.Windows.Forms.Button();
-            this.btnGuineo = new System.Windows.Forms.Button();
             this.btnDurazno = new System.Windows.Forms.Button();
             this.btnFresa = new System.Windows.Forms.Button();
             this.btnNaranja = new System.Windows.Forms.Button();
-            this.btnCiruela = new System.Windows.Forms.Button();
             this.btnManzana = new System.Windows.Forms.Button();
-            this.btnMarañon = new System.Windows.Forms.Button();
-            this.btnCoco = new System.Windows.Forms.Button();
-            this.btnNance = new System.Windows.Forms.Button();
-            this.btnJocote = new System.Windows.Forms.Button();
-            this.btnAnona = new System.Windows.Forms.Button();
-            this.btnZapote = new System.Windows.Forms.Button();
             this.btnMango = new System.Windows.Forms.Button();
-            this.btnMamones = new System.Windows.Forms.Button();
-            this.btnMamey = new System.Windows.Forms.Button();
-            this.btnPepeto = new System.Windows.Forms.Button();
-            this.btnPaterna = new System.Windows.Forms.Button();
-            this.btnCaña = new System.Windows.Forms.Button();
-            this.btnJicama = new System.Windows.Forms.Button();
-            this.btnArrayan = new System.Windows.Forms.Button();
-            this.btnGranadilla = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -147,6 +127,17 @@
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -172,38 +163,6 @@
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Comida";
             // 
-            // btnCereza
-            // 
-            this.btnCereza.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCereza.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnCereza.FlatAppearance.BorderSize = 2;
-            this.btnCereza.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnCereza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCereza.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCereza.Location = new System.Drawing.Point(450, 182);
-            this.btnCereza.Name = "btnCereza";
-            this.btnCereza.Size = new System.Drawing.Size(135, 51);
-            this.btnCereza.TabIndex = 83;
-            this.btnCereza.Text = "Cereza";
-            this.btnCereza.UseVisualStyleBackColor = true;
-            this.btnCereza.Click += new System.EventHandler(this.btnCereza_Click);
-            // 
-            // btnPapaya
-            // 
-            this.btnPapaya.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPapaya.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPapaya.FlatAppearance.BorderSize = 2;
-            this.btnPapaya.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPapaya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPapaya.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPapaya.Location = new System.Drawing.Point(591, 182);
-            this.btnPapaya.Name = "btnPapaya";
-            this.btnPapaya.Size = new System.Drawing.Size(135, 51);
-            this.btnPapaya.TabIndex = 81;
-            this.btnPapaya.Text = "Papaya";
-            this.btnPapaya.UseVisualStyleBackColor = true;
-            this.btnPapaya.Click += new System.EventHandler(this.btnPapaya_Click);
-            // 
             // btnLimon
             // 
             this.btnLimon.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -220,22 +179,6 @@
             this.btnLimon.UseVisualStyleBackColor = true;
             this.btnLimon.Click += new System.EventHandler(this.btnLimon_Click);
             // 
-            // btnPera
-            // 
-            this.btnPera.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPera.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPera.FlatAppearance.BorderSize = 2;
-            this.btnPera.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPera.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPera.Location = new System.Drawing.Point(450, 125);
-            this.btnPera.Name = "btnPera";
-            this.btnPera.Size = new System.Drawing.Size(135, 51);
-            this.btnPera.TabIndex = 79;
-            this.btnPera.Text = "Pera";
-            this.btnPera.UseVisualStyleBackColor = true;
-            this.btnPera.Click += new System.EventHandler(this.btnPera_Click);
-            // 
             // btnMandarina
             // 
             this.btnMandarina.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -251,22 +194,6 @@
             this.btnMandarina.Text = "Mandarina";
             this.btnMandarina.UseVisualStyleBackColor = true;
             this.btnMandarina.Click += new System.EventHandler(this.btnMandarina_Click);
-            // 
-            // btnMelon
-            // 
-            this.btnMelon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMelon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnMelon.FlatAppearance.BorderSize = 2;
-            this.btnMelon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnMelon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMelon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMelon.Location = new System.Drawing.Point(309, 125);
-            this.btnMelon.Name = "btnMelon";
-            this.btnMelon.Size = new System.Drawing.Size(135, 51);
-            this.btnMelon.TabIndex = 77;
-            this.btnMelon.Text = "Melón";
-            this.btnMelon.UseVisualStyleBackColor = true;
-            this.btnMelon.Click += new System.EventHandler(this.btnMelon_Click);
             // 
             // btnSandia
             // 
@@ -299,22 +226,6 @@
             this.btnPiña.Text = "Piña";
             this.btnPiña.UseVisualStyleBackColor = true;
             this.btnPiña.Click += new System.EventHandler(this.btnPiña_Click);
-            // 
-            // btnGuineo
-            // 
-            this.btnGuineo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuineo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnGuineo.FlatAppearance.BorderSize = 2;
-            this.btnGuineo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnGuineo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuineo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnGuineo.Location = new System.Drawing.Point(168, 239);
-            this.btnGuineo.Name = "btnGuineo";
-            this.btnGuineo.Size = new System.Drawing.Size(135, 51);
-            this.btnGuineo.TabIndex = 74;
-            this.btnGuineo.Text = "Guineo";
-            this.btnGuineo.UseVisualStyleBackColor = true;
-            this.btnGuineo.Click += new System.EventHandler(this.btnGuineo_Click);
             // 
             // btnDurazno
             // 
@@ -364,22 +275,6 @@
             this.btnNaranja.UseVisualStyleBackColor = true;
             this.btnNaranja.Click += new System.EventHandler(this.btnNaranja_Click);
             // 
-            // btnCiruela
-            // 
-            this.btnCiruela.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCiruela.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnCiruela.FlatAppearance.BorderSize = 2;
-            this.btnCiruela.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnCiruela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCiruela.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCiruela.Location = new System.Drawing.Point(309, 239);
-            this.btnCiruela.Name = "btnCiruela";
-            this.btnCiruela.Size = new System.Drawing.Size(135, 51);
-            this.btnCiruela.TabIndex = 70;
-            this.btnCiruela.Text = "Ciruela";
-            this.btnCiruela.UseVisualStyleBackColor = true;
-            this.btnCiruela.Click += new System.EventHandler(this.btnCiruela_Click);
-            // 
             // btnManzana
             // 
             this.btnManzana.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -396,102 +291,6 @@
             this.btnManzana.UseVisualStyleBackColor = true;
             this.btnManzana.Click += new System.EventHandler(this.btnManzana_Click);
             // 
-            // btnMarañon
-            // 
-            this.btnMarañon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMarañon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnMarañon.FlatAppearance.BorderSize = 2;
-            this.btnMarañon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnMarañon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMarañon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMarañon.Location = new System.Drawing.Point(168, 299);
-            this.btnMarañon.Name = "btnMarañon";
-            this.btnMarañon.Size = new System.Drawing.Size(135, 51);
-            this.btnMarañon.TabIndex = 84;
-            this.btnMarañon.Text = "Marañon";
-            this.btnMarañon.UseVisualStyleBackColor = true;
-            this.btnMarañon.Click += new System.EventHandler(this.btnMarañon_Click);
-            // 
-            // btnCoco
-            // 
-            this.btnCoco.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCoco.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnCoco.FlatAppearance.BorderSize = 2;
-            this.btnCoco.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnCoco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCoco.Location = new System.Drawing.Point(450, 239);
-            this.btnCoco.Name = "btnCoco";
-            this.btnCoco.Size = new System.Drawing.Size(135, 51);
-            this.btnCoco.TabIndex = 85;
-            this.btnCoco.Text = "Coco";
-            this.btnCoco.UseVisualStyleBackColor = true;
-            this.btnCoco.Click += new System.EventHandler(this.btnCoco_Click);
-            // 
-            // btnNance
-            // 
-            this.btnNance.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNance.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnNance.FlatAppearance.BorderSize = 2;
-            this.btnNance.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnNance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnNance.Location = new System.Drawing.Point(591, 239);
-            this.btnNance.Name = "btnNance";
-            this.btnNance.Size = new System.Drawing.Size(135, 51);
-            this.btnNance.TabIndex = 86;
-            this.btnNance.Text = "Nance";
-            this.btnNance.UseVisualStyleBackColor = true;
-            this.btnNance.Click += new System.EventHandler(this.btnNance_Click);
-            // 
-            // btnJocote
-            // 
-            this.btnJocote.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnJocote.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnJocote.FlatAppearance.BorderSize = 2;
-            this.btnJocote.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnJocote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJocote.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnJocote.Location = new System.Drawing.Point(309, 296);
-            this.btnJocote.Name = "btnJocote";
-            this.btnJocote.Size = new System.Drawing.Size(135, 51);
-            this.btnJocote.TabIndex = 87;
-            this.btnJocote.Text = "Jocote";
-            this.btnJocote.UseVisualStyleBackColor = true;
-            this.btnJocote.Click += new System.EventHandler(this.btnJocote_Click);
-            // 
-            // btnAnona
-            // 
-            this.btnAnona.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAnona.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnAnona.FlatAppearance.BorderSize = 2;
-            this.btnAnona.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnAnona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnona.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnAnona.Location = new System.Drawing.Point(450, 296);
-            this.btnAnona.Name = "btnAnona";
-            this.btnAnona.Size = new System.Drawing.Size(135, 51);
-            this.btnAnona.TabIndex = 88;
-            this.btnAnona.Text = "Anona";
-            this.btnAnona.UseVisualStyleBackColor = true;
-            this.btnAnona.Click += new System.EventHandler(this.btnAnona_Click);
-            // 
-            // btnZapote
-            // 
-            this.btnZapote.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnZapote.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnZapote.FlatAppearance.BorderSize = 2;
-            this.btnZapote.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnZapote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnZapote.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnZapote.Location = new System.Drawing.Point(591, 296);
-            this.btnZapote.Name = "btnZapote";
-            this.btnZapote.Size = new System.Drawing.Size(135, 51);
-            this.btnZapote.TabIndex = 89;
-            this.btnZapote.Text = "Zapote";
-            this.btnZapote.UseVisualStyleBackColor = true;
-            this.btnZapote.Click += new System.EventHandler(this.btnZapote_Click);
-            // 
             // btnMango
             // 
             this.btnMango.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -507,173 +306,20 @@
             this.btnMango.Text = "Mango";
             this.btnMango.UseVisualStyleBackColor = true;
             // 
-            // btnMamones
-            // 
-            this.btnMamones.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMamones.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnMamones.FlatAppearance.BorderSize = 2;
-            this.btnMamones.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnMamones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMamones.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMamones.Location = new System.Drawing.Point(168, 356);
-            this.btnMamones.Name = "btnMamones";
-            this.btnMamones.Size = new System.Drawing.Size(135, 51);
-            this.btnMamones.TabIndex = 91;
-            this.btnMamones.Text = "Mamones";
-            this.btnMamones.UseVisualStyleBackColor = true;
-            this.btnMamones.Click += new System.EventHandler(this.btnMamones_Click);
-            // 
-            // btnMamey
-            // 
-            this.btnMamey.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMamey.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnMamey.FlatAppearance.BorderSize = 2;
-            this.btnMamey.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnMamey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMamey.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMamey.Location = new System.Drawing.Point(22, 356);
-            this.btnMamey.Name = "btnMamey";
-            this.btnMamey.Size = new System.Drawing.Size(135, 51);
-            this.btnMamey.TabIndex = 92;
-            this.btnMamey.Text = "Mamey";
-            this.btnMamey.UseVisualStyleBackColor = true;
-            this.btnMamey.Click += new System.EventHandler(this.btnMamey_Click);
-            // 
-            // btnPepeto
-            // 
-            this.btnPepeto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPepeto.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPepeto.FlatAppearance.BorderSize = 2;
-            this.btnPepeto.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPepeto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPepeto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPepeto.Location = new System.Drawing.Point(450, 353);
-            this.btnPepeto.Name = "btnPepeto";
-            this.btnPepeto.Size = new System.Drawing.Size(135, 51);
-            this.btnPepeto.TabIndex = 93;
-            this.btnPepeto.Text = "Pepeto";
-            this.btnPepeto.UseVisualStyleBackColor = true;
-            // 
-            // btnPaterna
-            // 
-            this.btnPaterna.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPaterna.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnPaterna.FlatAppearance.BorderSize = 2;
-            this.btnPaterna.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnPaterna.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPaterna.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPaterna.Location = new System.Drawing.Point(591, 353);
-            this.btnPaterna.Name = "btnPaterna";
-            this.btnPaterna.Size = new System.Drawing.Size(135, 51);
-            this.btnPaterna.TabIndex = 94;
-            this.btnPaterna.Text = "Paterna";
-            this.btnPaterna.UseVisualStyleBackColor = true;
-            // 
-            // btnCaña
-            // 
-            this.btnCaña.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCaña.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnCaña.FlatAppearance.BorderSize = 2;
-            this.btnCaña.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnCaña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCaña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnCaña.Location = new System.Drawing.Point(22, 413);
-            this.btnCaña.Name = "btnCaña";
-            this.btnCaña.Size = new System.Drawing.Size(135, 71);
-            this.btnCaña.TabIndex = 95;
-            this.btnCaña.Text = "Caña de Azucar";
-            this.btnCaña.UseVisualStyleBackColor = true;
-            // 
-            // btnJicama
-            // 
-            this.btnJicama.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnJicama.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnJicama.FlatAppearance.BorderSize = 2;
-            this.btnJicama.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnJicama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJicama.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnJicama.Location = new System.Drawing.Point(168, 413);
-            this.btnJicama.Name = "btnJicama";
-            this.btnJicama.Size = new System.Drawing.Size(135, 51);
-            this.btnJicama.TabIndex = 96;
-            this.btnJicama.Text = "Jicama";
-            this.btnJicama.UseVisualStyleBackColor = true;
-            // 
-            // btnArrayan
-            // 
-            this.btnArrayan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnArrayan.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnArrayan.FlatAppearance.BorderSize = 2;
-            this.btnArrayan.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnArrayan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArrayan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnArrayan.Location = new System.Drawing.Point(309, 413);
-            this.btnArrayan.Name = "btnArrayan";
-            this.btnArrayan.Size = new System.Drawing.Size(135, 51);
-            this.btnArrayan.TabIndex = 97;
-            this.btnArrayan.Text = "Arrayán";
-            this.btnArrayan.UseVisualStyleBackColor = true;
-            // 
-            // btnGranadilla
-            // 
-            this.btnGranadilla.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGranadilla.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnGranadilla.FlatAppearance.BorderSize = 2;
-            this.btnGranadilla.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnGranadilla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGranadilla.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnGranadilla.Location = new System.Drawing.Point(450, 410);
-            this.btnGranadilla.Name = "btnGranadilla";
-            this.btnGranadilla.Size = new System.Drawing.Size(135, 51);
-            this.btnGranadilla.TabIndex = 98;
-            this.btnGranadilla.Text = "Granadilla";
-            this.btnGranadilla.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // Comida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 496);
-            this.Controls.Add(this.btnGranadilla);
-            this.Controls.Add(this.btnArrayan);
-            this.Controls.Add(this.btnJicama);
-            this.Controls.Add(this.btnCaña);
-            this.Controls.Add(this.btnPaterna);
-            this.Controls.Add(this.btnPepeto);
-            this.Controls.Add(this.btnMamey);
-            this.Controls.Add(this.btnMamones);
             this.Controls.Add(this.btnMango);
-            this.Controls.Add(this.btnZapote);
-            this.Controls.Add(this.btnAnona);
-            this.Controls.Add(this.btnJocote);
-            this.Controls.Add(this.btnNance);
-            this.Controls.Add(this.btnCoco);
-            this.Controls.Add(this.btnMarañon);
-            this.Controls.Add(this.btnCereza);
-            this.Controls.Add(this.btnPapaya);
             this.Controls.Add(this.btnLimon);
-            this.Controls.Add(this.btnPera);
             this.Controls.Add(this.btnMandarina);
-            this.Controls.Add(this.btnMelon);
             this.Controls.Add(this.btnSandia);
             this.Controls.Add(this.btnPiña);
-            this.Controls.Add(this.btnGuineo);
             this.Controls.Add(this.btnDurazno);
             this.Controls.Add(this.btnFresa);
             this.Controls.Add(this.btnNaranja);
-            this.Controls.Add(this.btnCiruela);
             this.Controls.Add(this.btnManzana);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnVolver);
@@ -699,36 +345,16 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnCereza;
-        private System.Windows.Forms.Button btnPapaya;
         private System.Windows.Forms.Button btnLimon;
-        private System.Windows.Forms.Button btnPera;
         private System.Windows.Forms.Button btnMandarina;
-        private System.Windows.Forms.Button btnMelon;
         private System.Windows.Forms.Button btnSandia;
         private System.Windows.Forms.Button btnPiña;
-        private System.Windows.Forms.Button btnGuineo;
         private System.Windows.Forms.Button btnDurazno;
         private System.Windows.Forms.Button btnFresa;
         private System.Windows.Forms.Button btnNaranja;
-        private System.Windows.Forms.Button btnCiruela;
         private System.Windows.Forms.Button btnManzana;
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
-        private System.Windows.Forms.Button btnMarañon;
-        private System.Windows.Forms.Button btnCoco;
-        private System.Windows.Forms.Button btnNance;
-        private System.Windows.Forms.Button btnJocote;
-        private System.Windows.Forms.Button btnAnona;
-        private System.Windows.Forms.Button btnZapote;
         private System.Windows.Forms.Button btnMango;
-        private System.Windows.Forms.Button btnMamones;
-        private System.Windows.Forms.Button btnMamey;
-        private System.Windows.Forms.Button btnPepeto;
-        private System.Windows.Forms.Button btnPaterna;
-        private System.Windows.Forms.Button btnCaña;
-        private System.Windows.Forms.Button btnJicama;
-        private System.Windows.Forms.Button btnArrayan;
-        private System.Windows.Forms.Button btnGranadilla;
     }
 }

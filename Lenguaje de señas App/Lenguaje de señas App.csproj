@@ -91,12 +91,6 @@
     <Compile Include="Animales.Designer.cs">
       <DependentUpon>Animales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Anona.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Anona.Designer.cs">
-      <DependentUpon>Anona.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ayer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,29 +133,11 @@
     <Compile Include="Celeste.Designer.cs">
       <DependentUpon>Celeste.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cereza.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cereza.Designer.cs">
-      <DependentUpon>Cereza.cs</DependentUpon>
-    </Compile>
     <Compile Include="Cincho.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cincho.Designer.cs">
       <DependentUpon>Cincho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ciruela.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ciruela.Designer.cs">
-      <DependentUpon>Ciruela.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Coco.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Coco.Designer.cs">
-      <DependentUpon>Coco.cs</DependentUpon>
     </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
@@ -229,12 +205,6 @@
     <Compile Include="Gorra.Designer.cs">
       <DependentUpon>Gorra.cs</DependentUpon>
     </Compile>
-    <Compile Include="Guineo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Guineo.Designer.cs">
-      <DependentUpon>Guineo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Hermana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,12 +228,6 @@
     </Compile>
     <Compile Include="Incicio.Designer.cs">
       <DependentUpon>Incicio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Jocote.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Jocote.Designer.cs">
-      <DependentUpon>Jocote.cs</DependentUpon>
     </Compile>
     <Compile Include="Jueves.cs">
       <SubType>Form</SubType>
@@ -433,12 +397,6 @@
     <Compile Include="LetraÑ.Designer.cs">
       <DependentUpon>LetraÑ.cs</DependentUpon>
     </Compile>
-    <Compile Include="Limon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Limon.Designer.cs">
-      <DependentUpon>Limon.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -457,18 +415,6 @@
     <Compile Include="Mama.Designer.cs">
       <DependentUpon>Mama.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mamey.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mamey.Designer.cs">
-      <DependentUpon>Mamey.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mamones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mamones.Designer.cs">
-      <DependentUpon>Mamones.cs</DependentUpon>
-    </Compile>
     <Compile Include="Mandarina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -480,12 +426,6 @@
     </Compile>
     <Compile Include="Manzana.Designer.cs">
       <DependentUpon>Manzana.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Marañon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Marañon.Designer.cs">
-      <DependentUpon>Marañon.cs</DependentUpon>
     </Compile>
     <Compile Include="Martes.cs">
       <SubType>Form</SubType>
@@ -505,12 +445,6 @@
     <Compile Include="Mañana.Designer.cs">
       <DependentUpon>Mañana.cs</DependentUpon>
     </Compile>
-    <Compile Include="Melon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Melon.Designer.cs">
-      <DependentUpon>Melon.cs</DependentUpon>
-    </Compile>
     <Compile Include="Miercoles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -522,12 +456,6 @@
     </Compile>
     <Compile Include="Morado.Designer.cs">
       <DependentUpon>Morado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nance.Designer.cs">
-      <DependentUpon>Nance.cs</DependentUpon>
     </Compile>
     <Compile Include="Naranja.cs">
       <SubType>Form</SubType>
@@ -678,18 +606,6 @@
     </Compile>
     <Compile Include="Pantalon.Designer.cs">
       <DependentUpon>Pantalon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Papa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Papa.Designer.cs">
-      <DependentUpon>Papa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Papaya.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Papaya.Designer.cs">
-      <DependentUpon>Papaya.cs</DependentUpon>
     </Compile>
     <Compile Include="Pera.cs">
       <SubType>Form</SubType>
@@ -858,9 +774,6 @@
     <EmbeddedResource Include="Animales.resx">
       <DependentUpon>Animales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Anona.resx">
-      <DependentUpon>Anona.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Ayer.resx">
       <DependentUpon>Ayer.cs</DependentUpon>
     </EmbeddedResource>
@@ -882,17 +795,8 @@
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cereza.resx">
-      <DependentUpon>Cereza.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Cincho.resx">
       <DependentUpon>Cincho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ciruela.resx">
-      <DependentUpon>Ciruela.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Coco.resx">
-      <DependentUpon>Coco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
@@ -927,9 +831,6 @@
     <EmbeddedResource Include="Gorra.resx">
       <DependentUpon>Gorra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Guineo.resx">
-      <DependentUpon>Guineo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Hermana.resx">
       <DependentUpon>Hermana.cs</DependentUpon>
     </EmbeddedResource>
@@ -941,9 +842,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Incicio.resx">
       <DependentUpon>Incicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Jocote.resx">
-      <DependentUpon>Jocote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jueves.resx">
       <DependentUpon>Jueves.cs</DependentUpon>
@@ -1029,9 +927,6 @@
     <EmbeddedResource Include="LetraÑ.resx">
       <DependentUpon>LetraÑ.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Limon.resx">
-      <DependentUpon>Limon.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -1041,20 +936,11 @@
     <EmbeddedResource Include="Mama.resx">
       <DependentUpon>Mama.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mamey.resx">
-      <DependentUpon>Mamey.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mamones.resx">
-      <DependentUpon>Mamones.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Mandarina.resx">
       <DependentUpon>Mandarina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manzana.resx">
       <DependentUpon>Manzana.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Marañon.resx">
-      <DependentUpon>Marañon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Martes.resx">
       <DependentUpon>Martes.cs</DependentUpon>
@@ -1065,17 +951,11 @@
     <EmbeddedResource Include="Mañana.resx">
       <DependentUpon>Mañana.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Melon.resx">
-      <DependentUpon>Melon.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Miercoles.resx">
       <DependentUpon>Miercoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Morado.resx">
       <DependentUpon>Morado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nance.resx">
-      <DependentUpon>Nance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Naranja.resx">
       <DependentUpon>Naranja.cs</DependentUpon>
@@ -1151,12 +1031,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pantalon.resx">
       <DependentUpon>Pantalon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Papa.resx">
-      <DependentUpon>Papa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Papaya.resx">
-      <DependentUpon>Papaya.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pera.resx">
       <DependentUpon>Pera.cs</DependentUpon>
