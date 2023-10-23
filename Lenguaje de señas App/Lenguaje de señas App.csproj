@@ -723,6 +723,12 @@
     <Compile Include="Vestimenta.Designer.cs">
       <DependentUpon>Vestimenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Viernes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viernes.Designer.cs">
+      <DependentUpon>Viernes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zapote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1074,6 +1080,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vestimenta.resx">
       <DependentUpon>Vestimenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viernes.resx">
+      <DependentUpon>Viernes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zapote.resx">
       <DependentUpon>Zapote.cs</DependentUpon>
