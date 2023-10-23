@@ -169,6 +169,12 @@
     <Compile Include="Durazno.Designer.cs">
       <DependentUpon>Durazno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Esta Semana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Esta Semana.Designer.cs">
+      <DependentUpon>Esta Semana.cs</DependentUpon>
+    </Compile>
     <Compile Include="Familia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -812,6 +818,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Durazno.resx">
       <DependentUpon>Durazno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Esta Semana.resx">
+      <DependentUpon>Esta Semana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
