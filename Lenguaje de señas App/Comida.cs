@@ -102,5 +102,11 @@ namespace Lenguaje_de_señas_App
             Papaya papaya = new Papaya();
             papaya.ShowDialog();
         }
+
+        private void btnPiña_Click(object sender, EventArgs e)
+        {
+            Piña piña = new Piña();
+            piña.ShowDialog();
+        }
     }
 }

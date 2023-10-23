@@ -298,6 +298,7 @@
             this.btnPiña.TabIndex = 75;
             this.btnPiña.Text = "Piña";
             this.btnPiña.UseVisualStyleBackColor = true;
+            this.btnPiña.Click += new System.EventHandler(this.btnPiña_Click);
             // 
             // btnGuineo
             // 
