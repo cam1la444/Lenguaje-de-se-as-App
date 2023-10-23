@@ -60,6 +60,7 @@
             this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Semana_Pasada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Semana_Pasada";

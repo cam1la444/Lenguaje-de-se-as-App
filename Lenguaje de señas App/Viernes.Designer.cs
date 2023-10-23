@@ -60,6 +60,7 @@
             this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Viernes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Viernes";
