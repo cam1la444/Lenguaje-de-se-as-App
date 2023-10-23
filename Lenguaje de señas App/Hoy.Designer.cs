@@ -35,7 +35,7 @@
             // btnReproducir
             // 
             this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
-            this.btnReproducir.Location = new System.Drawing.Point(314, 183);
+            this.btnReproducir.Location = new System.Drawing.Point(188, 167);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 57);
             this.btnReproducir.TabIndex = 2;
@@ -45,7 +45,7 @@
             // btnRegresar
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Location = new System.Drawing.Point(128, 399);
+            this.btnRegresar.Location = new System.Drawing.Point(2, 383);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(102, 39);
             this.btnRegresar.TabIndex = 3;
@@ -57,7 +57,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(401, 450);
+            this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
             this.Name = "Hoy";

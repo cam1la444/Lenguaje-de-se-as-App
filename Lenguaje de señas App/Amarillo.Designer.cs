@@ -38,7 +38,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(113, 33);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 122);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -48,7 +48,7 @@
             // btnReproducir
             // 
             this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
-            this.btnReproducir.Location = new System.Drawing.Point(287, 181);
+            this.btnReproducir.Location = new System.Drawing.Point(215, 179);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 56);
             this.btnReproducir.TabIndex = 1;
@@ -58,7 +58,7 @@
             // btnRegresar
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Location = new System.Drawing.Point(126, 383);
+            this.btnRegresar.Location = new System.Drawing.Point(54, 381);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(96, 36);
             this.btnRegresar.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 494);
+            this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.pictureBox1);

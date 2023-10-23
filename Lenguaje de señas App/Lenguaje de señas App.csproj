@@ -115,12 +115,6 @@
     <Compile Include="Cafe.Designer.cs">
       <DependentUpon>Cafe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Calcetines.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Calcetines.Designer.cs">
-      <DependentUpon>Calcetines.cs</DependentUpon>
-    </Compile>
     <Compile Include="Camisa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,12 +127,6 @@
     <Compile Include="Celeste.Designer.cs">
       <DependentUpon>Celeste.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cincho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cincho.Designer.cs">
-      <DependentUpon>Cincho.cs</DependentUpon>
-    </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,12 +138,6 @@
     </Compile>
     <Compile Include="Comida.Designer.cs">
       <DependentUpon>Comida.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Corbata.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Corbata.Designer.cs">
-      <DependentUpon>Corbata.cs</DependentUpon>
     </Compile>
     <Compile Include="Domingo.cs">
       <SubType>Form</SubType>
@@ -607,12 +589,6 @@
     <Compile Include="Pantalon.Designer.cs">
       <DependentUpon>Pantalon.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pera.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pera.Designer.cs">
-      <DependentUpon>Pera.cs</DependentUpon>
-    </Compile>
     <Compile Include="Piña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -687,12 +663,6 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sombrero.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sombrero.Designer.cs">
-      <DependentUpon>Sombrero.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -710,12 +680,6 @@
     </Compile>
     <Compile Include="Tio.Designer.cs">
       <DependentUpon>Tio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Uniforme.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Uniforme.Designer.cs">
-      <DependentUpon>Uniforme.cs</DependentUpon>
     </Compile>
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
@@ -746,12 +710,6 @@
     </Compile>
     <Compile Include="Viernes.Designer.cs">
       <DependentUpon>Viernes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Zapote.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Zapote.Designer.cs">
-      <DependentUpon>Zapote.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
@@ -786,26 +744,17 @@
     <EmbeddedResource Include="Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Calcetines.resx">
-      <DependentUpon>Calcetines.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Camisa.resx">
       <DependentUpon>Camisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cincho.resx">
-      <DependentUpon>Cincho.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comida.resx">
       <DependentUpon>Comida.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Corbata.resx">
-      <DependentUpon>Corbata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Domingo.resx">
       <DependentUpon>Domingo.cs</DependentUpon>
@@ -1032,9 +981,6 @@
     <EmbeddedResource Include="Pantalon.resx">
       <DependentUpon>Pantalon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pera.resx">
-      <DependentUpon>Pera.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Piña.resx">
       <DependentUpon>Piña.cs</DependentUpon>
     </EmbeddedResource>
@@ -1081,9 +1027,6 @@
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sombrero.resx">
-      <DependentUpon>Sombrero.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Tia.resx">
       <DependentUpon>Tia.cs</DependentUpon>
     </EmbeddedResource>
@@ -1092,9 +1035,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tio.resx">
       <DependentUpon>Tio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Uniforme.resx">
-      <DependentUpon>Uniforme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Verbos.resx">
       <DependentUpon>Verbos.cs</DependentUpon>
@@ -1110,9 +1050,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Viernes.resx">
       <DependentUpon>Viernes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Zapote.resx">
-      <DependentUpon>Zapote.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

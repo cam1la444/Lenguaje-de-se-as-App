@@ -37,7 +37,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnLimon = new System.Windows.Forms.Button();
             this.btnMandarina = new System.Windows.Forms.Button();
             this.btnSandia = new System.Windows.Forms.Button();
             this.btnPiña = new System.Windows.Forms.Button();
@@ -162,22 +161,6 @@
             this.label1.Size = new System.Drawing.Size(300, 42);
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Comida";
-            // 
-            // btnLimon
-            // 
-            this.btnLimon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLimon.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnLimon.FlatAppearance.BorderSize = 2;
-            this.btnLimon.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnLimon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnLimon.Location = new System.Drawing.Point(309, 182);
-            this.btnLimon.Name = "btnLimon";
-            this.btnLimon.Size = new System.Drawing.Size(135, 51);
-            this.btnLimon.TabIndex = 80;
-            this.btnLimon.Text = "Limón";
-            this.btnLimon.UseVisualStyleBackColor = true;
-            this.btnLimon.Click += new System.EventHandler(this.btnLimon_Click);
             // 
             // btnMandarina
             // 
@@ -313,7 +296,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(790, 496);
             this.Controls.Add(this.btnMango);
-            this.Controls.Add(this.btnLimon);
             this.Controls.Add(this.btnMandarina);
             this.Controls.Add(this.btnSandia);
             this.Controls.Add(this.btnPiña);
@@ -345,7 +327,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnLimon;
         private System.Windows.Forms.Button btnMandarina;
         private System.Windows.Forms.Button btnSandia;
         private System.Windows.Forms.Button btnPiña;
