@@ -1,6 +1,6 @@
 ﻿namespace Lenguaje_de_señas_App
 {
-    partial class Hermano
+    partial class Papa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,43 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hermano));
-            this.btnReproducir = new System.Windows.Forms.Button();
-            this.btnRegresar = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Papa));
+            this.asWMPA = new AxWMPLib.AxWindowsMediaPlayer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.asWMPA = new AxWMPLib.AxWindowsMediaPlayer();
+            this.btnRegresar = new System.Windows.Forms.Button();
+            this.btnReproducir = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnReproducir
+            // asWMPA
             // 
-            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
-            this.btnReproducir.Location = new System.Drawing.Point(110, 370);
-            this.btnReproducir.Name = "btnReproducir";
-            this.btnReproducir.Size = new System.Drawing.Size(86, 56);
-            this.btnReproducir.TabIndex = 1;
-            this.btnReproducir.Text = "Reproducir video";
-            this.btnReproducir.UseVisualStyleBackColor = false;
-            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Location = new System.Drawing.Point(99, 432);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(113, 42);
-            this.btnRegresar.TabIndex = 2;
-            this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = false;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            this.asWMPA.Enabled = true;
+            this.asWMPA.Location = new System.Drawing.Point(45, 189);
+            this.asWMPA.Name = "asWMPA";
+            this.asWMPA.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("asWMPA.OcxState")));
+            this.asWMPA.Size = new System.Drawing.Size(222, 192);
+            this.asWMPA.TabIndex = 48;
             // 
             // panel1
             // 
@@ -75,7 +60,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(306, 34);
-            this.panel1.TabIndex = 41;
+            this.panel1.TabIndex = 47;
             // 
             // btnClose
             // 
@@ -100,14 +85,27 @@
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
-            // asWMPA
+            // btnRegresar
             // 
-            this.asWMPA.Enabled = true;
-            this.asWMPA.Location = new System.Drawing.Point(42, 172);
-            this.asWMPA.Name = "asWMPA";
-            this.asWMPA.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("asWMPA.OcxState")));
-            this.asWMPA.Size = new System.Drawing.Size(222, 192);
-            this.asWMPA.TabIndex = 44;
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(113, 449);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(119, 35);
+            this.btnRegresar.TabIndex = 46;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(134, 387);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(75, 56);
+            this.btnReproducir.TabIndex = 45;
+            this.btnReproducir.Text = "Reproducir video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
+            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
             // 
             // pictureBox2
             // 
@@ -120,17 +118,7 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(101, 40);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 115);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Hermano
+            // Papa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,29 +127,26 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Hermano";
+            this.Name = "Papa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hermano";
+            this.Text = "Papa";
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnReproducir;
-        private System.Windows.Forms.Button btnRegresar;
+        private AxWMPLib.AxWindowsMediaPlayer asWMPA;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private AxWMPLib.AxWindowsMediaPlayer asWMPA;
+        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button btnReproducir;
     }
 }
