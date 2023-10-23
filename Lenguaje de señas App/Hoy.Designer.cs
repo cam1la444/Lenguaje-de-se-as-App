@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnReproducir = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(314, 183);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(75, 57);
+            this.btnReproducir.TabIndex = 2;
+            this.btnReproducir.Text = "Reproducir Video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
             // 
             // Hoy
             // 
@@ -36,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(401, 450);
+            this.Controls.Add(this.btnReproducir);
             this.Name = "Hoy";
             this.Text = "Hoy";
             this.ResumeLayout(false);
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnReproducir;
     }
 }
