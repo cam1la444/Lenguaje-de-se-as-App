@@ -120,5 +120,11 @@ namespace Lenguaje_de_señas_App
             Proxima_Semana proximasemana = new Proxima_Semana();
             proximasemana.ShowDialog();
         }
+
+        private void btnWeekAgo_Click(object sender, EventArgs e)
+        {
+            Semana_Pasada semanapasada = new Semana_Pasada();
+            semanapasada.ShowDialog();
+        }
     }
 }

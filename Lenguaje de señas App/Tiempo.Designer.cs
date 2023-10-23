@@ -255,6 +255,7 @@
             this.btnWeekAgo.TabIndex = 66;
             this.btnWeekAgo.Text = "Semana Pasada";
             this.btnWeekAgo.UseVisualStyleBackColor = true;
+            this.btnWeekAgo.Click += new System.EventHandler(this.btnWeekAgo_Click);
             // 
             // btnThisWeek
             // 
