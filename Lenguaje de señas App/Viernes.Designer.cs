@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnReproducir = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnReproducir
+            // 
+            this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
+            this.btnReproducir.Location = new System.Drawing.Point(341, 169);
+            this.btnReproducir.Name = "btnReproducir";
+            this.btnReproducir.Size = new System.Drawing.Size(75, 57);
+            this.btnReproducir.TabIndex = 3;
+            this.btnReproducir.Text = "Reproducir Video";
+            this.btnReproducir.UseVisualStyleBackColor = false;
             // 
             // Viernes
             // 
@@ -36,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(428, 450);
+            this.Controls.Add(this.btnReproducir);
             this.Name = "Viernes";
             this.Text = "Viernes";
             this.ResumeLayout(false);
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnReproducir;
     }
 }
