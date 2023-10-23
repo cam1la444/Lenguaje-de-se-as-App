@@ -789,6 +789,12 @@
     <Compile Include="Verde.Designer.cs">
       <DependentUpon>Verde.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vestido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vestido.Designer.cs">
+      <DependentUpon>Vestido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vestimenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1185,6 +1191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Verde.resx">
       <DependentUpon>Verde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vestido.resx">
+      <DependentUpon>Vestido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vestimenta.resx">
       <DependentUpon>Vestimenta.cs</DependentUpon>
