@@ -66,5 +66,11 @@ namespace Lenguaje_de_señas_App
             Pera pera = new Pera();
             pera.ShowDialog();
         }
+
+        private void btnMandarina_Click(object sender, EventArgs e)
+        {
+            Mandarina mandarina = new Mandarina();
+            mandarina.ShowDialog();
+        }
     }
 }

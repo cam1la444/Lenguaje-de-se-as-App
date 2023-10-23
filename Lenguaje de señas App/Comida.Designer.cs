@@ -247,6 +247,7 @@
             this.btnMandarina.TabIndex = 78;
             this.btnMandarina.Text = "Mandarina";
             this.btnMandarina.UseVisualStyleBackColor = true;
+            this.btnMandarina.Click += new System.EventHandler(this.btnMandarina_Click);
             // 
             // btnMelon
             // 
