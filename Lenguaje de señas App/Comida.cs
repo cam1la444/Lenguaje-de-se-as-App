@@ -60,5 +60,11 @@ namespace Lenguaje_de_señas_App
             Melon melon = new Melon();
             melon.ShowDialog();
         }
+
+        private void btnPera_Click(object sender, EventArgs e)
+        {
+            Pera pera = new Pera();
+            pera.ShowDialog();
+        }
     }
 }

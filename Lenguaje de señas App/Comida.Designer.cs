@@ -231,6 +231,7 @@
             this.btnPera.TabIndex = 79;
             this.btnPera.Text = "Pera";
             this.btnPera.UseVisualStyleBackColor = true;
+            this.btnPera.Click += new System.EventHandler(this.btnPera_Click);
             // 
             // btnMandarina
             // 
