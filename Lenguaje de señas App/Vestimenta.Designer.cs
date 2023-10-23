@@ -63,6 +63,7 @@
             this.btnTrajedeBaño = new System.Windows.Forms.Button();
             this.btnBata = new System.Windows.Forms.Button();
             this.btnGorro = new System.Windows.Forms.Button();
+            this.btnGuantes = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -573,11 +574,27 @@
             this.btnGorro.Text = "Gorro";
             this.btnGorro.UseVisualStyleBackColor = true;
             // 
+            // btnGuantes
+            // 
+            this.btnGuantes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuantes.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnGuantes.FlatAppearance.BorderSize = 2;
+            this.btnGuantes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnGuantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnGuantes.Location = new System.Drawing.Point(432, 290);
+            this.btnGuantes.Name = "btnGuantes";
+            this.btnGuantes.Size = new System.Drawing.Size(134, 36);
+            this.btnGuantes.TabIndex = 92;
+            this.btnGuantes.Text = "Guantes";
+            this.btnGuantes.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.btnGuantes);
             this.Controls.Add(this.btnGorro);
             this.Controls.Add(this.btnBata);
             this.Controls.Add(this.btnTrajedeBaño);
@@ -655,5 +672,6 @@
         private System.Windows.Forms.Button btnTrajedeBaño;
         private System.Windows.Forms.Button btnBata;
         private System.Windows.Forms.Button btnGorro;
+        private System.Windows.Forms.Button btnGuantes;
     }
 }
