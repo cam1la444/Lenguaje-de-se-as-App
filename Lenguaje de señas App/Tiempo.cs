@@ -45,7 +45,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnHoy_Click(object sender, EventArgs e)
         {
-
+            Hoy hoy = new Hoy();
+            hoy.ShowDialog();
         }
     }
 }
