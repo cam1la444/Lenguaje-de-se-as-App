@@ -28,21 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Esta_Semana));
             this.btnRegresar = new System.Windows.Forms.Button();
             this.btnReproducir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.asWMPA = new AxWMPLib.AxWindowsMediaPlayer();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRegresar
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Location = new System.Drawing.Point(12, 386);
+            this.btnRegresar.Location = new System.Drawing.Point(120, 437);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(96, 36);
             this.btnRegresar.TabIndex = 4;
@@ -52,12 +55,13 @@
             // btnReproducir
             // 
             this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
-            this.btnReproducir.Location = new System.Drawing.Point(181, 152);
+            this.btnReproducir.Location = new System.Drawing.Point(120, 332);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 56);
             this.btnReproducir.TabIndex = 5;
             this.btnReproducir.Text = "Reproducir video";
             this.btnReproducir.UseVisualStyleBackColor = false;
+            this.btnReproducir.Click += new System.EventHandler(this.btnReproducir_Click);
             // 
             // panel1
             // 
@@ -104,12 +108,22 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // asWMPA
+            // 
+            this.asWMPA.Enabled = true;
+            this.asWMPA.Location = new System.Drawing.Point(34, 109);
+            this.asWMPA.Name = "asWMPA";
+            this.asWMPA.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("asWMPA.OcxState")));
+            this.asWMPA.Size = new System.Drawing.Size(222, 192);
+            this.asWMPA.TabIndex = 42;
+            // 
             // Esta_Semana
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(306, 499);
+            this.Controls.Add(this.asWMPA);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
@@ -120,6 +134,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.asWMPA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,5 +147,6 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private AxWMPLib.AxWindowsMediaPlayer asWMPA;
     }
 }
