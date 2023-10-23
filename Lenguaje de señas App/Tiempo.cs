@@ -48,5 +48,11 @@ namespace Lenguaje_de_señas_App
             Hoy hoy = new Hoy();
             hoy.ShowDialog();
         }
+
+        private void btnLunes_Click(object sender, EventArgs e)
+        {
+            Lunes lunes = new Lunes();
+            lunes.ShowDialog();
+        }
     }
 }

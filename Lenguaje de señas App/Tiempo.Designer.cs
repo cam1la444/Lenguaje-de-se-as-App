@@ -156,6 +156,7 @@
             this.btnLunes.TabIndex = 54;
             this.btnLunes.Text = "Lunes";
             this.btnLunes.UseVisualStyleBackColor = true;
+            this.btnLunes.Click += new System.EventHandler(this.btnLunes_Click);
             // 
             // btnSabado
             // 
