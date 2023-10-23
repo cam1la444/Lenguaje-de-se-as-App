@@ -42,5 +42,11 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnCalcetines_Click(object sender, EventArgs e)
+        {
+            Calcetines calcetines = new Calcetines();
+            calcetines.ShowDialog();
+        }
     }
 }

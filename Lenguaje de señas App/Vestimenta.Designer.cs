@@ -184,6 +184,7 @@
             this.btnCalcetines.TabIndex = 65;
             this.btnCalcetines.Text = "Calcetines";
             this.btnCalcetines.UseVisualStyleBackColor = true;
+            this.btnCalcetines.Click += new System.EventHandler(this.btnCalcetines_Click);
             // 
             // btnVestido
             // 
