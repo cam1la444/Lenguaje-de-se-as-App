@@ -192,6 +192,7 @@
             this.btnDomingo.TabIndex = 52;
             this.btnDomingo.Text = "Domingo";
             this.btnDomingo.UseVisualStyleBackColor = true;
+            this.btnDomingo.Click += new System.EventHandler(this.btnDomingo_Click);
             // 
             // btnHoy
             // 
