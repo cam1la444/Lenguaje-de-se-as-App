@@ -16,5 +16,16 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string Tia = "C:\\Users\\jwest\\Videos\\VideoTia.mp4";
+            asWMPA.URL = Tia;
+        }
     }
 }
