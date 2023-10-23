@@ -41,7 +41,7 @@
             this.btnUniforme = new System.Windows.Forms.Button();
             this.btnCincho = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnBufanda = new System.Windows.Forms.Button();
             this.btnMedias = new System.Windows.Forms.Button();
             this.btnBrasier = new System.Windows.Forms.Button();
             this.btnBikini = new System.Windows.Forms.Button();
@@ -240,20 +240,20 @@
             this.btnGorra.Text = "Gorra";
             this.btnGorra.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnBufanda
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(432, 172);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(134, 36);
-            this.button5.TabIndex = 70;
-            this.button5.Text = "Calcetines";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnBufanda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBufanda.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBufanda.FlatAppearance.BorderSize = 2;
+            this.btnBufanda.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBufanda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBufanda.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBufanda.Location = new System.Drawing.Point(432, 172);
+            this.btnBufanda.Name = "btnBufanda";
+            this.btnBufanda.Size = new System.Drawing.Size(134, 36);
+            this.btnBufanda.TabIndex = 70;
+            this.btnBufanda.Text = "Bufanda";
+            this.btnBufanda.UseVisualStyleBackColor = true;
             // 
             // btnMedias
             // 
@@ -548,7 +548,7 @@
             this.Controls.Add(this.btnBikini);
             this.Controls.Add(this.btnBrasier);
             this.Controls.Add(this.btnMedias);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnBufanda);
             this.Controls.Add(this.btnGorra);
             this.Controls.Add(this.btnCincho);
             this.Controls.Add(this.btnUniforme);
@@ -582,7 +582,7 @@
         private System.Windows.Forms.Button btnUniforme;
         private System.Windows.Forms.Button btnCincho;
         private System.Windows.Forms.Button btnGorra;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnBufanda;
         private System.Windows.Forms.Button btnMedias;
         private System.Windows.Forms.Button btnBrasier;
         private System.Windows.Forms.Button btnBikini;
