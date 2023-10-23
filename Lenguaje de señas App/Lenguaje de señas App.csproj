@@ -765,6 +765,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sombrero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sombrero.Designer.cs">
+      <DependentUpon>Sombrero.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1191,6 +1197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sombrero.resx">
+      <DependentUpon>Sombrero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tia.resx">
       <DependentUpon>Tia.cs</DependentUpon>
