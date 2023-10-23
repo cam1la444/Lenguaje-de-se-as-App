@@ -175,6 +175,12 @@
     <Compile Include="Esta Semana.Designer.cs">
       <DependentUpon>Esta Semana.cs</DependentUpon>
     </Compile>
+    <Compile Include="Esta Tarde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Esta Tarde.Designer.cs">
+      <DependentUpon>Esta Tarde.cs</DependentUpon>
+    </Compile>
     <Compile Include="Familia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -827,6 +833,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Esta Semana.resx">
       <DependentUpon>Esta Semana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Esta Tarde.resx">
+      <DependentUpon>Esta Tarde.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
