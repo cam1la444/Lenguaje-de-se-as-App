@@ -48,5 +48,11 @@ namespace Lenguaje_de_señas_App
             Manzana manzana =new Manzana();
             manzana.ShowDialog();
         }
+
+        private void btnFresa_Click(object sender, EventArgs e)
+        {
+            Fresa fresa = new Fresa();
+            fresa.ShowDialog();
+        }
     }
 }

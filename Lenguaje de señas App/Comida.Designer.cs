@@ -336,6 +336,7 @@
             this.btnFresa.TabIndex = 72;
             this.btnFresa.Text = "Fresa";
             this.btnFresa.UseVisualStyleBackColor = true;
+            this.btnFresa.Click += new System.EventHandler(this.btnFresa_Click);
             // 
             // btnNaranja
             // 
