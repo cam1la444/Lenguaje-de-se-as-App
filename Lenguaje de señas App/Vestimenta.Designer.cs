@@ -36,6 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.btnCalcetines = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -141,11 +142,27 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // btnCalcetines
+            // 
+            this.btnCalcetines.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcetines.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCalcetines.FlatAppearance.BorderSize = 2;
+            this.btnCalcetines.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCalcetines.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalcetines.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCalcetines.Location = new System.Drawing.Point(12, 52);
+            this.btnCalcetines.Name = "btnCalcetines";
+            this.btnCalcetines.Size = new System.Drawing.Size(134, 36);
+            this.btnCalcetines.TabIndex = 65;
+            this.btnCalcetines.Text = "Calcetines";
+            this.btnCalcetines.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.btnCalcetines);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -169,5 +186,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnCalcetines;
     }
 }
