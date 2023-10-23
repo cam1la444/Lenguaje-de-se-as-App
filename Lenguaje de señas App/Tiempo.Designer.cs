@@ -284,6 +284,7 @@
             this.btnAyer.TabIndex = 64;
             this.btnAyer.Text = "Ayer";
             this.btnAyer.UseVisualStyleBackColor = true;
+            this.btnAyer.Click += new System.EventHandler(this.btnAyer_Click);
             // 
             // btnThisTarde
             // 

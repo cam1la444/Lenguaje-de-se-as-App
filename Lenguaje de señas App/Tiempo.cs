@@ -96,5 +96,11 @@ namespace Lenguaje_de_señas_App
             Mañana mañana = new Mañana();
             mañana.ShowDialog();
         }
+
+        private void btnAyer_Click(object sender, EventArgs e)
+        {
+            Ayer ayer = new Ayer();
+            ayer.ShowDialog();
+        }
     }
 }
