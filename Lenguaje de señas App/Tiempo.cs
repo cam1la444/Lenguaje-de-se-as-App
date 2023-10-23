@@ -72,5 +72,11 @@ namespace Lenguaje_de_señas_App
             Jueves jueves = new Jueves();
             jueves.ShowDialog();
         }
+
+        private void btnViernes_Click(object sender, EventArgs e)
+        {
+            Viernes viernes = new Viernes();
+            viernes.ShowDialog();
+        }
     }
 }

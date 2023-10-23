@@ -128,6 +128,7 @@
             this.btnViernes.TabIndex = 57;
             this.btnViernes.Text = "Viernes";
             this.btnViernes.UseVisualStyleBackColor = true;
+            this.btnViernes.Click += new System.EventHandler(this.btnViernes_Click);
             // 
             // btnMartes
             // 
