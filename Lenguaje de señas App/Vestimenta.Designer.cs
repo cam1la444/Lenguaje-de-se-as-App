@@ -38,7 +38,7 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnCalcetines = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnUniforme = new System.Windows.Forms.Button();
             this.btnCincho = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -195,20 +195,20 @@
             this.button1.Text = "Calcetines";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnUniforme
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(432, 52);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 36);
-            this.button2.TabIndex = 67;
-            this.button2.Text = "Calcetines";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnUniforme.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUniforme.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnUniforme.FlatAppearance.BorderSize = 2;
+            this.btnUniforme.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnUniforme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUniforme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnUniforme.Location = new System.Drawing.Point(432, 52);
+            this.btnUniforme.Name = "btnUniforme";
+            this.btnUniforme.Size = new System.Drawing.Size(134, 36);
+            this.btnUniforme.TabIndex = 67;
+            this.btnUniforme.Text = "Uniforme";
+            this.btnUniforme.UseVisualStyleBackColor = true;
             // 
             // btnCincho
             // 
@@ -551,7 +551,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnGorra);
             this.Controls.Add(this.btnCincho);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnUniforme);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCalcetines);
             this.Controls.Add(this.btnVolver);
@@ -579,7 +579,7 @@
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnCalcetines;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnUniforme;
         private System.Windows.Forms.Button btnCincho;
         private System.Windows.Forms.Button btnGorra;
         private System.Windows.Forms.Button button5;
