@@ -44,7 +44,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnBikini = new System.Windows.Forms.Button();
             this.btnBoxer = new System.Windows.Forms.Button();
             this.btnCalzoncillo = new System.Windows.Forms.Button();
             this.btnPijama = new System.Windows.Forms.Button();
@@ -285,20 +285,20 @@
             this.button7.Text = "Calcetines";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnBikini
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button8.FlatAppearance.BorderSize = 2;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(12, 172);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(134, 36);
-            this.button8.TabIndex = 73;
-            this.button8.Text = "Calcetines";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnBikini.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBikini.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBikini.FlatAppearance.BorderSize = 2;
+            this.btnBikini.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBikini.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBikini.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBikini.Location = new System.Drawing.Point(12, 172);
+            this.btnBikini.Name = "btnBikini";
+            this.btnBikini.Size = new System.Drawing.Size(134, 36);
+            this.btnBikini.TabIndex = 73;
+            this.btnBikini.Text = "Bikini";
+            this.btnBikini.UseVisualStyleBackColor = true;
             // 
             // btnBoxer
             // 
@@ -545,7 +545,7 @@
             this.Controls.Add(this.btnPijama);
             this.Controls.Add(this.btnCalzoncillo);
             this.Controls.Add(this.btnBoxer);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnBikini);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -585,7 +585,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnBikini;
         private System.Windows.Forms.Button btnBoxer;
         private System.Windows.Forms.Button btnCalzoncillo;
         private System.Windows.Forms.Button btnPijama;
