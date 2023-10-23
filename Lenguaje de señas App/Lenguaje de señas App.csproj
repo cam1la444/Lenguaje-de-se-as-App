@@ -139,6 +139,12 @@
     <Compile Include="Cereza.Designer.cs">
       <DependentUpon>Cereza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cincho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cincho.Designer.cs">
+      <DependentUpon>Cincho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ciruela.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -839,6 +845,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cereza.resx">
       <DependentUpon>Cereza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cincho.resx">
+      <DependentUpon>Cincho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ciruela.resx">
       <DependentUpon>Ciruela.cs</DependentUpon>
