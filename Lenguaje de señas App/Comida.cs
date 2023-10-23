@@ -72,5 +72,11 @@ namespace Lenguaje_de_señas_App
             Mandarina mandarina = new Mandarina();
             mandarina.ShowDialog();
         }
+
+        private void btnDurazno_Click(object sender, EventArgs e)
+        {
+            Durazno durazno = new Durazno();
+            durazno.ShowDialog();
+        }
     }
 }

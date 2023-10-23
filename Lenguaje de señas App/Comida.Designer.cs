@@ -324,6 +324,7 @@
             this.btnDurazno.TabIndex = 73;
             this.btnDurazno.Text = "Durazno";
             this.btnDurazno.UseVisualStyleBackColor = true;
+            this.btnDurazno.Click += new System.EventHandler(this.btnDurazno_Click);
             // 
             // btnFresa
             // 
