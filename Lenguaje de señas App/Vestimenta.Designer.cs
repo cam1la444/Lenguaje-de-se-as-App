@@ -52,7 +52,7 @@
             this.btnSombrero = new System.Windows.Forms.Button();
             this.btnCorbata = new System.Windows.Forms.Button();
             this.btnPantalon = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.btnFalda = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
@@ -405,20 +405,20 @@
             this.btnPantalon.Text = "Pantalon";
             this.btnPantalon.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // btnFalda
             // 
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button16.FlatAppearance.BorderSize = 2;
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button16.Location = new System.Drawing.Point(572, 172);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(134, 36);
-            this.button16.TabIndex = 81;
-            this.button16.Text = "Calcetines";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btnFalda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFalda.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnFalda.FlatAppearance.BorderSize = 2;
+            this.btnFalda.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnFalda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFalda.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnFalda.Location = new System.Drawing.Point(572, 172);
+            this.btnFalda.Name = "btnFalda";
+            this.btnFalda.Size = new System.Drawing.Size(134, 36);
+            this.btnFalda.TabIndex = 81;
+            this.btnFalda.Text = "Falda";
+            this.btnFalda.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
@@ -537,7 +537,7 @@
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.btnFalda);
             this.Controls.Add(this.btnPantalon);
             this.Controls.Add(this.btnCorbata);
             this.Controls.Add(this.btnSombrero);
@@ -593,7 +593,7 @@
         private System.Windows.Forms.Button btnSombrero;
         private System.Windows.Forms.Button btnCorbata;
         private System.Windows.Forms.Button btnPantalon;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btnFalda;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
