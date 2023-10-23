@@ -64,6 +64,7 @@
             this.btnBata = new System.Windows.Forms.Button();
             this.btnGorro = new System.Windows.Forms.Button();
             this.btnGuantes = new System.Windows.Forms.Button();
+            this.btnParaguas = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -589,11 +590,27 @@
             this.btnGuantes.Text = "Guantes";
             this.btnGuantes.UseVisualStyleBackColor = true;
             // 
+            // btnParaguas
+            // 
+            this.btnParaguas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnParaguas.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnParaguas.FlatAppearance.BorderSize = 2;
+            this.btnParaguas.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnParaguas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParaguas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnParaguas.Location = new System.Drawing.Point(572, 290);
+            this.btnParaguas.Name = "btnParaguas";
+            this.btnParaguas.Size = new System.Drawing.Size(134, 36);
+            this.btnParaguas.TabIndex = 93;
+            this.btnParaguas.Text = "Paraguas";
+            this.btnParaguas.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.btnParaguas);
             this.Controls.Add(this.btnGuantes);
             this.Controls.Add(this.btnGorro);
             this.Controls.Add(this.btnBata);
@@ -673,5 +690,6 @@
         private System.Windows.Forms.Button btnBata;
         private System.Windows.Forms.Button btnGorro;
         private System.Windows.Forms.Button btnGuantes;
+        private System.Windows.Forms.Button btnParaguas;
     }
 }
