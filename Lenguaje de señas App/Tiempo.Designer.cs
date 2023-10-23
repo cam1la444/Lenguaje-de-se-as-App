@@ -201,6 +201,7 @@
             this.btnHoy.TabIndex = 50;
             this.btnHoy.Text = "Hoy";
             this.btnHoy.UseVisualStyleBackColor = true;
+            this.btnHoy.Click += new System.EventHandler(this.btnHoy_Click);
             // 
             // btnNextWeek
             // 
