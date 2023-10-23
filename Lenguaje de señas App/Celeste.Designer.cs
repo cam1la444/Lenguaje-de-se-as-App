@@ -75,6 +75,7 @@
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
             this.Name = "Celeste";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Celeste";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

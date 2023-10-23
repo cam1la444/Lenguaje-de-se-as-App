@@ -35,7 +35,7 @@
             // btnReproducir
             // 
             this.btnReproducir.BackColor = System.Drawing.Color.Khaki;
-            this.btnReproducir.Location = new System.Drawing.Point(335, 166);
+            this.btnReproducir.Location = new System.Drawing.Point(203, 160);
             this.btnReproducir.Name = "btnReproducir";
             this.btnReproducir.Size = new System.Drawing.Size(75, 56);
             this.btnReproducir.TabIndex = 2;
@@ -45,7 +45,7 @@
             // btnRegresar
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
-            this.btnRegresar.Location = new System.Drawing.Point(155, 402);
+            this.btnRegresar.Location = new System.Drawing.Point(23, 396);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(96, 36);
             this.btnRegresar.TabIndex = 3;
@@ -57,10 +57,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(422, 450);
+            this.ClientSize = new System.Drawing.Size(306, 499);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnReproducir);
             this.Name = "Esta_Noche";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Esta_Noche";
             this.ResumeLayout(false);
 

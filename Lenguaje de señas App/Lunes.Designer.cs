@@ -61,6 +61,7 @@
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Lunes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lunes";
             this.ResumeLayout(false);
 

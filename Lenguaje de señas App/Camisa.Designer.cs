@@ -75,6 +75,7 @@
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Camisa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Camisa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

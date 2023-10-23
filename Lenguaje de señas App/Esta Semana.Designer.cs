@@ -61,6 +61,7 @@
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Esta_Semana";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Esta_Semana";
             this.ResumeLayout(false);
 

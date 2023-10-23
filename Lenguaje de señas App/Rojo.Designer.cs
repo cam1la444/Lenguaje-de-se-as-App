@@ -75,6 +75,7 @@
             this.Controls.Add(this.btnReproducir);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Rojo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rojo";
             this.Load += new System.EventHandler(this.Rojo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
