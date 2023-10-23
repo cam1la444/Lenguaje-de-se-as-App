@@ -127,6 +127,12 @@
     <Compile Include="Calcetines.Designer.cs">
       <DependentUpon>Calcetines.cs</DependentUpon>
     </Compile>
+    <Compile Include="Camisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Camisa.Designer.cs">
+      <DependentUpon>Camisa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Celeste.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -869,6 +875,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calcetines.resx">
       <DependentUpon>Calcetines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Camisa.resx">
+      <DependentUpon>Camisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
