@@ -261,6 +261,7 @@
             this.btnMelon.TabIndex = 77;
             this.btnMelon.Text = "Melón";
             this.btnMelon.UseVisualStyleBackColor = true;
+            this.btnMelon.Click += new System.EventHandler(this.btnMelon_Click);
             // 
             // btnSandia
             // 

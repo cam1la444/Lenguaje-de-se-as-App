@@ -54,5 +54,11 @@ namespace Lenguaje_de_señas_App
             Fresa fresa = new Fresa();
             fresa.ShowDialog();
         }
+
+        private void btnMelon_Click(object sender, EventArgs e)
+        {
+            Melon melon = new Melon();
+            melon.ShowDialog();
+        }
     }
 }
