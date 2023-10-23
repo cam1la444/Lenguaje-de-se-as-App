@@ -91,6 +91,7 @@
             this.Controls.Add(this.axWMPY);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LetraY";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraY";

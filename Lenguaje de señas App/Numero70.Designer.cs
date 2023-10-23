@@ -74,6 +74,7 @@
             this.Controls.Add(this.btnRegresar70);
             this.Controls.Add(this.btnAtras70);
             this.Controls.Add(this.btnSiguiente70);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Numero70";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero70";

@@ -92,6 +92,7 @@
             this.Controls.Add(this.axWMPG);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "LetraG";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

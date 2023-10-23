@@ -92,6 +92,7 @@
             this.Controls.Add(this.asWMPA);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresarA);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "LetraA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

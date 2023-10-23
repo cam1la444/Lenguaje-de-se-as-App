@@ -91,6 +91,7 @@
             this.Controls.Add(this.axWMPU);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LetraU";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraU";

@@ -92,6 +92,7 @@
             this.Controls.Add(this.axWMPD);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresarD);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "LetraD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

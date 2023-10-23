@@ -91,6 +91,7 @@
             this.Controls.Add(this.axWMPX);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LetraX";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraX";

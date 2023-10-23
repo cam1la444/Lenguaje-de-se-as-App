@@ -91,6 +91,7 @@
             this.Controls.Add(this.axWMPQ);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LetraQ";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LetraQ";

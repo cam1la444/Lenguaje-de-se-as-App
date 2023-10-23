@@ -61,6 +61,7 @@
             this.ClientSize = new System.Drawing.Size(329, 424);
             this.Controls.Add(this.btnRegresar100);
             this.Controls.Add(this.btnAtras100);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Numero100";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Numero100";

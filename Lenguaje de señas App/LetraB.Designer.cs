@@ -92,6 +92,7 @@
             this.Controls.Add(this.axWMPB);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "LetraB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
