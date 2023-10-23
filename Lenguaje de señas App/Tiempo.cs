@@ -102,5 +102,11 @@ namespace Lenguaje_de_señas_App
             Ayer ayer = new Ayer();
             ayer.ShowDialog();
         }
+
+        private void btnThisWeek_Click(object sender, EventArgs e)
+        {
+            Esta_Semana estasemana = new Esta_Semana();
+            estasemana.ShowDialog();
+        }
     }
 }

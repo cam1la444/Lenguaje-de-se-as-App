@@ -269,6 +269,7 @@
             this.btnThisWeek.TabIndex = 65;
             this.btnThisWeek.Text = "Esta Semana";
             this.btnThisWeek.UseVisualStyleBackColor = true;
+            this.btnThisWeek.Click += new System.EventHandler(this.btnThisWeek_Click);
             // 
             // btnAyer
             // 
