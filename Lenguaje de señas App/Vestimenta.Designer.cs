@@ -384,6 +384,7 @@
             this.btnSombrero.TabIndex = 78;
             this.btnSombrero.Text = "Sombrero";
             this.btnSombrero.UseVisualStyleBackColor = true;
+            this.btnSombrero.Click += new System.EventHandler(this.btnSombrero_Click);
             // 
             // btnCorbata
             // 

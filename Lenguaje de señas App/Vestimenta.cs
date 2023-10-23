@@ -84,5 +84,11 @@ namespace Lenguaje_de_señas_App
             Corbata corbata = new Corbata();
             corbata.ShowDialog();
         }
+
+        private void btnSombrero_Click(object sender, EventArgs e)
+        {
+            Sombrero sombrero = new Sombrero();
+            sombrero.ShowDialog();
+        }
     }
 }
