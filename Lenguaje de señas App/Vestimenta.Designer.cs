@@ -215,6 +215,7 @@
             this.btnUniforme.TabIndex = 67;
             this.btnUniforme.Text = "Uniforme";
             this.btnUniforme.UseVisualStyleBackColor = true;
+            this.btnUniforme.Click += new System.EventHandler(this.btnUniforme_Click);
             // 
             // btnCincho
             // 

@@ -60,5 +60,11 @@ namespace Lenguaje_de_señas_App
             Cincho cincho = new Cincho();
             cincho.ShowDialog();
         }
+
+        private void btnUniforme_Click(object sender, EventArgs e)
+        {
+            Uniforme uniforme = new Uniforme();
+            uniforme.ShowDialog();
+        }
     }
 }
