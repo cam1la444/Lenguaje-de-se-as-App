@@ -103,6 +103,12 @@
     <Compile Include="Azul.Designer.cs">
       <DependentUpon>Azul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bata.Designer.cs">
+      <DependentUpon>Bata.cs</DependentUpon>
+    </Compile>
     <Compile Include="Blanco.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +181,12 @@
     <Compile Include="Esta Tarde.Designer.cs">
       <DependentUpon>Esta Tarde.cs</DependentUpon>
     </Compile>
+    <Compile Include="Falda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Falda.Designer.cs">
+      <DependentUpon>Falda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Familia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +210,12 @@
     </Compile>
     <Compile Include="Gorro.Designer.cs">
       <DependentUpon>Gorro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guantes.Designer.cs">
+      <DependentUpon>Guantes.cs</DependentUpon>
     </Compile>
     <Compile Include="Hermana.cs">
       <SubType>Form</SubType>
@@ -687,6 +705,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sueter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sueter.Designer.cs">
+      <DependentUpon>Sueter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -768,6 +792,9 @@
     <EmbeddedResource Include="Azul.resx">
       <DependentUpon>Azul.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bata.resx">
+      <DependentUpon>Bata.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Blanco.resx">
       <DependentUpon>Blanco.cs</DependentUpon>
     </EmbeddedResource>
@@ -804,6 +831,9 @@
     <EmbeddedResource Include="Esta Tarde.resx">
       <DependentUpon>Esta Tarde.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Falda.resx">
+      <DependentUpon>Falda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
     </EmbeddedResource>
@@ -815,6 +845,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gorro.resx">
       <DependentUpon>Gorro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guantes.resx">
+      <DependentUpon>Guantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hermana.resx">
       <DependentUpon>Hermana.cs</DependentUpon>
@@ -1068,6 +1101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sueter.resx">
+      <DependentUpon>Sueter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tia.resx">
       <DependentUpon>Tia.cs</DependentUpon>
