@@ -421,6 +421,12 @@
     <Compile Include="MasInformacion.Designer.cs">
       <DependentUpon>MasInformacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mañana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mañana.Designer.cs">
+      <DependentUpon>Mañana.cs</DependentUpon>
+    </Compile>
     <Compile Include="Melon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -884,6 +890,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MasInformacion.resx">
       <DependentUpon>MasInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mañana.resx">
+      <DependentUpon>Mañana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Melon.resx">
       <DependentUpon>Melon.cs</DependentUpon>
