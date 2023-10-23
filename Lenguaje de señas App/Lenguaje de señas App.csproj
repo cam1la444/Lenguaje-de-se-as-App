@@ -595,6 +595,12 @@
     <Compile Include="Papa.Designer.cs">
       <DependentUpon>Papa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pijama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pijama.Designer.cs">
+      <DependentUpon>Pijama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Piña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -989,6 +995,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Papa.resx">
       <DependentUpon>Papa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pijama.resx">
+      <DependentUpon>Pijama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Piña.resx">
       <DependentUpon>Piña.cs</DependentUpon>
