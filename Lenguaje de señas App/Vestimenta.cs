@@ -78,5 +78,11 @@ namespace Lenguaje_de_señas_App
             Pantalon pantalon = new Pantalon();
             pantalon.ShowDialog();
         }
+
+        private void btnCorbata_Click(object sender, EventArgs e)
+        {
+            Corbata corbata = new Corbata();
+            corbata.ShowDialog();
+        }
     }
 }

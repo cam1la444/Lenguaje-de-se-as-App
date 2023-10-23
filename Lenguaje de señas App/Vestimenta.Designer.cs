@@ -399,6 +399,7 @@
             this.btnCorbata.TabIndex = 79;
             this.btnCorbata.Text = "Corbata";
             this.btnCorbata.UseVisualStyleBackColor = true;
+            this.btnCorbata.Click += new System.EventHandler(this.btnCorbata_Click);
             // 
             // btnPantalon
             // 
