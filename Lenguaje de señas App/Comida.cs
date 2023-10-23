@@ -162,5 +162,11 @@ namespace Lenguaje_de_señas_App
             Zapote zapote = new Zapote();
             zapote.ShowDialog();
         }
+
+        private void btnMamey_Click(object sender, EventArgs e)
+        {
+            Mamey mamey = new Mamey();
+            mamey.ShowDialog();
+        }
     }
 }

@@ -536,6 +536,7 @@
             this.btnMamey.TabIndex = 92;
             this.btnMamey.Text = "Mamey";
             this.btnMamey.UseVisualStyleBackColor = true;
+            this.btnMamey.Click += new System.EventHandler(this.btnMamey_Click);
             // 
             // btnPepeto
             // 
