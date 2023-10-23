@@ -61,6 +61,7 @@
             this.btnShorts = new System.Windows.Forms.Button();
             this.btnCamisaPolo = new System.Windows.Forms.Button();
             this.btnTrajedeBaño = new System.Windows.Forms.Button();
+            this.btnBata = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -541,11 +542,27 @@
             this.btnTrajedeBaño.Text = "Traje de Baño";
             this.btnTrajedeBaño.UseVisualStyleBackColor = true;
             // 
+            // btnBata
+            // 
+            this.btnBata.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBata.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBata.FlatAppearance.BorderSize = 2;
+            this.btnBata.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBata.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBata.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBata.Location = new System.Drawing.Point(152, 290);
+            this.btnBata.Name = "btnBata";
+            this.btnBata.Size = new System.Drawing.Size(134, 36);
+            this.btnBata.TabIndex = 90;
+            this.btnBata.Text = "Bata";
+            this.btnBata.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.btnBata);
             this.Controls.Add(this.btnTrajedeBaño);
             this.Controls.Add(this.btnCamisaPolo);
             this.Controls.Add(this.btnShorts);
@@ -619,5 +636,6 @@
         private System.Windows.Forms.Button btnShorts;
         private System.Windows.Forms.Button btnCamisaPolo;
         private System.Windows.Forms.Button btnTrajedeBaño;
+        private System.Windows.Forms.Button btnBata;
     }
 }
