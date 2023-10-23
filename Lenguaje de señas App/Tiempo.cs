@@ -90,5 +90,11 @@ namespace Lenguaje_de_señas_App
             Domingo domingo = new Domingo();
             domingo.ShowDialog();
         }
+
+        private void btnMañana_Click(object sender, EventArgs e)
+        {
+            Mañana mañana = new Mañana();
+            mañana.ShowDialog();
+        }
     }
 }

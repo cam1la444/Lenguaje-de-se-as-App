@@ -314,6 +314,7 @@
             this.btnMañana.TabIndex = 61;
             this.btnMañana.Text = "Mañana";
             this.btnMañana.UseVisualStyleBackColor = true;
+            this.btnMañana.Click += new System.EventHandler(this.btnMañana_Click);
             // 
             // panel1
             // 
