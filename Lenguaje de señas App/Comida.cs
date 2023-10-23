@@ -168,5 +168,11 @@ namespace Lenguaje_de_señas_App
             Mamey mamey = new Mamey();
             mamey.ShowDialog();
         }
+
+        private void btnMamones_Click(object sender, EventArgs e)
+        {
+            Mamones mamones = new Mamones();
+            mamones.ShowDialog();
+        }
     }
 }

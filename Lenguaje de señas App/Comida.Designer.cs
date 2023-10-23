@@ -521,6 +521,7 @@
             this.btnMamones.TabIndex = 91;
             this.btnMamones.Text = "Mamones";
             this.btnMamones.UseVisualStyleBackColor = true;
+            this.btnMamones.Click += new System.EventHandler(this.btnMamones_Click);
             // 
             // btnMamey
             // 
