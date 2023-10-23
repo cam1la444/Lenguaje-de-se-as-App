@@ -705,6 +705,12 @@
     <Compile Include="Sandia.Designer.cs">
       <DependentUpon>Sandia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Semana Pasada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Semana Pasada.Designer.cs">
+      <DependentUpon>Semana Pasada.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1095,6 +1101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sandia.resx">
       <DependentUpon>Sandia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Semana Pasada.resx">
+      <DependentUpon>Semana Pasada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
