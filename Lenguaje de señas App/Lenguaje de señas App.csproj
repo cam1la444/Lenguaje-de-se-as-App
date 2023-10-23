@@ -97,6 +97,12 @@
     <Compile Include="Anona.Designer.cs">
       <DependentUpon>Anona.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayer.Designer.cs">
+      <DependentUpon>Ayer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Azul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -770,6 +776,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Anona.resx">
       <DependentUpon>Anona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayer.resx">
+      <DependentUpon>Ayer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Azul.resx">
       <DependentUpon>Azul.cs</DependentUpon>
