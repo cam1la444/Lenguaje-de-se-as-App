@@ -37,7 +37,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnCalcetines = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVestido = new System.Windows.Forms.Button();
             this.btnUniforme = new System.Windows.Forms.Button();
             this.btnCincho = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
@@ -180,20 +180,20 @@
             this.btnCalcetines.Text = "Calcetines";
             this.btnCalcetines.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnVestido
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(572, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 36);
-            this.button1.TabIndex = 66;
-            this.button1.Text = "Calcetines";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnVestido.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVestido.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnVestido.FlatAppearance.BorderSize = 2;
+            this.btnVestido.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnVestido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVestido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnVestido.Location = new System.Drawing.Point(572, 52);
+            this.btnVestido.Name = "btnVestido";
+            this.btnVestido.Size = new System.Drawing.Size(134, 36);
+            this.btnVestido.TabIndex = 66;
+            this.btnVestido.Text = "Vestido";
+            this.btnVestido.UseVisualStyleBackColor = true;
             // 
             // btnUniforme
             // 
@@ -552,7 +552,7 @@
             this.Controls.Add(this.btnGorra);
             this.Controls.Add(this.btnCincho);
             this.Controls.Add(this.btnUniforme);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnVestido);
             this.Controls.Add(this.btnCalcetines);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
@@ -578,7 +578,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnCalcetines;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVestido;
         private System.Windows.Forms.Button btnUniforme;
         private System.Windows.Forms.Button btnCincho;
         private System.Windows.Forms.Button btnGorra;
