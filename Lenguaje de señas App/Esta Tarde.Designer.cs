@@ -28,7 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(160, 402);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(96, 36);
+            this.btnRegresar.TabIndex = 4;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
             // 
             // Esta_Tarde
             // 
@@ -36,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(402, 450);
+            this.Controls.Add(this.btnRegresar);
             this.Name = "Esta_Tarde";
             this.Text = "Esta_Tarde";
             this.ResumeLayout(false);
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
