@@ -121,6 +121,12 @@
     <Compile Include="Cafe.Designer.cs">
       <DependentUpon>Cafe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Calcetines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calcetines.Designer.cs">
+      <DependentUpon>Calcetines.cs</DependentUpon>
+    </Compile>
     <Compile Include="Celeste.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -818,6 +824,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calcetines.resx">
+      <DependentUpon>Calcetines.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
