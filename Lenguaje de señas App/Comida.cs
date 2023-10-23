@@ -156,5 +156,11 @@ namespace Lenguaje_de_señas_App
             Anona anona = new Anona();
             anona.ShowDialog();
         }
+
+        private void btnZapote_Click(object sender, EventArgs e)
+        {
+            Zapote zapote = new Zapote();
+            zapote.ShowDialog();
+        }
     }
 }

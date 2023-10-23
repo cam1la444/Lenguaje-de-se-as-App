@@ -490,6 +490,7 @@
             this.btnZapote.TabIndex = 89;
             this.btnZapote.Text = "Zapote";
             this.btnZapote.UseVisualStyleBackColor = true;
+            this.btnZapote.Click += new System.EventHandler(this.btnZapote_Click);
             // 
             // btnMango
             // 
