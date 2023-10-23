@@ -34,7 +34,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnVestido = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.btnGorro = new System.Windows.Forms.Button();
             this.btnGuantes = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -128,17 +128,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // btnVolver
             // 
@@ -336,6 +325,17 @@
             this.button1.TabIndex = 93;
             this.button1.Text = "Bata";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // Vestimenta
             // 

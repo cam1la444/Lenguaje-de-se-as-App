@@ -43,28 +43,10 @@ namespace Lenguaje_de_señas_App
             acercade.Show();
         }
 
-        private void btnCalcetines_Click(object sender, EventArgs e)
-        {
-            Calcetines calcetines = new Calcetines();
-            calcetines.ShowDialog();
-        }
-
         private void btnGorra_Click(object sender, EventArgs e)
         {
             Gorra gorra = new Gorra();
             gorra.ShowDialog();
-        }
-
-        private void btnCincho_Click(object sender, EventArgs e)
-        {
-            Cincho cincho = new Cincho();
-            cincho.ShowDialog();
-        }
-
-        private void btnUniforme_Click(object sender, EventArgs e)
-        {
-            Uniforme uniforme = new Uniforme();
-            uniforme.ShowDialog();
         }
 
         private void btnVestido_Click(object sender, EventArgs e)
@@ -77,18 +59,6 @@ namespace Lenguaje_de_señas_App
         {
             Pantalon pantalon = new Pantalon();
             pantalon.ShowDialog();
-        }
-
-        private void btnCorbata_Click(object sender, EventArgs e)
-        {
-            Corbata corbata = new Corbata();
-            corbata.ShowDialog();
-        }
-
-        private void btnSombrero_Click(object sender, EventArgs e)
-        {
-            Sombrero sombrero = new Sombrero();
-            sombrero.ShowDialog();
         }
 
         private void btnCamisa_Click(object sender, EventArgs e)

@@ -54,19 +54,6 @@ namespace Lenguaje_de_señas_App
             Fresa fresa = new Fresa();
             fresa.ShowDialog();
         }
-
-        private void btnMelon_Click(object sender, EventArgs e)
-        {
-            Melon melon = new Melon();
-            melon.ShowDialog();
-        }
-
-        private void btnPera_Click(object sender, EventArgs e)
-        {
-            Pera pera = new Pera();
-            pera.ShowDialog();
-        }
-
         private void btnMandarina_Click(object sender, EventArgs e)
         {
             Mandarina mandarina = new Mandarina();
@@ -85,94 +72,16 @@ namespace Lenguaje_de_señas_App
             sandia.ShowDialog();
         }
 
-        private void btnLimon_Click(object sender, EventArgs e)
-        {
-            Limon limon = new Limon();
-            limon.ShowDialog();
-        }
-
-        private void btnCereza_Click(object sender, EventArgs e)
-        {
-            Cereza cereza = new Cereza();
-            cereza.ShowDialog();
-        }
-
-        private void btnPapaya_Click(object sender, EventArgs e)
-        {
-            Papaya papaya = new Papaya();
-            papaya.ShowDialog();
-        }
-
         private void btnPiña_Click(object sender, EventArgs e)
         {
             Piña piña = new Piña();
             piña.ShowDialog();
         }
 
-        private void btnGuineo_Click(object sender, EventArgs e)
-        {
-            Guineo guineo = new Guineo();
-            guineo.ShowDialog();
-        }
-
-        private void btnCiruela_Click(object sender, EventArgs e)
-        {
-            Ciruela ciruela = new Ciruela();
-            ciruela.ShowDialog();
-        }
-
-        private void btnCoco_Click(object sender, EventArgs e)
-        {
-            Coco coco = new Coco();
-            coco.ShowDialog();
-        }
-
-        private void btnNance_Click(object sender, EventArgs e)
-        {
-            Nance nance = new Nance();
-            nance.ShowDialog();
-        }
-
         private void btnNaranja_Click(object sender, EventArgs e)
         {
             Naranjas naranjas = new Naranjas();
             naranjas.ShowDialog();
-        }
-
-        private void btnMarañon_Click(object sender, EventArgs e)
-        {
-            Marañon marañon = new Marañon();
-            marañon.ShowDialog();
-        }
-
-        private void btnJocote_Click(object sender, EventArgs e)
-        {
-            Jocote jocote = new Jocote();
-            jocote.ShowDialog();
-        }
-
-        private void btnAnona_Click(object sender, EventArgs e)
-        {
-            Anona anona = new Anona();
-            anona.ShowDialog();
-        }
-
-        private void btnZapote_Click(object sender, EventArgs e)
-        {
-            Zapote zapote = new Zapote();
-            zapote.ShowDialog();
-        }
-
-        private void btnMamey_Click(object sender, EventArgs e)
-        {
-            Mamey mamey = new Mamey();
-            mamey.ShowDialog();
-        }
-
-        private void btnMamones_Click(object sender, EventArgs e)
-        {
-            Mamones mamones = new Mamones();
-            mamones.ShowDialog();
         }
     }
 }
