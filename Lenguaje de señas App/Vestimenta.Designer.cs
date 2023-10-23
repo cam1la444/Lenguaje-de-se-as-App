@@ -46,7 +46,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnCalzoncillo = new System.Windows.Forms.Button();
             this.btnPijama = new System.Windows.Forms.Button();
             this.btnCamisa = new System.Windows.Forms.Button();
             this.btnSombrero = new System.Windows.Forms.Button();
@@ -315,20 +315,20 @@
             this.button9.Text = "Calcetines";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnCalzoncillo
             // 
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button10.FlatAppearance.BorderSize = 2;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button10.Location = new System.Drawing.Point(572, 111);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(134, 36);
-            this.button10.TabIndex = 75;
-            this.button10.Text = "Calcetines";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnCalzoncillo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalzoncillo.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCalzoncillo.FlatAppearance.BorderSize = 2;
+            this.btnCalzoncillo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCalzoncillo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalzoncillo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCalzoncillo.Location = new System.Drawing.Point(572, 111);
+            this.btnCalzoncillo.Name = "btnCalzoncillo";
+            this.btnCalzoncillo.Size = new System.Drawing.Size(134, 36);
+            this.btnCalzoncillo.TabIndex = 75;
+            this.btnCalzoncillo.Text = "Calzoncillo";
+            this.btnCalzoncillo.UseVisualStyleBackColor = true;
             // 
             // btnPijama
             // 
@@ -543,7 +543,7 @@
             this.Controls.Add(this.btnSombrero);
             this.Controls.Add(this.btnCamisa);
             this.Controls.Add(this.btnPijama);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnCalzoncillo);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -587,7 +587,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnCalzoncillo;
         private System.Windows.Forms.Button btnPijama;
         private System.Windows.Forms.Button btnCamisa;
         private System.Windows.Forms.Button btnSombrero;
