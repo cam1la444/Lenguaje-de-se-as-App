@@ -54,6 +54,12 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -429,11 +435,107 @@
             this.button17.Text = "Calcetines";
             this.button17.UseVisualStyleBackColor = true;
             // 
+            // button18
+            // 
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button18.FlatAppearance.BorderSize = 2;
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button18.Location = new System.Drawing.Point(12, 234);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(134, 36);
+            this.button18.TabIndex = 83;
+            this.button18.Text = "Calcetines";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button19.FlatAppearance.BorderSize = 2;
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button19.Location = new System.Drawing.Point(152, 234);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(134, 36);
+            this.button19.TabIndex = 84;
+            this.button19.Text = "Calcetines";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button20.FlatAppearance.BorderSize = 2;
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button20.Location = new System.Drawing.Point(292, 234);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(134, 36);
+            this.button20.TabIndex = 85;
+            this.button20.Text = "Calcetines";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button21.FlatAppearance.BorderSize = 2;
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button21.Location = new System.Drawing.Point(432, 234);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(134, 36);
+            this.button21.TabIndex = 86;
+            this.button21.Text = "Calcetines";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button22.FlatAppearance.BorderSize = 2;
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button22.Location = new System.Drawing.Point(572, 234);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(134, 36);
+            this.button22.TabIndex = 87;
+            this.button22.Text = "Calcetines";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button23.FlatAppearance.BorderSize = 2;
+            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button23.Location = new System.Drawing.Point(715, 234);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(134, 36);
+            this.button23.TabIndex = 88;
+            this.button23.Text = "Calcetines";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
             // Vestimenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 526);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
@@ -493,5 +595,11 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
     }
 }
