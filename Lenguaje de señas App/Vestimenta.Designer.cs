@@ -609,7 +609,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(861, 526);
+            this.ClientSize = new System.Drawing.Size(861, 397);
             this.Controls.Add(this.btnParaguas);
             this.Controls.Add(this.btnGuantes);
             this.Controls.Add(this.btnGorro);
