@@ -162,7 +162,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(777, 482);
+            this.btnVolver.Location = new System.Drawing.Point(774, 341);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
             this.btnVolver.TabIndex = 64;
