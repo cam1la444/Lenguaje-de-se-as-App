@@ -42,7 +42,7 @@
             this.btnCincho = new System.Windows.Forms.Button();
             this.btnGorra = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnMedias = new System.Windows.Forms.Button();
             this.btnBrasier = new System.Windows.Forms.Button();
             this.btnBikini = new System.Windows.Forms.Button();
             this.btnBoxer = new System.Windows.Forms.Button();
@@ -255,20 +255,20 @@
             this.button5.Text = "Calcetines";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnMedias
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(292, 172);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(134, 36);
-            this.button6.TabIndex = 71;
-            this.button6.Text = "Calcetines";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnMedias.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMedias.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMedias.FlatAppearance.BorderSize = 2;
+            this.btnMedias.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnMedias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMedias.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnMedias.Location = new System.Drawing.Point(292, 172);
+            this.btnMedias.Name = "btnMedias";
+            this.btnMedias.Size = new System.Drawing.Size(134, 36);
+            this.btnMedias.TabIndex = 71;
+            this.btnMedias.Text = "Medias";
+            this.btnMedias.UseVisualStyleBackColor = true;
             // 
             // btnBrasier
             // 
@@ -547,7 +547,7 @@
             this.Controls.Add(this.btnBoxer);
             this.Controls.Add(this.btnBikini);
             this.Controls.Add(this.btnBrasier);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnMedias);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnGorra);
             this.Controls.Add(this.btnCincho);
@@ -583,7 +583,7 @@
         private System.Windows.Forms.Button btnCincho;
         private System.Windows.Forms.Button btnGorra;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnMedias;
         private System.Windows.Forms.Button btnBrasier;
         private System.Windows.Forms.Button btnBikini;
         private System.Windows.Forms.Button btnBoxer;
