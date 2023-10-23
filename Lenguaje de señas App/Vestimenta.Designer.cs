@@ -369,6 +369,7 @@
             this.btnCamisa.TabIndex = 77;
             this.btnCamisa.Text = "Camisa";
             this.btnCamisa.UseVisualStyleBackColor = true;
+            this.btnCamisa.Click += new System.EventHandler(this.btnCamisa_Click);
             // 
             // btnSombrero
             // 

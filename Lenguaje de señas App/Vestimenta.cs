@@ -90,5 +90,11 @@ namespace Lenguaje_de_señas_App
             Sombrero sombrero = new Sombrero();
             sombrero.ShowDialog();
         }
+
+        private void btnCamisa_Click(object sender, EventArgs e)
+        {
+            Camisa camisa = new Camisa();
+            camisa.ShowDialog();
+        }
     }
 }
