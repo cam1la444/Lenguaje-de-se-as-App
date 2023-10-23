@@ -205,6 +205,12 @@
     <Compile Include="Jocote.Designer.cs">
       <DependentUpon>Jocote.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jueves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jueves.Designer.cs">
+      <DependentUpon>Jueves.cs</DependentUpon>
+    </Compile>
     <Compile Include="LetraA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -800,6 +806,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Jocote.resx">
       <DependentUpon>Jocote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jueves.resx">
+      <DependentUpon>Jueves.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LetraA.resx">
       <DependentUpon>LetraA.cs</DependentUpon>
