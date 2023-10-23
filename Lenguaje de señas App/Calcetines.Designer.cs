@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calcetines));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,12 +44,23 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackColor = System.Drawing.Color.PaleGreen;
+            this.btnRegresar.Location = new System.Drawing.Point(140, 387);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(123, 39);
+            this.btnRegresar.TabIndex = 3;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            // 
             // Calcetines
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(413, 450);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Calcetines";
             this.Text = "Calcetines";
@@ -60,5 +72,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
