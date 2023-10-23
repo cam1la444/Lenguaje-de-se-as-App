@@ -200,6 +200,7 @@
             this.btnVestido.TabIndex = 66;
             this.btnVestido.Text = "Vestido";
             this.btnVestido.UseVisualStyleBackColor = true;
+            this.btnVestido.Click += new System.EventHandler(this.btnVestido_Click);
             // 
             // btnUniforme
             // 

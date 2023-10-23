@@ -66,5 +66,11 @@ namespace Lenguaje_de_señas_App
             Uniforme uniforme = new Uniforme();
             uniforme.ShowDialog();
         }
+
+        private void btnVestido_Click(object sender, EventArgs e)
+        {
+            Vestido vestido = new Vestido();
+            vestido.ShowDialog();
+        }
     }
 }
