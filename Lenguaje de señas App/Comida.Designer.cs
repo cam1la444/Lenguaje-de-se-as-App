@@ -314,6 +314,7 @@
             this.btnGuineo.TabIndex = 74;
             this.btnGuineo.Text = "Guineo";
             this.btnGuineo.UseVisualStyleBackColor = true;
+            this.btnGuineo.Click += new System.EventHandler(this.btnGuineo_Click);
             // 
             // btnDurazno
             // 

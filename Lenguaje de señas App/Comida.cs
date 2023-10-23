@@ -108,5 +108,11 @@ namespace Lenguaje_de_señas_App
             Piña piña = new Piña();
             piña.ShowDialog();
         }
+
+        private void btnGuineo_Click(object sender, EventArgs e)
+        {
+            Guineo guineo = new Guineo();
+            guineo.ShowDialog();
+        }
     }
 }
