@@ -54,5 +54,11 @@ namespace Lenguaje_de_señas_App
             Lunes lunes = new Lunes();
             lunes.ShowDialog();
         }
+
+        private void btnMartes_Click(object sender, EventArgs e)
+        {
+            Martes martes = new Martes();
+            martes.ShowDialog();
+        }
     }
 }

@@ -141,6 +141,7 @@
             this.btnMartes.TabIndex = 55;
             this.btnMartes.Text = "Martes";
             this.btnMartes.UseVisualStyleBackColor = true;
+            this.btnMartes.Click += new System.EventHandler(this.btnMartes_Click);
             // 
             // btnLunes
             // 
