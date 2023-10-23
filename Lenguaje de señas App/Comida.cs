@@ -78,5 +78,11 @@ namespace Lenguaje_de_señas_App
             Durazno durazno = new Durazno();
             durazno.ShowDialog();
         }
+
+        private void btnSandia_Click(object sender, EventArgs e)
+        {
+            Sandia sandia = new Sandia();
+            sandia.ShowDialog();
+        }
     }
 }

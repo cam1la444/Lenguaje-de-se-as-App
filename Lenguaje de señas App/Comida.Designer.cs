@@ -279,6 +279,7 @@
             this.btnSandia.TabIndex = 76;
             this.btnSandia.Text = "Sandia";
             this.btnSandia.UseVisualStyleBackColor = true;
+            this.btnSandia.Click += new System.EventHandler(this.btnSandia_Click);
             // 
             // btnPiña
             // 
