@@ -144,5 +144,11 @@ namespace Lenguaje_de_señas_App
             Marañon marañon = new Marañon();
             marañon.ShowDialog();
         }
+
+        private void btnJocote_Click(object sender, EventArgs e)
+        {
+            Jocote jocote = new Jocote();
+            jocote.ShowDialog();
+        }
     }
 }

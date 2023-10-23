@@ -458,6 +458,7 @@
             this.btnJocote.TabIndex = 87;
             this.btnJocote.Text = "Jocote";
             this.btnJocote.UseVisualStyleBackColor = true;
+            this.btnJocote.Click += new System.EventHandler(this.btnJocote_Click);
             // 
             // btnAnona
             // 
