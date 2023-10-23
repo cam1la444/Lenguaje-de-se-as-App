@@ -42,5 +42,11 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnManzana_Click(object sender, EventArgs e)
+        {
+            Manzana manzana =new Manzana();
+            manzana.ShowDialog();
+        }
     }
 }
