@@ -224,6 +224,7 @@
             this.btnNextWeek.TabIndex = 68;
             this.btnNextWeek.Text = "Próxima Semana";
             this.btnNextWeek.UseVisualStyleBackColor = true;
+            this.btnNextWeek.Click += new System.EventHandler(this.btnNextWeek_Click);
             // 
             // btnThisnoche
             // 

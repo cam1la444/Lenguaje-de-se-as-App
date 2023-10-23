@@ -114,5 +114,11 @@ namespace Lenguaje_de_señas_App
             Esta_Tarde estatarde = new Esta_Tarde();
             estatarde.ShowDialog();
         }
+
+        private void btnNextWeek_Click(object sender, EventArgs e)
+        {
+            Proxima_Semana proximasemana = new Proxima_Semana();
+            proximasemana.ShowDialog();
+        }
     }
 }
