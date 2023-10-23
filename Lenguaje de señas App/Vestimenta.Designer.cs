@@ -64,7 +64,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(790, 34);
+            this.panel1.Size = new System.Drawing.Size(502, 34);
             this.panel1.TabIndex = 63;
             // 
             // btnAcercade
@@ -99,7 +99,7 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(752, 0);
+            this.btnClose.Location = new System.Drawing.Point(464, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(38, 34);
             this.btnClose.TabIndex = 4;
@@ -341,7 +341,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 442);
+            this.ClientSize = new System.Drawing.Size(502, 364);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnGuantes);
             this.Controls.Add(this.btnGorro);
