@@ -377,6 +377,7 @@
             this.btnCiruela.TabIndex = 70;
             this.btnCiruela.Text = "Ciruela";
             this.btnCiruela.UseVisualStyleBackColor = true;
+            this.btnCiruela.Click += new System.EventHandler(this.btnCiruela_Click);
             // 
             // btnManzana
             // 

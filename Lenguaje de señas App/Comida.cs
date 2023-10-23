@@ -114,5 +114,11 @@ namespace Lenguaje_de_señas_App
             Guineo guineo = new Guineo();
             guineo.ShowDialog();
         }
+
+        private void btnCiruela_Click(object sender, EventArgs e)
+        {
+            Ciruela ciruela = new Ciruela();
+            ciruela.ShowDialog();
+        }
     }
 }
