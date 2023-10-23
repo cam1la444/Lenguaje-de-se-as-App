@@ -108,5 +108,11 @@ namespace Lenguaje_de_señas_App
             Esta_Semana estasemana = new Esta_Semana();
             estasemana.ShowDialog();
         }
+
+        private void btnThisTarde_Click(object sender, EventArgs e)
+        {
+            Esta_Tarde estatarde = new Esta_Tarde();
+            estatarde.ShowDialog();
+        }
     }
 }

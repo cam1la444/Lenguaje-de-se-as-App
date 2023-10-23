@@ -301,6 +301,7 @@
             this.btnThisTarde.TabIndex = 63;
             this.btnThisTarde.Text = "Esta Tarde";
             this.btnThisTarde.UseVisualStyleBackColor = true;
+            this.btnThisTarde.Click += new System.EventHandler(this.btnThisTarde_Click);
             // 
             // btnMañana
             // 
