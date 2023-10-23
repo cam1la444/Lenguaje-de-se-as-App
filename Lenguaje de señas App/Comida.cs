@@ -96,5 +96,11 @@ namespace Lenguaje_de_señas_App
             Cereza cereza = new Cereza();
             cereza.ShowDialog();
         }
+
+        private void btnPapaya_Click(object sender, EventArgs e)
+        {
+            Papaya papaya = new Papaya();
+            papaya.ShowDialog();
+        }
     }
 }

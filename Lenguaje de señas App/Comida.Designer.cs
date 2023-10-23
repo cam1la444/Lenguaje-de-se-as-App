@@ -202,6 +202,7 @@
             this.btnPapaya.TabIndex = 81;
             this.btnPapaya.Text = "Papaya";
             this.btnPapaya.UseVisualStyleBackColor = true;
+            this.btnPapaya.Click += new System.EventHandler(this.btnPapaya_Click);
             // 
             // btnLimon
             // 
