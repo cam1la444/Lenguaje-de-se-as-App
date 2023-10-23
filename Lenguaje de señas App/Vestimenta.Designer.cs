@@ -43,7 +43,7 @@
             this.btnGorra = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnBrasier = new System.Windows.Forms.Button();
             this.btnBikini = new System.Windows.Forms.Button();
             this.btnBoxer = new System.Windows.Forms.Button();
             this.btnCalzoncillo = new System.Windows.Forms.Button();
@@ -270,20 +270,20 @@
             this.button6.Text = "Calcetines";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnBrasier
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button7.FlatAppearance.BorderSize = 2;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(152, 172);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(134, 36);
-            this.button7.TabIndex = 72;
-            this.button7.Text = "Calcetines";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnBrasier.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBrasier.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBrasier.FlatAppearance.BorderSize = 2;
+            this.btnBrasier.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBrasier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBrasier.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBrasier.Location = new System.Drawing.Point(152, 172);
+            this.btnBrasier.Name = "btnBrasier";
+            this.btnBrasier.Size = new System.Drawing.Size(134, 36);
+            this.btnBrasier.TabIndex = 72;
+            this.btnBrasier.Text = "Brasier";
+            this.btnBrasier.UseVisualStyleBackColor = true;
             // 
             // btnBikini
             // 
@@ -546,7 +546,7 @@
             this.Controls.Add(this.btnCalzoncillo);
             this.Controls.Add(this.btnBoxer);
             this.Controls.Add(this.btnBikini);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnBrasier);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnGorra);
@@ -584,7 +584,7 @@
         private System.Windows.Forms.Button btnGorra;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnBrasier;
         private System.Windows.Forms.Button btnBikini;
         private System.Windows.Forms.Button btnBoxer;
         private System.Windows.Forms.Button btnCalzoncillo;
