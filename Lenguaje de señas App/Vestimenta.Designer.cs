@@ -54,7 +54,7 @@
             this.btnPantalon = new System.Windows.Forms.Button();
             this.btnFalda = new System.Windows.Forms.Button();
             this.btnSueter = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btnZapato = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
@@ -435,20 +435,20 @@
             this.btnSueter.Text = "Sueter";
             this.btnSueter.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // btnZapato
             // 
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button18.FlatAppearance.BorderSize = 2;
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button18.Location = new System.Drawing.Point(12, 234);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(134, 36);
-            this.button18.TabIndex = 83;
-            this.button18.Text = "Calcetines";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btnZapato.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnZapato.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnZapato.FlatAppearance.BorderSize = 2;
+            this.btnZapato.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnZapato.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnZapato.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnZapato.Location = new System.Drawing.Point(12, 234);
+            this.btnZapato.Name = "btnZapato";
+            this.btnZapato.Size = new System.Drawing.Size(134, 36);
+            this.btnZapato.TabIndex = 83;
+            this.btnZapato.Text = "Zapato";
+            this.btnZapato.UseVisualStyleBackColor = true;
             // 
             // button19
             // 
@@ -535,7 +535,7 @@
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.btnZapato);
             this.Controls.Add(this.btnSueter);
             this.Controls.Add(this.btnFalda);
             this.Controls.Add(this.btnPantalon);
@@ -595,7 +595,7 @@
         private System.Windows.Forms.Button btnPantalon;
         private System.Windows.Forms.Button btnFalda;
         private System.Windows.Forms.Button btnSueter;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button btnZapato;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
