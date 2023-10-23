@@ -245,6 +245,7 @@
             this.btnGorra.TabIndex = 69;
             this.btnGorra.Text = "Gorra";
             this.btnGorra.UseVisualStyleBackColor = true;
+            this.btnGorra.Click += new System.EventHandler(this.btnGorra_Click);
             // 
             // btnBufanda
             // 

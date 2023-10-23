@@ -48,5 +48,11 @@ namespace Lenguaje_de_señas_App
             Calcetines calcetines = new Calcetines();
             calcetines.ShowDialog();
         }
+
+        private void btnGorra_Click(object sender, EventArgs e)
+        {
+            Gorra gorra = new Gorra();
+            gorra.ShowDialog();
+        }
     }
 }
