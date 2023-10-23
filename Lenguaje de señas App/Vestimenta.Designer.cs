@@ -45,7 +45,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnBoxer = new System.Windows.Forms.Button();
             this.btnCalzoncillo = new System.Windows.Forms.Button();
             this.btnPijama = new System.Windows.Forms.Button();
             this.btnCamisa = new System.Windows.Forms.Button();
@@ -300,20 +300,20 @@
             this.button8.Text = "Calcetines";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnBoxer
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button9.FlatAppearance.BorderSize = 2;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button9.Location = new System.Drawing.Point(712, 111);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(134, 36);
-            this.button9.TabIndex = 74;
-            this.button9.Text = "Calcetines";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnBoxer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBoxer.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBoxer.FlatAppearance.BorderSize = 2;
+            this.btnBoxer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBoxer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBoxer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBoxer.Location = new System.Drawing.Point(712, 111);
+            this.btnBoxer.Name = "btnBoxer";
+            this.btnBoxer.Size = new System.Drawing.Size(134, 36);
+            this.btnBoxer.TabIndex = 74;
+            this.btnBoxer.Text = "Boxer";
+            this.btnBoxer.UseVisualStyleBackColor = true;
             // 
             // btnCalzoncillo
             // 
@@ -544,7 +544,7 @@
             this.Controls.Add(this.btnCamisa);
             this.Controls.Add(this.btnPijama);
             this.Controls.Add(this.btnCalzoncillo);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.btnBoxer);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -586,7 +586,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnBoxer;
         private System.Windows.Forms.Button btnCalzoncillo;
         private System.Windows.Forms.Button btnPijama;
         private System.Windows.Forms.Button btnCamisa;
