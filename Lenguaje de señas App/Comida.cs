@@ -120,5 +120,11 @@ namespace Lenguaje_de_señas_App
             Ciruela ciruela = new Ciruela();
             ciruela.ShowDialog();
         }
+
+        private void btnCoco_Click(object sender, EventArgs e)
+        {
+            Coco coco = new Coco();
+            coco.ShowDialog();
+        }
     }
 }

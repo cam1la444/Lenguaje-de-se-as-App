@@ -424,6 +424,7 @@
             this.btnCoco.TabIndex = 85;
             this.btnCoco.Text = "Coco";
             this.btnCoco.UseVisualStyleBackColor = true;
+            this.btnCoco.Click += new System.EventHandler(this.btnCoco_Click);
             // 
             // btnNance
             // 
