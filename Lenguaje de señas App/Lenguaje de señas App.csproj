@@ -661,6 +661,12 @@
     <Compile Include="Numeros30.Designer.cs">
       <DependentUpon>Numeros30.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pantalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalon.Designer.cs">
+      <DependentUpon>Pantalon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Papa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1118,6 +1124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Numeros30.resx">
       <DependentUpon>Numeros30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalon.resx">
+      <DependentUpon>Pantalon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Papa.resx">
       <DependentUpon>Papa.cs</DependentUpon>
