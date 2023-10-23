@@ -54,5 +54,11 @@ namespace Lenguaje_de_señas_App
             Gorra gorra = new Gorra();
             gorra.ShowDialog();
         }
+
+        private void btnCincho_Click(object sender, EventArgs e)
+        {
+            Cincho cincho = new Cincho();
+            cincho.ShowDialog();
+        }
     }
 }

@@ -230,6 +230,7 @@
             this.btnCincho.TabIndex = 68;
             this.btnCincho.Text = "Cincho";
             this.btnCincho.UseVisualStyleBackColor = true;
+            this.btnCincho.Click += new System.EventHandler(this.btnCincho_Click);
             // 
             // btnGorra
             // 
