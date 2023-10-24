@@ -17,9 +17,15 @@ namespace Lenguaje_de_señas_App
             InitializeComponent();
         }
 
-        private void Rojo_Load(object sender, EventArgs e)
+        private void btnReproducir_Click(object sender, EventArgs e)
         {
+            string Rojo = "C:\\Users\\jwest\\Videos\\VideoRojo.mp4";
+            asWMPA.URL = Rojo;
+        }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
