@@ -837,8 +837,14 @@
     <EmbeddedResource Include="Ayer.resx">
       <DependentUpon>Ayer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ayudar.resx">
+      <DependentUpon>Ayudar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Azul.resx">
       <DependentUpon>Azul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bailar.resx">
+      <DependentUpon>Bailar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bata.resx">
       <DependentUpon>Bata.cs</DependentUpon>
@@ -870,6 +876,9 @@
     <EmbeddedResource Include="Domingo.resx">
       <DependentUpon>Domingo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dormir.resx">
+      <DependentUpon>Dormir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Durazno.resx">
       <DependentUpon>Durazno.cs</DependentUpon>
     </EmbeddedResource>
@@ -881,6 +890,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Esta Tarde.resx">
       <DependentUpon>Esta Tarde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estudiar.resx">
+      <DependentUpon>Estudiar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Falda.resx">
       <DependentUpon>Falda.cs</DependentUpon>
@@ -914,6 +926,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Jueves.resx">
       <DependentUpon>Jueves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leer.resx">
+      <DependentUpon>Leer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LetraA.resx">
       <DependentUpon>LetraA.cs</DependentUpon>
@@ -1107,6 +1122,9 @@
     <EmbeddedResource Include="Pijama.resx">
       <DependentUpon>Pijama.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pintar.resx">
+      <DependentUpon>Pintar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Piña.resx">
       <DependentUpon>Piña.cs</DependentUpon>
     </EmbeddedResource>
@@ -1164,6 +1182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tio.resx">
       <DependentUpon>Tio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trabajar.resx">
+      <DependentUpon>Trabajar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Verbos.resx">
       <DependentUpon>Verbos.cs</DependentUpon>
