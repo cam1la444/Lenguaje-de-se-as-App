@@ -72,5 +72,11 @@ namespace Lenguaje_de_señas_App
             Pijama pijama = new Pijama();
             pijama.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Bata bata = new Bata();
+            bata.ShowDialog();
+        }
     }
 }
