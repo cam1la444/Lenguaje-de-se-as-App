@@ -102,5 +102,11 @@ namespace Lenguaje_de_señas_App
             Gorro gorro = new Gorro();
             gorro.ShowDialog();
         }
+
+        private void btnGuantes_Click(object sender, EventArgs e)
+        {
+            Guantes guantes = new Guantes();
+            guantes.ShowDialog();
+        }
     }
 }

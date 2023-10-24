@@ -326,6 +326,7 @@
             this.btnGuantes.TabIndex = 92;
             this.btnGuantes.Text = "Guantes";
             this.btnGuantes.UseVisualStyleBackColor = true;
+            this.btnGuantes.Click += new System.EventHandler(this.btnGuantes_Click);
             // 
             // button1
             // 
