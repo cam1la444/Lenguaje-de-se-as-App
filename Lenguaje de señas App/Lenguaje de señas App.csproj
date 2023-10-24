@@ -79,6 +79,18 @@
     <Compile Include="Adjetivos.Designer.cs">
       <DependentUpon>Adjetivos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Alegre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alegre.Designer.cs">
+      <DependentUpon>Alegre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alto.Designer.cs">
+      <DependentUpon>Alto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Amarillo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +127,12 @@
     <Compile Include="Bailar.Designer.cs">
       <DependentUpon>Bailar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bajo.Designer.cs">
+      <DependentUpon>Bajo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +144,12 @@
     </Compile>
     <Compile Include="Blanco.Designer.cs">
       <DependentUpon>Blanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bonito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bonito.Designer.cs">
+      <DependentUpon>Bonito.cs</DependentUpon>
     </Compile>
     <Compile Include="Cafe.cs">
       <SubType>Form</SubType>
@@ -181,6 +205,12 @@
     <Compile Include="Conocer.Designer.cs">
       <DependentUpon>Conocer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delgado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delgado.Designer.cs">
+      <DependentUpon>Delgado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Domingo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +228,12 @@
     </Compile>
     <Compile Include="Durazno.Designer.cs">
       <DependentUpon>Durazno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enojado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enojado.Designer.cs">
+      <DependentUpon>Enojado.cs</DependentUpon>
     </Compile>
     <Compile Include="Esta Noche.cs">
       <SubType>Form</SubType>
@@ -235,11 +271,23 @@
     <Compile Include="Familia.Designer.cs">
       <DependentUpon>Familia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Feo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feo.Designer.cs">
+      <DependentUpon>Feo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fresa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Fresa.Designer.cs">
       <DependentUpon>Fresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gordo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gordo.Designer.cs">
+      <DependentUpon>Gordo.cs</DependentUpon>
     </Compile>
     <Compile Include="Gorra.cs">
       <SubType>Form</SubType>
@@ -840,6 +888,12 @@
     <EmbeddedResource Include="Adjetivos.resx">
       <DependentUpon>Adjetivos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Alegre.resx">
+      <DependentUpon>Alegre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alto.resx">
+      <DependentUpon>Alto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Amarillo.resx">
       <DependentUpon>Amarillo.cs</DependentUpon>
     </EmbeddedResource>
@@ -858,11 +912,17 @@
     <EmbeddedResource Include="Bailar.resx">
       <DependentUpon>Bailar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bajo.resx">
+      <DependentUpon>Bajo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bata.resx">
       <DependentUpon>Bata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Blanco.resx">
       <DependentUpon>Blanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bonito.resx">
+      <DependentUpon>Bonito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
@@ -891,6 +951,9 @@
     <EmbeddedResource Include="Conocer.resx">
       <DependentUpon>Conocer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Delgado.resx">
+      <DependentUpon>Delgado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Domingo.resx">
       <DependentUpon>Domingo.cs</DependentUpon>
     </EmbeddedResource>
@@ -899,6 +962,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Durazno.resx">
       <DependentUpon>Durazno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enojado.resx">
+      <DependentUpon>Enojado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Esta Noche.resx">
       <DependentUpon>Esta Noche.cs</DependentUpon>
@@ -918,8 +984,14 @@
     <EmbeddedResource Include="Familia.resx">
       <DependentUpon>Familia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Feo.resx">
+      <DependentUpon>Feo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fresa.resx">
       <DependentUpon>Fresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gordo.resx">
+      <DependentUpon>Gordo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gorra.resx">
       <DependentUpon>Gorra.cs</DependentUpon>
