@@ -33,7 +33,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnRegresar1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            string Uno = "C:\\Users\\jwest\\Videos\\VideoUno.mp4";
+            asWMPA.URL = Uno;
         }
     }
 }

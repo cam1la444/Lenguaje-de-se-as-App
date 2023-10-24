@@ -33,7 +33,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnRegresar2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            string Dos = "C:\\Users\\jwest\\Videos\\VideoDos.mp4";
+            asWMPA.URL = Dos;
         }
     }
 }

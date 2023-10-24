@@ -24,8 +24,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnReproducir_Click(object sender, EventArgs e)
         {
-            string f = "C:\\Users\\jwest\\Videos\\VideoB.mp4";
-            axWMPB.URL = f;
+            string b = "C:\\Users\\jwest\\Videos\\VideoB.mp4";
+            axWMPB.URL = b;
         }
     }
 }
