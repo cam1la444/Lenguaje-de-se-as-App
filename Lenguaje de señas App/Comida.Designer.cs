@@ -142,7 +142,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(706, 452);
+            this.btnVolver.Location = new System.Drawing.Point(663, 332);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
             this.btnVolver.TabIndex = 39;
@@ -294,7 +294,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(230)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(790, 496);
+            this.ClientSize = new System.Drawing.Size(790, 442);
             this.Controls.Add(this.btnMango);
             this.Controls.Add(this.btnMandarina);
             this.Controls.Add(this.btnSandia);

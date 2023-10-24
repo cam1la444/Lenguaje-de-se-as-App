@@ -153,7 +153,7 @@
             this.btnPrima.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrima.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPrima.Location = new System.Drawing.Point(161, 331);
+            this.btnPrima.Location = new System.Drawing.Point(245, 301);
             this.btnPrima.Name = "btnPrima";
             this.btnPrima.Size = new System.Drawing.Size(135, 51);
             this.btnPrima.TabIndex = 48;
