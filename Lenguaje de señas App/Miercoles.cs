@@ -16,5 +16,16 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string Miercoles = "C:\\Users\\jwest\\Videos\\VideoMiercoles.mp4";
+            asWMPA.URL = Miercoles;
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
