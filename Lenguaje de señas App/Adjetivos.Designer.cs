@@ -168,6 +168,7 @@
             this.btnFeo.TabIndex = 78;
             this.btnFeo.Text = "Feo";
             this.btnFeo.UseVisualStyleBackColor = true;
+            this.btnFeo.Click += new System.EventHandler(this.btnFeo_Click);
             // 
             // btnBajo
             // 
@@ -183,6 +184,7 @@
             this.btnBajo.TabIndex = 79;
             this.btnBajo.Text = "Bajo";
             this.btnBajo.UseVisualStyleBackColor = true;
+            this.btnBajo.Click += new System.EventHandler(this.btnBajo_Click);
             // 
             // btnDebil
             // 
@@ -198,6 +200,7 @@
             this.btnDebil.TabIndex = 80;
             this.btnDebil.Text = "Debil";
             this.btnDebil.UseVisualStyleBackColor = true;
+            this.btnDebil.Click += new System.EventHandler(this.btnDebil_Click);
             // 
             // btntriste
             // 
@@ -213,6 +216,7 @@
             this.btntriste.TabIndex = 81;
             this.btntriste.Text = "Triste";
             this.btntriste.UseVisualStyleBackColor = true;
+            this.btntriste.Click += new System.EventHandler(this.btntriste_Click);
             // 
             // btnInteligente
             // 
@@ -228,6 +232,7 @@
             this.btnInteligente.TabIndex = 82;
             this.btnInteligente.Text = "Inteligente";
             this.btnInteligente.UseVisualStyleBackColor = true;
+            this.btnInteligente.Click += new System.EventHandler(this.btnInteligente_Click);
             // 
             // btnFuerte
             // 
@@ -243,6 +248,7 @@
             this.btnFuerte.TabIndex = 83;
             this.btnFuerte.Text = "Fuerte";
             this.btnFuerte.UseVisualStyleBackColor = true;
+            this.btnFuerte.Click += new System.EventHandler(this.btnFuerte_Click);
             // 
             // btnAlegre
             // 
@@ -258,6 +264,7 @@
             this.btnAlegre.TabIndex = 84;
             this.btnAlegre.Text = "Alegre";
             this.btnAlegre.UseVisualStyleBackColor = true;
+            this.btnAlegre.Click += new System.EventHandler(this.btnAlegre_Click);
             // 
             // btnEnojado
             // 
@@ -273,6 +280,7 @@
             this.btnEnojado.TabIndex = 85;
             this.btnEnojado.Text = "Enojado";
             this.btnEnojado.UseVisualStyleBackColor = true;
+            this.btnEnojado.Click += new System.EventHandler(this.btnEnojado_Click);
             // 
             // btnAlto
             // 
@@ -288,6 +296,7 @@
             this.btnAlto.TabIndex = 86;
             this.btnAlto.Text = "Alto";
             this.btnAlto.UseVisualStyleBackColor = true;
+            this.btnAlto.Click += new System.EventHandler(this.btnAlto_Click);
             // 
             // btnDelgado
             // 
@@ -303,6 +312,7 @@
             this.btnDelgado.TabIndex = 87;
             this.btnDelgado.Text = "Delgado";
             this.btnDelgado.UseVisualStyleBackColor = true;
+            this.btnDelgado.Click += new System.EventHandler(this.btnDelgado_Click);
             // 
             // btnGordo
             // 
@@ -318,6 +328,7 @@
             this.btnGordo.TabIndex = 88;
             this.btnGordo.Text = "Gordo";
             this.btnGordo.UseVisualStyleBackColor = true;
+            this.btnGordo.Click += new System.EventHandler(this.btnGordo_Click);
             // 
             // btnBonito
             // 
@@ -333,6 +344,7 @@
             this.btnBonito.TabIndex = 89;
             this.btnBonito.Text = "Bonito";
             this.btnBonito.UseVisualStyleBackColor = true;
+            this.btnBonito.Click += new System.EventHandler(this.btnBonito_Click);
             // 
             // Adjetivos
             // 

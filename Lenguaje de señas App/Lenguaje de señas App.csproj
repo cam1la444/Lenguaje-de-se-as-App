@@ -205,6 +205,12 @@
     <Compile Include="Conocer.Designer.cs">
       <DependentUpon>Conocer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Debil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Debil.Designer.cs">
+      <DependentUpon>Debil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Delgado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -283,6 +289,12 @@
     <Compile Include="Fresa.Designer.cs">
       <DependentUpon>Fresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fuerte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fuerte.Designer.cs">
+      <DependentUpon>Fuerte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gordo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -330,6 +342,12 @@
     </Compile>
     <Compile Include="Incicio.Designer.cs">
       <DependentUpon>Incicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inteligente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inteligente.Designer.cs">
+      <DependentUpon>Inteligente.cs</DependentUpon>
     </Compile>
     <Compile Include="Jueves.cs">
       <SubType>Form</SubType>
@@ -836,6 +854,12 @@
     </Compile>
     <Compile Include="Trabajar.Designer.cs">
       <DependentUpon>Trabajar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Triste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Triste.Designer.cs">
+      <DependentUpon>Triste.cs</DependentUpon>
     </Compile>
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
