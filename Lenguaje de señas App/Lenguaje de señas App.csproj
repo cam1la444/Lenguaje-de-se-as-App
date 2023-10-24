@@ -975,6 +975,9 @@
     <EmbeddedResource Include="Conocer.resx">
       <DependentUpon>Conocer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Debil.resx">
+      <DependentUpon>Debil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Delgado.resx">
       <DependentUpon>Delgado.cs</DependentUpon>
     </EmbeddedResource>
@@ -1014,6 +1017,9 @@
     <EmbeddedResource Include="Fresa.resx">
       <DependentUpon>Fresa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fuerte.resx">
+      <DependentUpon>Fuerte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gordo.resx">
       <DependentUpon>Gordo.cs</DependentUpon>
     </EmbeddedResource>
@@ -1037,6 +1043,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Incicio.resx">
       <DependentUpon>Incicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inteligente.resx">
+      <DependentUpon>Inteligente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jueves.resx">
       <DependentUpon>Jueves.cs</DependentUpon>
@@ -1299,6 +1308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Trabajar.resx">
       <DependentUpon>Trabajar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Triste.resx">
+      <DependentUpon>Triste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Verbos.resx">
       <DependentUpon>Verbos.cs</DependentUpon>
