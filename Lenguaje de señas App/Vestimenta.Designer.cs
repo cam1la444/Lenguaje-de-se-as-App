@@ -295,6 +295,7 @@
             this.btnCamiseta.TabIndex = 86;
             this.btnCamiseta.Text = "Camiseta";
             this.btnCamiseta.UseVisualStyleBackColor = true;
+            this.btnCamiseta.Click += new System.EventHandler(this.btnCamiseta_Click);
             // 
             // btnGorro
             // 

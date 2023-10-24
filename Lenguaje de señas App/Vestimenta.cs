@@ -108,5 +108,11 @@ namespace Lenguaje_de_señas_App
             Guantes guantes = new Guantes();
             guantes.ShowDialog();
         }
+
+        private void btnCamiseta_Click(object sender, EventArgs e)
+        {
+            Camiseta camiseta = new Camiseta();
+            camiseta.ShowDialog();
+        }
     }
 }
