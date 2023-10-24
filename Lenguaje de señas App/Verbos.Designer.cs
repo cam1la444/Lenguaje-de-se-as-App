@@ -36,16 +36,16 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.btnHoy = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnTrabajar = new System.Windows.Forms.Button();
+            this.btnCocinar = new System.Windows.Forms.Button();
+            this.btnConocer = new System.Windows.Forms.Button();
+            this.btnPintar = new System.Windows.Forms.Button();
+            this.btnAyudar = new System.Windows.Forms.Button();
+            this.btnEstudiar = new System.Windows.Forms.Button();
+            this.btnBailar = new System.Windows.Forms.Button();
+            this.btnLeer = new System.Windows.Forms.Button();
+            this.btnDormir = new System.Windows.Forms.Button();
+            this.btnComer = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -151,171 +151,171 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // btnHoy
+            // btnTrabajar
             // 
-            this.btnHoy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHoy.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.btnHoy.FlatAppearance.BorderSize = 2;
-            this.btnHoy.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.btnHoy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnHoy.Location = new System.Drawing.Point(328, 169);
-            this.btnHoy.Name = "btnHoy";
-            this.btnHoy.Size = new System.Drawing.Size(135, 51);
-            this.btnHoy.TabIndex = 68;
-            this.btnHoy.Text = "Hoy";
-            this.btnHoy.UseVisualStyleBackColor = true;
+            this.btnTrabajar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTrabajar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnTrabajar.FlatAppearance.BorderSize = 2;
+            this.btnTrabajar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnTrabajar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTrabajar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnTrabajar.Location = new System.Drawing.Point(328, 169);
+            this.btnTrabajar.Name = "btnTrabajar";
+            this.btnTrabajar.Size = new System.Drawing.Size(135, 51);
+            this.btnTrabajar.TabIndex = 68;
+            this.btnTrabajar.Text = "Trabajar";
+            this.btnTrabajar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCocinar
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(509, 270);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 51);
-            this.button1.TabIndex = 69;
-            this.button1.Text = "Hoy";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCocinar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCocinar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnCocinar.FlatAppearance.BorderSize = 2;
+            this.btnCocinar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnCocinar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCocinar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCocinar.Location = new System.Drawing.Point(509, 270);
+            this.btnCocinar.Name = "btnCocinar";
+            this.btnCocinar.Size = new System.Drawing.Size(135, 51);
+            this.btnCocinar.TabIndex = 69;
+            this.btnCocinar.Text = "Cocinar";
+            this.btnCocinar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnConocer
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(328, 270);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 51);
-            this.button2.TabIndex = 70;
-            this.button2.Text = "Hoy";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnConocer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConocer.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnConocer.FlatAppearance.BorderSize = 2;
+            this.btnConocer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnConocer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConocer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnConocer.Location = new System.Drawing.Point(328, 270);
+            this.btnConocer.Name = "btnConocer";
+            this.btnConocer.Size = new System.Drawing.Size(135, 51);
+            this.btnConocer.TabIndex = 70;
+            this.btnConocer.Text = "Conocer";
+            this.btnConocer.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPintar
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(146, 270);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 51);
-            this.button3.TabIndex = 71;
-            this.button3.Text = "Hoy";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPintar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPintar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPintar.FlatAppearance.BorderSize = 2;
+            this.btnPintar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPintar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPintar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPintar.Location = new System.Drawing.Point(146, 270);
+            this.btnPintar.Name = "btnPintar";
+            this.btnPintar.Size = new System.Drawing.Size(135, 51);
+            this.btnPintar.TabIndex = 71;
+            this.btnPintar.Text = "Pintar";
+            this.btnPintar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnAyudar
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(509, 169);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(135, 51);
-            this.button4.TabIndex = 72;
-            this.button4.Text = "Hoy";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAyudar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAyudar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnAyudar.FlatAppearance.BorderSize = 2;
+            this.btnAyudar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnAyudar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAyudar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAyudar.Location = new System.Drawing.Point(509, 169);
+            this.btnAyudar.Name = "btnAyudar";
+            this.btnAyudar.Size = new System.Drawing.Size(135, 51);
+            this.btnAyudar.TabIndex = 72;
+            this.btnAyudar.Text = "Ayudar";
+            this.btnAyudar.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnEstudiar
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(146, 169);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(135, 51);
-            this.button5.TabIndex = 73;
-            this.button5.Text = "Hoy";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnEstudiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEstudiar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnEstudiar.FlatAppearance.BorderSize = 2;
+            this.btnEstudiar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnEstudiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEstudiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnEstudiar.Location = new System.Drawing.Point(146, 169);
+            this.btnEstudiar.Name = "btnEstudiar";
+            this.btnEstudiar.Size = new System.Drawing.Size(135, 51);
+            this.btnEstudiar.TabIndex = 73;
+            this.btnEstudiar.Text = "Estudiar";
+            this.btnEstudiar.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnBailar
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(582, 71);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(135, 51);
-            this.button6.TabIndex = 74;
-            this.button6.Text = "Hoy";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnBailar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBailar.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnBailar.FlatAppearance.BorderSize = 2;
+            this.btnBailar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBailar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBailar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBailar.Location = new System.Drawing.Point(582, 71);
+            this.btnBailar.Name = "btnBailar";
+            this.btnBailar.Size = new System.Drawing.Size(135, 51);
+            this.btnBailar.TabIndex = 74;
+            this.btnBailar.Text = "Bailar";
+            this.btnBailar.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnLeer
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button7.FlatAppearance.BorderSize = 2;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(395, 71);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(135, 51);
-            this.button7.TabIndex = 75;
-            this.button7.Text = "Hoy";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnLeer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLeer.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnLeer.FlatAppearance.BorderSize = 2;
+            this.btnLeer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnLeer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnLeer.Location = new System.Drawing.Point(395, 71);
+            this.btnLeer.Name = "btnLeer";
+            this.btnLeer.Size = new System.Drawing.Size(135, 51);
+            this.btnLeer.TabIndex = 75;
+            this.btnLeer.Text = "Leer";
+            this.btnLeer.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnDormir
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button8.FlatAppearance.BorderSize = 2;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(223, 71);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(135, 51);
-            this.button8.TabIndex = 76;
-            this.button8.Text = "Hoy";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnDormir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDormir.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnDormir.FlatAppearance.BorderSize = 2;
+            this.btnDormir.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnDormir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDormir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDormir.Location = new System.Drawing.Point(223, 71);
+            this.btnDormir.Name = "btnDormir";
+            this.btnDormir.Size = new System.Drawing.Size(135, 51);
+            this.btnDormir.TabIndex = 76;
+            this.btnDormir.Text = "Dormir";
+            this.btnDormir.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnComer
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
-            this.button9.FlatAppearance.BorderSize = 2;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button9.Location = new System.Drawing.Point(51, 71);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(135, 51);
-            this.button9.TabIndex = 77;
-            this.button9.Text = "Hoy";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnComer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnComer.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnComer.FlatAppearance.BorderSize = 2;
+            this.btnComer.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnComer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnComer.Location = new System.Drawing.Point(51, 71);
+            this.btnComer.Name = "btnComer";
+            this.btnComer.Size = new System.Drawing.Size(135, 51);
+            this.btnComer.TabIndex = 77;
+            this.btnComer.Text = "Comer";
+            this.btnComer.UseVisualStyleBackColor = true;
             // 
             // Verbos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(790, 442);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnHoy);
+            this.Controls.Add(this.btnComer);
+            this.Controls.Add(this.btnDormir);
+            this.Controls.Add(this.btnLeer);
+            this.Controls.Add(this.btnBailar);
+            this.Controls.Add(this.btnEstudiar);
+            this.Controls.Add(this.btnAyudar);
+            this.Controls.Add(this.btnPintar);
+            this.Controls.Add(this.btnConocer);
+            this.Controls.Add(this.btnCocinar);
+            this.Controls.Add(this.btnTrabajar);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -339,15 +339,15 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button btnHoy;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnTrabajar;
+        private System.Windows.Forms.Button btnCocinar;
+        private System.Windows.Forms.Button btnConocer;
+        private System.Windows.Forms.Button btnPintar;
+        private System.Windows.Forms.Button btnAyudar;
+        private System.Windows.Forms.Button btnEstudiar;
+        private System.Windows.Forms.Button btnBailar;
+        private System.Windows.Forms.Button btnLeer;
+        private System.Windows.Forms.Button btnDormir;
+        private System.Windows.Forms.Button btnComer;
     }
 }
