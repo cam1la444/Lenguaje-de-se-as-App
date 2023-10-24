@@ -62,7 +62,7 @@
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F);
-            this.btnVolver.Location = new System.Drawing.Point(663, 332);
+            this.btnVolver.Location = new System.Drawing.Point(680, 387);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
             this.btnVolver.TabIndex = 39;
@@ -74,8 +74,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(270, 37);
+            this.label1.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label1.Location = new System.Drawing.Point(280, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(263, 44);
@@ -85,12 +85,12 @@
             // btnMandarina
             // 
             this.btnMandarina.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMandarina.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMandarina.FlatAppearance.BorderColor = System.Drawing.Color.MediumBlue;
             this.btnMandarina.FlatAppearance.BorderSize = 2;
             this.btnMandarina.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMandarina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMandarina.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMandarina.Location = new System.Drawing.Point(591, 125);
+            this.btnMandarina.Location = new System.Drawing.Point(608, 265);
             this.btnMandarina.Name = "btnMandarina";
             this.btnMandarina.Size = new System.Drawing.Size(135, 51);
             this.btnMandarina.TabIndex = 78;
@@ -101,12 +101,12 @@
             // btnSandia
             // 
             this.btnSandia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSandia.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnSandia.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnSandia.FlatAppearance.BorderSize = 2;
             this.btnSandia.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnSandia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSandia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnSandia.Location = new System.Drawing.Point(168, 182);
+            this.btnSandia.Location = new System.Drawing.Point(349, 183);
             this.btnSandia.Name = "btnSandia";
             this.btnSandia.Size = new System.Drawing.Size(135, 51);
             this.btnSandia.TabIndex = 76;
@@ -117,12 +117,12 @@
             // btnPiña
             // 
             this.btnPiña.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPiña.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnPiña.FlatAppearance.BorderColor = System.Drawing.Color.MediumBlue;
             this.btnPiña.FlatAppearance.BorderSize = 2;
             this.btnPiña.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnPiña.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPiña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnPiña.Location = new System.Drawing.Point(22, 239);
+            this.btnPiña.Location = new System.Drawing.Point(50, 265);
             this.btnPiña.Name = "btnPiña";
             this.btnPiña.Size = new System.Drawing.Size(135, 51);
             this.btnPiña.TabIndex = 75;
@@ -133,12 +133,12 @@
             // btnDurazno
             // 
             this.btnDurazno.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDurazno.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnDurazno.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnDurazno.FlatAppearance.BorderSize = 2;
             this.btnDurazno.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnDurazno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDurazno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnDurazno.Location = new System.Drawing.Point(22, 182);
+            this.btnDurazno.Location = new System.Drawing.Point(146, 183);
             this.btnDurazno.Name = "btnDurazno";
             this.btnDurazno.Size = new System.Drawing.Size(135, 51);
             this.btnDurazno.TabIndex = 73;
@@ -154,7 +154,7 @@
             this.btnFresa.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnFresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnFresa.Location = new System.Drawing.Point(168, 125);
+            this.btnFresa.Location = new System.Drawing.Point(241, 107);
             this.btnFresa.Name = "btnFresa";
             this.btnFresa.Size = new System.Drawing.Size(135, 51);
             this.btnFresa.TabIndex = 72;
@@ -165,12 +165,12 @@
             // btnNaranja
             // 
             this.btnNaranja.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNaranja.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnNaranja.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.btnNaranja.FlatAppearance.BorderSize = 2;
             this.btnNaranja.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnNaranja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNaranja.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnNaranja.Location = new System.Drawing.Point(22, 299);
+            this.btnNaranja.Location = new System.Drawing.Point(146, 353);
             this.btnNaranja.Name = "btnNaranja";
             this.btnNaranja.Size = new System.Drawing.Size(135, 51);
             this.btnNaranja.TabIndex = 71;
@@ -186,7 +186,7 @@
             this.btnManzana.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnManzana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManzana.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnManzana.Location = new System.Drawing.Point(22, 125);
+            this.btnManzana.Location = new System.Drawing.Point(50, 107);
             this.btnManzana.Name = "btnManzana";
             this.btnManzana.Size = new System.Drawing.Size(135, 51);
             this.btnManzana.TabIndex = 69;
@@ -197,12 +197,12 @@
             // btnMango
             // 
             this.btnMango.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMango.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnMango.FlatAppearance.BorderColor = System.Drawing.Color.MediumBlue;
             this.btnMango.FlatAppearance.BorderSize = 2;
             this.btnMango.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMango.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMango.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.btnMango.Location = new System.Drawing.Point(309, 353);
+            this.btnMango.Location = new System.Drawing.Point(241, 265);
             this.btnMango.Name = "btnMango";
             this.btnMango.Size = new System.Drawing.Size(135, 51);
             this.btnMango.TabIndex = 90;
@@ -217,41 +217,41 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(328, 196);
+            this.button1.Location = new System.Drawing.Point(608, 107);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 51);
             this.button1.TabIndex = 91;
-            this.button1.Text = "Sandia";
+            this.button1.Text = "Té";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.button2.FlatAppearance.BorderSize = 2;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(336, 204);
+            this.button2.Location = new System.Drawing.Point(537, 353);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 51);
             this.button2.TabIndex = 92;
-            this.button2.Text = "Sandia";
+            this.button2.Text = "Coca-Cola";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.button3.FlatAppearance.BorderSize = 2;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(344, 212);
+            this.button3.Location = new System.Drawing.Point(537, 183);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 51);
             this.button3.TabIndex = 93;
-            this.button3.Text = "Sandia";
+            this.button3.Text = "Vino";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -262,41 +262,41 @@
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(352, 220);
+            this.button4.Location = new System.Drawing.Point(429, 107);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(135, 51);
             this.button4.TabIndex = 94;
-            this.button4.Text = "Sandia";
+            this.button4.Text = "Leche";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.MediumBlue;
             this.button5.FlatAppearance.BorderSize = 2;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(360, 228);
+            this.button5.Location = new System.Drawing.Point(429, 265);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(135, 51);
             this.button5.TabIndex = 95;
-            this.button5.Text = "Sandia";
+            this.button5.Text = "Café";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
             this.button6.FlatAppearance.BorderSize = 2;
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(368, 236);
+            this.button6.Location = new System.Drawing.Point(349, 353);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(135, 51);
             this.button6.TabIndex = 96;
-            this.button6.Text = "Sandia";
+            this.button6.Text = "Agua";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // panel1
