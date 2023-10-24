@@ -310,6 +310,7 @@
             this.btnGorro.TabIndex = 91;
             this.btnGorro.Text = "Gorro";
             this.btnGorro.UseVisualStyleBackColor = true;
+            this.btnGorro.Click += new System.EventHandler(this.btnGorro_Click);
             // 
             // btnGuantes
             // 

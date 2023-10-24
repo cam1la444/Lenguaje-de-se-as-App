@@ -96,5 +96,11 @@ namespace Lenguaje_de_señas_App
             Sueter sueter = new Sueter();
             sueter.ShowDialog();
         }
+
+        private void btnGorro_Click(object sender, EventArgs e)
+        {
+            Gorro gorro = new Gorro();
+            gorro.ShowDialog();
+        }
     }
 }
