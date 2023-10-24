@@ -84,5 +84,11 @@ namespace Lenguaje_de_señas_App
             Falda falda = new Falda();
             falda.ShowDialog();
         }
+
+        private void btnZapato_Click(object sender, EventArgs e)
+        {
+            Zapato zapato = new Zapato();
+            zapato.ShowDialog();
+        }
     }
 }

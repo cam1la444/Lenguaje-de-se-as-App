@@ -278,6 +278,7 @@
             this.btnZapato.TabIndex = 83;
             this.btnZapato.Text = "Zapato";
             this.btnZapato.UseVisualStyleBackColor = true;
+            this.btnZapato.Click += new System.EventHandler(this.btnZapato_Click);
             // 
             // btnCamiseta
             // 
