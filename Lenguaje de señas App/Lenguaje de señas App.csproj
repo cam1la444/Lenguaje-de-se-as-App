@@ -97,11 +97,23 @@
     <Compile Include="Ayer.Designer.cs">
       <DependentUpon>Ayer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ayudar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayudar.Designer.cs">
+      <DependentUpon>Ayudar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Azul.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Azul.Designer.cs">
       <DependentUpon>Azul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bailar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bailar.Designer.cs">
+      <DependentUpon>Bailar.cs</DependentUpon>
     </Compile>
     <Compile Include="Bata.cs">
       <SubType>Form</SubType>
@@ -145,6 +157,12 @@
     <Compile Include="Colores.Designer.cs">
       <DependentUpon>Colores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comer.Designer.cs">
+      <DependentUpon>Comer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +174,12 @@
     </Compile>
     <Compile Include="Domingo.Designer.cs">
       <DependentUpon>Domingo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dormir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dormir.Designer.cs">
+      <DependentUpon>Dormir.cs</DependentUpon>
     </Compile>
     <Compile Include="Durazno.cs">
       <SubType>Form</SubType>
@@ -180,6 +204,12 @@
     </Compile>
     <Compile Include="Esta Tarde.Designer.cs">
       <DependentUpon>Esta Tarde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estudiar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estudiar.Designer.cs">
+      <DependentUpon>Estudiar.cs</DependentUpon>
     </Compile>
     <Compile Include="Falda.cs">
       <SubType>Form</SubType>
@@ -246,6 +276,12 @@
     </Compile>
     <Compile Include="Jueves.Designer.cs">
       <DependentUpon>Jueves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leer.Designer.cs">
+      <DependentUpon>Leer.cs</DependentUpon>
     </Compile>
     <Compile Include="LetraA.cs">
       <SubType>Form</SubType>
@@ -631,6 +667,12 @@
     <Compile Include="Pijama.Designer.cs">
       <DependentUpon>Pijama.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pintar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pintar.Designer.cs">
+      <DependentUpon>Pintar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Piña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -729,6 +771,12 @@
     <Compile Include="Tio.Designer.cs">
       <DependentUpon>Tio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trabajar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trabajar.Designer.cs">
+      <DependentUpon>Trabajar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -812,6 +860,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comer.resx">
+      <DependentUpon>Comer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comida.resx">
       <DependentUpon>Comida.cs</DependentUpon>
