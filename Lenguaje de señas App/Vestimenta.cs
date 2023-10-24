@@ -93,7 +93,7 @@ namespace Lenguaje_de_señas_App
 
         private void btnSueter_Click(object sender, EventArgs e)
         {
-            Sueter sueter = Sueter();
+            Sueter sueter = new Sueter();
             sueter.ShowDialog();
         }
     }
