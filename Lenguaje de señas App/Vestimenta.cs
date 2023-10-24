@@ -78,5 +78,11 @@ namespace Lenguaje_de_señas_App
             Bata bata = new Bata();
             bata.ShowDialog();
         }
+
+        private void btnFalda_Click(object sender, EventArgs e)
+        {
+            Falda falda = new Falda();
+            falda.ShowDialog();
+        }
     }
 }

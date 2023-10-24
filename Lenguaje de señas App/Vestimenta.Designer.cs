@@ -247,6 +247,7 @@
             this.btnFalda.TabIndex = 81;
             this.btnFalda.Text = "Falda";
             this.btnFalda.UseVisualStyleBackColor = true;
+            this.btnFalda.Click += new System.EventHandler(this.btnFalda_Click);
             // 
             // btnSueter
             // 
