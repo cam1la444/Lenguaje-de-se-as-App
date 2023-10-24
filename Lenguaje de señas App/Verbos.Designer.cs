@@ -154,6 +154,7 @@
             this.btnTrabajar.TabIndex = 68;
             this.btnTrabajar.Text = "Trabajar";
             this.btnTrabajar.UseVisualStyleBackColor = true;
+            this.btnTrabajar.Click += new System.EventHandler(this.btnTrabajar_Click);
             // 
             // btnCocinar
             // 
@@ -169,6 +170,7 @@
             this.btnCocinar.TabIndex = 69;
             this.btnCocinar.Text = "Cocinar";
             this.btnCocinar.UseVisualStyleBackColor = true;
+            this.btnCocinar.Click += new System.EventHandler(this.btnCocinar_Click);
             // 
             // btnConocer
             // 
@@ -184,6 +186,7 @@
             this.btnConocer.TabIndex = 70;
             this.btnConocer.Text = "Conocer";
             this.btnConocer.UseVisualStyleBackColor = true;
+            this.btnConocer.Click += new System.EventHandler(this.btnConocer_Click);
             // 
             // btnPintar
             // 
@@ -199,6 +202,7 @@
             this.btnPintar.TabIndex = 71;
             this.btnPintar.Text = "Pintar";
             this.btnPintar.UseVisualStyleBackColor = true;
+            this.btnPintar.Click += new System.EventHandler(this.btnPintar_Click);
             // 
             // btnAyudar
             // 
@@ -214,6 +218,7 @@
             this.btnAyudar.TabIndex = 72;
             this.btnAyudar.Text = "Ayudar";
             this.btnAyudar.UseVisualStyleBackColor = true;
+            this.btnAyudar.Click += new System.EventHandler(this.btnAyudar_Click);
             // 
             // btnEstudiar
             // 
@@ -229,6 +234,7 @@
             this.btnEstudiar.TabIndex = 73;
             this.btnEstudiar.Text = "Estudiar";
             this.btnEstudiar.UseVisualStyleBackColor = true;
+            this.btnEstudiar.Click += new System.EventHandler(this.btnEstudiar_Click);
             // 
             // btnBailar
             // 
@@ -244,6 +250,7 @@
             this.btnBailar.TabIndex = 74;
             this.btnBailar.Text = "Bailar";
             this.btnBailar.UseVisualStyleBackColor = true;
+            this.btnBailar.Click += new System.EventHandler(this.btnBailar_Click);
             // 
             // btnLeer
             // 
@@ -259,6 +266,7 @@
             this.btnLeer.TabIndex = 75;
             this.btnLeer.Text = "Leer";
             this.btnLeer.UseVisualStyleBackColor = true;
+            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click);
             // 
             // btnDormir
             // 
@@ -274,6 +282,7 @@
             this.btnDormir.TabIndex = 76;
             this.btnDormir.Text = "Dormir";
             this.btnDormir.UseVisualStyleBackColor = true;
+            this.btnDormir.Click += new System.EventHandler(this.btnDormir_Click);
             // 
             // btnComer
             // 
