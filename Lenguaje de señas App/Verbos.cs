@@ -42,5 +42,11 @@ namespace Lenguaje_de_señas_App
             this.Close();
             acercade.Show();
         }
+
+        private void btnComer_Click(object sender, EventArgs e)
+        {
+            Comer comer = new Comer();
+            comer.ShowDialog();
+        }
     }
 }
