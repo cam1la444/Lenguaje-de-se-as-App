@@ -16,5 +16,16 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string Manzana = "C:\\Users\\jwest\\Videos\\VideoManzana.mp4";
+            asWMPA.URL = Manzana;
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

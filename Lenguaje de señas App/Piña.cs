@@ -16,5 +16,11 @@ namespace Lenguaje_de_señas_App
         {
             InitializeComponent();
         }
+
+        private void btnReproducir_Click(object sender, EventArgs e)
+        {
+            string Piña = "C:\\Users\\jwest\\Videos\\VideoPiña.mp4";
+            asWMPA.URL = Piña;
+        }
     }
 }
