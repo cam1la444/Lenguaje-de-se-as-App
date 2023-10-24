@@ -119,5 +119,10 @@ namespace Lenguaje_de_señas_App
             this.Hide();
             acercade.Show();
         }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

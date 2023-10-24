@@ -32,5 +32,10 @@ namespace Lenguaje_de_señas_App
         {
             this.Close();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
