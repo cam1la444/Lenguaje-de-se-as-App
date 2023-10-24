@@ -151,6 +151,12 @@
     <Compile Include="Celeste.Designer.cs">
       <DependentUpon>Celeste.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cocinar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cocinar.Designer.cs">
+      <DependentUpon>Cocinar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Colores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +174,12 @@
     </Compile>
     <Compile Include="Comida.Designer.cs">
       <DependentUpon>Comida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conocer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conocer.Designer.cs">
+      <DependentUpon>Conocer.cs</DependentUpon>
     </Compile>
     <Compile Include="Domingo.cs">
       <SubType>Form</SubType>
@@ -864,6 +876,9 @@
     <EmbeddedResource Include="Celeste.resx">
       <DependentUpon>Celeste.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cocinar.resx">
+      <DependentUpon>Cocinar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Colores.resx">
       <DependentUpon>Colores.cs</DependentUpon>
     </EmbeddedResource>
@@ -872,6 +887,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Comida.resx">
       <DependentUpon>Comida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conocer.resx">
+      <DependentUpon>Conocer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Domingo.resx">
       <DependentUpon>Domingo.cs</DependentUpon>
