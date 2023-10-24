@@ -46,22 +46,23 @@
             this.btnThisTarde = new System.Windows.Forms.Button();
             this.btnMañana = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnAcercade = new System.Windows.Forms.Button();
             this.btnMasInforms = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnLecciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F);
             this.btnVolver.Location = new System.Drawing.Point(706, 394);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(72, 32);
@@ -73,12 +74,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(269, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 42);
+            this.label1.Size = new System.Drawing.Size(262, 44);
             this.label1.TabIndex = 60;
             this.label1.Text = "Lección Tiempo";
             // 
@@ -325,6 +326,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(179)))), ((int)(((byte)(213)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnAcercade);
             this.panel1.Controls.Add(this.btnMasInforms);
             this.panel1.Controls.Add(this.btnClose);
@@ -336,34 +338,49 @@
             this.panel1.Size = new System.Drawing.Size(790, 34);
             this.panel1.TabIndex = 69;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(714, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(38, 34);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "_";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // btnAcercade
             // 
             this.btnAcercade.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnAcercade.FlatAppearance.BorderSize = 0;
             this.btnAcercade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcercade.Location = new System.Drawing.Point(252, 0);
+            this.btnAcercade.Font = new System.Drawing.Font("Lucida Calligraphy", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcercade.Location = new System.Drawing.Point(270, 0);
             this.btnAcercade.Name = "btnAcercade";
             this.btnAcercade.Size = new System.Drawing.Size(106, 34);
             this.btnAcercade.TabIndex = 6;
             this.btnAcercade.Text = "Acerca de ";
             this.btnAcercade.UseVisualStyleBackColor = true;
-            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
             // 
             // btnMasInforms
             // 
             this.btnMasInforms.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnMasInforms.FlatAppearance.BorderSize = 0;
             this.btnMasInforms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasInforms.Font = new System.Drawing.Font("Lucida Calligraphy", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMasInforms.Location = new System.Drawing.Point(146, 0);
             this.btnMasInforms.Name = "btnMasInforms";
-            this.btnMasInforms.Size = new System.Drawing.Size(106, 34);
+            this.btnMasInforms.Size = new System.Drawing.Size(124, 34);
             this.btnMasInforms.TabIndex = 5;
             this.btnMasInforms.Text = "Más información";
             this.btnMasInforms.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -374,40 +391,39 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnLecciones
             // 
             this.btnLecciones.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnLecciones.FlatAppearance.BorderSize = 0;
             this.btnLecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLecciones.Font = new System.Drawing.Font("Lucida Calligraphy", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLecciones.Location = new System.Drawing.Point(40, 0);
             this.btnLecciones.Name = "btnLecciones";
             this.btnLecciones.Size = new System.Drawing.Size(106, 34);
             this.btnLecciones.TabIndex = 2;
             this.btnLecciones.Text = "Lecciones";
             this.btnLecciones.UseVisualStyleBackColor = true;
-            this.btnLecciones.Click += new System.EventHandler(this.btnLecciones_Click);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.pictureBox13);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 34);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox2
+            // pictureBox13
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox13.Image = global::Lenguaje_de_señas_App.Properties.Resources.Untitled7_20230810144444;
+            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(40, 34);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
             // 
             // Tiempo
             // 
@@ -439,7 +455,7 @@
             this.Text = "Tiempo";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -464,11 +480,12 @@
         private System.Windows.Forms.Button btnThisTarde;
         private System.Windows.Forms.Button btnMañana;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAcercade;
         private System.Windows.Forms.Button btnMasInforms;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnLecciones;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox13;
     }
 }
