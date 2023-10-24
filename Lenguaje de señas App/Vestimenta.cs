@@ -90,5 +90,11 @@ namespace Lenguaje_de_señas_App
             Zapato zapato = new Zapato();
             zapato.ShowDialog();
         }
+
+        private void btnSueter_Click(object sender, EventArgs e)
+        {
+            Sueter sueter = Sueter();
+            sueter.ShowDialog();
+        }
     }
 }

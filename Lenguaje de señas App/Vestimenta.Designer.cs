@@ -263,6 +263,7 @@
             this.btnSueter.TabIndex = 82;
             this.btnSueter.Text = "Sueter";
             this.btnSueter.UseVisualStyleBackColor = true;
+            this.btnSueter.Click += new System.EventHandler(this.btnSueter_Click);
             // 
             // btnZapato
             // 
