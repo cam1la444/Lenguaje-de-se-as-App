@@ -199,6 +199,7 @@
             this.btnPijama.TabIndex = 76;
             this.btnPijama.Text = "Pijama";
             this.btnPijama.UseVisualStyleBackColor = true;
+            this.btnPijama.Click += new System.EventHandler(this.btnPijama_Click);
             // 
             // btnCamisa
             // 

@@ -66,5 +66,11 @@ namespace Lenguaje_de_señas_App
             Camisa camisa = new Camisa();
             camisa.ShowDialog();
         }
+
+        private void btnPijama_Click(object sender, EventArgs e)
+        {
+            Pijama pijama = new Pijama();
+            pijama.ShowDialog();
+        }
     }
 }
