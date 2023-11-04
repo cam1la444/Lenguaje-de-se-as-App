@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrame));
-            this.txtCrearUsuario = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtConfirmacion = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -49,16 +49,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtCrearUsuario
+            // txtEmail
             // 
-            this.txtCrearUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
-            this.txtCrearUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCrearUsuario.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.txtCrearUsuario.ForeColor = System.Drawing.Color.Silver;
-            this.txtCrearUsuario.Location = new System.Drawing.Point(310, 171);
-            this.txtCrearUsuario.Name = "txtCrearUsuario";
-            this.txtCrearUsuario.Size = new System.Drawing.Size(191, 25);
-            this.txtCrearUsuario.TabIndex = 1;
+            this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.txtEmail.ForeColor = System.Drawing.Color.Silver;
+            this.txtEmail.Location = new System.Drawing.Point(310, 171);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(191, 25);
+            this.txtEmail.TabIndex = 1;
             // 
             // button1
             // 
@@ -75,29 +75,29 @@
             this.button1.Text = "Crear Cuenta";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtContraseña
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.textBox1.ForeColor = System.Drawing.Color.Silver;
-            this.textBox1.Location = new System.Drawing.Point(310, 221);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(191, 25);
-            this.textBox1.TabIndex = 6;
+            this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
+            this.txtContraseña.Location = new System.Drawing.Point(310, 221);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
+            this.txtContraseña.Size = new System.Drawing.Size(191, 25);
+            this.txtContraseña.TabIndex = 6;
             // 
-            // textBox2
+            // txtConfirmacion
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(310, 272);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(191, 25);
-            this.textBox2.TabIndex = 16;
+            this.txtConfirmacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.txtConfirmacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtConfirmacion.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.txtConfirmacion.ForeColor = System.Drawing.Color.Silver;
+            this.txtConfirmacion.Location = new System.Drawing.Point(310, 272);
+            this.txtConfirmacion.Name = "txtConfirmacion";
+            this.txtConfirmacion.PasswordChar = '*';
+            this.txtConfirmacion.Size = new System.Drawing.Size(191, 25);
+            this.txtConfirmacion.TabIndex = 16;
             // 
             // pictureBox1
             // 
@@ -225,10 +225,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtConfirmacion);
+            this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtCrearUsuario);
+            this.Controls.Add(this.txtEmail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmRegistrame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -243,10 +243,10 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtCrearUsuario;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtConfirmacion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnLogin;
