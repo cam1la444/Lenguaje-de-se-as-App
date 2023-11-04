@@ -19,7 +19,7 @@ namespace Lenguaje_de_señas_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (txtContraseña.Text==txtConfirmacion.Text);
         }
     }
 }
