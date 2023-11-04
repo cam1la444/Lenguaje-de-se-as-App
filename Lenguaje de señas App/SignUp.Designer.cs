@@ -1,6 +1,6 @@
 ﻿namespace Lenguaje_de_señas_App
 {
-    partial class SignUp
+    partial class frmRegistrame
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrame));
             this.txtCrearUsuario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -214,7 +214,7 @@
             this.label3.TabIndex = 23;
             this.label3.Text = "Confirmar contraseña";
             // 
-            // SignUp
+            // frmRegistrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -230,9 +230,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCrearUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "SignUp";
+            this.Name = "frmRegistrame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SignUp";
+            this.Text = "Registrarme";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
