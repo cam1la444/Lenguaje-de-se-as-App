@@ -223,6 +223,7 @@
     <Compile Include="Comoestastu.Designer.cs">
       <DependentUpon>Comoestastu.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConexionBaseDatos.cs" />
     <Compile Include="Conocer.cs">
       <SubType>Form</SubType>
     </Compile>
