@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Lenguaje_de_señas_App
 {
-    public partial class frmRegistrame : Form
+    public partial class FrmRegistrame : Form
     {
         public frmRegistrame()
         {

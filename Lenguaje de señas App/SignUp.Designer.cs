@@ -1,6 +1,6 @@
 ﻿namespace Lenguaje_de_señas_App
 {
-    partial class frmRegistrame
+    partial class FrmRegistrame
     {
         /// <summary>
         /// Required designer variable.
