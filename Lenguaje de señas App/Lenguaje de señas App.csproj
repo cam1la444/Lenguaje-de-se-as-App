@@ -827,6 +827,7 @@
     <Compile Include="Proxima Semana.Designer.cs">
       <DependentUpon>Proxima Semana.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistroUsuarios.cs" />
     <Compile Include="Rojo.cs">
       <SubType>Form</SubType>
     </Compile>
