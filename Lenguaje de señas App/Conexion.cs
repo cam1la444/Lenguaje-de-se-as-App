@@ -7,16 +7,19 @@ using System.Threading.Tasks;
 
 namespace Lenguaje_de_señas_App
 {
-    internal class Conexion
+    public  class Conexion
     {
         public static int Agregar(Usuarios pUsuarios)
         {
+            int retorno =  0;
             using (SqlConnection conectar = BDUsuarios.ObtenerConexion())
             {
-                SqlCommand Comando = new SqlCommand(string.Format("INSERT INTO registroUsuarios (Email,Clave) VALUES ('{0}','{1}')", pEmail.Email,pClave.Clave),conectar);
+                SqlCommand Comando = new SqlCommand(string.Format("INSERT INTO registroUsuarios (Email,Clave) VALUES ('{0}','{1}')", pUsuarios.Email, pUsuarios.Clave), conectar);
 
-                return = Comando.ExecuteNonQuery();
+                    ))
+                retorno = Comando.ExecuteNonQuery();
             }
+            return retorno;
         }
     }
 }

@@ -10,7 +10,6 @@ namespace Lenguaje_de_señas_App
     {
         public int IdUsuario { get; set; }
         public string Email { get; set; }
-
         public string Clave { get; set; }
 
 
