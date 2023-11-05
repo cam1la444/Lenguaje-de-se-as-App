@@ -139,6 +139,7 @@
     <Compile Include="Bata.Designer.cs">
       <DependentUpon>Bata.cs</DependentUpon>
     </Compile>
+    <Compile Include="BDUsuarios.cs" />
     <Compile Include="Bien.cs">
       <SubType>Form</SubType>
     </Compile>
