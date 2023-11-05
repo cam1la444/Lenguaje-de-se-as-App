@@ -905,6 +905,7 @@
     <Compile Include="Triste.Designer.cs">
       <DependentUpon>Triste.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usuarios.cs" />
     <Compile Include="Verbos.cs">
       <SubType>Form</SubType>
     </Compile>
