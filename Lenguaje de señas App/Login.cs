@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lenguaje_de_señas_App
 {
-    public partial class frmR : Form
+    public partial class Login : Form
     {
-        public frmR()
+        public Login()
         {
             InitializeComponent();
         }
