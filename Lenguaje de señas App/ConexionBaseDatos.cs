@@ -13,7 +13,7 @@ namespace Lenguaje_de_señas_App
         public static int CrearCuentas(string Email, string Clave)
         {
             int resultado = 0;
-            SqlConnection conectar = ConexionBaseDatos.ObtenerConexion();
+            SqlConnection conectar = BDUsuarios.ObtenerConexion();
 
             SqlCommand Comando = new SqlCommand(string.Format("INSERT INTO registroUsuarios (Email,Clave)"));
 
