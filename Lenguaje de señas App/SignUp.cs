@@ -19,7 +19,15 @@ namespace Lenguaje_de_señas_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtContraseña.Text==txtConfirmacion.Text);
+            if (txtContraseña.Text==txtConfirmacion.Text)
+            {
+                if (RegistroUsuarios.CrearCuentas(txtEmail.Text, txtContraseña.Text) > 0)
+                {
+                    MessageBox.Show("Cuenta Creada con Exito");
+                }
+                else
+                    MessageBox.Show("No se pudo crear la cuenta");
+            }
         }
     }
 }
