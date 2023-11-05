@@ -225,7 +225,6 @@
       <DependentUpon>Comoestastu.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion.cs" />
-    <Compile Include="ConexionBaseDatos.cs" />
     <Compile Include="Conocer.cs">
       <SubType>Form</SubType>
     </Compile>
