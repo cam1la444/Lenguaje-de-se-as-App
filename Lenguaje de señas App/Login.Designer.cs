@@ -98,6 +98,7 @@
             this.btnAcceder.TabIndex = 7;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = false;
+            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // label4
             // 
