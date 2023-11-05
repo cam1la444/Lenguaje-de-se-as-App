@@ -19,7 +19,8 @@ namespace Lenguaje_de_señas_App
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-
+            Usuarios usuario = new Usuarios();
+            usuario.Email = txtEmail.Text;
         }
     }
 }

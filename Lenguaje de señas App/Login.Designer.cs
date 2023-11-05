@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmR));
-            this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContra = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,28 +49,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtContraseña
+            // txtContra
             // 
-            this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
-            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
-            this.txtContraseña.Location = new System.Drawing.Point(290, 224);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(202, 25);
-            this.txtContraseña.TabIndex = 4;
+            this.txtContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.txtContra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtContra.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.txtContra.ForeColor = System.Drawing.Color.Silver;
+            this.txtContra.Location = new System.Drawing.Point(290, 224);
+            this.txtContra.Name = "txtContra";
+            this.txtContra.PasswordChar = '*';
+            this.txtContra.Size = new System.Drawing.Size(202, 25);
+            this.txtContra.TabIndex = 4;
             // 
-            // txtUsuario
+            // txtEmail
             // 
-            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.txtUsuario.ForeColor = System.Drawing.Color.Silver;
-            this.txtUsuario.Location = new System.Drawing.Point(290, 180);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(202, 25);
-            this.txtUsuario.TabIndex = 5;
+            this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(242)))), ((int)(((byte)(248)))));
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.txtEmail.ForeColor = System.Drawing.Color.Silver;
+            this.txtEmail.Location = new System.Drawing.Point(290, 180);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(202, 25);
+            this.txtEmail.TabIndex = 5;
             // 
             // checkBox1
             // 
@@ -228,8 +228,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtContra);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnRegistrame);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnAcceder);
@@ -251,8 +251,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtContraseña;
-        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtContra;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.Label label4;
