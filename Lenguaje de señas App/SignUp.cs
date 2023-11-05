@@ -29,5 +29,10 @@ namespace Lenguaje_de_señas_App
                     MessageBox.Show("No se pudo crear la cuenta");
             }
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
