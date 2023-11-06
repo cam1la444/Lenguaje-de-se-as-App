@@ -114,5 +114,12 @@ namespace Lenguaje_de_señas_App
             Camiseta camiseta = new Camiseta();
             camiseta.ShowDialog();
         }
+
+        private void btnMasInforms_Click(object sender, EventArgs e)
+        {
+            MasInformacion masinfo = new MasInformacion();
+            this.Close();
+            masinfo.Show();
+        }
     }
 }

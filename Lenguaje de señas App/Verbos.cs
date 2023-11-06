@@ -102,5 +102,12 @@ namespace Lenguaje_de_señas_App
             Cocinar cocinar = new Cocinar();
             cocinar.ShowDialog();
         }
+
+        private void btnMasInforms_Click(object sender, EventArgs e)
+        {
+            MasInformacion masinfo = new MasInformacion();
+            this.Close();
+            masinfo.Show();
+        }
     }
 }

@@ -132,5 +132,12 @@ namespace Lenguaje_de_señas_App
             Esta_Noche estanoche = new Esta_Noche();
             estanoche.ShowDialog();
         }
+
+        private void btnMasInforms_Click(object sender, EventArgs e)
+        {
+            MasInformacion masinfo = new MasInformacion();
+            this.Close();
+            masinfo.Show();
+        }
     }
 }
