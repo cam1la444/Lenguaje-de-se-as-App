@@ -173,6 +173,7 @@
             this.btnMasInfo.TabIndex = 2;
             this.btnMasInfo.Text = "Más información";
             this.btnMasInfo.UseVisualStyleBackColor = true;
+            this.btnMasInfo.Click += new System.EventHandler(this.btnMasInfo_Click);
             // 
             // panel2
             // 

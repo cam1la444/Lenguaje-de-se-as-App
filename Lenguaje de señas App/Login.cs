@@ -33,5 +33,11 @@ namespace Lenguaje_de_señas_App
                 MessageBox.Show("No se pudieron guardar los datos", "Error al Guardar", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void btnMasInfo_Click(object sender, EventArgs e)
+        {
+            MasInformacion informacion = new MasInformacion();
+            informacion.ShowDialog();
+        }
     }
 }
