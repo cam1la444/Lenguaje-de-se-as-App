@@ -73,12 +73,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("HP Simplified", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(243, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(319, 44);
+            this.label1.Size = new System.Drawing.Size(366, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lección Abecedario";
             // 
@@ -555,6 +555,7 @@
             this.btnMasInforms.TabIndex = 5;
             this.btnMasInforms.Text = "Más información";
             this.btnMasInforms.UseVisualStyleBackColor = true;
+            this.btnMasInforms.Click += new System.EventHandler(this.btnMasInforms_Click);
             // 
             // btnClose
             // 
@@ -640,7 +641,7 @@
             this.Controls.Add(this.btnA);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Abecedario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
